@@ -1,3 +1,5 @@
+import { posts20260720 } from "./posts-2026-07-20";
+
 export type CommunityPost = {
   slug: string;
   category: string;
@@ -22,6 +24,7 @@ export function getPublishedPosts(now = new Date()) {
 }
 
 export const communityPosts: CommunityPost[] = [
+  ...posts20260720,
   {
     slug: "van-hoa-thang-may-han-quoc",
     category: "Văn hóa · Đời sống",
