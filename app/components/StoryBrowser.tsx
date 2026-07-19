@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { communityPosts } from "../content/community-posts";
+import type { CommunityPost } from "../content/community-posts";
 
 const filters = [
   { key: "all", label: "Tất cả" },
@@ -21,9 +21,19 @@ function belongsTo(category: string, filter: string) {
   return ["Cuộc sống", "Đời sống", "Nhà ở", "Trải nghiệm", "Du học"].some(word => category.includes(word));
 }
 
-export default function StoryBrowser() {
+function publishedDate(post: CommunityPost) {
+  if (!post.publishedAt) return "19.07.2026";
+  return new Intl.DateTimeFormat("vi-VN", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    timeZone: "Asia/Ho_Chi_Minh",
+  }).format(new Date(post.publishedAt));
+}
+
+export default function StoryBrowser({ posts }: { posts: CommunityPost[] }) {
   const [active, setActive] = useState("all");
-  const visible = communityPosts.filter(post => belongsTo(post.category, active));
+  const visible = posts.filter(post => belongsTo(post.category, active));
   const [featured, ...latest] = visible;
   const activeLabel = filters.find(filter => filter.key === active)?.label ?? "Tất cả";
 
@@ -44,7 +54,7 @@ export default function StoryBrowser() {
           <span className="label">{featured.category}</span>
           <h3>{featured.title}</h3>
           <p>{featured.summary}</p>
-          <div className="story-link"><span>19.07.2026 · {featured.readTime}</span><b>Đọc bài →</b></div>
+          <div className="story-link"><span>{publishedDate(featured)} · {featured.readTime}</span><b>Đọc bài →</b></div>
         </div>
       </a>}
 

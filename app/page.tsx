@@ -1,6 +1,11 @@
 import StoryBrowser from "./components/StoryBrowser";
+import { getPublishedPosts } from "./content/community-posts";
+
+export const dynamic = "force-dynamic";
 
 export default function Home() {
+  const publishedPosts = getPublishedPosts();
+
   return <main id="top">
     <header className="site-header">
       <div className="header-inner">
@@ -26,7 +31,7 @@ export default function Home() {
       </div>
     </section>
 
-    <StoryBrowser />
+    <StoryBrowser posts={publishedPosts} />
 
     <section className="editorial" id="about">
       <span>NGUYÊN TẮC BIÊN TẬP</span>

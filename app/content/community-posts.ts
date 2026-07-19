@@ -5,8 +5,20 @@ export type CommunityPost = {
   summary: string;
   readTime: string;
   hero: string;
+  /** ISO 8601. Posts without a value are already published. */
+  publishedAt?: string;
   sections: { heading: string; paragraphs: string[]; quote?: string }[];
 };
+
+export function isPostPublished(post: CommunityPost, now = new Date()) {
+  if (!post.publishedAt) return true;
+  const scheduledTime = Date.parse(post.publishedAt);
+  return Number.isFinite(scheduledTime) && scheduledTime <= now.getTime();
+}
+
+export function getPublishedPosts(now = new Date()) {
+  return communityPosts.filter(post => isPostPublished(post, now));
+}
 
 export const communityPosts: CommunityPost[] = [
   {

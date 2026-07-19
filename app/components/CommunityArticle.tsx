@@ -1,7 +1,17 @@
-import { communityPosts, type CommunityPost } from "../content/community-posts";
+import type { CommunityPost } from "../content/community-posts";
 
-export default function CommunityArticle({ post }: { post: CommunityPost }) {
-  const related = communityPosts.filter(item => item.slug !== post.slug).sort((a, b) => Number(b.category === post.category) - Number(a.category === post.category)).slice(0, 3);
+function publishedDate(post: CommunityPost) {
+  if (!post.publishedAt) return "19.07.2026";
+  return new Intl.DateTimeFormat("vi-VN", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    timeZone: "Asia/Ho_Chi_Minh",
+  }).format(new Date(post.publishedAt));
+}
+
+export default function CommunityArticle({ post, posts }: { post: CommunityPost; posts: CommunityPost[] }) {
+  const related = posts.filter(item => item.slug !== post.slug).sort((a, b) => Number(b.category === post.category) - Number(a.category === post.category)).slice(0, 3);
 
   return <main className="story-page">
     <header className="story-header"><a className="brand" href="/">dabang<span>zz</span></a><a href="/">Bài mới</a></header>
@@ -9,7 +19,7 @@ export default function CommunityArticle({ post }: { post: CommunityPost }) {
       <div className="story-category">{post.category.toUpperCase()}</div>
       <h1>{post.title}</h1>
       <p className="story-deck">{post.summary}</p>
-      <div className="story-meta">DABANGZZ · 19.07.2026 · {post.readTime.toUpperCase()}</div>
+      <div className="story-meta">DABANGZZ · {publishedDate(post)} · {post.readTime.toUpperCase()}</div>
       <div className="story-hero"><span>{post.hero}</span></div>
       <div className="ad-slot"><small>QUẢNG CÁO</small><strong>Không gian dành cho đối tác</strong><span>Nội dung quảng cáo sẽ được hiển thị tại đây</span></div>
       <div className="story-body">
