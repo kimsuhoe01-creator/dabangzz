@@ -1,26 +1,9 @@
-const categories = ["Mới nhất", "Chuyện thật", "Văn hóa", "Cuộc sống", "Tình yêu", "K-beauty"];
+import { communityPosts } from "./content/community-posts";
 
-const stories = [
-  {
-    category: "Văn hóa · Sự thật lạ",
-    title: "Hàn Quốc từng không cho bán nước đóng chai cho người dân?",
-    summary: "Một quy định khó tin, một phán quyết năm 1994 và cách chai nước trở thành đồ dùng hằng ngày.",
-    meta: "19.07.2026 · 6 phút đọc",
-    href: "/bai-viet/han-quoc-tung-cam-ban-nuoc-dong-chai",
-    index: "01",
-  },
-  {
-    category: "Chuyện thật · Đời sống Hàn",
-    title: "“Tôi đã sốc trong tuần đầu sống tại Hàn Quốc”",
-    summary: "Năm khác biệt văn hóa rất nhỏ nhưng đủ khiến một người mới đến Seoul nhớ mãi.",
-    meta: "19.07.2026 · 7 phút đọc",
-    href: "/bai-viet/soc-van-hoa-han-quoc",
-    index: "02",
-  },
-];
+const categories = ["30 bài mới", "Văn hóa", "Công sở", "Tình yêu", "Cuộc sống", "K-beauty"];
 
 export default function Home() {
-  const [featured, ...latest] = stories;
+  const [featured, ...latest] = communityPosts;
 
   return <main id="top">
     <header className="site-header">
@@ -53,25 +36,25 @@ export default function Home() {
 
     <section className="content" id="latest">
       <div className="section-heading">
-        <div><span>MỚI NHẤT</span><h2>Câu chuyện đáng đọc</h2></div>
-        <span className="issue">ISSUE 01 · 2026</span>
+        <div><span>30 BÀI MỚI</span><h2>Câu chuyện đáng đọc</h2></div>
+        <span className="issue">ISSUE 02 · 2026</span>
       </div>
 
-      <a className="lead-card" href={featured.href}>
-        <div className="lead-visual"><span>{featured.index}</span><small>SEOUL<br/>ARCHIVE</small></div>
+      <a className="lead-card" href={`/bai-viet/${featured.slug}`}>
+        <div className="lead-visual"><span>01</span><small>SEOUL<br/>ARCHIVE</small></div>
         <div className="lead-body">
           <span className="label">{featured.category}</span>
           <h3>{featured.title}</h3>
           <p>{featured.summary}</p>
-          <div className="story-link"><span>{featured.meta}</span><b>Đọc bài →</b></div>
+          <div className="story-link"><span>19.07.2026 · {featured.readTime}</span><b>Đọc bài →</b></div>
         </div>
       </a>
 
       <div className="latest-list">
-        {latest.map(story => <a className="list-story" href={story.href} key={story.title}>
-          <span className="list-index">{story.index}</span>
+        {latest.map((story, index) => <a className="list-story" href={`/bai-viet/${story.slug}`} key={story.slug}>
+          <span className="list-index">{String(index + 2).padStart(2, "0")}</span>
           <div><span className="label">{story.category}</span><h3>{story.title}</h3><p>{story.summary}</p></div>
-          <span className="list-meta">{story.meta}<b>↗</b></span>
+          <span className="list-meta">{story.readTime}<b>↗</b></span>
         </a>)}
       </div>
     </section>
