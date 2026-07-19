@@ -1,13 +1,90 @@
-const cards=[
- ["Chuyện thật","“Tôi đã sốc trong tuần đầu sống tại Hàn Quốc”","coral","/bai-viet/soc-van-hoa-han-quoc"],
- ["Tình yêu","Hẹn hò với người Hàn có thật sự giống phim?","violet"],
- ["Cuộc sống","Ở nhà bán hầm tại Seoul: rẻ nhưng có đáng?","blue"],
- ["Văn hóa","Vì sao người Hàn hỏi tuổi ngay lần đầu gặp?","amber"],
- ["Du học","Một tháng chi tiêu của du học sinh tại Busan","green"],
- ["Mạng Hàn","Chủ đề khiến cộng đồng Hàn tranh luận tuần này","navy"]
+const categories = ["Mới nhất", "Chuyện thật", "Văn hóa", "Cuộc sống", "Tình yêu", "K-beauty"];
+
+const stories = [
+  {
+    category: "Văn hóa · Sự thật lạ",
+    title: "Hàn Quốc từng không cho bán nước đóng chai cho người dân?",
+    summary: "Một quy định khó tin, một phán quyết năm 1994 và cách chai nước trở thành đồ dùng hằng ngày.",
+    meta: "19.07.2026 · 6 phút đọc",
+    href: "/bai-viet/han-quoc-tung-cam-ban-nuoc-dong-chai",
+    index: "01",
+  },
+  {
+    category: "Chuyện thật · Đời sống Hàn",
+    title: "“Tôi đã sốc trong tuần đầu sống tại Hàn Quốc”",
+    summary: "Năm khác biệt văn hóa rất nhỏ nhưng đủ khiến một người mới đến Seoul nhớ mãi.",
+    meta: "19.07.2026 · 7 phút đọc",
+    href: "/bai-viet/soc-van-hoa-han-quoc",
+    index: "02",
+  },
 ];
-export default function Home(){return <main><header className="site-header"><div className="topline"/><div className="header-inner"><a className="brand" href="#top">dabang<span>zz</span></a><nav><a href="#latest">Bài mới</a><a href="#topics">Chủ đề</a><a href="#about">Về chúng tôi</a></nav><button className="search">⌕</button></div></header>
-<section className="hero" id="top"><div className="hero-inner"><div className="hero-copy"><span className="kicker">CHUYỆN HÀN, KỂ THEO CÁCH DỄ HIỂU</span><h1>Chuyện thật từ Hàn,<br/><em>gần hơn với bạn</em></h1><p>Những câu chuyện đang được quan tâm trong cộng đồng Hàn Quốc — được chọn lọc, kiểm chứng và kể lại bằng tiếng Việt.</p><a className="primary" href="#latest">Khám phá bài mới <span>→</span></a></div><div className="hero-art"><div className="sun"/><div className="tower tower-a"/><div className="tower tower-b"/><div className="tower tower-c"/><span className="river">SEOUL · VIETNAM</span></div></div></section>
-<div className="category-bar" id="topics"><div>{["Mới nhất","Chuyện thật","Tình yêu","Công sở","Du học","Văn hóa"].map((x,i)=><button className={i===0?"active":""} key={x}>{x}</button>)}</div></div>
-<section className="content" id="latest"><div className="section-heading"><div><span>CÂU CHUYỆN MỚI</span><h2>Đang được đọc nhiều</h2></div></div><div className="feature-grid"><a className="lead-card" href="/bai-viet/han-quoc-tung-cam-ban-nuoc-dong-chai"><div className="lead-visual"><span>WATER<br/>STORY</span></div><div className="lead-body"><span className="label">Văn hóa · Sự thật lạ</span><h3>Hàn Quốc từng không cho bán nước đóng chai cho người dân?</h3><p>Một quy định khó tin, một phán quyết năm 1994 và cách chai nước trở thành đồ dùng hằng ngày.</p><div className="meta">19.07.2026 · 6 phút đọc</div></div></a><aside className="briefing"><span className="brief-label">HÔM NAY Ở HÀN</span><h3>Bản tin nhanh</h3><div className="stat"><strong>₩ 18.4</strong><span>VND / KRW<br/><b>Tham khảo</b></span></div><div className="weather"><strong>Seoul</strong><span>29° · Có mưa</span></div><div className="weather"><strong>Busan</strong><span>28° · Nhiều mây</span></div></aside></div><div className="article-grid">{cards.map(a=><a className="article-card" href={a[3]||"#"} key={a[1]}><div className={`thumb ${a[2]}`}><span>{a[0]}</span></div><div className="article-body"><span className="label">{a[0]}</span><h3>{a[1]}</h3><p>Trải nghiệm cộng đồng được ẩn danh, chọn lọc và biên tập lại cho độc giả Việt Nam.</p><div className="meta">5 phút đọc</div></div></a>)}</div></section>
-<section className="editorial"><strong>Nguyên tắc biên tập</strong><p>Nội dung được tổng hợp từ chủ đề công khai, viết lại bằng góc nhìn riêng, ẩn danh nhân vật và bổ sung bối cảnh.</p></section><footer id="about"><div className="copyright">© 2026 dabangzz · Chuyện Hàn, kể cho người Việt.</div></footer></main>}
+
+export default function Home() {
+  const [featured, ...latest] = stories;
+
+  return <main id="top">
+    <header className="site-header">
+      <div className="header-inner">
+        <a className="brand" href="#top" aria-label="Dabangzz trang chủ">dabang<span>zz</span></a>
+        <nav aria-label="Điều hướng chính">
+          <a href="#latest">Bài mới</a>
+          <a href="#topics">Chủ đề</a>
+          <a href="#about">Giới thiệu</a>
+        </nav>
+        <a className="header-cta" href="#latest">Đọc ngay <span>↘</span></a>
+      </div>
+    </header>
+
+    <section className="hero">
+      <div className="hero-copy">
+        <span className="eyebrow">SEOUL STORIES · VIETNAMESE EDITION</span>
+        <h1>Chuyện Hàn,<br/><em>kể rõ ràng.</em></h1>
+      </div>
+      <div className="hero-intro">
+        <span>01 / VỀ DABANGZZ</span>
+        <p>Chúng tôi chọn những câu chuyện đang được quan tâm tại Hàn Quốc, kiểm chứng bối cảnh và kể lại bằng tiếng Việt.</p>
+        <a href="#latest">Xem bài mới nhất <span>→</span></a>
+      </div>
+    </section>
+
+    <div className="category-bar" id="topics">
+      <div>{categories.map((category, index) => <button className={index === 0 ? "active" : ""} key={category}>{category}</button>)}</div>
+    </div>
+
+    <section className="content" id="latest">
+      <div className="section-heading">
+        <div><span>MỚI NHẤT</span><h2>Câu chuyện đáng đọc</h2></div>
+        <span className="issue">ISSUE 01 · 2026</span>
+      </div>
+
+      <a className="lead-card" href={featured.href}>
+        <div className="lead-visual"><span>{featured.index}</span><small>SEOUL<br/>ARCHIVE</small></div>
+        <div className="lead-body">
+          <span className="label">{featured.category}</span>
+          <h3>{featured.title}</h3>
+          <p>{featured.summary}</p>
+          <div className="story-link"><span>{featured.meta}</span><b>Đọc bài →</b></div>
+        </div>
+      </a>
+
+      <div className="latest-list">
+        {latest.map(story => <a className="list-story" href={story.href} key={story.title}>
+          <span className="list-index">{story.index}</span>
+          <div><span className="label">{story.category}</span><h3>{story.title}</h3><p>{story.summary}</p></div>
+          <span className="list-meta">{story.meta}<b>↗</b></span>
+        </a>)}
+      </div>
+    </section>
+
+    <section className="editorial" id="about">
+      <span>NGUYÊN TẮC BIÊN TẬP</span>
+      <h2>Không sao chép.<br/>Không giật gân vô căn cứ.</h2>
+      <p>Nội dung được chọn từ các chủ đề công khai, loại bỏ thông tin cá nhân, đối chiếu dữ kiện khi cần và viết lại hoàn toàn cho độc giả Việt Nam.</p>
+    </section>
+
+    <footer>
+      <div className="footer-inner"><a className="brand inverse" href="#top">dabang<span>zz</span></a><p>Chuyện Hàn, kể cho người Việt.</p></div>
+      <div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA</span></div>
+    </footer>
+  </main>;
+}
