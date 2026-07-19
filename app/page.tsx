@@ -1,10 +1,6 @@
-import { communityPosts } from "./content/community-posts";
-
-const categories = ["30 bài mới", "Văn hóa", "Công sở", "Tình yêu", "Cuộc sống", "K-beauty"];
+import StoryBrowser from "./components/StoryBrowser";
 
 export default function Home() {
-  const [featured, ...latest] = communityPosts;
-
   return <main id="top">
     <header className="site-header">
       <div className="header-inner">
@@ -30,34 +26,7 @@ export default function Home() {
       </div>
     </section>
 
-    <div className="category-bar" id="topics">
-      <div>{categories.map((category, index) => <button className={index === 0 ? "active" : ""} key={category}>{category}</button>)}</div>
-    </div>
-
-    <section className="content" id="latest">
-      <div className="section-heading">
-        <div><span>30 BÀI MỚI</span><h2>Câu chuyện đáng đọc</h2></div>
-        <span className="issue">ISSUE 02 · 2026</span>
-      </div>
-
-      <a className="lead-card" href={`/bai-viet/${featured.slug}`}>
-        <div className="lead-visual"><span>01</span><small>SEOUL<br/>ARCHIVE</small></div>
-        <div className="lead-body">
-          <span className="label">{featured.category}</span>
-          <h3>{featured.title}</h3>
-          <p>{featured.summary}</p>
-          <div className="story-link"><span>19.07.2026 · {featured.readTime}</span><b>Đọc bài →</b></div>
-        </div>
-      </a>
-
-      <div className="latest-list">
-        {latest.map((story, index) => <a className="list-story" href={`/bai-viet/${story.slug}`} key={story.slug}>
-          <span className="list-index">{String(index + 2).padStart(2, "0")}</span>
-          <div><span className="label">{story.category}</span><h3>{story.title}</h3><p>{story.summary}</p></div>
-          <span className="list-meta">{story.readTime}<b>↗</b></span>
-        </a>)}
-      </div>
-    </section>
+    <StoryBrowser />
 
     <section className="editorial" id="about">
       <span>NGUYÊN TẮC BIÊN TẬP</span>
