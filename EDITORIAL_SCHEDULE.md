@@ -55,3 +55,14 @@ Each article needs a useful headline, a concrete summary, at least three
 substantive sections, natural Vietnamese, a distinct angle, and a final safety
 and privacy review. Build the site, verify that future posts remain unavailable,
 then publish the validated change.
+
+## AI image rules
+
+Every new article must include one original AI-generated landscape editorial
+image in its `images` array. Add a second image only when it materially helps
+explain the article. Keep the established warm ivory, ink black, charcoal,
+coral-red and dusty-blue visual language. Images must contain no readable text,
+logos, brand marks, watermarks, copied people, or likenesses of named public
+figures. Use fictional, non-identifiable people and write a useful Vietnamese
+alt description. Optimize the final file for web delivery and store it under
+`public/images/editorial/` before the article references it.

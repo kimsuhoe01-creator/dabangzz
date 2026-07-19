@@ -5,6 +5,7 @@ export type CommunityPost = {
   summary: string;
   readTime: string;
   hero: string;
+  images?: { src: string; alt: string }[];
   /** ISO 8601. Posts without a value are already published. */
   publishedAt?: string;
   sections: { heading: string; paragraphs: string[]; quote?: string }[];

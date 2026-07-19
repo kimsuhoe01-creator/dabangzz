@@ -1,4 +1,3 @@
-.story-hero span{white-space:pre-line}
 .story-section:first-child h2{margin-top:12px}
 .category-bar button:focus-visible{outline:2px solid var(--accent);outline-offset:-4px}
 .category-bar button:hover{color:var(--accent)}
