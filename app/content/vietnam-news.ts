@@ -349,4 +349,160 @@ export const vietnamNews: CommunityPost[] = [
       },
     ],
   },
+  {
+    slug: "tro-cap-quan-nhan-co-yeu-tu-thang-7-2026",
+    kind: "news",
+    category: "Tin mới Việt Nam · Chính sách",
+    title: "Trợ cấp quân nhân, cơ yếu tăng 8%: ai thuộc diện và mức mới là bao nhiêu?",
+    summary: "Thông tư 103/2026/TT-BQP điều chỉnh tăng 8% trợ cấp hằng tháng cho hai nhóm người đang hưởng theo Quyết định 142 và Quyết định 62. Bài viết tách rõ phạm vi áp dụng, năm mức mới, mốc hiệu lực và cách kiểm tra hồ sơ mà không hiểu nhầm đây là khoản tăng cho mọi cựu quân nhân.",
+    readTime: "11 phút đọc",
+    hero: "TRỢ CẤP\n8%",
+    publishedAt: "2026-07-20T18:00:00+07:00",
+    updatedAt: "2026-07-20T17:40:00+07:00",
+    images: [{
+      src: "/images/editorial/tro-cap-quan-nhan-co-yeu-20260720.jpg",
+      alt: "Minh họa AI một người lớn tuổi trao đổi về giấy thông báo trợ cấp với cán bộ tại bàn dịch vụ công",
+    }],
+    keyFacts: [
+      { label: "MỨC ĐIỀU CHỈNH", value: "+8%", note: "Tính trên mức trợ cấp hằng tháng của tháng 6/2026, không phải cộng 8 điểm phần trăm vào một tỷ lệ khác." },
+      { label: "THỜI ĐIỂM ÁP DỤNG", value: "01/07/2026", note: "Các mức mới được thực hiện từ ngày 1/7/2026; Thông tư có hiệu lực từ ngày 30/8/2026." },
+      { label: "KHOẢNG MỨC MỚI", value: "2,838–3,353 triệu đồng/tháng", note: "Gồm năm bậc theo số năm công tác được tính hưởng, từ đủ 15 năm đến dưới 20 năm." },
+      { label: "VĂN BẢN", value: "103/2026/TT-BQP", note: "Bộ Quốc phòng ban hành ngày 17/7/2026." },
+      { label: "PHẠM VI", value: "2 nhóm đang hưởng", note: "Người thuộc diện Quyết định 142/2008/QĐ-TTg hoặc Quyết định 62/2011/QĐ-TTg và đang nhận trợ cấp hằng tháng." },
+      { label: "NGUỒN KINH PHÍ", value: "Ngân sách trung ương", note: "Ngân sách trung ương bổ sung có mục tiêu cho địa phương để thực hiện chế độ." },
+    ],
+    sourceLinks: [
+      {
+        label: "Cổng Thông tin điện tử Chính phủ — Giải thích mức trợ cấp mới",
+        url: "https://xaydungchinhsach.chinhphu.vn/tang-muc-tro-cap-hang-thang-doi-voi-quan-nhan-nguoi-lam-cong-tac-co-yeu-phuc-vien-xuat-ngu-thoi-viec-119260720114611944.htm",
+      },
+      {
+        label: "Cổng Thông tin điện tử Chính phủ — Toàn văn Thông tư 103/2026/TT-BQP",
+        url: "https://xaydungchinhsach.chinhphu.vn/thong-tu-so-103-2026-tt-bqp-dieu-chinh-tro-cap-hang-thang-doi-voi-quan-nhan-nguoi-lam-cong-tac-co-yeu-phuc-vien-xuat-ngu-thoi-viec-119260720113129186.htm",
+      },
+    ],
+    sections: [
+      {
+        heading: "Điểm mới là tăng 8% trên khoản đang hưởng tháng 6",
+        paragraphs: [
+          "Bộ Quốc phòng ban hành Thông tư 103/2026/TT-BQP ngày 17/7/2026 để điều chỉnh trợ cấp hằng tháng đối với một số quân nhân và người làm công tác cơ yếu đã phục viên, xuất ngũ hoặc thôi việc. Theo phần giải thích được Cổng Thông tin điện tử Chính phủ đăng ngày 20/7, mức trợ cấp mới bằng mức của tháng 6/2026 nhân với hệ số 1,08. Cách diễn đạt này quan trọng: đây là mức tăng 8% trên số tiền đang hưởng, không phải một khoản cố định giống nhau cho mọi người và cũng không phải chế độ mở rộng cho toàn bộ cựu quân nhân.",
+          "Thông tư có hiệu lực từ ngày 30/8/2026 nhưng các mức điều chỉnh được thực hiện từ ngày 1/7/2026. Hai mốc này trả lời hai câu hỏi khác nhau: ngày văn bản có hiệu lực pháp lý và tháng bắt đầu tính mức hưởng mới. Người thuộc diện không nên tự kết luận rằng khoản tiền chênh lệch phải xuất hiện ngay trong mọi tài khoản vào cùng một ngày; lịch chi trả, rà soát danh sách và cách xử lý phần chênh lệch còn phụ thuộc quy trình thực hiện được cơ quan có thẩm quyền thông báo.",
+        ],
+      },
+      {
+        heading: "Ai thuộc phạm vi áp dụng và ai không nên tự suy rộng?",
+        paragraphs: [
+          "Nhóm thứ nhất là người đang hưởng trợ cấp hằng tháng theo Quyết định 142/2008/QĐ-TTg, đã được sửa đổi, bổ sung bởi Quyết định 38/2010/QĐ-TTg. Đây là chế độ đối với quân nhân tham gia kháng chiến chống Mỹ cứu nước, có dưới 20 năm công tác trong quân đội, đã phục viên hoặc xuất ngũ về địa phương. Nhóm thứ hai là người đang hưởng trợ cấp hằng tháng theo Quyết định 62/2011/QĐ-TTg: quân nhân và người làm công tác cơ yếu hưởng lương như quân nhân, công an nhân dân, đã tham gia chiến tranh bảo vệ Tổ quốc, làm nhiệm vụ quốc tế ở Campuchia hoặc giúp bạn Lào sau ngày 30/4/1975, có dưới 20 năm công tác và đã phục viên, xuất ngũ hoặc thôi việc.",
+          "Từ khóa cần giữ là “đang hưởng trợ cấp hằng tháng” theo một trong hai quyết định nêu trên. Từng hồ sơ còn phải phù hợp điều kiện của văn bản gốc và quyết định hưởng đã được cấp. Một người từng phục vụ trong quân đội nhưng không thuộc hai diện này, người nhận chế độ khác, hoặc thân nhân chỉ nghe thông tin qua mạng không thể dùng bài viết để tự xác nhận quyền hưởng. Cách an toàn là xem lại tên quyết định trên giấy tờ hoặc thông báo chi trả hiện có, rồi đối chiếu với cơ quan đang quản lý hồ sơ.",
+        ],
+        quote: "Mức tăng là 8%, nhưng phạm vi không phải “mọi cựu quân nhân”: phải đúng nhóm và đang hưởng theo quyết định được nêu trong Thông tư.",
+      },
+      {
+        heading: "Năm mức tiền mới được chia theo số năm công tác",
+        paragraphs: [
+          "Thông tư công bố năm bậc trợ cấp. Người có từ đủ 15 năm đến dưới 16 năm công tác được hưởng 2.838.000 đồng mỗi tháng; từ đủ 16 năm đến dưới 17 năm là 2.966.000 đồng; từ đủ 17 năm đến dưới 18 năm là 3.097.000 đồng; từ đủ 18 năm đến dưới 19 năm là 3.227.000 đồng; từ đủ 19 năm đến dưới 20 năm là 3.353.000 đồng mỗi tháng. Đây là số tiền theo từng bậc được văn bản nêu trực tiếp, không phải phép ước lượng của Dabangzz.",
+          "Ranh giới “từ đủ” và “dưới” cần được đọc chính xác. Chẳng hạn, mức dành cho từ đủ 17 năm đến dưới 18 năm không đồng nghĩa mọi người nhớ mình từng công tác khoảng 17 năm đều tự động ở bậc đó; thời gian được cơ quan có thẩm quyền xác nhận để tính chế độ mới là căn cứ. Nếu mức đang nhận hoặc bậc năm công tác trong hồ sơ khác với ký ức cá nhân, nên đề nghị cơ quan quản lý giải thích dữ liệu đang dùng trước khi yêu cầu điều chỉnh.",
+        ],
+      },
+      {
+        heading: "Vì sao tháng áp dụng và ngày nhận tiền có thể không trùng nhau?",
+        paragraphs: [
+          "Văn bản quy định mức mới thực hiện từ ngày 1/7/2026 và nguồn kinh phí do ngân sách trung ương bảo đảm, bổ sung có mục tiêu cho địa phương. Ủy ban nhân dân cấp tỉnh tổ chức thực hiện. Điều này tạo ra một chuỗi công việc hành chính gồm xác định danh sách, tính mức mới, phân bổ kinh phí và chi trả theo lịch. Bởi vậy, người hưởng cần phân biệt quyền lợi được tính từ tháng 7 với thời điểm địa phương hoàn tất việc chuyển số tiền tương ứng.",
+          "Nếu kỳ chi trả đầu tiên sau khi văn bản có hiệu lực chưa phản ánh toàn bộ chênh lệch, chưa nên vội kết luận quyền lợi bị mất. Hãy giữ thông báo hoặc chứng từ tháng 6 làm mốc, ghi lại tháng và số tiền thực tế nhận, rồi kiểm tra thông báo chính thức tại địa phương về cách truy lĩnh hoặc điều chỉnh. Bài viết không thể dự đoán ngày giải ngân cụ thể của từng tỉnh, phương thức nhận tiền mặt hay chuyển khoản, vì các chi tiết đó phải đến từ cơ quan thực hiện tại nơi hồ sơ được quản lý.",
+        ],
+      },
+      {
+        heading: "Hồ sơ cũ và trường hợp phát sinh mới được xử lý ở đâu?",
+        paragraphs: [
+          "Theo Thông tư, đối với người đã có quyết định hưởng trợ cấp hằng tháng trước ngày văn bản có hiệu lực, Sở Nội vụ các tỉnh, thành phố trực thuộc trung ương tổ chức thực hiện việc điều chỉnh. Với các trường hợp có quyết định hưởng trợ cấp hằng tháng từ ngày Thông tư có hiệu lực trở về sau, cơ quan có liên quan trong quân đội phối hợp theo địa bàn, gồm các quân khu, Bộ Tư lệnh Thủ đô Hà Nội và Cục Chính sách – Xã hội. Cách phân công này giúp xác định nơi bắt đầu hỏi, nhưng người dân vẫn nên ưu tiên đầu mối ghi trên quyết định hoặc thông báo đang nhận.",
+          "Khi cần kiểm tra, chuẩn bị bản sao hoặc thông tin cơ bản của quyết định hưởng, kỳ chi trả gần nhất và giấy tờ tùy thân theo hướng dẫn chính thức. Không đăng ảnh toàn bộ giấy tờ, số căn cước, số tài khoản hay mã hồ sơ lên nhóm mạng xã hội để nhờ người lạ xem giúp. Nếu có người gọi yêu cầu cung cấp mã OTP, chuyển phí để “kích hoạt tăng trợ cấp” hoặc bấm vào liên kết không thuộc cổng chính thức, hãy dừng lại và xác minh trực tiếp với cơ quan chi trả.",
+        ],
+      },
+      {
+        heading: "Checklist kiểm tra mức hưởng mà không nhầm chính sách",
+        paragraphs: [
+          "Bước một, tìm tên và số quyết định đang làm căn cứ chi trả, xem có phải Quyết định 142 hoặc Quyết định 62 hay không. Bước hai, đối chiếu số tiền tháng 6/2026 với chứng từ thực tế thay vì dựa vào trí nhớ. Bước ba, xem số năm công tác được công nhận trong hồ sơ để xác định một trong năm bậc. Bước bốn, theo dõi thông báo của Sở Nội vụ, Ủy ban nhân dân hoặc đầu mối chi trả tại địa phương về lịch điều chỉnh. Bước năm, nếu số tiền không khớp, gửi câu hỏi kèm thông tin tối thiểu qua kênh chính thức và giữ lại mã tiếp nhận.",
+          "Google Trends chiều 20/7 cho thấy nhu cầu tìm kiếm liên quan đến “trợ cấp”, nhưng xu hướng tìm kiếm chỉ giúp nhận biết câu hỏi của độc giả, không chứng minh nội dung chính sách. Toàn bộ mức tiền, phạm vi và mốc thời gian trong bài được đối chiếu với Thông tư 103/2026/TT-BQP và phần giải thích trên Cổng Thông tin điện tử Chính phủ. Khi có hướng dẫn chi trả cụ thể của địa phương hoặc văn bản sửa đổi, người đọc nên ưu tiên bản cập nhật mới nhất từ cơ quan có thẩm quyền.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "sau-han-xac-nhan-nhap-hoc-lop-1-lop-6-tphcm-2026",
+    kind: "news",
+    category: "Tin mới Việt Nam · Giáo dục",
+    title: "Hết hạn xác nhận lớp 1, lớp 6 tại TPHCM: phụ huynh cần kiểm tra gì ngay?",
+    summary: "Đợt xác nhận nhập học trực tuyến lớp 1 và lớp 6 của TPHCM đã kết thúc lúc 17:00 ngày 20/7. Nếu chưa thao tác hoặc trạng thái còn bất thường, phụ huynh nên kiểm tra cổng chính thức, liên hệ đúng trường và địa phương, đồng thời lưu bằng chứng thay vì tin vào lời mời “xử lý nhanh” trên mạng.",
+    readTime: "11 phút đọc",
+    hero: "SAU HẠN\nXÁC NHẬN",
+    publishedAt: "2026-07-20T19:30:00+07:00",
+    updatedAt: "2026-07-20T17:40:00+07:00",
+    images: [{
+      src: "/images/editorial/xac-nhan-nhap-hoc-tphcm-20260720.jpg",
+      alt: "Minh họa AI một phụ huynh kiểm tra trạng thái tuyển sinh trên máy tính và sắp xếp hồ sơ nhập học",
+    }],
+    keyFacts: [
+      { label: "THỜI HẠN ĐÃ KẾT THÚC", value: "17:00 · 20/07", note: "Khoảng xác nhận và nộp hồ sơ được công bố từ ngày 11/7 đến 17:00 ngày 20/7/2026." },
+      { label: "ĐỐI TƯỢNG", value: "Lớp 1 và lớp 6", note: "Bài này nói về tuyển sinh đầu cấp năm học 2026–2027 tại TPHCM." },
+      { label: "KÊNH TRA CỨU", value: "tuyensinhdaucap.hcm.edu.vn", note: "Cổng tuyển sinh đầu cấp chính thức của thành phố." },
+      { label: "DỮ LIỆU CẦN NHẬP", value: "Mã định danh học sinh", note: "Cổng hướng dẫn nhập số căn cước công dân của học sinh cùng mã xác nhận hiển thị." },
+      { label: "CĂN CỨ PHÂN TUYẾN", value: "Nơi ở hiện tại", note: "Thông tin cư trú hiện tại trên VNeID được dùng trong phương án tuyển sinh linh hoạt." },
+      { label: "SAU ĐỢT CHÍNH THỨC", value: "Tiếp tục rà soát", note: "Địa phương xem xét các trường hợp chưa được phân bổ và xây dựng phương án phù hợp; không đồng nghĩa chắc chắn có một trường cụ thể." },
+    ],
+    sourceLinks: [
+      {
+        label: "Cổng Thông tin điện tử Chính phủ tại TPHCM — Hướng dẫn nộp hồ sơ lớp 1 và lớp 6",
+        url: "https://tphcm.chinhphu.vn/nop-ho-so-nhap-hoc-lop-1-va-lop-6-tu-ngay-11-7-101260711112316452.htm",
+      },
+      {
+        label: "Cổng tuyển sinh đầu cấp TPHCM",
+        url: "https://tuyensinhdaucap.hcm.edu.vn",
+      },
+    ],
+    sections: [
+      {
+        heading: "Mốc 17:00 đã qua: việc đầu tiên là kiểm tra trạng thái, không đoán",
+        paragraphs: [
+          "Theo hướng dẫn đăng trên Cổng Thông tin điện tử Chính phủ tại TPHCM, phụ huynh có con vào lớp 1 hoặc lớp 6 thực hiện xác nhận nhập học và nộp hồ sơ từ ngày 11/7 đến 17:00 ngày 20/7/2026. Vì bài viết được cập nhật sau mốc này, thao tác phù hợp nhất không phải tiếp tục chờ một tin nhắn không rõ nguồn mà là mở cổng tuyển sinh đầu cấp chính thức, kiểm tra kết quả đang hiển thị và ghi lại thời điểm kiểm tra.",
+          "Nếu đã xác nhận trước hạn, hãy xem trạng thái có được ghi nhận hay còn yêu cầu bổ sung tại trường. Nếu từng thao tác nhưng trang bị lỗi, cần lưu ảnh chụp màn hình, mã hồ sơ, thời gian thực hiện và thông báo lỗi nếu có. Nếu chưa xác nhận, đừng tự suy diễn rằng suất học chắc chắn đã mất; ngược lại, cũng không nên hiểu việc địa phương tiếp tục rà soát là bảo đảm được nhận vào trường mong muốn. Chỉ cơ quan tuyển sinh và trường được phân công mới xác nhận được tình trạng cụ thể.",
+        ],
+      },
+      {
+        heading: "Cách tra cứu đúng cổng và nhận biết kết quả cần xử lý",
+        paragraphs: [
+          "Địa chỉ được thành phố công bố là tuyensinhdaucap.hcm.edu.vn. Trên cổng, phụ huynh chọn mục tuyển sinh tiểu học hoặc trung học cơ sở phù hợp, nhập số căn cước công dân của học sinh và mã xác nhận hiển thị để tra cứu. Kết quả phân bổ là điểm bắt đầu cho bước xác nhận trực tuyến và hoàn thiện hồ sơ tại trường trong thời gian quy định. Không nên tìm cổng qua quảng cáo có trả phí hoặc liên kết rút gọn do người lạ gửi, vì tên miền gần giống có thể dẫn đến trang thu thập dữ liệu.",
+          "Sau khi đăng nhập hoặc tra cứu, hãy nhìn vào ba nhóm thông tin: trường được phân bổ, trạng thái xác nhận và yêu cầu hồ sơ hoặc lịch làm việc. Nếu thông tin trường có nhưng trạng thái chưa hoàn tất, liên hệ trường ngay để hỏi cách xử lý sau hạn. Nếu không thấy kết quả, dữ liệu sai hoặc hệ thống không nhận số định danh, liên hệ đầu mối tuyển sinh của địa phương nơi gia đình đang cư trú. Không tự tạo nhiều hồ sơ với cách viết tên khác nhau vì có thể làm việc đối chiếu khó hơn.",
+        ],
+        quote: "Sau hạn, một ảnh chụp trạng thái và một cuộc gọi đúng đầu mối có giá trị hơn hàng chục lời đoán trong nhóm phụ huynh.",
+      },
+      {
+        heading: "“Nơi ở hiện tại” trên VNeID có ý nghĩa gì trong mùa tuyển sinh này?",
+        paragraphs: [
+          "Năm học 2026–2027 là đợt tuyển sinh đầu cấp đầu tiên của TPHCM sau khi vận hành mô hình chính quyền địa phương hai cấp. Hướng dẫn của thành phố nêu phương án phân tuyến linh hoạt, không đóng khung hoàn toàn theo ranh giới phường, xã; dữ liệu “nơi ở hiện tại” trên VNeID được sử dụng thay cho cách gọi tạm trú hoặc thường trú trước đây. Mục tiêu là sắp xếp theo điều kiện cư trú thực tế và năng lực tiếp nhận, nhưng điều đó không có nghĩa mọi gia đình sẽ được tự chọn bất kỳ trường nào.",
+          "Nếu địa chỉ trên kết quả khác với nơi gia đình đang sống, hãy kiểm tra dữ liệu cư trú hiện hành của học sinh và người liên quan, sau đó hỏi cơ quan tuyển sinh cần giấy tờ nào để đối chiếu. Không chỉnh sửa hoặc khai lại thông tin chỉ để hướng tới một trường cụ thể. Khả năng tiếp nhận còn phụ thuộc số chỗ, phân bố dân cư và kế hoạch của địa phương; một trường hợp điều chỉnh được chấp thuận ở nơi khác không tạo thành cam kết cho hồ sơ của mình.",
+        ],
+      },
+      {
+        heading: "Chưa xác nhận hoặc bị lỗi kỹ thuật: chuẩn bị một bộ thông tin ngắn gọn",
+        paragraphs: [
+          "Khi liên hệ trường hoặc địa phương, chuẩn bị họ tên học sinh, số định danh, cấp học đăng ký, địa chỉ nơi ở hiện tại, số điện thoại liên lạc, trạng thái đang thấy trên cổng và bằng chứng lỗi nếu có. Chỉ cung cấp những dữ liệu cần thiết qua kênh chính thức; nếu gửi email, che bớt thông tin không được yêu cầu. Ghi lại tên đơn vị tiếp nhận, giờ liên hệ và nội dung hướng dẫn để gia đình có thể theo dõi nhất quán.",
+          "Câu hỏi nên cụ thể: hồ sơ đã được ghi nhận chưa, trường nào đang quản lý trường hợp này, có cần đến trực tiếp không, cần mang giấy tờ gì, và thời hạn bổ sung là khi nào. Tránh chỉ hỏi “con tôi có được học không?” vì người trực tổng đài có thể cần mã hồ sơ mới kiểm tra được. Nếu được yêu cầu đến trường, phụ huynh nên xác nhận địa chỉ, giờ làm việc và người tiếp nhận trước khi di chuyển, nhất là khi thông tin được nghe lại qua một nhóm chat không chính thức.",
+        ],
+      },
+      {
+        heading: "Rà soát sau đợt chính thức không phải là một lời bảo đảm chọn trường",
+        paragraphs: [
+          "Thông tin của thành phố cho biết sau đợt tuyển sinh chính thức, địa phương tiếp tục rà soát những trường hợp chưa được phân bổ và xây dựng phương án phù hợp. Đây là cơ chế xử lý phần việc còn lại, giúp gia đình biết rằng một hồ sơ chưa có kết quả không nên bị bỏ mặc. Tuy nhiên, câu chữ này không cam kết thời điểm, trường cụ thể hoặc thứ tự ưu tiên mà từng trường hợp sẽ nhận được; những chi tiết đó phải chờ hướng dẫn của cơ quan phụ trách.",
+          "Vì vậy, phụ huynh nên chủ động báo tình trạng ngay, duy trì số điện thoại có thể liên lạc và kiểm tra thông báo chính thức hằng ngày. Nếu được đề xuất một phương án khác với nguyện vọng ban đầu, hãy hỏi rõ lý do, khoảng cách, thời gian hoàn tất và quyền đề nghị xem xét theo quy định. Không trả tiền cho người tự nhận có thể “giữ chỗ” hoặc “chuyển trường chắc chắn”, vì quy trình tuyển sinh công lập không được xác nhận qua lời hứa cá nhân trên mạng.",
+        ],
+      },
+      {
+        heading: "Bảo vệ dữ liệu của trẻ và theo dõi cập nhật sau ngày 20/7",
+        paragraphs: [
+          "Hồ sơ tuyển sinh chứa dữ liệu của trẻ em và gia đình. Không đăng công khai ảnh căn cước, giấy khai sinh, địa chỉ đầy đủ, mã hồ sơ, số điện thoại hoặc ảnh chụp màn hình còn nguyên thông tin lên mạng xã hội. Cơ quan hoặc trường hợp pháp không cần phụ huynh đọc mã OTP ngân hàng, cài ứng dụng điều khiển từ xa hay chuyển khoản phí “mở khóa hồ sơ”. Khi nghi ngờ, đóng liên kết, tự gõ lại tên miền chính thức và gọi số được công bố trên trang của cơ quan hoặc trường.",
+          "Google Trends chiều 20/7 ghi nhận sự quan tâm đến chủ đề “học sinh”, nhưng xu hướng chỉ cho biết độc giả đang hỏi điều gì. Mốc thời gian, quy trình tra cứu và nguyên tắc rà soát trong bài được lấy từ hướng dẫn chính thức của TPHCM. Sau ngày 20/7, lịch bổ sung hoặc điều chỉnh có thể khác theo từng địa bàn và trường; vì thế, cổng tuyển sinh đầu cấp, thông báo của chính quyền địa phương và trường được phân bổ luôn là nguồn cần kiểm tra lại trước khi gia đình thực hiện bước tiếp theo.",
+        ],
+      },
+    ],
+  },
 ];
