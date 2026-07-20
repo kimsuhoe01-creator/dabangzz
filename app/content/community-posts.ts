@@ -1,3 +1,4 @@
+import { posts20260721 } from "./posts-2026-07-21";
 import { posts20260720 } from "./posts-2026-07-20";
 import { vietnamNews } from "./vietnam-news";
 import { enrichKoreaStory } from "./story-depth";
@@ -31,6 +32,7 @@ export function getPublishedPosts(now = new Date()) {
 }
 
 const rawCommunityPosts: CommunityPost[] = [
+  ...posts20260721,
   ...vietnamNews,
   ...posts20260720,
   {
