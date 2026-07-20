@@ -43,6 +43,12 @@ export default function CommunityArticle({ post, posts }: { post: CommunityPost;
       <p className="story-deck">{post.summary}</p>
       <div className="story-meta">DABANGZZ · ĐĂNG {publishedDate(post)}{updatedDate(post) ? ` · CẬP NHẬT ${updatedDate(post)}` : ""} · {post.readTime.toUpperCase()}</div>
       {figure(heroImage, "story-hero", "eager")}
+      {post.keyFacts?.length ? <aside className="key-facts" aria-labelledby="key-facts-title">
+        <div className="key-facts-heading"><span>DỮ KIỆN CHÍNH</span><h2 id="key-facts-title">Những con số cần biết trước khi đọc</h2></div>
+        <div className="key-facts-grid">{post.keyFacts.map(fact => <div className="key-fact" key={`${fact.label}-${fact.value}`}>
+          <span>{fact.label}</span><strong>{fact.value}</strong><p>{fact.note}</p>
+        </div>)}</div>
+      </aside> : null}
       <div className="story-body">
         {post.sections.map((section, index) => <section className="story-section" key={section.heading}>
           <h2>{section.heading}</h2>

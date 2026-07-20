@@ -14,18 +14,18 @@ export default function VietnamNewsPage() {
   return <main id="top">
     <header className="site-header"><div className="header-inner">
       <Link className="brand" href="/">dabang<span>zz</span></Link>
-      <nav aria-label="Điều hướng chính"><Link href="/">Trang chủ</Link><Link href="/chinh-sach-bien-tap">Biên tập</Link><Link href="/lien-he">Liên hệ</Link></nav>
+      <nav aria-label="Điều hướng chính"><Link href="/">Trang chủ</Link><Link href="/chuyen-han-quoc">Chuyện Hàn Quốc</Link><Link href="/chinh-sach-bien-tap">Biên tập</Link><Link href="/lien-he">Liên hệ</Link></nav>
       <a className="header-cta" href="#latest">Tin mới <span>↘</span></a>
     </div></header>
     <section className="news-intro">
       <span className="eyebrow">TIN MỚI VIỆT NAM</span>
       <h1>Thông tin quan trọng,<br/><em>thêm phần giải thích.</em></h1>
-      <p>Dabangzz ưu tiên nguồn chính thức, cho biết thời điểm cập nhật và bổ sung bối cảnh thực tế. Đây không phải dòng tin sao chép.</p>
+      <p>Dabangzz tham khảo nhu cầu tìm kiếm tại Việt Nam để chọn câu hỏi đáng giải thích, sau đó đối chiếu nguồn chính thức, đưa số liệu, giới hạn và cách kiểm tra bản cập nhật mới nhất.</p>
     </section>
     <StoryBrowser posts={getPublishedPosts()} defaultFilter="news" />
     <footer>
       <div className="footer-inner"><Link className="brand inverse" href="/">dabang<span>zz</span></Link><p>Nguồn rõ ràng. Giải thích độc lập.</p></div>
-      <div className="footer-links"><Link href="/chinh-sach-bien-tap">Chính sách biên tập</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div>
+      <div className="footer-links"><Link href="/chuyen-han-quoc">Chuyện Hàn Quốc</Link><Link href="/chinh-sach-bien-tap">Chính sách biên tập</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div>
       <div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA</span></div>
     </footer>
   </main>;

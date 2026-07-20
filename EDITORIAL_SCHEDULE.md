@@ -13,12 +13,13 @@ are already public.
 If fewer posts pass the quality gate, publish fewer. Never fill a quota with
 duplicate, thin, unverifiable, or unsafe content.
 
-The daily total includes both community-inspired stories and `Tin mới Việt
-Nam`. Use this target mix only when enough material passes review:
+The daily total includes both `Tin mới Việt Nam` explainers and Korean
+community-inspired stories. Vietnam news is the primary product. Use this
+target mix only when enough material passes review:
 
-- 12-post phase: up to 3 Vietnam news explainers + 9 original stories
-- 18-post phase: up to 4 Vietnam news explainers + 14 original stories
-- 30-post phase: up to 6 Vietnam news explainers + 24 original stories
+- 12-post phase: target 7 Vietnam news explainers + up to 5 Korean stories
+- 18-post phase: target 11 Vietnam news explainers + up to 7 Korean stories
+- 30-post phase: target 18 Vietnam news explainers + up to 12 Korean stories
 
 Do not manufacture news to reach the mix. An uneventful day may contain fewer
 news articles or fewer total articles.
@@ -45,15 +46,17 @@ Before selecting stories, review both:
 - Vietnam, trending now: https://trends.google.com/trends/trendingsearches/daily?geo=VN&hl=vi
 
 Treat trends as audience-demand signals, not as mandatory subjects. Select only
-three to five signals that naturally connect to Dabangzz themes. For example,
-weather and humidity can inform K-beauty routines, motorcycles can inform
-commuting stories, and social-platform outages can inform digital-life stories.
+three to five signals that naturally connect to useful Vietnam news or service
+information. A trend identifies a question, never proves a claim. Confirm every
+publishable fact with a current official or primary source. Weather, transport,
+education, public services, consumer rules, travel disruptions and digital
+life are preferred when they have direct reader value.
 
 Automatically exclude politics, gambling and lottery, medical diagnosis or
 treatment, crime details, minors, explicit sexual content, and unverified claims
 about named people. Do not make medical, legal, or financial promises.
 
-## Source and quality rules
+## Chuyện Hàn Quốc source and quality rules
 
 Allowed discovery sources: FMKorea, Nate Pann, Hotssul, Ruliweb community,
 DCInside cosmetics, and Beautynury. Use public material only. Do not copy text,
@@ -61,10 +64,17 @@ images, names, usernames, screenshots, or distinctive identifying details.
 Combine recurring themes from multiple public discussions and rewrite the story
 from scratch for Vietnamese readers.
 
-Each article needs a useful headline, a concrete summary, at least three
-substantive sections, natural Vietnamese, a distinct angle, and a final safety
-and privacy review. Build the site, verify that future posts remain unavailable,
-then publish the validated change.
+All Korean-derived material belongs to one public category: `Chuyện Hàn Quốc`.
+Use a secondary descriptor after a middle dot only for orientation, such as
+`Chuyện Hàn Quốc · Công sở` or `Chuyện Hàn Quốc · K-beauty`; do not create
+separate top-level Korean category filters.
+
+Each Korean story needs a useful headline, a concrete summary, natural
+Vietnamese, a distinct angle, at least four substantive sections and roughly
+700–1,100 Vietnamese words. Include specific context for Vietnamese readers and
+practical decision criteria. Run a final safety and privacy review. Build the
+site, verify that future posts remain unavailable, then publish the validated
+change.
 
 ## Tin mới Việt Nam
 
@@ -83,6 +93,14 @@ Every news explainer must:
 - avoid copying the source's structure, wording, photographs, or headline;
 - label AI art as illustration and never present it as a documentary image;
 - correct material errors promptly and record the new update time.
+- contain at least five substantive sections and roughly 900–1,400 Vietnamese
+  words;
+- surface dates, locations, units, comparison baselines and important numbers
+  in a `keyFacts` block when the source provides them;
+- explain what each number means, what it does not mean, regional differences,
+  and the exact path to the newest official update;
+- never pad length with repeated warnings, generic filler or paraphrases of the
+  same fact.
 
 Do not publish unverified breaking news. Exclude party politics, election
 persuasion, graphic disasters, identifiable victims, active crime details,

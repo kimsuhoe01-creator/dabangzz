@@ -7,22 +7,13 @@ import { getPostImages } from "../content/post-images";
 const filters = [
   { key: "all", label: "Tất cả" },
   { key: "news", label: "Tin mới Việt Nam" },
-  { key: "culture", label: "Văn hóa" },
-  { key: "work", label: "Công sở" },
-  { key: "love", label: "Tình yêu" },
-  { key: "life", label: "Cuộc sống" },
-  { key: "beauty", label: "K-beauty" },
+  { key: "korea", label: "Chuyện Hàn Quốc" },
 ];
 
 function belongsTo(post: CommunityPost, filter: string) {
   if (filter === "all") return true;
   if (filter === "news") return post.kind === "news";
-  const { category } = post;
-  if (filter === "culture") return category.includes("Văn hóa");
-  if (filter === "work") return category.includes("Công sở");
-  if (filter === "love") return category.includes("Tình yêu") || category.includes("Gia đình");
-  if (filter === "beauty") return category.includes("K-beauty");
-  return ["Cuộc sống", "Đời sống", "Nhà ở", "Trải nghiệm", "Du học"].some(word => category.includes(word));
+  return filter === "korea" && post.kind !== "news";
 }
 
 function publishedDate(post: CommunityPost) {

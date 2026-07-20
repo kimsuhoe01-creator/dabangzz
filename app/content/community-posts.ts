@@ -1,5 +1,6 @@
 import { posts20260720 } from "./posts-2026-07-20";
 import { vietnamNews } from "./vietnam-news";
+import { enrichKoreaStory } from "./story-depth";
 
 export type CommunityPost = {
   slug: string;
@@ -15,6 +16,7 @@ export type CommunityPost = {
   /** ISO 8601 timestamp for a material editorial update. */
   updatedAt?: string;
   sourceLinks?: { label: string; url: string }[];
+  keyFacts?: { label: string; value: string; note: string }[];
   sections: { heading: string; paragraphs: string[]; quote?: string }[];
 };
 
@@ -28,7 +30,7 @@ export function getPublishedPosts(now = new Date()) {
   return communityPosts.filter(post => isPostPublished(post, now));
 }
 
-export const communityPosts: CommunityPost[] = [
+const rawCommunityPosts: CommunityPost[] = [
   ...vietnamNews,
   ...posts20260720,
   {
@@ -422,3 +424,7 @@ export const communityPosts: CommunityPost[] = [
     ]
   }
 ];
+
+export const communityPosts: CommunityPost[] = rawCommunityPosts.map(post =>
+  post.kind === "news" ? post : enrichKoreaStory(post),
+);
