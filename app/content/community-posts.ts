@@ -1,7 +1,9 @@
 import { posts20260720 } from "./posts-2026-07-20";
+import { vietnamNews } from "./vietnam-news";
 
 export type CommunityPost = {
   slug: string;
+  kind?: "story" | "news";
   category: string;
   title: string;
   summary: string;
@@ -10,6 +12,9 @@ export type CommunityPost = {
   images?: { src: string; alt: string }[];
   /** ISO 8601. Posts without a value are already published. */
   publishedAt?: string;
+  /** ISO 8601 timestamp for a material editorial update. */
+  updatedAt?: string;
+  sourceLinks?: { label: string; url: string }[];
   sections: { heading: string; paragraphs: string[]; quote?: string }[];
 };
 
@@ -24,6 +29,7 @@ export function getPublishedPosts(now = new Date()) {
 }
 
 export const communityPosts: CommunityPost[] = [
+  ...vietnamNews,
   ...posts20260720,
   {
     slug: "van-hoa-thang-may-han-quoc",

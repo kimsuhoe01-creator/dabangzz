@@ -13,6 +13,16 @@ are already public.
 If fewer posts pass the quality gate, publish fewer. Never fill a quota with
 duplicate, thin, unverifiable, or unsafe content.
 
+The daily total includes both community-inspired stories and `Tin mới Việt
+Nam`. Use this target mix only when enough material passes review:
+
+- 12-post phase: up to 3 Vietnam news explainers + 9 original stories
+- 18-post phase: up to 4 Vietnam news explainers + 14 original stories
+- 30-post phase: up to 6 Vietnam news explainers + 24 original stories
+
+Do not manufacture news to reach the mix. An uneventful day may contain fewer
+news articles or fewer total articles.
+
 ## Publication slots
 
 12-post phase:
@@ -55,6 +65,43 @@ Each article needs a useful headline, a concrete summary, at least three
 substantive sections, natural Vietnamese, a distinct angle, and a final safety
 and privacy review. Build the site, verify that future posts remain unavailable,
 then publish the validated change.
+
+## Tin mới Việt Nam
+
+News discovery may use reputable outlets, but factual publication must be
+grounded in a primary official source whenever one exists: the responsible
+agency, an original regulation, an official bulletin, or a named expert body.
+Anonymous community posts are never confirmation of a news event.
+
+Every news explainer must:
+
+- use `kind: "news"` and the `Tin mới Việt Nam` category;
+- display `publishedAt`, `updatedAt`, and visible `sourceLinks`;
+- distinguish sourced facts from Dabangzz explanation;
+- add independent value such as context, limitations, regional differences, a
+  practical checklist, or a clear path to the newest official update;
+- avoid copying the source's structure, wording, photographs, or headline;
+- label AI art as illustration and never present it as a documentary image;
+- correct material errors promptly and record the new update time.
+
+Do not publish unverified breaking news. Exclude party politics, election
+persuasion, graphic disasters, identifiable victims, active crime details,
+lottery and gambling, medical diagnosis or treatment, individualized legal or
+financial advice, and rumors about named people. Public-service information may
+be covered neutrally when it is based on a current official source.
+
+## AdSense-first quality gate
+
+The editorial goal is a useful publication, not a page-volume shortcut. Before
+publishing, confirm that the article is original, substantial, easy to navigate,
+transparent about sources, and free of misleading claims. Reject simple
+translation, sentence-level paraphrase, keyword stuffing, near-duplicate angles,
+clickbait unsupported by the body, and pages created mainly to hold ads.
+
+Keep the editorial-policy, privacy, and contact pages reachable from the site
+footer. Do not add fake ad boxes. Do not add AdSense code, `ads.txt`, a publisher
+ID, or a consent claim until the account owner supplies the real values and the
+site is actually enrolled.
 
 ## AI image rules
 

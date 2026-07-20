@@ -2,9 +2,11 @@
 
 import { useState } from "react";
 import type { CommunityPost } from "../content/community-posts";
+import { getPostImages } from "../content/post-images";
 
 const filters = [
   { key: "all", label: "Tất cả" },
+  { key: "news", label: "Tin mới Việt Nam" },
   { key: "culture", label: "Văn hóa" },
   { key: "work", label: "Công sở" },
   { key: "love", label: "Tình yêu" },
@@ -12,8 +14,10 @@ const filters = [
   { key: "beauty", label: "K-beauty" },
 ];
 
-function belongsTo(category: string, filter: string) {
+function belongsTo(post: CommunityPost, filter: string) {
   if (filter === "all") return true;
+  if (filter === "news") return post.kind === "news";
+  const { category } = post;
   if (filter === "culture") return category.includes("Văn hóa");
   if (filter === "work") return category.includes("Công sở");
   if (filter === "love") return category.includes("Tình yêu") || category.includes("Gia đình");
@@ -22,18 +26,19 @@ function belongsTo(category: string, filter: string) {
 }
 
 function publishedDate(post: CommunityPost) {
-  if (!post.publishedAt) return "19.07.2026";
+  const date = post.publishedAt ?? post.updatedAt;
+  if (!date) return "19.07.2026";
   return new Intl.DateTimeFormat("vi-VN", {
     day: "2-digit",
     month: "2-digit",
     year: "numeric",
     timeZone: "Asia/Ho_Chi_Minh",
-  }).format(new Date(post.publishedAt));
+  }).format(new Date(date));
 }
 
-export default function StoryBrowser({ posts }: { posts: CommunityPost[] }) {
-  const [active, setActive] = useState("all");
-  const visible = posts.filter(post => belongsTo(post.category, active));
+export default function StoryBrowser({ posts, defaultFilter = "all" }: { posts: CommunityPost[]; defaultFilter?: string }) {
+  const [active, setActive] = useState(defaultFilter);
+  const visible = posts.filter(post => belongsTo(post, active));
   const [featured, ...latest] = visible;
   const activeLabel = filters.find(filter => filter.key === active)?.label ?? "Tất cả";
 
@@ -49,7 +54,10 @@ export default function StoryBrowser({ posts }: { posts: CommunityPost[] }) {
       </div>
 
       {featured && <a className="lead-card" href={`/bai-viet/${featured.slug}`}>
-        <div className="lead-visual"><span>01</span><small>SEOUL<br/>ARCHIVE</small></div>
+        <div className="lead-visual">
+          <img src={getPostImages(featured)[0].src} alt={getPostImages(featured)[0].alt} width="720" height="480" loading="eager" />
+          <small>{featured.kind === "news" ? "TIN VIỆT NAM · GIẢI THÍCH" : "DABANGZZ · EDITORIAL"}</small>
+        </div>
         <div className="lead-body">
           <span className="label">{featured.category}</span>
           <h3>{featured.title}</h3>
@@ -61,6 +69,7 @@ export default function StoryBrowser({ posts }: { posts: CommunityPost[] }) {
       <div className="latest-list">
         {latest.map((story, index) => <a className="list-story" href={`/bai-viet/${story.slug}`} key={story.slug}>
           <span className="list-index">{String(index + 2).padStart(2, "0")}</span>
+          <img className="list-thumb" src={getPostImages(story)[0].src} alt="" width="168" height="112" loading="lazy" />
           <div><span className="label">{story.category}</span><h3>{story.title}</h3><p>{story.summary}</p></div>
           <span className="list-meta">{story.readTime}<b>↗</b></span>
         </a>)}
