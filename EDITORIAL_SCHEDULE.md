@@ -38,6 +38,22 @@ news articles or fewer total articles.
 
 Every 30 minutes from `06:30` through `21:00`.
 
+## Daily automation runs
+
+Content work runs three times in `Asia/Ho_Chi_Minh` so that Vietnam news is not
+selected only once before the day begins:
+
+- `01:30`: review seven-day and overnight demand, prepare the `06:45` and
+  `07:45` Vietnam news slots, and schedule the day's Korean evergreen stories.
+- `10:30`: recheck current Trends and official releases, then prepare or update
+  the `11:45` and `14:30` Vietnam news slots.
+- `17:30`: recheck afternoon official releases and prepare up to three verified
+  Vietnam news articles for `18:00`, `19:30`, and `21:30`.
+
+Do not pre-fill later news slots at 01:30 merely to reach the daily target. If a
+topic develops during the day, update the existing article instead of creating
+a near-duplicate URL.
+
 ## Google Trends input
 
 Before selecting stories, review both:
@@ -75,6 +91,29 @@ Vietnamese, a distinct angle, at least four substantive sections and roughly
 practical decision criteria. Run a final safety and privacy review. Build the
 site, verify that future posts remain unavailable, then publish the validated
 change.
+
+## Kim ở Việt Nam: first-hand reviews
+
+`Kim ở Việt Nam` is reserved for genuine first-hand material supplied by the
+site owner: personal notes, photographs they have the right to publish,
+receipts with private data removed, purchase details, or a clearly described
+visit. Never invent an experience, a purchase, a result, or a photograph to
+fill this category.
+
+Each first-hand article must state the author, approximate experience date and
+area, what was personally observed, whether the item or visit was paid for,
+and whether any sponsorship or free product existed. Include strengths,
+limitations, who the experience may suit, and details another reader can
+verify. Remove faces, vehicle plates, receipt identifiers, precise home
+locations and other private or security-sensitive information.
+
+A draft produced in Claude or another writing tool is input, not evidence.
+Check it against the owner's factual notes and photographs, then edit for
+natural Vietnamese, unsupported claims, promotional language, and disclosure.
+Do not publish an empty category page. Add `Kim ở Việt Nam` to the primary
+navigation and the first editorial block below the homepage hero only after at
+least three substantial first-hand articles are ready. A first-hand article
+replaces one Korean-story slot; it does not increase the daily total.
 
 ## Tin mới Việt Nam
 
