@@ -54,6 +54,29 @@ Do not pre-fill later news slots at 01:30 merely to reach the daily target. If a
 topic develops during the day, update the existing article instead of creating
 a near-duplicate URL.
 
+## Facebook distribution
+
+The `Kim Bắc Ninh` Facebook Page distributes a small selection of already
+published Dabangzz articles. Facebook is a discovery channel, not a second
+content quota. Never publish an article to Facebook before its public website
+URL is available.
+
+Use four daily share slots in `Asia/Ho_Chi_Minh`:
+
+- `07:10`: the newest eligible Vietnam news article;
+- `12:10`: the newest eligible Vietnam news article;
+- `16:50`: the newest eligible Korean story;
+- `21:50`: the newest eligible Vietnam news article.
+
+Each run may create at most one Page post. Use the article URL as the link
+attachment so Facebook can render the article's own title, summary and hero
+image. Keep the message concise and put the same canonical URL in the body for
+accessibility. Check the Page's recent published posts first and skip an exact
+article URL that has already been shared. If the duplicate check fails, fail
+closed and publish nothing. Do not add a first-comment link, engagement bait,
+copied source imagery or unrelated hashtags. Do not share thin, corrected-but-
+unverified, future-dated or withdrawn articles.
+
 ## Google Trends input
 
 Before selecting stories, review both:
