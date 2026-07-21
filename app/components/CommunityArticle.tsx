@@ -36,12 +36,12 @@ export default function CommunityArticle({ post, posts }: { post: CommunityPost;
   </figure>;
 
   return <main className="story-page">
-    <header className="story-header"><Link className="brand" href="/">dabang<span>zz</span></Link><nav aria-label="Điều hướng bài viết"><Link href="/">Bài mới</Link><Link href="/chinh-sach-bien-tap">Biên tập</Link></nav></header>
+    <header className="story-header"><Link className="brand" href="/">dabang<span>zz</span></Link><nav aria-label="Điều hướng bài viết"><Link href="/">Bài mới</Link><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/chinh-sach-bien-tap">Biên tập</Link></nav></header>
     <article className="story">
       <div className="story-category">{post.category.toUpperCase()}</div>
       <h1>{post.title}</h1>
       <p className="story-deck">{post.summary}</p>
-      <div className="story-meta">{(post.author ?? "DABANGZZ").toUpperCase()} · ĐĂNG {publishedDate(post)}{updatedDate(post) ? ` · CẬP NHẬT ${updatedDate(post)}` : ""} · {post.readTime.toUpperCase()}</div>
+      <div className="story-meta"><Link className="story-author" href="/gioi-thieu">{(post.author ?? "DABANGZZ").toUpperCase()}</Link> · ĐĂNG {publishedDate(post)}{updatedDate(post) ? ` · CẬP NHẬT ${updatedDate(post)}` : ""} · {post.readTime.toUpperCase()}</div>
       {figure(heroImage, "story-hero", "eager")}
       {post.keyFacts?.length ? <aside className="key-facts" aria-labelledby="key-facts-title">
         <div className="key-facts-heading"><span>DỮ KIỆN CHÍNH</span><h2 id="key-facts-title">Những con số cần biết trước khi đọc</h2></div>
@@ -70,6 +70,6 @@ export default function CommunityArticle({ post, posts }: { post: CommunityPost;
       <div className="related-title"><span>ĐỌC TIẾP</span><h2>Câu chuyện cùng chủ đề</h2></div>
       <div className="related-grid">{related.map(item => <a href={`/bai-viet/${item.slug}`} className="related-card" key={item.slug}><div className="related-thumb">{item.category}</div><h3>{item.title}</h3><span>{item.readTime} →</span></a>)}</div>
     </section>
-    <footer><div className="article-footer-links"><Link href="/chinh-sach-bien-tap">Chính sách biên tập</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div><div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA</span></div></footer>
+    <footer><div className="article-footer-links"><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/chinh-sach-bien-tap">Chính sách biên tập</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div><div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA</span></div></footer>
   </main>;
 }

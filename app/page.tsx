@@ -15,6 +15,7 @@ export default function Home() {
           <a href="/kim-o-viet-nam">Kim ở Việt Nam</a>
           <a href="/tin-viet-nam">Tin Việt Nam</a>
           <a href="/chuyen-han-quoc">Chuyện Hàn Quốc</a>
+          <a href="/gioi-thieu">Giới thiệu</a>
           <a href="/chinh-sach-bien-tap">Biên tập</a>
         </nav>
         <a className="header-cta" href="#latest">Đọc ngay <span>↘</span></a>
@@ -29,7 +30,7 @@ export default function Home() {
       <div className="hero-intro">
         <span>01 / VỀ DABANGZZ</span>
         <p>Dabangzz theo dõi nhu cầu tìm kiếm tại Việt Nam, đối chiếu nguồn chính thức và viết bài giải thích có số liệu. Kim ghi lại những trải nghiệm tự thanh toán tại Việt Nam; chuyện từ Hàn Quốc nằm trong một chuyên mục riêng.</p>
-        <a href="#latest">Xem bài mới nhất <span>→</span></a>
+        <a href="/gioi-thieu">Tìm hiểu cách chúng tôi làm nội dung <span>→</span></a>
       </div>
     </section>
 
@@ -44,7 +45,7 @@ export default function Home() {
 
     <footer>
       <div className="footer-inner"><a className="brand inverse" href="#top">dabang<span>zz</span></a><p>Tin Việt Nam có nguồn. Chuyện Hàn được giải thích.</p></div>
-      <div className="footer-links"><a href="/kim-o-viet-nam">Kim ở Việt Nam</a><a href="/tin-viet-nam">Tin Việt Nam</a><a href="/chuyen-han-quoc">Chuyện Hàn Quốc</a><a href="/chinh-sach-bien-tap">Chính sách biên tập</a><a href="/quyen-rieng-tu">Quyền riêng tư</a><a href="/lien-he">Liên hệ</a></div>
+      <div className="footer-links"><a href="/kim-o-viet-nam">Kim ở Việt Nam</a><a href="/tin-viet-nam">Tin Việt Nam</a><a href="/chuyen-han-quoc">Chuyện Hàn Quốc</a><a href="/gioi-thieu">Giới thiệu</a><a href="/chinh-sach-bien-tap">Chính sách biên tập</a><a href="/quyen-rieng-tu">Quyền riêng tư</a><a href="/lien-he">Liên hệ</a></div>
       <div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA</span></div>
     </footer>
   </main>;

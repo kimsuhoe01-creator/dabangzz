@@ -14,7 +14,7 @@ export default function VietnamNewsPage() {
   return <main id="top">
     <header className="site-header"><div className="header-inner">
       <Link className="brand" href="/">dabang<span>zz</span></Link>
-      <nav aria-label="Điều hướng chính"><Link href="/">Trang chủ</Link><Link href="/kim-o-viet-nam">Kim ở Việt Nam</Link><Link href="/chuyen-han-quoc">Chuyện Hàn Quốc</Link><Link href="/chinh-sach-bien-tap">Biên tập</Link></nav>
+      <nav aria-label="Điều hướng chính"><Link href="/">Trang chủ</Link><Link href="/kim-o-viet-nam">Kim ở Việt Nam</Link><Link href="/chuyen-han-quoc">Chuyện Hàn Quốc</Link><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/chinh-sach-bien-tap">Biên tập</Link></nav>
       <a className="header-cta" href="#latest">Tin mới <span>↘</span></a>
     </div></header>
     <section className="news-intro">
@@ -25,7 +25,7 @@ export default function VietnamNewsPage() {
     <StoryBrowser posts={getPublishedPosts()} defaultFilter="news" />
     <footer>
       <div className="footer-inner"><Link className="brand inverse" href="/">dabang<span>zz</span></Link><p>Nguồn rõ ràng. Giải thích độc lập.</p></div>
-      <div className="footer-links"><Link href="/kim-o-viet-nam">Kim ở Việt Nam</Link><Link href="/chuyen-han-quoc">Chuyện Hàn Quốc</Link><Link href="/chinh-sach-bien-tap">Chính sách biên tập</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div>
+      <div className="footer-links"><Link href="/kim-o-viet-nam">Kim ở Việt Nam</Link><Link href="/chuyen-han-quoc">Chuyện Hàn Quốc</Link><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/chinh-sach-bien-tap">Chính sách biên tập</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div>
       <div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA</span></div>
     </footer>
   </main>;

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import StructuredData from "./components/StructuredData";
 import "./globals.css";
 import "./community.css";
 
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Dabangzz",
     locale: "vi_VN",
     type: "website",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Dabangzz — Chuyện Hàn, kể rõ ràng" }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Dabangzz" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -25,5 +26,34 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({children}:{children:React.ReactNode}) {
-  return <html lang="vi"><body>{children}</body></html>;
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://dabangzz.com/#website",
+        name: "Dabangzz",
+        url: "https://dabangzz.com/",
+        inLanguage: "vi-VN",
+        publisher: { "@id": "https://dabangzz.com/#publisher" },
+      },
+      {
+        "@type": "NewsMediaOrganization",
+        "@id": "https://dabangzz.com/#publisher",
+        name: "Dabangzz",
+        url: "https://dabangzz.com/",
+        description: "Ấn phẩm trực tuyến độc lập giải thích tin Việt Nam, đăng trải nghiệm trực tiếp tại Việt Nam và chọn lọc chuyện Hàn Quốc.",
+        founder: { "@type": "Person", name: "Kim", url: "https://dabangzz.com/gioi-thieu" },
+        address: { "@type": "PostalAddress", addressRegion: "Bắc Ninh", addressCountry: "VN" },
+        contactPoint: {
+          "@type": "ContactPoint",
+          contactType: "editorial corrections and copyright",
+          url: "https://dabangzz.com/lien-he",
+          availableLanguage: ["vi", "ko"],
+        },
+      },
+    ],
+  };
+
+  return <html lang="vi"><body><StructuredData data={structuredData} />{children}</body></html>;
 }
