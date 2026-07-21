@@ -104,6 +104,98 @@ export const posts20260721: CommunityPost[] = [
     ],
   },
   {
+    slug: "the-can-cuoc-vneid-va-can-cuoc-dien-tu",
+    kind: "news",
+    category: "Tin mới Việt Nam · Dịch vụ số",
+    title: "‘Thẻ căn cước’ tăng tìm kiếm: đừng nhầm thẻ vật lý, căn cước điện tử và VNeID",
+    summary: "Google Trends ghi nhận nhu cầu tìm kiếm tăng mạnh trong 24 giờ, nhưng đây không tự động là dấu hiệu có quy định mới; người dùng cần phân biệt đúng công cụ trước khi làm dịch vụ công.",
+    readTime: "12 phút đọc",
+    hero: "PHYSICAL & DIGITAL\nIDENTITY",
+    images: [{
+      src: "/images/editorial/the-can-cuoc-vneid-20260721.webp",
+      alt: "Minh họa bàn tay so sánh thẻ căn cước vật lý với tài khoản định danh trên điện thoại",
+    }],
+    publishedAt: "2026-07-21T14:30:00+07:00",
+    updatedAt: "2026-07-21T10:43:00+07:00",
+    keyFacts: [
+      { label: "TÍN HIỆU TÌM KIẾM", value: "50 nghìn+", note: "Mức Google Trends hiển thị cho cụm ‘thẻ căn cước’ trong ảnh chụp dữ liệu 24 giờ lúc 10:30 ngày 21/7; con số có thể tiếp tục thay đổi." },
+      { label: "VĂN BẢN MỚI", value: "66.22/2026/NQ-CP", note: "Nghị quyết về phát triển công dân số được Cổng Thông tin điện tử Chính phủ công bố ngày 13/7/2026." },
+      { label: "TÍCH HỢP CƠ BẢN", value: "05 loại", note: "Là một điều kiện trong chính sách khuyến khích; cần đối chiếu đúng Phụ lục I và thủ tục cụ thể, không phải mọi giấy tờ đều tự động tích hợp." },
+      { label: "PHÍ TRÊN VNEID", value: "Có điều kiện", note: "Miễn hoặc giảm chỉ áp dụng cho thủ tục, thời hạn và điều kiện được văn bản tương ứng quy định." },
+      { label: "KÊNH ĐĂNG NHẬP", value: "VNeID", note: "Cổng Dịch vụ công Quốc gia cho biết dữ liệu cá nhân cần thiết được đồng bộ từ VNeID khi người dân đăng nhập." },
+    ],
+    sourceLinks: [
+      {
+        label: "Google Trends Việt Nam — Xu hướng tìm kiếm trong 24 giờ",
+        url: "https://trends.google.com/trending?geo=VN&hl=vi",
+      },
+      {
+        label: "Cổng Thông tin điện tử Chính phủ — Nghị quyết 66.22/2026/NQ-CP về phát triển công dân số",
+        url: "https://xaydungchinhsach.chinhphu.vn/nghi-quyet-6622-2026-nq-cp-ve-phat-trien-cong-dan-so-119260713165753546.htm",
+      },
+      {
+        label: "Công báo điện tử — Thông tư 29/2026/TT-BTC về phí, lệ phí trên VNeID",
+        url: "https://congbao.chinhphu.vn/van-ban/thong-tu-so-29-2026-tt-btc-469232.htm",
+      },
+      {
+        label: "Cổng Dịch vụ công Quốc gia — Đăng nhập bằng tài khoản định danh điện tử",
+        url: "https://dangky.dichvucong.gov.vn/",
+      },
+    ],
+    sections: [
+      {
+        heading: "Tìm kiếm tăng không đồng nghĩa vừa có lệnh đổi thẻ",
+        paragraphs: [
+          "Trong bảng xu hướng 24 giờ của Google Trends Việt Nam được Dabangzz kiểm tra lúc 10:30 ngày 21/7/2026, cụm ‘thẻ căn cước’ đứng ở nhóm đầu với hơn 50 nghìn lượt tìm kiếm ước tính và trạng thái còn hoạt động. Trends cho biết mức quan tâm tăng so với thông thường, nhưng không cho biết chính xác vì sao từng người tìm và không phải nguồn xác nhận một quy định hành chính. Một đoạn video, lịch hẹn địa phương hoặc câu hỏi về VNeID đều có thể góp vào cùng cụm từ.",
+          "Vì vậy, không nên nhìn con số tìm kiếm rồi kết luận rằng tất cả công dân phải đổi thẻ ngay trong ngày 21/7. Trước khi đi làm thủ tục, hãy xác định câu hỏi thật của mình: thẻ vật lý hết hạn hay bị mất, tài khoản VNeID chưa kích hoạt, thông tin trên ứng dụng chưa khớp, hay một dịch vụ công đang yêu cầu xác thực. Mỗi tình huống có quy trình và cơ quan hỗ trợ khác nhau; bài đăng lan truyền không thể thay cho thông báo ghi rõ đối tượng, địa bàn và ngày hiệu lực.",
+        ],
+      },
+      {
+        heading: "Ba khái niệm thường bị gọi chung là ‘căn cước’",
+        paragraphs: [
+          "Thẻ căn cước vật lý là giấy tờ được cơ quan có thẩm quyền cấp và có thông tin, thời hạn theo hồ sơ của người sở hữu. Tài khoản định danh điện tử là tài khoản dùng để xác thực danh tính trên môi trường số. Căn cước điện tử là phần căn cước của công dân được thể hiện thông qua tài khoản định danh điện tử theo khung pháp luật về căn cước và định danh. VNeID là ứng dụng giúp người dùng truy cập tài khoản cùng các tiện ích được tích hợp; ứng dụng không biến mọi ảnh chụp giấy tờ trong điện thoại thành giấy tờ điện tử hợp lệ.",
+          "Sự phân biệt này có tác dụng thực tế. Nếu thẻ vật lý bị hỏng, việc cập nhật ứng dụng không tự sửa thẻ. Nếu đổi điện thoại và không đăng nhập được, làm lại thẻ vật lý chưa chắc giải quyết đúng vấn đề. Nếu một giấy tờ chưa hiển thị trong VNeID, nguyên nhân có thể nằm ở phiên bản ứng dụng, dữ liệu chưa đồng bộ hoặc điều kiện tích hợp. Hãy đọc thông báo trong tài khoản và liên hệ đúng đầu mối thay vì đăng công khai ảnh thẻ, số định danh hay màn hình có mã xác thực.",
+        ],
+        quote: "Một cụm từ tìm kiếm có thể chứa ba nhu cầu khác nhau: giấy tờ vật lý, danh tính điện tử và quyền truy cập dịch vụ số.",
+      },
+      {
+        heading: "Nghị quyết 66.22/2026/NQ-CP thay đổi điều gì cần chú ý?",
+        paragraphs: [
+          "Cổng Thông tin điện tử Chính phủ công bố ngày 13/7 toàn văn Nghị quyết 66.22/2026/NQ-CP về phát triển công dân số. Văn bản nêu quyền của công dân trong quản lý việc khai thác, sử dụng dữ liệu cá nhân và tiếp cận dịch vụ số; đồng thời nêu trách nhiệm phối hợp cung cấp, cập nhật, tích hợp thông tin chính xác vào tài khoản định danh điện tử và các cơ sở dữ liệu liên quan. Đây là định hướng vận hành hệ sinh thái số, không phải lời nhắc người dân gửi dữ liệu cho bất kỳ đường link nào tự xưng là hỗ trợ VNeID.",
+          "Nghị quyết cũng mô tả VNeID như nền tảng hỗ trợ truy cập dữ liệu, xác thực điện tử, dịch vụ công, chữ ký số và thanh toán hợp pháp. Điều cần ghi nhớ là các chức năng được triển khai theo lộ trình và điều kiện của từng dịch vụ. Một mục tiêu phát triển nền tảng không đồng nghĩa mọi tính năng đã có đồng loạt trên mọi tài khoản, mọi tỉnh hoặc mọi phiên bản ứng dụng. Khi không thấy tiện ích, hãy kiểm tra bản cập nhật chính thức và thông báo của cơ quan phụ trách thủ tục đó.",
+        ],
+      },
+      {
+        heading: "‘Tích hợp 05 loại thông tin’ không có nghĩa mọi thủ tục đều miễn phí",
+        paragraphs: [
+          "Nghị quyết quy định công dân hoàn thành tích hợp năm loại thông tin, giấy tờ cơ bản tại Phụ lục I và thực hiện thủ tục đáp ứng điều kiện ở các phụ lục liên quan thì được miễn hoặc giảm khoản phí, lệ phí tương ứng. Cụm quan trọng là ‘đáp ứng điều kiện’. Người dùng cần xem tài khoản của mình đã đạt mức nào, thủ tục định làm có nằm trong danh sách hay không, ưu đãi áp dụng trong thời gian nào và hệ thống đã hiển thị quyền lợi chưa. Không nên suy rộng thành tất cả giao dịch trên VNeID đều bằng 0 đồng.",
+          "Thông tư 29/2026/TT-BTC của Bộ Tài chính, có hiệu lực từ 1/4/2026, là một nguồn cần đối chiếu khi tìm mức thu, miễn đối với một số dịch vụ thực hiện qua VNeID. Bản thân tiêu đề văn bản đã giới hạn ở ‘một số’ khoản phí và lệ phí. Nếu màn hình thanh toán khác với con số bạn đọc trên mạng, đừng chuyển tiền qua tài khoản cá nhân để giữ hồ sơ. Hãy ghi lại tên thủ tục, thời điểm, trạng thái hồ sơ và hỏi kênh hỗ trợ chính thức trước khi thử lại.",
+        ],
+      },
+      {
+        heading: "Checklist trước khi dùng căn cước hoặc VNeID làm dịch vụ công",
+        paragraphs: [
+          "Trước hết, kiểm tra đúng tên miền và ứng dụng chính thức; tránh liên kết rút gọn gửi qua tin nhắn lạ. Tiếp theo, đọc yêu cầu của đúng thủ tục để biết cần thẻ vật lý, tài khoản mức độ phù hợp, giấy tờ đã tích hợp hay bản điện tử được cấp từ hệ thống. Sau khi đăng nhập Cổng Dịch vụ công Quốc gia bằng VNeID, trang đăng nhập cho biết các dữ liệu cá nhân cần thiết như họ tên, ngày sinh, giới tính và số điện thoại được đồng bộ để phục vụ giải quyết thủ tục. Người dùng vẫn phải kiểm tra thông tin trước khi nộp.",
+          "Nếu dữ liệu sai, không tự sửa bằng cách tạo tài khoản mới hoặc mượn tài khoản của người khác. Chụp lại mã lỗi nhưng che số định danh, địa chỉ, mã QR, số hồ sơ và thông tin thanh toán trước khi gửi cho bộ phận hỗ trợ. Ghi giờ xảy ra lỗi, loại thiết bị, phiên bản ứng dụng và bước đang thực hiện. Những chi tiết kỹ thuật này hữu ích hơn ảnh toàn bộ thẻ căn cước được đăng trong nhóm công khai.",
+        ],
+      },
+      {
+        heading: "Bảo vệ dữ liệu trong lúc tìm cách ‘làm nhanh’",
+        paragraphs: [
+          "Không cung cấp mật khẩu, passcode, mã OTP hoặc quyền điều khiển điện thoại cho người tự xưng là cán bộ hỗ trợ qua mạng xã hội. Cơ quan thật có thể cần xác minh theo quy trình, nhưng một yêu cầu chuyển tiền vào tài khoản cá nhân, cài ứng dụng điều khiển từ xa hoặc đọc mã xác thực ngay trong cuộc gọi là dấu hiệu phải dừng lại. Với thiết bị dùng chung, đăng xuất sau khi hoàn tất và không lưu ảnh hai mặt thẻ trong thư mục công khai hoặc dịch vụ đám mây không được bảo vệ.",
+          "Khi cần nhờ người thân thao tác, người sở hữu tài khoản nên trực tiếp quan sát và tự nhập thông tin bí mật. Không gửi ảnh màn hình chứa toàn bộ hồ sơ qua nhiều nhóm chỉ để hỏi một lỗi. Quyền sử dụng dịch vụ số đi cùng quyền kiểm soát dữ liệu; nhanh hơn vài phút không đáng để đổi lấy nguy cơ mất tài khoản hoặc để lộ thông tin định danh lâu dài.",
+        ],
+      },
+      {
+        heading: "Theo dõi cập nhật ở đâu để không chạy theo tin đồn?",
+        paragraphs: [
+          "Bắt đầu từ thông báo trong VNeID, Cổng Dịch vụ công Quốc gia và cổng thông tin của cơ quan đang xử lý thủ tục. Khi đọc một bài nói về đổi thẻ hoặc ưu đãi phí, hãy tìm số hiệu văn bản, ngày hiệu lực, nhóm đối tượng và phụ lục được viện dẫn. Nếu chỉ có ảnh chụp không rõ nguồn hoặc câu ‘ai cũng phải làm’, chưa đủ căn cứ để đặt lịch, nộp tiền hay gửi dữ liệu cá nhân.",
+          "Dabangzz ghi nhận xu hướng tìm kiếm lúc 10:30 ngày 21/7 và dùng nó để xác định câu hỏi cần giải thích, không dùng Trends để chứng minh thay đổi pháp luật. Các liên kết nguồn ở cuối bài dẫn tới văn bản và cổng chính thức. Nếu cơ quan có thẩm quyền phát hành hướng dẫn mới làm thay đổi quy trình, bài này sẽ được cập nhật thời điểm sửa thay vì tạo một URL khác với nội dung gần giống.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "chuc-sinh-nhat-trong-nhom-chat-cong-ty-han",
     category: "Công sở · Giao tiếp",
     title: "Chúc sinh nhật trong nhóm chat công ty Hàn: thân tình hay thêm một nghĩa vụ?",
@@ -150,6 +242,87 @@ export const posts20260721: CommunityPost[] = [
         paragraphs: [
           "Nhóm có thể thống nhất không yêu cầu mọi người trả lời, không so sánh số lời chúc và không tự động thu tiền mua quà. Người muốn nhắn riêng được nhắn riêng; người chỉ thả phản ứng hoặc không tham gia vẫn không bị đánh giá. Nếu có bánh hoặc ảnh, cần hỏi trước về dị ứng, lịch làm và quyền xuất hiện trong ảnh. Những chi tiết nhỏ này giúp niềm vui không chuyển thành áp lực.",
           "Bài viết tái cấu trúc các mô-típ lặp lại trong thảo luận công khai về đời sống công sở Hàn Quốc; không dùng câu chữ, ảnh, tên, biệt danh hay sự kiện nhận dạng của người đăng. Văn hóa giữa công ty lớn, cửa hàng nhỏ, nhóm quốc tế và từng thế hệ khác nhau đáng kể. Hãy xem đây là khung đặt câu hỏi, không phải mô tả mọi nơi làm việc tại Hàn.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "han-nop-le-phi-xet-tuyen-dai-hoc-2026",
+    kind: "news",
+    category: "Tin mới Việt Nam · Giáo dục",
+    title: "Hạn 17 giờ ngày 21/7: kiểm tra gì khi nộp lệ phí xét tuyển đại học 2026?",
+    summary: "Thí sinh cần thanh toán đúng trong Hệ thống xét tuyển, kiểm tra trạng thái sau giao dịch và dùng đầu mối hỗ trợ phù hợp nếu gặp lỗi; lịch theo tỉnh không giống nhau.",
+    readTime: "11 phút đọc",
+    hero: "ADMISSION FEE\nFINAL CHECK",
+    images: [{
+      src: "/images/editorial/le-phi-xet-tuyen-dai-hoc-20260721.webp",
+      alt: "Minh họa người dự tuyển kiểm tra thanh toán lệ phí trên máy tính và điện thoại trước thời hạn",
+    }],
+    publishedAt: "2026-07-21T11:45:00+07:00",
+    updatedAt: "2026-07-21T10:43:00+07:00",
+    keyFacts: [
+      { label: "HẠN CHUNG", value: "17:00 · 21/7", note: "Mốc kết thúc giai đoạn thanh toán lệ phí xét tuyển trực tuyến năm 2026 theo hướng dẫn chính thức." },
+      { label: "KÊNH NỘP", value: "Hệ thống XT", note: "Thí sinh thực hiện trên Hệ thống đăng ký xét tuyển, không chuyển tiền theo đường link hoặc tài khoản bên ngoài." },
+      { label: "PHƯƠNG THỨC", value: "Mã QR", note: "Hệ thống cho phép thanh toán qua mã QR; có thể dùng tài khoản của thí sinh hoặc nhờ người thân, thầy cô thanh toán trên chính giao diện hồ sơ." },
+      { label: "LỊCH ĐỊA PHƯƠNG", value: "Chia theo nhóm", note: "Ngày 20–21/7 dành cho Vĩnh Long, Đồng Tháp, An Giang, Cần Thơ và Cà Mau; nhóm trước cần liên hệ hỗ trợ nếu đã lỡ lịch." },
+      { label: "HỖ TRỢ", value: "2 đầu mối", note: "1800 8000 nhánh 2 cho Hệ thống xét tuyển; 18001096 cho lỗi tại Cổng thanh toán Dịch vụ công Quốc gia." },
+    ],
+    sourceLinks: [
+      {
+        label: "Bộ Giáo dục và Đào tạo — Quyết định 3037/QĐ-BGDĐT, kế hoạch tuyển sinh 2026",
+        url: "https://tuyensinh.moet.gov.vn/ts/van-ban/ban-hanh-ke-hoach-trien-khai-cong-tac-tuyen-sinh-dai-hoc-tuyen-sinh-cao-dang-nam-2026--f2654e6f-19f3-4b25-b7b1-fc02d18dab6f",
+      },
+      {
+        label: "Cổng Thông tin điện tử Chính phủ — Hướng dẫn thanh toán lệ phí xét tuyển đại học 2026",
+        url: "https://xaydungchinhsach.chinhphu.vn/huong-dan-thanh-toan-truc-tuyen-le-phi-xet-tuyen-dai-hoc-2026-119260716115111114.htm",
+      },
+      {
+        label: "Hệ thống hỗ trợ tuyển sinh chung của Bộ Giáo dục và Đào tạo",
+        url: "https://thisinh.thitotnghiepthpt.edu.vn/Account/Login",
+      },
+    ],
+    sections: [
+      {
+        heading: "Mốc 17 giờ là hạn hoàn tất bước nào?",
+        paragraphs: [
+          "Theo hướng dẫn được Cổng Thông tin điện tử Chính phủ cập nhật ngày 20/7, giai đoạn nộp lệ phí xét tuyển đại học, cao đẳng năm 2026 kết thúc lúc 17 giờ ngày 21/7. Đây là bước thanh toán cho các nguyện vọng đã đăng ký thuộc diện phải nộp phí, không phải thời gian để tạo lại toàn bộ danh sách nguyện vọng. Thí sinh nên đăng nhập sớm, đối chiếu hồ sơ và trạng thái giao dịch thay vì chờ sát phút cuối mới mở hệ thống.",
+          "Mốc chung không có nghĩa mọi tỉnh đều bắt đầu thanh toán trong cùng một ngày. Bộ Giáo dục và Đào tạo tổ chức theo nhóm địa phương để giảm tải. Ngày 20/7 đến 17 giờ 21/7 là khung của Vĩnh Long, Đồng Tháp, An Giang, Thành phố Cần Thơ và Cà Mau. Thí sinh thuộc các nhóm đã qua lịch nhưng chưa hoàn tất không nên tự tìm một tài khoản nhận tiền khác; cần liên hệ đầu mối hỗ trợ của hệ thống hoặc trường để được hướng dẫn theo tình trạng thật.",
+        ],
+      },
+      {
+        heading: "Ai cần nộp và ai nên kiểm tra lại trước?",
+        paragraphs: [
+          "Hướng dẫn nêu rằng thí sinh có đăng ký nguyện vọng xét tuyển theo phương thức sử dụng điểm thi tốt nghiệp trung học phổ thông thực hiện nghĩa vụ nộp lệ phí. Tuy nhiên, mỗi hồ sơ có thể chứa nhiều phương thức và quy định của cơ sở đào tạo. Đừng suy ra từ việc bạn đã nộp một khoản riêng cho trường rằng trạng thái trên Hệ thống xét tuyển chung chắc chắn hoàn tất. Hãy đăng nhập chính hồ sơ và đọc mục thanh toán tương ứng.",
+          "Trước khi bấm trả tiền, kiểm tra họ tên, mã hồ sơ, số lượng nguyện vọng hiển thị và tổng khoản hệ thống yêu cầu. Nếu số lượng không khớp với danh sách đã chốt, dừng lại để tìm nguyên nhân; không thanh toán một con số chỉ vì sợ trễ. Người đã giao dịch trước đó cần kiểm tra trạng thái, biên nhận hoặc lịch sử trên hệ thống, không chỉ dựa vào tin nhắn trừ tiền của ngân hàng. Tiền đã trừ và hồ sơ đã ghi nhận là hai thông tin cần đối chiếu riêng.",
+        ],
+        quote: "Hoàn tất thanh toán không chỉ là thấy tiền bị trừ; hồ sơ cần hiển thị trạng thái được hệ thống ghi nhận.",
+      },
+      {
+        heading: "Chỉ thanh toán trên Hệ thống xét tuyển chính thức",
+        paragraphs: [
+          "Cổng hướng dẫn yêu cầu thí sinh nộp phí trên Hệ thống đăng ký xét tuyển tại tên miền thisinh.thitotnghiepthpt.edu.vn. Giao diện năm 2026 hỗ trợ thanh toán bằng mã QR. Thí sinh có thể dùng tài khoản ngân hàng hoặc ví điện tử của mình, hoặc nhờ người thân, thầy cô thanh toán hộ, nhưng thao tác vẫn phải bắt đầu từ giao diện thanh toán trong hồ sơ của thí sinh. Việc nhờ thanh toán không đồng nghĩa gửi mật khẩu hoặc mã đăng nhập cho người lạ.",
+          "Không chuyển tiền theo số tài khoản xuất hiện trong bình luận, nhóm chat hoặc tin nhắn tự nhận là ‘mở lại hồ sơ’. Kiểm tra kỹ tên miền trước khi đăng nhập và không quét QR từ ảnh được gửi bên ngoài nếu chưa đối chiếu với màn hình chính thức. Sau khi giao dịch, lưu mã tham chiếu, thời gian và ảnh trạng thái đã che thông tin nhạy cảm. Những dữ liệu này giúp bộ phận hỗ trợ tra cứu nếu hệ thống và ngân hàng cập nhật không đồng thời.",
+        ],
+      },
+      {
+        heading: "Không thấy nút ‘Thanh toán’ hoặc hệ thống bị nghẽn thì làm gì?",
+        paragraphs: [
+          "Hướng dẫn chính thức cho biết nút thanh toán có thể không xuất hiện khi không nằm trong khung thời gian được phân bổ hoặc tạm ẩn để chống nghẽn. Điều đó không tự động có nghĩa hồ sơ đã bị xóa. Trước hết, kiểm tra địa phương nơi đã nộp hồ sơ, thời gian hiện tại và trạng thái đăng nhập. Không bấm làm mới liên tục trên nhiều thiết bị, vì hành động lặp lại có thể làm phiên đăng nhập khó theo dõi hơn.",
+          "Khi kết nối thanh toán bị tắc, cơ quan hướng dẫn khuyên chờ khoảng 30 phút rồi thử lại. Trong lúc chờ, ghi lại ảnh lỗi, giờ, bước xảy ra và phương thức đã chọn. Nếu tiền đã bị trừ, không trả thêm lần hai chỉ để chắc chắn trước khi có hướng dẫn. Hãy kiểm tra lịch sử giao dịch của ngân hàng và trạng thái trong hồ sơ, sau đó liên hệ đúng đầu mối với mã tham chiếu. Tránh đăng công khai số căn cước, tài khoản, mã QR hoặc toàn bộ màn hình hồ sơ.",
+        ],
+      },
+      {
+        heading: "Hai số hỗ trợ phục vụ hai loại lỗi khác nhau",
+        paragraphs: [
+          "Đối với vấn đề chung của Hệ thống đăng ký nguyện vọng, hướng dẫn công bố tổng đài 1800 8000, nhánh số 2. Nếu lỗi xuất hiện sau khi đã chọn phương thức thanh toán trên Cổng thanh toán Dịch vụ công Quốc gia, đầu mối được nêu là 18001096. Thí sinh cũng có thể liên hệ trường phổ thông hoặc thầy cô phụ trách công nghệ thông tin đang hỗ trợ tuyển sinh. Chọn đúng đầu mối giúp tránh việc phải kể lại toàn bộ sự việc nhiều lần.",
+          "Khi gọi, chuẩn bị mã hồ sơ, tỉnh hoặc thành phố nơi nộp hồ sơ, thời điểm, tên bước, thông báo lỗi và mã giao dịch nếu có. Chỉ cung cấp dữ liệu cần thiết qua kênh chính thức; không đọc mã OTP, mật khẩu ngân hàng hoặc cho phép điều khiển từ xa điện thoại. Nếu tổng đài bận gần hạn, giữ lại bằng chứng đã chủ động liên hệ và tiếp tục theo dõi thông báo chính thức trên hệ thống, thay vì tin lời hứa xử lý có thu phí từ tài khoản mạng xã hội.",
+        ],
+      },
+      {
+        heading: "Sau khi hệ thống ghi nhận, còn những mốc nào?",
+        paragraphs: [
+          "Thanh toán lệ phí không phải thông báo trúng tuyển. Theo kế hoạch được Bộ Giáo dục và Đào tạo công bố, các cơ sở đào tạo công bố điểm trúng tuyển và kết quả đợt 1 trước 17 giờ ngày 13/8/2026. Thí sinh đủ điều kiện và có nguyện vọng theo học phải xác nhận nhập học trực tuyến trước 17 giờ ngày 21/8/2026. Mỗi mốc có ý nghĩa khác nhau: nộp phí để hoàn thành bước xét tuyển, xem kết quả, rồi xác nhận nhập học.",
+          "Từ nay đến lúc có kết quả, lưu thông tin đăng nhập ở nơi an toàn, theo dõi trang chính thức của Hệ thống và cơ sở đào tạo, đồng thời cảnh giác với tin nhắn yêu cầu nộp thêm tiền để ‘giữ suất’. Khi chia sẻ lịch cho bạn bè, ghi đủ năm 2026, múi giờ Việt Nam và tên bước để tránh nhầm với lịch năm trước. Bài viết được cập nhật theo nguồn chính thức lúc 10:30 ngày 21/7; nếu hệ thống có thông báo gia hạn hoặc điều chỉnh, thông báo mới của Bộ là căn cứ ưu tiên.",
         ],
       },
     ],
