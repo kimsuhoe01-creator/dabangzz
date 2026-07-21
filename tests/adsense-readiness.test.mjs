@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 async function fetchPage(pathname) {
@@ -31,7 +32,16 @@ test("publishes clear ownership and working contact information", async () => {
 test("discloses current advertising state and article provenance", async () => {
   const privacy = await fetchPage("/quyen-rieng-tu");
   assert.equal(privacy.status, 200);
-  assert.match(await privacy.text(), /chưa phục vụ quảng cáo Google AdSense/);
+  const privacyHtml = await privacy.text();
+  assert.match(privacyHtml, /đã cài mã Google AdSense để xác minh/);
+  assert.match(privacyHtml, /quảng cáo có thể chưa xuất hiện/);
+
+  const home = await fetchPage("/");
+  assert.equal(home.status, 200);
+  assert.match(await home.text(), /ca-pub-9173524239392546/);
+
+  const adsTxt = await readFile(new URL("../public/ads.txt", import.meta.url), "utf8");
+  assert.equal(adsTxt.trim(), "google.com, pub-9173524239392546, DIRECT, f08c47fec0942fa0");
 
   const article = await fetchPage("/bai-viet/sinh-nhat-vo-tai-labri-ha-noi");
   assert.equal(article.status, 200);

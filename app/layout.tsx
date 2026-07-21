@@ -55,5 +55,16 @@ export default function RootLayout({children}:{children:React.ReactNode}) {
     ],
   };
 
-  return <html lang="vi"><body><StructuredData data={structuredData} />{children}</body></html>;
+  return (
+    <html lang="vi">
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9173524239392546"
+          crossOrigin="anonymous"
+        />
+      </head>
+      <body><StructuredData data={structuredData} />{children}</body>
+    </html>
+  );
 }

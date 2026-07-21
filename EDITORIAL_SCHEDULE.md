@@ -179,9 +179,11 @@ translation, sentence-level paraphrase, keyword stuffing, near-duplicate angles,
 clickbait unsupported by the body, and pages created mainly to hold ads.
 
 Keep the editorial-policy, privacy, and contact pages reachable from the site
-footer. Do not add fake ad boxes. Do not add AdSense code, `ads.txt`, a publisher
-ID, or a consent claim until the account owner supplies the real values and the
-site is actually enrolled.
+footer. Do not add fake ad boxes. On 21 July 2026 the owner enrolled the site in
+AdSense and Google issued publisher ID `pub-9173524239392546`; the matching
+verification script and `ads.txt` entry must remain in place while review is in
+progress. Do not describe the site as approved, do not add ad units or invent a
+consent status until the AdSense account shows the corresponding live state.
 
 ## AI image rules
 
