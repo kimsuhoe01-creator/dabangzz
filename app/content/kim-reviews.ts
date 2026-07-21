@@ -23,7 +23,7 @@ export const kimReviews: CommunityPost[] = [
       "Bàn ăn được chuẩn bị cho sinh nhật của vợ tôi tại LABRI",
     )],
     publishedAt: "2026-07-21T09:40:00+07:00",
-    updatedAt: "2026-07-21T09:49:00+07:00",
+    updatedAt: "2026-07-21T09:52:00+07:00",
     keyFacts: [
       { label: "THỜI ĐIỂM TRẢI NGHIỆM", value: "20/7/2026", note: "Bữa tối sinh nhật tại Hà Nội; giá và món ăn phản ánh đúng lần ghé này." },
       { label: "TASTING MENU", value: "1.980.000đ/người", note: "Mức in trên thực đơn tại bàn, chưa gồm 5% phí phục vụ và thuế." },
@@ -136,7 +136,7 @@ export const kimReviews: CommunityPost[] = [
         heading: "Trứng mực và bí non: món xuất sắc nhất của cả hai vợ chồng",
         paragraphs: [
           "Tôi đã ăn mực đầy trứng rất nhiều lần từ khi sống ở Việt Nam, đến mức nghĩ mình hiểu rõ nguyên liệu này. Đĩa squid eggs ở LABRI khiến chuẩn đó phải đặt lại. Menu ghi trứng mực trong lemon butter sauce và pine nut purée; khi ăn, cảm giác đầu tiên gần với kem hoặc phô mai hơn là phần trứng mực thường gặp: dày, mịn, béo và thơm, nhưng vẫn nhận ra bản chất hải sản.",
-          "Bí non nướng và sốt màu cam tạo phần khung cho trứng mực, còn những miếng nhỏ trong sốt khiến mỗi lần nhai có thêm một lớp kết cấu. Cả hai vợ chồng đều phản ứng gần như cùng lúc, không cần trao đổi nhiều để thống nhất đây là điểm cao nhất của tối hôm đó. Trong một menu dài, có một món khiến hai người dừng nói để tập trung ăn là điều đáng giá.",
+          "Bí non nướng và sốt màu cam tạo phần khung cho trứng mực. Trong sốt còn có những miếng nhỏ, khi nhai tôi cảm giác chúng giống thịt hơn là những mảnh trứng mực; tuy nhiên tôi không hỏi lại nên không thể xác nhận chính xác đó là loại thịt hay nguyên liệu nào. Lớp kết cấu bất ngờ ấy vẫn khiến món ăn thú vị hơn. Cả hai vợ chồng đều phản ứng gần như cùng lúc, không cần trao đổi nhiều để thống nhất đây là điểm cao nhất của tối hôm đó.",
           "Tôi vẫn tránh gọi đây là ‘món ngon nhất Hà Nội’ hoặc một kết luận tuyệt đối. Nó hợp đúng trải nghiệm và vốn so sánh của chúng tôi vào tối ấy. Người không thích kết cấu nội tạng hoặc vị béo đậm có thể cảm nhận khác. Nhưng nếu đã quen ăn trứng mực ở Việt Nam và muốn thấy nguyên liệu đó được đẩy sang một ngôn ngữ khác, đây là chặng đáng chờ.",
         ],
         images: [photo(
