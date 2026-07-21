@@ -130,6 +130,14 @@ limitations, who the experience may suit, and details another reader can
 verify. Remove faces, vehicle plates, receipt identifiers, precise home
 locations and other private or security-sensitive information.
 
+Use a warm, supportive owner-to-owner tone. Lead with what the business did
+well and give praise concrete detail rather than generic compliments. Keep any
+negative point factually accurate, brief and proportionate; describe it as a
+light personal disappointment or preference instead of delivering a harsh
+verdict. Do not hide material safety, hygiene, billing or disclosure problems,
+but do not exaggerate minor taste differences into warnings. The overall goal
+is a fair recommendation that respects both readers and small-business owners.
+
 A draft produced in Claude or another writing tool is input, not evidence.
 Check it against the owner's factual notes and photographs, then edit for
 natural Vietnamese, unsupported claims, promotional language, and disclosure.
