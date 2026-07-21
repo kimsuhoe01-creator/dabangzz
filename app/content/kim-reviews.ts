@@ -23,12 +23,12 @@ export const kimReviews: CommunityPost[] = [
       "Bàn ăn được chuẩn bị cho sinh nhật của vợ tôi tại LABRI",
     )],
     publishedAt: "2026-07-21T09:40:00+07:00",
-    updatedAt: "2026-07-21T09:40:00+07:00",
+    updatedAt: "2026-07-21T09:49:00+07:00",
     keyFacts: [
       { label: "THỜI ĐIỂM TRẢI NGHIỆM", value: "20/7/2026", note: "Bữa tối sinh nhật tại Hà Nội; giá và món ăn phản ánh đúng lần ghé này." },
       { label: "TASTING MENU", value: "1.980.000đ/người", note: "Mức in trên thực đơn tại bàn, chưa gồm 5% phí phục vụ và thuế." },
       { label: "WINE PAIRING", value: "+990.000đ/người", note: "Hai vợ chồng đều chọn ghép rượu theo món trong lần trải nghiệm này." },
-      { label: "NẤM TRUFFLE", value: "+450.000đ", note: "Chúng tôi gọi một phần bổ sung rồi nhờ chia cho hai đĩa thịt cừu." },
+      { label: "NÂNG CẤP MÓN THỊT", value: "+650.000đ", note: "Vợ tôi đổi sang Wagyu với phụ phí 200.000đ; một phần truffle 450.000đ được chia cho hai đĩa." },
       { label: "TỔNG THANH TOÁN", value: "Khoảng 7,5 triệu đồng", note: "Gồm đồ ăn, wine pairing, truffle, nước có ga, phí phục vụ và thuế." },
       { label: "MINH BẠCH", value: "Tự thanh toán", note: "Không được mời, không tài trợ và không có liên kết đặt bàn nhận hoa hồng." },
     ],
@@ -64,7 +64,6 @@ export const kimReviews: CommunityPost[] = [
         paragraphs: [
           "Vợ chồng tôi có một thói quen: vào những ngày thật sự đặc biệt, chúng tôi dành thời gian cho một bữa ăn mà ngày thường sẽ không chọn. Sinh nhật vợ năm nay, địa điểm là LABRI tại phố Bùi Thị Xuân, Hà Nội. Tôi tò mò vì nhà hàng có dấu ấn của một đầu bếp người Hàn và dùng kỹ thuật Pháp để diễn giải nguyên liệu, hương vị châu Á. Với một người Hàn đang sống ở Việt Nam, sự giao nhau ấy hấp dẫn hơn việc chỉ tìm một căn phòng sang trọng.",
           "LABRI là một trong những nhà hàng xuất hiện ở hạng mục MICHELIN Selected trong ấn bản Việt Nam đầu tiên năm 2023. Sau gần năm năm gắn với LABRI và Hà Nội, Chef Chi Joon Hyuk phát triển ONVIT như một dự án fine dining Hàn Quốc rõ nét hơn. Đến MICHELIN Guide Vietnam 2026, ONVIT mới là nhà hàng nhận một Sao MICHELIN; các nguồn chính thức của Việt Nam cũng giới thiệu đây là nhà hàng Hàn Quốc đương đại đầu tiên tại Việt Nam đạt danh hiệu này.",
-          "Hai tên nhà hàng vì vậy cần được tách thật rõ. Trang MICHELIN Guide hiện tại của LABRI không hiển thị danh hiệu One MICHELIN Star, nên tôi không gọi bữa tối này là trải nghiệm tại ‘LABRI một sao’, dù bản kể đầu tiên đã nhớ và viết như vậy. Chi tiết đáng nói là hành trình nghề nghiệp của vị bếp trưởng đi từ một LABRI được Guide tuyển chọn đến ONVIT một sao, chứ ngôi sao của ONVIT không được chuyển ngược cho LABRI. Tôi cũng không dùng câu ‘đầu bếp Hàn Quốc đầu tiên được đưa vào Guide năm 2023’, vì danh sách chính thức xác nhận LABRI được chọn nhưng không công bố thứ tự hay danh hiệu cá nhân như thế.",
           "Thiệp chúc mừng, hoa đỏ và cách bàn ăn được chuẩn bị tạo cảm giác đặc biệt ngay khi ngồi xuống. Không gian tối, tập trung ánh sáng vào mặt bàn, đủ trang trọng cho sinh nhật nhưng không khiến chúng tôi phải nói chuyện nhỏ như đang ở một buổi lễ. Bài này chỉ kể phạm vi hai vợ chồng trực tiếp ăn và thanh toán; tôi không chấm điểm nhà bếp ở những ngày khác và cũng không xem một bữa tối là kết luận cuối cùng về toàn bộ nhà hàng.",
         ],
         images: [photo(
@@ -77,7 +76,7 @@ export const kimReviews: CommunityPost[] = [
         heading: "Chúng tôi đã gọi gì và hóa đơn 7,5 triệu đồng gồm những gì?",
         paragraphs: [
           "Hai vợ chồng cùng chọn tasting course giá 1.980.000 đồng một người và wine pairing thêm 990.000 đồng một người. Thực đơn in tại bàn đi từ bulgogi cup, crab pie tee, seafood yuzu truffle carpaccio, foie gras terrine, Murray Cod, squid eggs đến lamb rack; khách có thể đổi phần thịt cừu sang Australian Wagyu flap với phụ phí 200.000 đồng. Cuối bữa có món tráng miệng, trà hoặc cà phê và madeleine.",
-          "Cách ghi này cũng giúp sửa một nhầm lẫn trong bản kể đầu tiên: Murray Cod và thịt cừu không phải hai lựa chọn loại trừ nhau. Cá tuyết Murray, trứng mực và phần thịt đều nằm ở các chặng khác nhau; lựa chọn thực sự ở phần thịt là lamb rack hoặc Wagyu phụ phí. Chúng tôi giữ lamb rack, rồi thêm một phần nấm truffle 450.000 đồng để thử. Tổng sau nước có ga, phí phục vụ và thuế vào khoảng 7,5 triệu đồng.",
+          "Cách ghi này cũng giúp làm rõ cấu trúc menu: Murray Cod và món thịt không phải hai lựa chọn loại trừ nhau. Cá tuyết Murray, trứng mực và phần thịt nằm ở các chặng khác nhau; lựa chọn thực sự ở phần thịt là lamb rack hoặc Wagyu phụ phí. Tôi giữ lamb rack, còn vợ đổi phần của cô ấy sang Australian Wagyu flap với phụ phí 200.000 đồng. Chúng tôi gọi thêm một phần nấm truffle 450.000 đồng để thử. Tổng sau nước có ga, phí phục vụ và thuế vào khoảng 7,5 triệu đồng.",
           "Đây là mức giá của tối 20/7/2026, không phải bảng giá cố định cho mọi thời điểm. Nhà hàng có thể thay menu theo mùa, đổi mức phí hoặc cấu trúc ghép rượu. Nếu định đi, tôi khuyên xem menu hiện hành và hỏi rõ phần chưa bao gồm trước khi đặt. Với bữa hai người, chỉ một lựa chọn nâng cấp nhỏ cũng tác động khá rõ đến tổng cuối cùng.",
         ],
       },
@@ -148,9 +147,9 @@ export const kimReviews: CommunityPost[] = [
         quote: "Nếu chỉ được giữ lại ký ức về một món trong bữa tối này, tôi sẽ chọn trứng mực.",
       },
       {
-        heading: "Lamb rack, phần truffle được chia đôi và điều tôi thấy tiếc",
+        heading: "Tôi chọn lamb rack, vợ chọn Wagyu và phần truffle được chia đôi",
         paragraphs: [
-          "Ở chặng thịt, chúng tôi chọn lamb rack. Nhà hàng có tùy chọn thêm nấm truffle với mức 450.000 đồng. Tôi chỉ định thêm cho đĩa của vợ để cả hai nếm thử, nhưng nhân viên chủ động chia phần nấm cho hai đĩa. Một chi tiết phục vụ nhỏ, song đúng kiểu tinh tế khiến khách cảm thấy yêu cầu của mình được hiểu chứ không chỉ được ghi lại.",
+          "Ở chặng thịt, tôi chọn lamb rack, còn vợ chọn Australian Wagyu flap với phụ phí 200.000 đồng. Nhà hàng cũng có tùy chọn thêm nấm truffle với mức 450.000 đồng. Ban đầu tôi chỉ nhờ thêm truffle vào đĩa của vợ để cả hai cùng nếm thử, nhưng nhân viên chủ động chia phần nấm cho hai đĩa. Một chi tiết phục vụ nhỏ, song đúng kiểu tinh tế khiến khách cảm thấy yêu cầu của mình được hiểu chứ không chỉ được ghi lại.",
           "Thịt cừu có hai trải nghiệm trong cùng miếng. Phần nạc cho mùi cừu và gia vị khá rõ, đúng cảm giác đang ăn lamb chứ không phải một loại thịt đỏ trung tính; phần có mỡ mềm hơn hẳn. Điểm tôi chưa thích là lượng sốt nhiều so với thịt và vị khá mặn. Tôi vốn ăn mặn mà vẫn để lại phần lớn sốt. Khi các lát truffle chạm sốt, hương riêng cũng giảm nhanh, khiến khoản nâng cấp không phát huy hết như kỳ vọng.",
           "Đây không phải phàn nàn để phủ định món. Thịt được xử lý tốt và cách trình bày đẹp, nhưng tổng thể thiếu khoảng trống để truffle và vị thịt tự đứng lên. Nếu quay lại với một menu tương tự, tôi có thể giữ lamb rack nhưng bỏ phần thêm truffle, hoặc hỏi liệu có thể để sốt tách bớt. Với người thích sốt đậm, chính điểm tôi thấy nặng lại có thể là ưu điểm.",
         ],
@@ -162,8 +161,8 @@ export const kimReviews: CommunityPost[] = [
           ),
           photo(
             "labri-lamb-rack-truffle-20260720",
-            "Lamb rack với nấm truffle bào, sốt sẫm màu, rau củ và hoa ăn được",
-            "Lamb rack — thịt mềm, nhưng sốt mặn và nhiều làm hương truffle giảm",
+            "Đĩa lamb rack của tác giả với nấm truffle bào, sốt sẫm màu, rau củ và hoa ăn được",
+            "Lamb rack của tôi — thịt mềm, nhưng sốt mặn và nhiều làm hương truffle giảm",
           ),
         ],
       },
