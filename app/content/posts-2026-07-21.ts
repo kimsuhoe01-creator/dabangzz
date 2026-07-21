@@ -2,6 +2,87 @@ import type { CommunityPost } from "./community-posts";
 
 export const posts20260721: CommunityPost[] = [
   {
+    slug: "sap-xep-mang-luoi-truong-hoc-truoc-30-8-2026",
+    kind: "news",
+    category: "Tin mới Việt Nam · Giáo dục",
+    title: "Sắp xếp mạng lưới trường học trước 30/8: phụ huynh cần hiểu đúng điều gì?",
+    summary: "Mốc 30/8/2026 là thời hạn tổ chức lại mạng lưới cơ sở giáo dục theo kế hoạch địa phương, không có nghĩa mọi nơi cùng đóng trường hoặc 30% học sinh phải chuyển chỗ học.",
+    readTime: "12 phút đọc",
+    hero: "SCHOOL NETWORK\nWHAT CHANGES?",
+    images: [{
+      src: "/images/editorial/sap-xep-mang-luoi-truong-hoc-20260721.webp",
+      alt: "Minh họa phụ huynh xem sơ đồ kết nối các cơ sở trường học trong cùng mạng lưới",
+      caption: "Minh họa biên tập; không mô tả một trường hoặc địa phương cụ thể.",
+      credit: "ai",
+    }],
+    publishedAt: "2026-07-21T18:00:00+07:00",
+    updatedAt: "2026-07-21T17:47:00+07:00",
+    keyFacts: [
+      { label: "VĂN BẢN CHỈ ĐẠO", value: "777/TTg-TCCV", note: "Công văn ngày 10/7/2026 về sắp xếp đơn vị sự nghiệp công lập, trong đó có cơ sở giáo dục cấp tỉnh và cấp xã." },
+      { label: "MỐC GẦN", value: "Trước 30/8/2026", note: "Địa phương hoàn thành giai đoạn sắp xếp theo kế hoạch và chuẩn bị điều kiện cho năm học 2026–2027; phương án cụ thể không giống nhau giữa các tỉnh, thành." },
+      { label: "MỤC TIÊU ĐẦU MỐI", value: "Giảm ít nhất 30%", note: "So với ngày 1/7/2025 và tính theo đầu mối cơ sở giáo dục công lập thuộc diện sắp xếp; không phải tỷ lệ học sinh, giáo viên hay số điểm trường tự động bị cắt." },
+      { label: "ĐÁNH GIÁ GIAI ĐOẠN 1", value: "Trước 30/12/2026", note: "Mốc rà soát kết quả bước đầu để làm căn cứ tiếp tục điều chỉnh, không phải ngày áp dụng một phương án giống nhau trên toàn quốc." },
+    ],
+    sourceLinks: [
+      {
+        label: "Cổng Thông tin điện tử Chính phủ — Chỉ đạo tại Công văn 777/TTg-TCCV",
+        url: "https://xaydungchinhsach.chinhphu.vn/thu-tuong-chinh-phu-chi-dao-sap-xep-co-so-giao-duc-cap-tinh-cap-xa-119260711104435071.htm",
+      },
+      {
+        label: "Cổng Thông tin điện tử Chính phủ — Hướng dẫn của Bộ GD&ĐT tại Công văn 4054/BGDĐT-GDPT",
+        url: "https://xaydungchinhsach.chinhphu.vn/huong-dan-day-manh-sap-xep-mang-luoi-co-so-giao-duc-phu-hop-voi-mo-hinh-chinh-quyen-dia-phuong-hai-cap-119260702213143577.htm",
+      },
+      {
+        label: "Cổng Thông tin điện tử Chính phủ — Chi tiết lộ trình và mục tiêu giảm đầu mối",
+        url: "https://xaydungchinhsach.chinhphu.vn/chi-tiet-lo-trinh-sap-xep-sap-nhap-giam-it-nhat-30-dau-moi-co-so-giao-duc-119260703083531555.htm",
+      },
+    ],
+    sections: [
+      {
+        heading: "‘Giảm 30%’ là đầu mối quản lý, không phải 30% học sinh hay điểm trường",
+        paragraphs: [
+          "Thông tin dễ gây hiểu lầm nhất trong đợt sắp xếp này là mục tiêu giảm ít nhất 30% đầu mối cơ sở giáo dục công lập so với ngày 1/7/2025. ‘Đầu mối’ ở đây là đơn vị trong bộ máy tổ chức thuộc diện địa phương rà soát. Con số đó không thể tự động đổi thành 30% trường đóng cửa, 30% điểm trường bị bỏ, 30% giáo viên mất vị trí hoặc 30% học sinh phải chuyển trường.",
+          "Cách đọc an toàn là tách ba lớp thông tin. Lớp thứ nhất là mục tiêu tổ chức bộ máy trên phạm vi rộng. Lớp thứ hai là phương án của từng tỉnh, thành và từng khu vực. Lớp thứ ba mới là thông báo thực hiện tại một trường cụ thể. Chỉ khi lớp thứ ba ghi rõ tên cơ sở, năm học, địa điểm tiếp nhận, tuyến tuyển sinh và thời điểm áp dụng, phụ huynh mới có đủ căn cứ để thay đổi kế hoạch đi học. Một ảnh chụp chỉ có con số 30% mà không kèm đơn vị tính và văn bản địa phương chưa thể trả lời con sẽ học ở đâu.",
+        ],
+        quote: "Mục tiêu giảm đầu mối không đồng nghĩa cắt cùng một tỷ lệ trường, lớp, giáo viên hoặc học sinh ở mọi địa phương.",
+      },
+      {
+        heading: "Mốc 30/8 yêu cầu địa phương hoàn thành việc gì?",
+        paragraphs: [
+          "Công văn 777/TTg-TCCV ngày 10/7/2026 yêu cầu các địa phương đẩy nhanh việc sắp xếp cơ sở giáo dục công lập cấp tỉnh và cấp xã, với mốc hoàn thành trước ngày 30/8/2026 đối với mạng lưới mầm non, phổ thông và giáo dục thường xuyên. Hướng dẫn được Cổng Thông tin điện tử Chính phủ đăng lại từ Công văn 4054/BGDĐT-GDPT của Bộ Giáo dục và Đào tạo cũng đặt giai đoạn từ ngày 1/7 đến trước 30/8 vào bước triển khai, thí điểm mô hình quản lý mới và chuẩn bị năm học 2026–2027.",
+          "Vì vậy, 30/8 nên được hiểu là mốc công việc của cơ quan quản lý chứ không phải một ngày mà toàn bộ học sinh trên cả nước đồng loạt đổi trường. Trước mốc này, địa phương phải rà soát quy mô, điều kiện cơ sở vật chất, đội ngũ, khoảng cách đi lại và nhu cầu học tập để quyết định mô hình phù hợp. Nếu một phương án làm thay đổi nơi học hoặc thủ tục đầu năm, thông tin cần được công bố qua nhà trường, cơ quan giáo dục hoặc chính quyền địa phương. Phụ huynh không nên tự rút hồ sơ chỉ vì đọc một bản tin cấp quốc gia chưa nêu tên trường của mình.",
+        ],
+      },
+      {
+        heading: "Vì sao cùng một chủ trương nhưng mỗi tỉnh có thể làm khác?",
+        paragraphs: [
+          "Mật độ dân cư, địa hình, mạng lưới giao thông và quy mô lớp học khác nhau rất lớn. Một quận đô thị có nhiều cơ sở gần nhau có thể ưu tiên hợp nhất bộ phận quản lý hoặc phân lại chức năng. Khu vực miền núi, hải đảo, biên giới hoặc nơi học sinh phải đi xa lại cần cân nhắc khả năng tiếp cận và an toàn đi lại. Ngay trong cùng một tỉnh, phương án ở trung tâm thành phố không thể sao chép nguyên trạng cho xã xa trung tâm.",
+        ],
+      },
+      {
+        heading: "Năm thông tin phụ huynh nên kiểm tra trước năm học mới",
+        paragraphs: [
+          "Thứ nhất, xác nhận tên pháp lý của trường sau sắp xếp và cơ sở nào trực tiếp tiếp nhận học sinh. Thứ hai, hỏi rõ điểm học có thay đổi hay chỉ thay đổi đơn vị quản lý. Thứ ba, kiểm tra thời gian áp dụng: từ khi phê duyệt, từ đầu năm học 2026–2027 hay sau một giai đoạn chuyển tiếp. Thứ tư, xem tuyến tuyển sinh, hồ sơ, tài khoản học sinh và các khoản thu đã nộp có cần cập nhật hay không. Thứ năm, ghi lại đầu mối giải đáp gồm số điện thoại hoặc kênh thông báo chính thức của trường, phòng hoặc sở giáo dục và chính quyền địa phương.",
+          "Gia đình có con cần hỗ trợ đặc biệt nên hỏi thêm về người phụ trách, phương tiện tiếp cận, lịch can thiệp và việc chuyển tiếp hồ sơ. Gia đình sử dụng xe đưa đón, bán trú hoặc ký túc xá cần xác nhận riêng vì các dịch vụ này có thể phụ thuộc vào địa điểm thực tế hơn tên đơn vị. Khi nhận thông báo, hãy lưu bản đầy đủ có ngày ban hành và cơ quan ký; đừng chỉ giữ một ảnh bị cắt mất phần đầu hoặc phần cuối. Nếu phải nộp lại giấy tờ, che dữ liệu cá nhân trước khi hỏi trong nhóm công khai.",
+        ],
+      },
+      {
+        heading: "Khi nào cần hỏi lại nhà trường hoặc UBND địa phương?",
+        paragraphs: [
+          "Nên hỏi lại khi thông tin từ hai kênh chính thức không khớp, khi thông báo không ghi ngày áp dụng, hoặc khi có thay đổi địa điểm nhưng chưa nói rõ tuyến xe, thời gian đón trả và nơi tiếp nhận hồ sơ. Cũng cần xác minh nếu ai đó yêu cầu chuyển tiền, nộp giấy tờ qua tài khoản cá nhân hoặc bấm đường link không nằm trên kênh của nhà trường hay cơ quan nhà nước. Việc sắp xếp tổ chức không phải lý do để bỏ qua quy trình bảo vệ dữ liệu và chứng từ.",
+          "Câu hỏi nên cụ thể: ‘Học sinh lớp này học tại cơ sở nào từ ngày nào?’, ‘Mã trường và tài khoản trên hệ thống có đổi không?’, ‘Khoản đã nộp được chuyển tiếp thế nào?’ hoặc ‘Văn bản phê duyệt nào đang được áp dụng?’. Câu hỏi cụ thể giúp cơ quan trả lời đúng việc hơn câu ‘trường có bị xóa không?’. Nếu mới chỉ là phương án dự kiến, hãy yêu cầu mốc công bố quyết định cuối cùng thay vì chia sẻ dự kiến như sự việc đã hoàn tất.",
+        ],
+      },
+      {
+        heading: "Sau 30/8 vẫn còn các mốc đánh giá và điều chỉnh",
+        paragraphs: [
+          "Hướng dẫn của Bộ Giáo dục và Đào tạo nêu lộ trình theo giai đoạn: sau bước triển khai trước 30/8, địa phương đánh giá kết quả giai đoạn đầu trước 30/12/2026; từ cuối tháng 3/2027 có thể tiếp tục sắp xếp dựa trên kết quả đánh giá và hướng tới hoàn thành việc củng cố mô hình quản lý trước 30/4/2027. Các mốc này cho thấy đây là một quá trình có kiểm tra và điều chỉnh, không phải một lần đổi tên rồi mọi vấn đề được xem là xong.",
+          "Dabangzz không dùng xu hướng tìm kiếm hay bài đăng mạng xã hội để kết luận một trường cụ thể sẽ sáp nhập. Muốn biết nơi học có thay đổi hay không, hãy ưu tiên quyết định của UBND địa phương, cơ quan giáo dục và thông báo trực tiếp của nhà trường. Nếu văn bản mới thay đổi mốc hoặc phạm vi, bài sẽ được sửa tại URL này và ghi rõ thời điểm cập nhật.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "khac-biet-tieu-chuan-sach-khi-o-chung",
     category: "Đời sống · Ở chung",
     title: "Ở chung nhưng mỗi người hiểu ‘sạch’ một kiểu: thống nhất thế nào để đỡ mệt?",
