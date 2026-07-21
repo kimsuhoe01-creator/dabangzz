@@ -195,15 +195,17 @@ export const posts20260721: CommunityPost[] = [
     images: [{
       src: "/images/editorial/the-can-cuoc-vneid-20260721.webp",
       alt: "Minh họa bàn tay so sánh thẻ căn cước vật lý với tài khoản định danh trên điện thoại",
+      credit: "ai",
     }],
     publishedAt: "2026-07-21T14:30:00+07:00",
-    updatedAt: "2026-07-21T10:43:00+07:00",
+    updatedAt: "2026-07-22T01:50:00+07:00",
     keyFacts: [
       { label: "TÍN HIỆU TÌM KIẾM", value: "50 nghìn+", note: "Mức Google Trends hiển thị cho cụm ‘thẻ căn cước’ trong ảnh chụp dữ liệu 24 giờ lúc 10:30 ngày 21/7; con số có thể tiếp tục thay đổi." },
       { label: "VĂN BẢN MỚI", value: "66.22/2026/NQ-CP", note: "Nghị quyết về phát triển công dân số được Cổng Thông tin điện tử Chính phủ công bố ngày 13/7/2026." },
       { label: "TÍCH HỢP CƠ BẢN", value: "05 loại", note: "Là một điều kiện trong chính sách khuyến khích; cần đối chiếu đúng Phụ lục I và thủ tục cụ thể, không phải mọi giấy tờ đều tự động tích hợp." },
       { label: "PHÍ TRÊN VNEID", value: "Có điều kiện", note: "Miễn hoặc giảm chỉ áp dụng cho thủ tục, thời hạn và điều kiện được văn bản tương ứng quy định." },
       { label: "KÊNH ĐĂNG NHẬP", value: "VNeID", note: "Cổng Dịch vụ công Quốc gia cho biết dữ liệu cá nhân cần thiết được đồng bộ từ VNeID khi người dân đăng nhập." },
+      { label: "HỖ TRỢ TẠI HÀ TĨNH", value: "70.387 tài khoản", note: "Số tài khoản được hỗ trợ kích hoạt thêm trong chiến dịch địa phương từ 1/6 đến 17/7/2026; không phải số liệu toàn quốc." },
     ],
     sourceLinks: [
       {
@@ -222,6 +224,10 @@ export const posts20260721: CommunityPost[] = [
         label: "Cổng Dịch vụ công Quốc gia — Đăng nhập bằng tài khoản định danh điện tử",
         url: "https://dangky.dichvucong.gov.vn/",
       },
+      {
+        label: "Bộ Công an — Chiến dịch ‘Mùa hè số cùng VNeID’ tại Hà Tĩnh",
+        url: "https://mps.gov.vn/bai-viet/dua-tien-ich-so-den-gan-nguoi-dan-tu-chien-dich-mua-he-so-cung-vneid-1784621860",
+      },
     ],
     sections: [
       {
@@ -238,6 +244,13 @@ export const posts20260721: CommunityPost[] = [
           "Sự phân biệt này có tác dụng thực tế. Nếu thẻ vật lý bị hỏng, việc cập nhật ứng dụng không tự sửa thẻ. Nếu đổi điện thoại và không đăng nhập được, làm lại thẻ vật lý chưa chắc giải quyết đúng vấn đề. Nếu một giấy tờ chưa hiển thị trong VNeID, nguyên nhân có thể nằm ở phiên bản ứng dụng, dữ liệu chưa đồng bộ hoặc điều kiện tích hợp. Hãy đọc thông báo trong tài khoản và liên hệ đúng đầu mối thay vì đăng công khai ảnh thẻ, số định danh hay màn hình có mã xác thực.",
         ],
         quote: "Một cụm từ tìm kiếm có thể chứa ba nhu cầu khác nhau: giấy tờ vật lý, danh tính điện tử và quyền truy cập dịch vụ số.",
+      },
+      {
+        heading: "Ví dụ mới tại Hà Tĩnh: hỗ trợ kích hoạt là hoạt động địa phương, không phải lệnh đổi thẻ toàn quốc",
+        paragraphs: [
+          "Ngày 21/7, Bộ Công an đăng thông tin về chiến dịch ‘Mùa hè số cùng VNeID’ do Công an tỉnh Hà Tĩnh phối hợp với các đơn vị địa phương triển khai. Lực lượng công an cơ sở, đoàn viên thanh niên và các tổ chức tham gia hỗ trợ người dân đăng ký, kích hoạt tài khoản định danh điện tử, tích hợp giấy tờ và sử dụng các tiện ích trên ứng dụng. Từ 1/6 đến 17/7/2026, chiến dịch đã hỗ trợ kích hoạt thêm 70.387 tài khoản; tổng số tài khoản đã kích hoạt được nguồn nêu là 151.747 tại thời điểm báo cáo.",
+          "Đây là số liệu và hoạt động của Hà Tĩnh, không nên chia sẻ thành một đợt bắt buộc áp dụng giống nhau trên toàn quốc. Người ở địa phương khác cần xem thông báo của công an hoặc chính quyền nơi mình cư trú để biết có điểm hỗ trợ, thời gian và đối tượng cụ thể hay không. Nếu chỉ cần giải quyết lỗi đăng nhập, hãy chuẩn bị mô tả lỗi và giấy tờ theo hướng dẫn chính thức; không chuyển ảnh căn cước, mã OTP hoặc quyền điều khiển điện thoại cho tài khoản mạng xã hội tự xưng là tình nguyện viên hỗ trợ.",
+        ],
       },
       {
         heading: "Nghị quyết 66.22/2026/NQ-CP thay đổi điều gì cần chú ý?",
