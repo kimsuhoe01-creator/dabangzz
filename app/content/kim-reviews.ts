@@ -22,8 +22,8 @@ export const kimReviews: CommunityPost[] = [
       "Bàn ăn sinh nhật tại LABRI Hà Nội với hoa, thiệp chúc mừng, thực đơn và món khai vị",
       "Bàn ăn được chuẩn bị cho sinh nhật của vợ tôi tại LABRI",
     )],
-    publishedAt: "2026-07-21T10:30:00+07:00",
-    updatedAt: "2026-07-21T09:15:00+07:00",
+    publishedAt: "2026-07-21T09:40:00+07:00",
+    updatedAt: "2026-07-21T09:40:00+07:00",
     keyFacts: [
       { label: "THỜI ĐIỂM TRẢI NGHIỆM", value: "20/7/2026", note: "Bữa tối sinh nhật tại Hà Nội; giá và món ăn phản ánh đúng lần ghé này." },
       { label: "TASTING MENU", value: "1.980.000đ/người", note: "Mức in trên thực đơn tại bàn, chưa gồm 5% phí phục vụ và thuế." },

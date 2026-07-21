@@ -165,7 +165,7 @@ export const posts20260721: CommunityPost[] = [
       src: "/images/editorial/lam-lau-mot-cong-ty-20260721.jpg",
       alt: "Minh họa một nhân viên xem sổ kỹ năng và các hướng phát triển nghề nghiệp",
     }],
-    publishedAt: "2026-07-22T10:30:00+07:00",
+    publishedAt: "2026-07-21T10:30:00+07:00",
     sections: [
       {
         heading: "Số năm là dữ kiện, chưa phải kết luận",
