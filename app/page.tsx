@@ -12,6 +12,7 @@ export default function Home() {
         <a className="brand" href="#top" aria-label="Dabangzz trang chủ">dabang<span>zz</span></a>
         <nav aria-label="Điều hướng chính">
           <a href="#latest">Bài mới</a>
+          <a href="/kim-o-viet-nam">Kim ở Việt Nam</a>
           <a href="/tin-viet-nam">Tin Việt Nam</a>
           <a href="/chuyen-han-quoc">Chuyện Hàn Quốc</a>
           <a href="/chinh-sach-bien-tap">Biên tập</a>
@@ -27,7 +28,7 @@ export default function Home() {
       </div>
       <div className="hero-intro">
         <span>01 / VỀ DABANGZZ</span>
-        <p>Dabangzz theo dõi nhu cầu tìm kiếm tại Việt Nam, đối chiếu nguồn chính thức và viết bài giải thích có số liệu. Chuyện từ Hàn Quốc được chọn lọc trong một chuyên mục riêng.</p>
+        <p>Dabangzz theo dõi nhu cầu tìm kiếm tại Việt Nam, đối chiếu nguồn chính thức và viết bài giải thích có số liệu. Kim ghi lại những trải nghiệm tự thanh toán tại Việt Nam; chuyện từ Hàn Quốc nằm trong một chuyên mục riêng.</p>
         <a href="#latest">Xem bài mới nhất <span>→</span></a>
       </div>
     </section>
@@ -37,13 +38,13 @@ export default function Home() {
     <section className="editorial" id="about">
       <span>NGUYÊN TẮC BIÊN TẬP</span>
       <h2>Dữ kiện trước.<br/>Bối cảnh và cách dùng sau.</h2>
-      <p>Tin Việt Nam bắt đầu từ nhu cầu thật của độc giả, nhưng chỉ xuất bản khi có nguồn đáng tin cậy. Nội dung Hàn Quốc được viết mới, loại bỏ thông tin nhận dạng và đặt trong bối cảnh dành cho người Việt.</p>
+      <p>Tin Việt Nam chỉ xuất bản khi có nguồn đáng tin cậy. Trải nghiệm của Kim nêu rõ thời điểm, chi phí, tài trợ và giới hạn quan sát. Nội dung Hàn Quốc được viết mới, loại bỏ thông tin nhận dạng.</p>
       <a className="editorial-link" href="/chinh-sach-bien-tap">Đọc đầy đủ chính sách biên tập →</a>
     </section>
 
     <footer>
       <div className="footer-inner"><a className="brand inverse" href="#top">dabang<span>zz</span></a><p>Tin Việt Nam có nguồn. Chuyện Hàn được giải thích.</p></div>
-      <div className="footer-links"><a href="/tin-viet-nam">Tin Việt Nam</a><a href="/chuyen-han-quoc">Chuyện Hàn Quốc</a><a href="/chinh-sach-bien-tap">Chính sách biên tập</a><a href="/quyen-rieng-tu">Quyền riêng tư</a><a href="/lien-he">Liên hệ</a></div>
+      <div className="footer-links"><a href="/kim-o-viet-nam">Kim ở Việt Nam</a><a href="/tin-viet-nam">Tin Việt Nam</a><a href="/chuyen-han-quoc">Chuyện Hàn Quốc</a><a href="/chinh-sach-bien-tap">Chính sách biên tập</a><a href="/quyen-rieng-tu">Quyền riêng tư</a><a href="/lien-he">Liên hệ</a></div>
       <div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA</span></div>
     </footer>
   </main>;

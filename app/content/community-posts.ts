@@ -1,3 +1,4 @@
+import { kimReviews } from "./kim-reviews";
 import { posts20260721 } from "./posts-2026-07-21";
 import { posts20260720 } from "./posts-2026-07-20";
 import { vietnamNews } from "./vietnam-news";
@@ -5,20 +6,26 @@ import { enrichKoreaStory } from "./story-depth";
 
 export type CommunityPost = {
   slug: string;
-  kind?: "story" | "news";
+  kind?: "story" | "news" | "review";
+  author?: string;
   category: string;
   title: string;
   summary: string;
   readTime: string;
   hero: string;
-  images?: { src: string; alt: string }[];
+  images?: { src: string; alt: string; caption?: string; credit?: "ai" | "author" }[];
   /** ISO 8601. Posts without a value are already published. */
   publishedAt?: string;
   /** ISO 8601 timestamp for a material editorial update. */
   updatedAt?: string;
   sourceLinks?: { label: string; url: string }[];
   keyFacts?: { label: string; value: string; note: string }[];
-  sections: { heading: string; paragraphs: string[]; quote?: string }[];
+  sections: {
+    heading: string;
+    paragraphs: string[];
+    quote?: string;
+    images?: { src: string; alt: string; caption?: string; credit?: "ai" | "author" }[];
+  }[];
 };
 
 export function isPostPublished(post: CommunityPost, now = new Date()) {
@@ -32,6 +39,7 @@ export function getPublishedPosts(now = new Date()) {
 }
 
 const rawCommunityPosts: CommunityPost[] = [
+  ...kimReviews,
   ...posts20260721,
   ...vietnamNews,
   ...posts20260720,
@@ -428,5 +436,5 @@ const rawCommunityPosts: CommunityPost[] = [
 ];
 
 export const communityPosts: CommunityPost[] = rawCommunityPosts.map(post =>
-  post.kind === "news" ? post : enrichKoreaStory(post),
+  post.kind === "news" || post.kind === "review" ? post : enrichKoreaStory(post),
 );

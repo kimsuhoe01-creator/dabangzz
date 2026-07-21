@@ -5,11 +5,11 @@ import "./community.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://dabangzz.com"),
   title: "Dabangzz — Tin Việt Nam, hiểu rõ hơn",
-  description: "Tin mới Việt Nam được giải thích bằng nguồn rõ ràng, số liệu cụ thể; chuyện Hàn Quốc được chọn lọc trong một chuyên mục riêng.",
+  description: "Tin mới Việt Nam có nguồn rõ ràng, trải nghiệm tự thanh toán của Kim tại Việt Nam và chuyện Hàn Quốc được chọn lọc trong một chuyên mục riêng.",
   robots: { index: true, follow: true },
   openGraph: {
     title: "Dabangzz — Tin Việt Nam, hiểu rõ hơn",
-    description: "Tin mới Việt Nam có nguồn và số liệu; chuyện Hàn Quốc được chọn lọc cho độc giả Việt.",
+    description: "Tin Việt Nam có nguồn, trải nghiệm thực tế của Kim và chuyện Hàn Quốc được chọn lọc cho độc giả Việt.",
     url: "https://dabangzz.com",
     siteName: "Dabangzz",
     locale: "vi_VN",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Dabangzz — Tin Việt Nam, hiểu rõ hơn",
-    description: "Tin mới Việt Nam có nguồn và số liệu; chuyện Hàn Quốc được chọn lọc cho độc giả Việt.",
+    description: "Tin Việt Nam có nguồn, trải nghiệm thực tế của Kim và chuyện Hàn Quốc được chọn lọc cho độc giả Việt.",
     images: ["/og.png"],
   },
 };

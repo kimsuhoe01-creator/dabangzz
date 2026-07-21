@@ -6,14 +6,16 @@ import { getPostImages } from "../content/post-images";
 
 const filters = [
   { key: "all", label: "Tất cả" },
+  { key: "kim", label: "Kim ở Việt Nam" },
   { key: "news", label: "Tin mới Việt Nam" },
   { key: "korea", label: "Chuyện Hàn Quốc" },
 ];
 
 function belongsTo(post: CommunityPost, filter: string) {
   if (filter === "all") return true;
+  if (filter === "kim") return post.kind === "review";
   if (filter === "news") return post.kind === "news";
-  return filter === "korea" && post.kind !== "news";
+  return filter === "korea" && post.kind === "story";
 }
 
 function publishedDate(post: CommunityPost) {
@@ -47,7 +49,7 @@ export default function StoryBrowser({ posts, defaultFilter = "all" }: { posts: 
       {featured && <a className="lead-card" href={`/bai-viet/${featured.slug}`}>
         <div className="lead-visual">
           <img src={getPostImages(featured)[0].src} alt={getPostImages(featured)[0].alt} width="720" height="480" loading="eager" />
-          <small>{featured.kind === "news" ? "TIN VIỆT NAM · GIẢI THÍCH" : "DABANGZZ · EDITORIAL"}</small>
+          <small>{featured.kind === "news" ? "TIN VIỆT NAM · GIẢI THÍCH" : featured.kind === "review" ? "TRẢI NGHIỆM THỰC TẾ · KIM" : "DABANGZZ · EDITORIAL"}</small>
         </div>
         <div className="lead-body">
           <span className="label">{featured.category}</span>

@@ -1,6 +1,6 @@
 type FacebookPost = {
   slug: string;
-  kind?: "story" | "news";
+  kind?: "story" | "news" | "review";
   category: string;
   title: string;
   summary: string;
@@ -56,7 +56,7 @@ export function selectFacebookCandidate(
   return posts
     .filter((post) => {
       if (!post.publishedAt) return false;
-      if (preferredKind === "news" ? post.kind !== "news" : post.kind === "news") return false;
+      if (preferredKind === "news" ? post.kind !== "news" : post.kind !== "story") return false;
 
       const publishedMs = Date.parse(post.publishedAt);
       const age = scheduledMs - publishedMs;

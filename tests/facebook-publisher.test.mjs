@@ -5,7 +5,8 @@ import { articleUrl, buildFacebookMessage, publishScheduledFacebookPost, selectF
 const posts = [
   { slug: "news-old", kind: "news", category: "Tin mới Việt Nam", title: "Tin cũ hơn", summary: "Tóm tắt cũ", publishedAt: "2026-07-20T10:30:00+07:00" },
   { slug: "news-latest", kind: "news", category: "Tin mới Việt Nam", title: "Tin mới nhất", summary: "Tóm tắt rõ ràng", publishedAt: "2026-07-20T11:45:00+07:00" },
-  { slug: "korea-latest", category: "Chuyện Hàn Quốc · Công sở", title: "Chuyện Hàn mới nhất", summary: "Tóm tắt câu chuyện", publishedAt: "2026-07-20T16:30:00+07:00" },
+  { slug: "korea-latest", kind: "story", category: "Chuyện Hàn Quốc · Công sở", title: "Chuyện Hàn mới nhất", summary: "Tóm tắt câu chuyện", publishedAt: "2026-07-20T16:30:00+07:00" },
+  { slug: "kim-review", kind: "review", category: "Kim ở Việt Nam · Hà Nội", title: "Trải nghiệm của Kim", summary: "Tóm tắt trải nghiệm", publishedAt: "2026-07-20T16:40:00+07:00" },
 ];
 
 test("selects the newest eligible article for each Facebook slot", () => {

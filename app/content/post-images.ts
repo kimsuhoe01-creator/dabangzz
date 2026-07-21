@@ -1,6 +1,11 @@
 import type { CommunityPost } from "./community-posts";
 
-export type EditorialImage = { src: string; alt: string };
+export type EditorialImage = {
+  src: string;
+  alt: string;
+  caption?: string;
+  credit?: "ai" | "author";
+};
 
 const image = (name: string, alt: string): EditorialImage[] => [{
   src: `/images/editorial/${name}.jpg`,
