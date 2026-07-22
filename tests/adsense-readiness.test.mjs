@@ -51,6 +51,25 @@ test("discloses current advertising state and article provenance", async () => {
   assert.match(articleHtml, /https:\/\/dabangzz\.com\/gioi-thieu/);
 });
 
+test("loads Google Analytics once without a duplicate manual page view", async () => {
+  const home = await fetchPage("/");
+  assert.equal(home.status, 200);
+  const html = await home.text();
+
+  const loaderTags = html.match(/<script\b[^>]*src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-TVV7D07WJQ"[^>]*>/g) ?? [];
+  assert.equal(loaderTags.length, 1);
+  const initScripts = [...html.matchAll(/<script\b[^>]*id="google-analytics-init"[^>]*>([\s\S]*?)<\/script>/g)];
+  assert.equal(initScripts.length, 1);
+  assert.equal((initScripts[0][1].match(/gtag\('config', 'G-TVV7D07WJQ'\)/g) ?? []).length, 1);
+  assert.equal((html.match(/gtag\('event', 'page_view'/g) ?? []).length, 0);
+
+  const privacy = await fetchPage("/quyen-rieng-tu");
+  assert.equal(privacy.status, 200);
+  const privacyHtml = await privacy.text();
+  assert.match(privacyHtml, /Google Analytics 4/);
+  assert.match(privacyHtml, /không gửi tên, địa chỉ email/);
+});
+
 test("lists the about page in navigation and sitemap", async () => {
   const home = await fetchPage("/");
   assert.equal(home.status, 200);

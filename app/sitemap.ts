@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/kim-o-viet-nam`, lastModified: new Date("2026-07-21T09:52:00+07:00"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/gioi-thieu`, lastModified: new Date("2026-07-21T15:20:00+07:00"), changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/chinh-sach-bien-tap`, lastModified: new Date("2026-07-21T15:20:00+07:00"), changeFrequency: "monthly", priority: 0.5 },
-    { url: `${base}/quyen-rieng-tu`, lastModified: new Date("2026-07-21T15:20:00+07:00"), changeFrequency: "monthly", priority: 0.4 },
+    { url: `${base}/quyen-rieng-tu`, lastModified: new Date("2026-07-22T10:00:00+07:00"), changeFrequency: "monthly", priority: 0.4 },
     { url: `${base}/lien-he`, lastModified: new Date("2026-07-21T15:20:00+07:00"), changeFrequency: "monthly", priority: 0.4 },
   ];
 

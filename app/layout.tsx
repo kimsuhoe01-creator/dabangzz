@@ -3,6 +3,8 @@ import StructuredData from "./components/StructuredData";
 import "./globals.css";
 import "./community.css";
 
+const googleAnalyticsId = "G-TVV7D07WJQ";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://dabangzz.com"),
   title: "Dabangzz — Tin Việt Nam, hiểu rõ hơn",
@@ -58,6 +60,19 @@ export default function RootLayout({children}:{children:React.ReactNode}) {
   return (
     <html lang="vi">
       <head>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+        />
+        <script
+          id="google-analytics-init"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${googleAnalyticsId}');`,
+          }}
+        />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9173524239392546"
