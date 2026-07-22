@@ -108,6 +108,18 @@ test("health is public but discloses only readiness booleans", async () => {
   assert.equal(JSON.stringify(body).includes("verified-joksin-page-id"), false);
 });
 
+test("root console exposes verify and dry-run but no publish form", async () => {
+  const response = await handleJoksinRequest(
+    new Request("https://publisher.example/"),
+    baseEnv(),
+  );
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /name="operation" value="verify"/);
+  assert.match(html, /name="operation" value="dry-run"/);
+  assert.doesNotMatch(html, /\/v1\/photos\/publish/);
+});
+
 test("dry-run requires authentication and never calls Meta", async () => {
   const unauthenticated = await handleJoksinRequest(
     photoRequest("/v1/photos/dry-run", { apiKey: "wrong-key" }),
@@ -249,4 +261,50 @@ test("read-only Page verification requires an exact official Graph ID match", as
     }), { status: 200 }),
   );
   assert.equal(mismatch.status, 409);
+});
+
+test("browser-safe form authentication works only for verify and dry-run", async () => {
+  const verifyForm = new FormData();
+  verifyForm.append("apiKey", API_KEY);
+  const verified = await handleJoksinRequest(
+    new Request("https://publisher.example/v1/meta/verify", {
+      method: "POST",
+      body: verifyForm,
+    }),
+    baseEnv(),
+    async () => new Response(JSON.stringify({
+      id: "verified-joksin-page-id",
+      name: "Joksin Bac Ninh",
+    }), { status: 200 }),
+  );
+  assert.equal(verified.status, 200);
+
+  const dryRunForm = photoForm();
+  dryRunForm.append("apiKey", API_KEY);
+  dryRunForm.append("idempotencyKey", IDEMPOTENCY_KEY + "-form");
+  const dryRun = await handleJoksinRequest(
+    new Request("https://publisher.example/v1/photos/dry-run", {
+      method: "POST",
+      body: dryRunForm,
+    }),
+    baseEnv(),
+  );
+  assert.equal(dryRun.status, 200);
+  assert.equal((await dryRun.json()).publishAttempted, false);
+
+  const consoleVerifyForm = new FormData();
+  consoleVerifyForm.append("operation", "verify");
+  consoleVerifyForm.append("apiKey", API_KEY);
+  const consoleVerified = await handleJoksinRequest(
+    new Request("https://publisher.example/", {
+      method: "POST",
+      body: consoleVerifyForm,
+    }),
+    baseEnv(),
+    async () => new Response(JSON.stringify({
+      id: "verified-joksin-page-id",
+      name: "Joksin Bac Ninh",
+    }), { status: 200 }),
+  );
+  assert.equal(consoleVerified.status, 200);
 });

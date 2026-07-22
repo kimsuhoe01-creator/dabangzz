@@ -81,6 +81,39 @@ function json(data: unknown, status = 200) {
   });
 }
 
+function consoleHtml() {
+  return new Response(`<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Joksin publisher check</title>
+<style>body{font:16px/1.5 system-ui;max-width:720px;margin:40px auto;padding:0 20px}form{border:1px solid #ddd;padding:20px;margin:24px 0}label{display:block;margin:12px 0}input,textarea{box-sizing:border-box;width:100%;padding:10px}button{padding:10px 16px}</style>
+<h1>Joksin publisher check</h1>
+<p>검증과 dry-run만 제공하며 실제 Facebook 게시 기능은 이 화면에 없습니다.</p>
+<form method="post" action="/">
+  <h2>Meta page verify</h2>
+  <input type="hidden" name="operation" value="verify">
+  <label>API key<input type="password" name="apiKey" autocomplete="off" required></label>
+  <button type="submit">Verify Meta page</button>
+</form>
+<form method="post" action="/" enctype="multipart/form-data">
+  <h2>Photo dry-run</h2>
+  <input type="hidden" name="operation" value="dry-run">
+  <label>API key<input type="password" name="apiKey" autocomplete="off" required></label>
+  <label>Idempotency key<input name="idempotencyKey" minlength="16" maxlength="128" required></label>
+  <label>Image<input type="file" name="image" accept="image/jpeg,image/png" required></label>
+  <label>Korean caption<textarea name="captionKo" required></textarea></label>
+  <label>Vietnamese caption<textarea name="captionVi" required></textarea></label>
+  <button type="submit">Run dry-run</button>
+</form>`, {
+    headers: {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "no-store",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+    },
+  });
+}
+
 function parsePositiveInteger(value: string | undefined, fallback: number) {
   if (!value) return fallback;
   const parsed = Number.parseInt(value, 10);
@@ -157,18 +190,26 @@ function getBearerToken(request: Request) {
   return authorization.startsWith("Bearer ") ? authorization.slice(7) : "";
 }
 
-async function requireAuthentication(request: Request, env: JoksinEnv) {
+async function requireAuthentication(
+  request: Request,
+  env: JoksinEnv,
+  form?: FormData,
+) {
   if (!env.JOKSIN_PUBLISH_API_KEY) {
     throw new HttpError(503, "Publisher API credentials are not configured");
   }
-  const provided = getBearerToken(request);
+  const formKey = form?.get("apiKey");
+  const provided = getBearerToken(request)
+    || (typeof formKey === "string" ? formKey : "");
   if (!provided || !(await secureEqual(provided, env.JOKSIN_PUBLISH_API_KEY))) {
     throw new HttpError(401, "Authentication required");
   }
 }
 
-function requireIdempotencyKey(request: Request) {
-  const key = request.headers.get("idempotency-key") || "";
+function requireIdempotencyKey(request: Request, form?: FormData) {
+  const formKey = form?.get("idempotencyKey");
+  const key = request.headers.get("idempotency-key")
+    || (typeof formKey === "string" ? formKey : "");
   if (!/^[A-Za-z0-9._:-]{16,128}$/.test(key)) {
     throw new HttpError(400, "A valid Idempotency-Key header is required");
   }
@@ -212,7 +253,11 @@ function detectImageType(bytes: Uint8Array) {
   return jpeg ? "image/jpeg" : png ? "image/png" : null;
 }
 
-async function preparePhoto(request: Request, env: JoksinEnv): Promise<PreparedPhoto> {
+async function preparePhoto(
+  request: Request,
+  env: JoksinEnv,
+  parsedForm?: FormData,
+): Promise<PreparedPhoto> {
   const contentType = request.headers.get("content-type") || "";
   if (!contentType.toLowerCase().startsWith("multipart/form-data;")) {
     throw new HttpError(415, "multipart/form-data is required");
@@ -225,10 +270,14 @@ async function preparePhoto(request: Request, env: JoksinEnv): Promise<PreparedP
   }
 
   let form: FormData;
-  try {
-    form = await request.formData();
-  } catch {
-    throw new HttpError(400, "Invalid multipart request");
+  if (parsedForm) {
+    form = parsedForm;
+  } else {
+    try {
+      form = await request.formData();
+    } catch {
+      throw new HttpError(400, "Invalid multipart request");
+    }
   }
 
   const image = form.get("image");
@@ -421,22 +470,61 @@ export async function handleJoksinRequest(
   const url = new URL(request.url);
 
   try {
+    if (url.pathname === "/" && request.method === "GET") {
+      return consoleHtml();
+    }
+
+    if (url.pathname === "/" && request.method === "POST") {
+      const form = await request.formData();
+      await requireAuthentication(request, env, form);
+      const operation = form.get("operation");
+      if (operation === "verify") {
+        return json({ ok: true, page: await verifyMetaPage(env, fetchImpl) });
+      }
+      if (operation === "dry-run") {
+        const idempotencyKey = requireIdempotencyKey(request, form);
+        const photo = await preparePhoto(request, env, form);
+        return json({
+          ok: true,
+          publishAttempted: false,
+          approvalRequired: true,
+          approvalPayload: {
+            version: 1,
+            idempotencyKey,
+            imageSha256: photo.imageSha256,
+            captionKo: photo.captionKo,
+            captionVi: photo.captionVi,
+          },
+          image: {
+            sha256: photo.imageSha256,
+            bytes: photo.bytes.byteLength,
+            contentType: photo.contentType,
+          },
+        });
+      }
+      throw new HttpError(400, "Unsupported console operation");
+    }
+
     if (url.pathname === "/health") {
       if (request.method !== "GET") throw new HttpError(405, "Method not allowed");
       return json(readiness(env));
     }
 
     if (url.pathname === "/v1/meta/verify") {
-      if (request.method !== "GET") throw new HttpError(405, "Method not allowed");
-      await requireAuthentication(request, env);
+      if (request.method !== "GET" && request.method !== "POST") {
+        throw new HttpError(405, "Method not allowed");
+      }
+      const form = request.method === "POST" ? await request.formData() : undefined;
+      await requireAuthentication(request, env, form);
       return json({ ok: true, page: await verifyMetaPage(env, fetchImpl) });
     }
 
     if (url.pathname === "/v1/photos/dry-run") {
       if (request.method !== "POST") throw new HttpError(405, "Method not allowed");
-      await requireAuthentication(request, env);
-      const idempotencyKey = requireIdempotencyKey(request);
-      const photo = await preparePhoto(request, env);
+      const form = await request.formData();
+      await requireAuthentication(request, env, form);
+      const idempotencyKey = requireIdempotencyKey(request, form);
+      const photo = await preparePhoto(request, env, form);
       return json({
         ok: true,
         publishAttempted: false,

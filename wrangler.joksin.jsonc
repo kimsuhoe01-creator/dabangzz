@@ -8,7 +8,7 @@
   "vars": {
     "JOKSIN_META_GRAPH_API_VERSION": "v25.0",
     "JOKSIN_MAX_IMAGE_BYTES": "8388608",
-    "JOKSIN_FACEBOOK_PUBLISH_ENABLED": "false"
+    "JOKSIN_FACEBOOK_PUBLISH_ENABLED": "true"
   },
   "durable_objects": {
     "bindings": [
