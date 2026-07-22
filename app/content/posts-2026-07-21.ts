@@ -604,8 +604,8 @@ export const posts20260721: CommunityPost[] = [
     slug: "du-bao-thoi-tiet-viet-nam-21-30-7-2026",
     kind: "news",
     category: "Tin mới Việt Nam · Thời tiết",
-    title: "Thời tiết 22–31/7: Bắc Bộ tăng mưa, Trung Bộ còn nắng nóng trong ngày 22/7",
-    summary: "Bản tin mới nhất cho thấy Bắc Bộ có mưa dông rải rác và cục bộ mưa to từ đêm 22 đến ngày 24/7, trong khi một phần Trung Bộ còn nắng nóng trong ngày 22/7 rồi thu hẹp dần.",
+    title: "Cập nhật tối 22/7: Bắc Bộ có nơi mưa trên 80 mm, Trung Bộ giảm nóng từ 23/7",
+    summary: "Bản tin lúc 15:30 cho biết từ tối 22 đến ngày 23/7, Bắc Bộ phổ biến mưa 10–30 mm và có nơi trên 80 mm; người dân cần ưu tiên cảnh báo ngập, lũ quét và sạt lở tại địa phương.",
     readTime: "11 phút đọc",
     hero: "HEAT & RAIN\n22–31 JULY",
     images: [{
@@ -613,15 +613,23 @@ export const posts20260721: CommunityPost[] = [
       alt: "Minh họa ba vùng Việt Nam với mưa ở phía Bắc, nắng nóng miền Trung và mây dông phía Nam",
     }],
     publishedAt: "2026-07-21T06:45:00+07:00",
-    updatedAt: "2026-07-22T10:40:00+07:00",
+    updatedAt: "2026-07-22T18:35:00+07:00",
     keyFacts: [
       { label: "THỜI HẠN BẢN TIN", value: "Đêm 21–31/7", note: "Xu thế thời tiết đất liền, cần kết hợp dự báo ngắn hạn tại địa phương." },
-      { label: "BẮC BỘ", value: "Mưa tăng 22–24/7", note: "Đêm 22–23 và đêm 23–24/7 có mưa dông rải rác hoặc rải rác có dông, cục bộ mưa to." },
+      { label: "BẮC BỘ", value: "10–30 mm", note: "Từ tối 22 đến ngày 23/7, có nơi trên 80 mm; mưa tập trung vào đêm và sáng theo bản tin lúc 15:30." },
       { label: "TRUNG BỘ", value: "35–37°C", note: "Khoảng phổ biến ngày 22/7 tại Quảng Trị–Đà Nẵng và phía đông Quảng Ngãi–Đắk Lắk; có nơi trên 37°C." },
       { label: "CAO NGUYÊN & NAM BỘ", value: "Chiều, tối", note: "Có các đợt mưa dông rải rác, cục bộ mưa to trong thời kỳ dự báo." },
       { label: "RỦI RO TRONG DÔNG", value: "Nhiều hiện tượng", note: "Có khả năng xảy ra lốc, sét, mưa đá và gió giật mạnh." },
     ],
     sourceLinks: [
+      {
+        label: "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia — Bản tin mưa lớn Bắc Bộ lúc 15:30 ngày 22/7",
+        url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/tin-du-bao-mua-lon-o-khu-vuc-bac-bo-tin-canh-bao-mua-dong-mua-lon-cuc-bo-loc-set-mua-da-gio-giat-manh-o-bac-bo-cao-nguyen-trung-bo-va-nam-bo-post53635.html",
+      },
+      {
+        label: "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia — Dự báo 10 ngày cập nhật 14:30 ngày 22/7",
+        url: "https://www.nchmf.gov.vn/kttv/vi-VN/1/thoi-tiet-10-ngay-toi-4-15.html",
+      },
       {
         label: "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia — Xu thế thời tiết đất liền đến 31/7/2026",
         url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/ban-tin-du-bao-canh-bao-xu-the-thoi-tiet-tren-dat-lien-thoi-han-den-10-ngay-tu-dem-21-den-ngay-31-7-post52858.html",
@@ -654,8 +662,8 @@ export const posts20260721: CommunityPost[] = [
       {
         heading: "Bắc Bộ: mưa dông tăng từ đêm 22 đến 24/7",
         paragraphs: [
-          "Trong đêm 21 và ngày 22/7, Bắc Bộ và Thanh Hóa có mưa rào, dông vài nơi vào chiều tối và đêm; ban ngày trời nắng, có nơi nắng nóng. Sang đêm 22 và ngày 23/7, mưa rào và dông trở nên rải rác, cục bộ có nơi mưa to. Từ đêm 23 đến ngày 24/7, Bắc Bộ tiếp tục có mưa rào và rải rác có dông, cục bộ mưa to, tập trung vào chiều tối, đêm và sáng sớm. Khoảng 25–26/7, mưa có xu hướng giảm dần.",
-          "Mốc này giúp người dân biết thời gian cần kiểm tra kỹ hơn, không có nghĩa mọi quận huyện cùng mưa liên tục ba ngày. Mưa dông có tính địa phương và cường độ thay đổi nhanh. Trước giờ đi làm hoặc đưa trẻ đến trường, hãy xem radar, cảnh báo ngập và thông tin giao thông tại nơi mình ở. Nếu chính quyền địa phương phát cảnh báo điểm ngập hoặc sạt lở, thông báo tại chỗ quan trọng hơn lịch dự kiến ban đầu.",
+          "Bản tin mưa lớn lúc 15:30 ngày 22/7 cập nhật rằng từ tối 22 đến ngày 23/7, Bắc Bộ có mưa rào và dông, lượng mưa phổ biến 10–30 mm, cục bộ có nơi trên 80 mm; mưa tập trung vào đêm và sáng. Dự báo riêng Hà Nội trong đêm 22 và ngày 23/7 nêu nhiệt độ thấp nhất 25–27°C, cao nhất 32–34°C, có mưa rào và dông rải rác, cục bộ mưa to. Từ đêm 23 đến ngày 24/7, xu thế mưa dông tại Bắc Bộ vẫn cần tiếp tục theo dõi theo bản tin mới hơn.",
+          "Mưa cục bộ trên 80 mm không có nghĩa mọi quận huyện đều nhận cùng lượng mưa. Cơ quan khí tượng cảnh báo nguy cơ ngập ở vùng trũng thấp, đô thị và khu công nghiệp, đồng thời có thể xảy ra lũ quét trên sông suối nhỏ và sạt lở ở sườn dốc. Trước giờ đi làm, hãy kiểm tra cảnh báo theo điểm và bản đồ nguy cơ thời gian thực tại luquetsatlo.nchmf.gov.vn; thông tin sơ tán, cấm đường hoặc điểm ngập do địa phương phát phải được ưu tiên hơn lịch dự kiến trong bài.",
         ],
       },
       {

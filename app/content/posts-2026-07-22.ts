@@ -2,6 +2,174 @@ import type { CommunityPost } from "./community-posts";
 
 export const posts20260722: CommunityPost[] = [
   {
+    slug: "messenger-tang-tim-kiem-cach-phan-biet-loi-may-va-su-co-dich-vu",
+    kind: "news",
+    category: "Tin mới Việt Nam · Đời sống số",
+    title: "Messenger được tìm kiếm nhiều: cách phân biệt lỗi trên máy và sự cố dịch vụ",
+    summary: "Lượng tìm kiếm tăng không tự động có nghĩa Messenger đang gặp sự cố diện rộng. Đây là quy trình kiểm tra trong vài phút, cách đọc trang trạng thái của Meta và những việc cần làm trước khi cài lại ứng dụng.",
+    readTime: "10 phút đọc",
+    hero: "MESSENGER LỖI?\nKIỂM TRA 5 PHÚT",
+    images: [{
+      src: "/images/editorial/messenger-kiem-tra-su-co-20260722.webp",
+      alt: "Minh họa một gia đình kiểm tra kết nối tin nhắn trên điện thoại và máy tính",
+      caption: "Minh họa biên tập bằng AI; hình ảnh không mô tả giao diện hay sự cố thực tế của Meta.",
+      credit: "ai",
+    }],
+    publishedAt: "2026-07-22T18:00:00+07:00",
+    updatedAt: "2026-07-22T18:34:00+07:00",
+    keyFacts: [
+      { label: "TÍN HIỆU TÌM KIẾM", value: "Không phải xác nhận", note: "Google Trends chỉ cho thấy nhu cầu tìm kiếm tăng, không chứng minh có sự cố diện rộng." },
+      { label: "TRANG TRẠNG THÁI", value: "Phạm vi có giới hạn", note: "Meta Status chủ yếu phản ánh các sản phẩm nền tảng dành cho doanh nghiệp và nhà phát triển." },
+      { label: "KIỂM TRA NHANH", value: "Khoảng 5 phút", note: "Đổi mạng, thử trình duyệt, cập nhật ứng dụng và kiểm tra dung lượng trước khi cài lại." },
+      { label: "KHI BÁO LỖI", value: "Ghi bước tái hiện", note: "Nêu thời điểm, thiết bị và thao tác gây lỗi; che tên, nội dung trò chuyện và mã xác thực trong ảnh." },
+    ],
+    sourceLinks: [
+      {
+        label: "Meta — Messenger Platform Status",
+        url: "https://metastatus.com/messenger",
+      },
+      {
+        label: "Trung tâm trợ giúp Messenger — Không gửi hoặc xem được tin nhắn",
+        url: "https://www.facebook.com/help/messenger-app/1723537124537415",
+      },
+      {
+        label: "Trung tâm trợ giúp Messenger — Báo cáo sự cố",
+        url: "https://www.facebook.com/help/messenger-app/448372435190713",
+      },
+      {
+        label: "Trung tâm trợ giúp Messenger — Tải hoặc cập nhật ứng dụng",
+        url: "https://www.facebook.com/help/messenger-app/218228001910904/",
+      },
+    ],
+    sections: [
+      {
+        heading: "Tìm kiếm tăng mạnh chưa đủ để gọi là một đợt gián đoạn",
+        paragraphs: [
+          "Tối 22/7, từ khóa liên quan đến Messenger xuất hiện trong nhóm được tìm kiếm nhanh tại Việt Nam. Tín hiệu này cho thấy nhiều người đang có cùng một câu hỏi, nhưng không cho biết nguyên nhân. Một đợt tìm kiếm có thể bắt đầu từ lỗi đăng nhập của một nhóm thiết bị, bản cập nhật ứng dụng, kết nối của một nhà mạng, một bài đăng lan truyền hoặc sự cố thật sự trên hệ thống. Vì vậy, bài viết không gắn nhãn “Messenger sập” khi chưa có xác nhận tương ứng từ nhà cung cấp.",
+          "Cách đọc thận trọng rất quan trọng vì một câu khẳng định sai có thể khiến người dùng cài lại ứng dụng, đổi mật khẩu hoặc gửi đi gửi lại tin nhắn mà không cần thiết. Google Trends được dùng ở đây để nhận biết câu hỏi độc giả đang quan tâm, không phải nguồn xác minh kỹ thuật. Muốn biết lỗi nằm ở máy, mạng, tài khoản hay dịch vụ, cần so sánh nhiều dấu hiệu theo cùng một trình tự.",
+        ],
+        quote: "Từ khóa tăng cho biết nhiều người đang hỏi; nó không tự trả lời hệ thống có gặp sự cố hay không.",
+      },
+      {
+        heading: "Trang trạng thái của Meta nói gì, và không nói gì?",
+        paragraphs: [
+          "Tại thời điểm kiểm tra, trang Messenger Platform Status của Meta hiển thị không có sự cố đã biết. Tuy nhiên, phạm vi của trang này tập trung vào Messenger Platform và các sản phẩm phục vụ doanh nghiệp, nhà phát triển. Nó là một tín hiệu hữu ích để đối chiếu, nhưng không đủ để kết luận mọi chức năng trong ứng dụng Messenger dành cho người dùng cá nhân ở mọi quốc gia đều bình thường.",
+          "Ngược lại, việc một nhóm Facebook báo cùng lỗi cũng chưa chứng minh toàn bộ dịch vụ ngừng hoạt động. Hãy xem lỗi có xuất hiện trên cả Wi‑Fi và dữ liệu di động, trên ứng dụng và messenger.com, với mọi cuộc trò chuyện hay chỉ một người nhận. Khi các kênh độc lập đều thất bại trong cùng thời điểm, khả năng lỗi ngoài thiết bị tăng lên; khi chỉ một máy hoặc một cuộc trò chuyện bị ảnh hưởng, nên ưu tiên kiểm tra cục bộ.",
+        ],
+      },
+      {
+        heading: "Quy trình năm phút trước khi đổi mật khẩu hoặc cài lại",
+        paragraphs: [
+          "Bước một, mở một trang web và một ứng dụng khác để xem Internet có hoạt động hay không. Bước hai, chuyển tạm giữa Wi‑Fi và dữ liệu di động; nếu chỉ một mạng gặp lỗi, khởi động lại kết nối hoặc kiểm tra thông báo của nhà mạng. Bước ba, đóng hẳn Messenger rồi mở lại, sau đó kiểm tra bản cập nhật trong cửa hàng ứng dụng. Bước bốn, xem thiết bị còn đủ dung lượng trống và hệ điều hành có đáp ứng phiên bản hiện tại hay không.",
+          "Bước năm, thử đăng nhập trên messenger.com bằng trình duyệt đáng tin cậy của chính bạn. Nếu trình duyệt gửi tin được nhưng ứng dụng không gửi được, trọng tâm là phiên bản ứng dụng, bộ nhớ hoặc quyền hoạt động nền. Nếu cả hai đều không dùng được, ghi lại giờ bắt đầu và thông báo lỗi chính xác. Không bấm vào đường dẫn “khắc phục khẩn cấp” do tài khoản lạ gửi và không nhập mã xác thực một lần ở trang ngoài tên miền chính thức.",
+        ],
+      },
+      {
+        heading: "Chỉ một cuộc trò chuyện lỗi khác với toàn bộ tài khoản lỗi",
+        paragraphs: [
+          "Nếu bạn vẫn nhắn được cho người khác nhưng không gửi được cho một tài khoản, nguyên nhân có thể liên quan đến trạng thái tài khoản người nhận, cài đặt chặn hoặc quyền trong nhóm. Trung tâm trợ giúp của Messenger cũng liệt kê trường hợp người nhận đã vô hiệu hóa hoặc xóa tài khoản, một trong hai bên chặn người còn lại, hay thành viên không còn ở trong cuộc trò chuyện nhóm. Những tình huống này không thể giải quyết bằng cách đổi mạng liên tục.",
+          "Khi nút gửi có vẻ không phản hồi, đừng nhấn hàng chục lần. Tin có thể được xếp hàng và gửi lặp sau khi kết nối trở lại. Với nội dung quan trọng, chụp lại thông báo lỗi, xác nhận qua một kênh khác và chờ vài phút trước khi thử lại. Nếu lỗi liên quan đến nhóm, kiểm tra danh sách thành viên và quyền quản trị thay vì giả định tài khoản đã bị xâm nhập.",
+        ],
+      },
+      {
+        heading: "Trước khi gỡ ứng dụng, bảo vệ lịch sử trò chuyện được mã hóa",
+        paragraphs: [
+          "Cài lại ứng dụng nên là bước sau, không phải phản xạ đầu tiên. Messenger sử dụng cơ chế lưu trữ an toàn cho các cuộc trò chuyện mã hóa đầu cuối. Trước khi gỡ ứng dụng, hãy kiểm tra phương thức khôi phục hoặc lưu trữ an toàn đã được thiết lập và bạn còn nhớ thông tin cần thiết. Nếu bỏ qua, người dùng có thể đăng nhập lại được nhưng không khôi phục ngay toàn bộ lịch sử trên thiết bị mới.",
+          "Không xóa dữ liệu ứng dụng khi chưa hiểu khác biệt giữa bộ nhớ đệm và dữ liệu đăng nhập. Nếu phải cài lại, dùng cửa hàng ứng dụng chính thức, kiểm tra tên nhà phát hành và tránh tệp APK được chia sẻ trong nhóm. Sau khi đăng nhập lại, xem mục phiên đăng nhập và bảo mật; chỉ đổi mật khẩu khi có dấu hiệu tài khoản bị truy cập trái phép, không phải chỉ vì tin nhắn chậm vài phút.",
+        ],
+      },
+      {
+        heading: "Báo lỗi sao cho Meta có đủ dữ liệu nhưng người khác không thấy thông tin riêng",
+        paragraphs: [
+          "Meta khuyến nghị cập nhật ứng dụng trước, rồi dùng mục báo cáo sự cố trong cài đặt hồ sơ. Một báo cáo hữu ích cần có thời điểm, dòng máy và phiên bản hệ điều hành, phiên bản Messenger, loại mạng, thao tác từng bước và kết quả mong đợi. Viết “không dùng được” quá ngắn sẽ khó tái hiện hơn câu mô tả như “sau khi chuyển từ Wi‑Fi sang 4G, nút gửi quay liên tục ở mọi cuộc trò chuyện”.",
+          "Ảnh chụp màn hình chỉ nên giữ phần thông báo cần thiết. Hãy che tên, ảnh đại diện, nội dung riêng tư, số điện thoại, email, mã đăng nhập và mã QR. Không đăng ảnh lỗi chứa cuộc trò chuyện lên nhóm công khai để hỏi nhanh. Sau khi gửi báo cáo, theo dõi trang trợ giúp và trạng thái chính thức; nếu có sự cố diện rộng, chờ thông báo phục hồi thường an toàn hơn việc thay đổi nhiều cài đặt cùng lúc.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "tro-cap-huu-tri-xa-hoi-nguoi-cao-tu-dieu-kien-thu-tuc-2026",
+    kind: "news",
+    category: "Tin mới Việt Nam · An sinh",
+    title: "Trợ cấp hưu trí xã hội 2026: ai đủ điều kiện và nộp đề nghị ở đâu?",
+    summary: "Mức đang áp dụng là 500.000 đồng mỗi tháng theo Nghị định 176/2025/NĐ-CP. Bài viết phân biệt hai nhóm tuổi, ba cách nộp hồ sơ, thời hạn giải quyết và đề xuất tăng mức chưa có hiệu lực.",
+    readTime: "11 phút đọc",
+    hero: "TRỢ CẤP TUỔI GIÀ\nĐỌC ĐÚNG ĐIỀU KIỆN",
+    images: [{
+      src: "/images/editorial/tro-cap-huu-tri-xa-hoi-20260722.webp",
+      alt: "Minh họa người cao tuổi cùng người thân làm thủ tục tại bộ phận dịch vụ công địa phương",
+      caption: "Minh họa biên tập bằng AI; hình ảnh không mô tả cơ quan hay người nhận trợ cấp cụ thể.",
+      credit: "ai",
+    }],
+    publishedAt: "2026-07-22T19:30:00+07:00",
+    updatedAt: "2026-07-22T18:38:00+07:00",
+    keyFacts: [
+      { label: "NHÓM TUỔI CHÍNH", value: "Từ đủ 75 tuổi", note: "Công dân Việt Nam đáp ứng điều kiện về lương hưu, trợ cấp bảo hiểm xã hội hằng tháng và có văn bản đề nghị." },
+      { label: "NHÓM 70–DƯỚI 75", value: "Hộ nghèo/cận nghèo", note: "Phải đồng thời đáp ứng điều kiện thu nhập bảo hiểm theo nghị định và có văn bản đề nghị." },
+      { label: "MỨC HIỆN HÀNH", value: "500.000 đồng/tháng", note: "Mức theo Nghị định 176/2025/NĐ-CP; địa phương có thể hỗ trợ thêm theo khả năng ngân sách." },
+      { label: "THỜI HẠN", value: "10 ngày làm việc", note: "Thời gian cấp xã rà soát, chuẩn hóa dữ liệu và quyết định kể từ khi nhận hồ sơ theo thủ tục công bố." },
+    ],
+    sourceLinks: [
+      {
+        label: "Cổng Thông tin điện tử Chính phủ — Toàn văn Nghị định 176/2025/NĐ-CP",
+        url: "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-176-2025-nd-cp-ve-tro-cap-huu-tri-xa-hoi-119250713214008704.htm",
+      },
+      {
+        label: "Cổng Thông tin điện tử Chính phủ — Trình tự, thủ tục trợ cấp hưu trí xã hội",
+        url: "https://xaydungchinhsach.chinhphu.vn/trinh-tu-thu-tuc-thuc-hien-tro-cap-huu-tri-xa-hoi-ho-tro-chi-phi-mai-tang-119250713220548579.htm",
+      },
+      {
+        label: "Cổng Thông tin điện tử Chính phủ — Dự thảo chính sách trợ giúp xã hội năm 2026",
+        url: "https://xaydungchinhsach.chinhphu.vn/toan-van-du-thao-nghi-dinh-quy-dinh-chinh-sach-tro-giup-xa-hoi-va-tro-cap-huu-tri-xa-hoi-119260522113608201.htm",
+      },
+    ],
+    sections: [
+      {
+        heading: "Vì sao chủ đề người cao tuổi được tìm nhiều nhưng phải bắt đầu từ văn bản đang có hiệu lực?",
+        paragraphs: [
+          "Ngày 22/7, cụm từ liên quan đến người cao tuổi xuất hiện trong nhóm tìm kiếm tăng tại Việt Nam. Đây chỉ là tín hiệu cho thấy nhiều gia đình đang quan tâm; điều kiện hưởng không được xác định bằng một bài đăng, bảng ảnh hay từ khóa. Căn cứ đang áp dụng là Nghị định 176/2025/NĐ-CP về trợ cấp hưu trí xã hội, có hiệu lực từ ngày 1/7/2025, cùng thủ tục hành chính được cơ quan nhà nước công bố.",
+          "Điều cần tránh là trộn quy định hiện hành với một dự thảo mới. Một đề xuất tăng mức hoặc mở rộng chính sách có thể được lấy ý kiến nhưng chưa trở thành số tiền người dân đang được hưởng. Bài này ghi rõ mốc hiện hành, nhóm đủ điều kiện và đường nộp hồ sơ; trường hợp cá nhân vẫn cần được cơ quan cấp xã nơi cư trú đối chiếu với dữ liệu thực tế.",
+        ],
+        quote: "Hãy kiểm tra trạng thái của văn bản trước khi kiểm tra con số: đang áp dụng, dự thảo và đề xuất là ba trạng thái khác nhau.",
+      },
+      {
+        heading: "Hai nhóm tuổi và những điều kiện phải đi cùng nhau",
+        paragraphs: [
+          "Nhóm thứ nhất là công dân Việt Nam từ đủ 75 tuổi trở lên, không hưởng lương hưu hoặc trợ cấp bảo hiểm xã hội hằng tháng; trường hợp đang hưởng thấp hơn mức trợ cấp hưu trí xã hội thì cũng thuộc phạm vi nghị định. Người đề nghị cần có văn bản đề nghị hưởng trợ cấp. Tuổi cao tự thân chưa đủ để bỏ qua các điều kiện còn lại, vì cơ quan giải quyết phải đối chiếu tình trạng hưởng chế độ hằng tháng.",
+          "Nhóm thứ hai là công dân từ đủ 70 tuổi đến dưới 75 tuổi thuộc hộ nghèo hoặc hộ cận nghèo, đồng thời đáp ứng điều kiện không hưởng lương hưu hay trợ cấp bảo hiểm xã hội hằng tháng, hoặc đang hưởng thấp hơn mức quy định, và có văn bản đề nghị. Vì vậy, người 72 tuổi không mặc nhiên được hưởng chỉ vì tuổi; tình trạng hộ nghèo hoặc cận nghèo phải được xác định theo dữ liệu có thẩm quyền.",
+        ],
+      },
+      {
+        heading: "500.000 đồng là mức hiện hành; địa phương có thể có phần hỗ trợ thêm",
+        paragraphs: [
+          "Nghị định 176 quy định mức trợ cấp hưu trí xã hội hằng tháng là 500.000 đồng. Nếu một người đồng thời thuộc diện hưởng trợ cấp xã hội hằng tháng, người đó được hưởng chế độ có mức cao hơn, không cộng cơ học mọi khoản được nhắc trong các bài tổng hợp. Mức và cách chi trả cần được đọc theo quyết định của cơ quan giải quyết và kỳ thanh toán tại địa phương.",
+          "Căn cứ điều kiện kinh tế, khả năng cân đối ngân sách và nguồn lực xã hội, Ủy ban nhân dân cấp tỉnh có thể trình Hội đồng nhân dân cùng cấp quyết định hỗ trợ thêm. Do đó, hai người ở hai tỉnh có thể thấy phần hỗ trợ địa phương khác nhau trong khi mức trung ương vẫn là 500.000 đồng. Khi hỏi, nên tách câu hỏi thành “mức theo nghị định” và “mức hỗ trợ thêm của tỉnh” để tránh so sánh sai.",
+        ],
+      },
+      {
+        heading: "Nộp Mẫu số 01 trực tiếp, qua bưu chính hoặc trực tuyến",
+        paragraphs: [
+          "Người đề nghị lập Mẫu số 01 ban hành kèm Nghị định 176 và gửi Chủ tịch Ủy ban nhân dân xã, phường hoặc đặc khu nơi cư trú. Thủ tục công bố ba cách nộp: trực tiếp tại cơ quan tiếp nhận, gửi qua dịch vụ bưu chính hoặc nộp trực tuyến. Gia đình nên kiểm tra cổng dịch vụ công và hướng dẫn cụ thể của địa phương vì tên bộ phận tiếp nhận, cách đặt lịch hoặc yêu cầu số hóa có thể khác nhau.",
+          "Trước khi nộp, đối chiếu họ tên, ngày sinh, số định danh, nơi cư trú và thông tin về chế độ hằng tháng. Không gửi ảnh căn cước hoặc hồ sơ đầy đủ vào nhóm mạng xã hội để hỏi. Nếu người cao tuổi cần người thân hỗ trợ thao tác trực tuyến, nên thực hiện trên thiết bị tin cậy, đăng xuất sau khi hoàn thành và giữ lại mã hồ sơ hoặc giấy tiếp nhận để tra cứu.",
+        ],
+      },
+      {
+        heading: "Mười ngày làm việc, thời điểm hưởng và cách xử lý khi chuyển nơi cư trú",
+        paragraphs: [
+          "Trong thời hạn 10 ngày làm việc kể từ khi nhận văn bản đề nghị, Chủ tịch Ủy ban nhân dân cấp xã tổ chức xem xét, thực hiện xác thực và chuẩn hóa thông tin liên quan, rồi quyết định và thực hiện chi trả. Thời gian hưởng được tính từ tháng Chủ tịch cấp xã ký quyết định. Nếu người đề nghị không đủ điều kiện, cơ quan phải trả lời bằng văn bản và nêu rõ lý do, giúp gia đình biết cần bổ sung dữ liệu hay điều kiện thực sự chưa đáp ứng.",
+          "Khi người đang hưởng chuyển nơi cư trú, cấp xã nơi cũ có trách nhiệm quyết định thôi chi trả tại địa bàn và chuyển hồ sơ liên quan; nơi cư trú mới tiếp tục chi trả từ tháng tiếp theo tháng dừng ở nơi cũ. Người dân nên báo thay đổi sớm, giữ bản sao quyết định và kiểm tra thông tin nhận tiền để hạn chế gián đoạn. Không nên tự mở hồ sơ mới song song ở hai nơi.",
+        ],
+      },
+      {
+        heading: "Thông tin tăng lên 540.000 hoặc 600.000 đồng hiện vẫn là dự thảo",
+        paragraphs: [
+          "Một dự thảo nghị định được công bố để lấy ý kiến trong năm 2026 có nêu các phương án điều chỉnh mức chuẩn và trợ cấp. Đây là bước xây dựng chính sách, không thay thế Nghị định 176 đang có hiệu lực. Cho đến khi văn bản mới được ban hành, ghi rõ ngày hiệu lực và phạm vi áp dụng, gia đình không nên dùng con số 540.000 hoặc 600.000 đồng để kết luận cơ quan địa phương đang chi thiếu.",
+          "Checklist an toàn là: kiểm tra tuổi tại thời điểm nộp; tình trạng hộ nghèo hoặc cận nghèo nếu thuộc nhóm 70 đến dưới 75; lương hưu hay trợ cấp bảo hiểm xã hội hằng tháng; nơi cư trú; Mẫu số 01; và kênh nhận kết quả. Sau đó mở nguồn chính thức hoặc hỏi bộ phận tiếp nhận cấp xã về hỗ trợ thêm của tỉnh. Bài viết cung cấp cách đọc thủ tục chung, không quyết định quyền lợi cho một hồ sơ cá nhân.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "luong-toi-thieu-vung-va-luong-co-so-2026-khac-nhau-the-nao",
     kind: "news",
     category: "Tin mới Việt Nam · Việc làm",
