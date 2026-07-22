@@ -604,63 +604,71 @@ export const posts20260721: CommunityPost[] = [
     slug: "du-bao-thoi-tiet-viet-nam-21-30-7-2026",
     kind: "news",
     category: "Tin mới Việt Nam · Thời tiết",
-    title: "Thời tiết 21–30/7: Trung Bộ nắng nóng, Bắc Bộ tăng mưa từ đêm 22/7",
-    summary: "Bản tin 10 ngày của cơ quan khí tượng cho thấy nắng nóng còn tập trung ở Trung Bộ, trong khi Bắc Bộ có đợt mưa dông từ đêm 22–24/7; lịch di chuyển cần kiểm tra lại theo từng địa phương.",
+    title: "Thời tiết 22–31/7: Bắc Bộ tăng mưa, Trung Bộ còn nắng nóng trong ngày 22/7",
+    summary: "Bản tin mới nhất cho thấy Bắc Bộ có mưa dông rải rác và cục bộ mưa to từ đêm 22 đến ngày 24/7, trong khi một phần Trung Bộ còn nắng nóng trong ngày 22/7 rồi thu hẹp dần.",
     readTime: "11 phút đọc",
-    hero: "HEAT & RAIN\n21–30 JULY",
+    hero: "HEAT & RAIN\n22–31 JULY",
     images: [{
       src: "/images/editorial/thoi-tiet-viet-nam-21-30-7-2026.jpg",
       alt: "Minh họa ba vùng Việt Nam với mưa ở phía Bắc, nắng nóng miền Trung và mây dông phía Nam",
     }],
     publishedAt: "2026-07-21T06:45:00+07:00",
-    updatedAt: "2026-07-21T02:55:00+07:00",
+    updatedAt: "2026-07-22T10:40:00+07:00",
     keyFacts: [
-      { label: "THỜI HẠN BẢN TIN", value: "Đêm 20–30/7", note: "Xu thế thời tiết đất liền, cần kết hợp dự báo ngắn hạn tại địa phương." },
-      { label: "BẮC BỘ", value: "Mưa tăng 22–24/7", note: "Mưa rào, dông rải rác và có nơi mưa to, tập trung sáng sớm, chiều tối và đêm." },
-      { label: "TRUNG BỘ", value: "Còn nắng nóng", note: "Ngày 21/7 có nơi nắng nóng gay gắt; giai đoạn sau vẫn có nơi nắng nóng." },
+      { label: "THỜI HẠN BẢN TIN", value: "Đêm 21–31/7", note: "Xu thế thời tiết đất liền, cần kết hợp dự báo ngắn hạn tại địa phương." },
+      { label: "BẮC BỘ", value: "Mưa tăng 22–24/7", note: "Đêm 22–23 và đêm 23–24/7 có mưa dông rải rác hoặc rải rác có dông, cục bộ mưa to." },
+      { label: "TRUNG BỘ", value: "35–37°C", note: "Khoảng phổ biến ngày 22/7 tại Quảng Trị–Đà Nẵng và phía đông Quảng Ngãi–Đắk Lắk; có nơi trên 37°C." },
       { label: "CAO NGUYÊN & NAM BỘ", value: "Chiều, tối", note: "Có các đợt mưa dông rải rác, cục bộ mưa to trong thời kỳ dự báo." },
       { label: "RỦI RO TRONG DÔNG", value: "Nhiều hiện tượng", note: "Có khả năng xảy ra lốc, sét, mưa đá và gió giật mạnh." },
     ],
     sourceLinks: [
       {
-        label: "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia — Xu thế thời tiết đất liền đến 30/7/2026",
-        url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/ban-tin-du-bao-canh-bao-xu-the-thoi-tiet-tren-dat-lien-thoi-han-den-10-ngay-tu-dem-20-den-ngay-30-7-post52858.html",
+        label: "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia — Xu thế thời tiết đất liền đến 31/7/2026",
+        url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/ban-tin-du-bao-canh-bao-xu-the-thoi-tiet-tren-dat-lien-thoi-han-den-10-ngay-tu-dem-21-den-ngay-31-7-post52858.html",
+      },
+      {
+        label: "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia — Cảnh báo mưa lớn Bắc Bộ sáng 22/7",
+        url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/tin-canh-bao-mua-lon-o-khu-vuc-bac-bo-tin-canh-bao-mua-dong-mua-lon-cuc-bo-loc-set-mua-da-gio-giat-manh-o-khu-vuc-vung-nui-va-trung-du-bac-bo-post53635.html",
+      },
+      {
+        label: "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia — Dự báo nắng nóng Trung Bộ sáng 22/7",
+        url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/tin-du-bao-nang-nong-o-khu-vuc-trung-bo-post53634.html",
       },
     ],
     sections: [
       {
         heading: "Bản tin 10 ngày dùng để làm gì?",
         paragraphs: [
-          "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia công bố xu thế thời tiết đất liền từ đêm 20 đến ngày 30/7/2026. Đây là bản nhìn theo vùng và giai đoạn, phù hợp để biết khi nào khả năng mưa hoặc nắng nóng tăng lên. Nó không thay thế dự báo giờ, cảnh báo dông, ngập hoặc bản tin cấp tỉnh phát hành gần thời điểm bạn di chuyển.",
-          "Tín hiệu tìm kiếm ‘mưa lớn’ đang tăng trên Google Trends Việt Nam cho thấy nhiều người cần câu trả lời nhanh, nhưng Trends không phải dữ liệu khí tượng. Vì vậy bài này chỉ dùng xu hướng đó để chọn câu hỏi, còn mốc thời gian và vùng ảnh hưởng đều lấy từ bản tin chuyên môn. Nếu dự báo mới thay đổi, nguồn chính thức mới hơn phải được ưu tiên.",
+          "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia công bố xu thế thời tiết đất liền từ đêm 21 đến ngày 31/7/2026, đồng thời phát cảnh báo mưa lớn ở Bắc Bộ lúc 09:15 và bản tin nắng nóng Trung Bộ lúc 08:00 ngày 22/7. Bản 10 ngày giúp nhìn theo vùng và giai đoạn; bản cảnh báo ngắn hạn mới hơn phải được ưu tiên khi bạn quyết định đi lại trong ngày.",
+          "Google Trends sáng 22/7 cho thấy nhu cầu tìm kiếm về thời tiết biển tăng nhanh, nhưng Trends không phải dữ liệu khí tượng. Vì vậy bài này chỉ dùng xu hướng đó để nhận ra câu hỏi độc giả đang quan tâm, còn mốc thời gian, nhiệt độ và vùng ảnh hưởng đều lấy từ bản tin chuyên môn. Dabangzz không gọi một hệ thống là áp thấp nhiệt đới khi cơ quan dự báo chưa phát bản tin chính thức tương ứng.",
         ],
       },
       {
-        heading: "Ngày 21–22/7: nắng nóng đáng chú ý ở dải Trung Bộ",
+        heading: "Ngày 22/7: nắng nóng còn tập trung ở một phần Trung Bộ",
         paragraphs: [
-          "Trong giai đoạn đêm 20 đến ngày 21/7, khu vực từ Nghệ An đến Đà Nẵng và phía đông các tỉnh từ Quảng Ngãi đến Đắk Lắk có mưa rào, dông vài nơi vào chiều tối và đêm; ban ngày có nắng nóng và nắng nóng gay gắt, có nơi đặc biệt gay gắt. Sang đêm 21 đến ngày 22/7, vùng này vẫn có mưa dông vài nơi vào chiều tối, ban ngày tiếp tục nắng nóng, có nơi nắng nóng gay gắt; riêng Nghệ An và Hà Tĩnh có nơi nắng nóng.",
-          "Bản tin xu thế không đưa ra trong đoạn này một mức nhiệt duy nhất cho toàn dải, nên không nên tự gắn một con số nhiệt độ cho mọi tỉnh. Người làm ngoài trời hoặc di chuyển đường dài cần xem dự báo địa phương vào sáng cùng ngày, sắp xếp phần việc nặng tránh khung nắng mạnh nếu điều kiện cho phép, đồng thời theo dõi mây dông cuối ngày. Nắng ban ngày không loại trừ gió giật và sét khi dông xuất hiện.",
+          "Bản tin nắng nóng sáng 22/7 nêu khu vực từ Quảng Trị đến thành phố Đà Nẵng và phía đông các tỉnh từ Quảng Ngãi đến Đắk Lắk còn nắng nóng, có nơi nắng nóng gay gắt. Nhiệt độ cao nhất phổ biến 35–37°C, có nơi trên 37°C; độ ẩm tương đối thấp nhất phổ biến 50–55%, thời gian nắng nóng khoảng 11–17 giờ. Từ ngày 23/7, nắng nóng được nhận định chỉ còn xảy ra cục bộ ở Trung Bộ.",
+          "Đây là khoảng theo khu vực, không nên tự gắn một con số duy nhất cho mọi tỉnh. Cơ quan khí tượng lưu ý nhiệt độ cảm nhận ngoài trời có thể cao hơn nhiệt độ dự báo 2–4°C, thậm chí hơn nữa tùy bề mặt bê tông, đường nhựa và điều kiện xung quanh. Người làm ngoài trời nên xem dự báo địa phương vào sáng cùng ngày, tránh phần việc nặng trong khung nắng mạnh nếu điều kiện cho phép và tiếp tục theo dõi mây dông cuối ngày.",
         ],
         quote: "Một ngày có thể vừa nắng nóng vào ban ngày vừa có dông mạnh vào chiều tối; hai cảnh báo không mâu thuẫn.",
       },
       {
         heading: "Bắc Bộ: mưa dông tăng từ đêm 22 đến 24/7",
         paragraphs: [
-          "Trong đêm 20 đến ngày 22/7, Bắc Bộ và Thanh Hóa chủ yếu có mưa rào, dông vài nơi, ban ngày trời nắng; khu vực đồng bằng Bắc Bộ và Thanh Hóa có nơi nắng nóng. Phần dự báo từ đêm 22 đến ngày 30/7 cho biết Bắc Bộ có mưa rào, dông rải rác và cục bộ mưa to trong đêm 22–24/7, mưa tập trung vào sáng sớm, chiều tối và đêm. Khoảng 25–26/7, mưa có xu hướng giảm.",
+          "Trong đêm 21 và ngày 22/7, Bắc Bộ và Thanh Hóa có mưa rào, dông vài nơi vào chiều tối và đêm; ban ngày trời nắng, có nơi nắng nóng. Sang đêm 22 và ngày 23/7, mưa rào và dông trở nên rải rác, cục bộ có nơi mưa to. Từ đêm 23 đến ngày 24/7, Bắc Bộ tiếp tục có mưa rào và rải rác có dông, cục bộ mưa to, tập trung vào chiều tối, đêm và sáng sớm. Khoảng 25–26/7, mưa có xu hướng giảm dần.",
           "Mốc này giúp người dân biết thời gian cần kiểm tra kỹ hơn, không có nghĩa mọi quận huyện cùng mưa liên tục ba ngày. Mưa dông có tính địa phương và cường độ thay đổi nhanh. Trước giờ đi làm hoặc đưa trẻ đến trường, hãy xem radar, cảnh báo ngập và thông tin giao thông tại nơi mình ở. Nếu chính quyền địa phương phát cảnh báo điểm ngập hoặc sạt lở, thông báo tại chỗ quan trọng hơn lịch dự kiến ban đầu.",
         ],
       },
       {
         heading: "Từ Thanh Hóa đến duyên hải Nam Trung Bộ: đừng gom thành một vùng giống nhau",
         paragraphs: [
-          "Giai đoạn từ đêm 22 đến ngày 30/7, khu vực từ Thanh Hóa đến Huế và duyên hải Nam Trung Bộ được dự báo có mưa rào, dông vài nơi; ban ngày trời nắng, có nơi nắng nóng. Riêng phần phía nam của khu vực, từ ngày 23/7 có mưa rào và dông rải rác vào chiều tối. Đây là khác biệt quan trọng với người đi dọc tuyến dài: điểm xuất phát nắng không bảo đảm điểm đến cũng khô ráo.",
+          "Giai đoạn từ đêm 23 đến ngày 31/7, khu vực từ Nghệ An đến Huế được dự báo có mưa rào, dông vài nơi vào chiều tối và đêm; ban ngày trời nắng, có nơi nắng nóng. Ở duyên hải Nam Trung Bộ, phía bắc chủ yếu có mưa dông vài nơi vào chiều tối và đêm, còn phía nam có mưa rào, dông rải rác vào chiều tối và tối. Đây là khác biệt quan trọng với người đi dọc tuyến dài: điểm xuất phát nắng không bảo đảm điểm đến cũng khô ráo.",
           "Kế hoạch du lịch biển cần kiểm tra thêm dự báo biển, sóng, gió và quy định của địa phương, vì bản tin đang được tóm tắt là xu thế trên đất liền. Không dùng một ảnh mây trên ứng dụng để quyết định hoạt động dưới nước. Khi nghe sấm hoặc thấy mây dông phát triển nhanh, rời khu vực trống, cây đơn độc và mặt nước; chờ hướng dẫn tại điểm du lịch thay vì cố hoàn thành lịch chụp ảnh.",
         ],
       },
       {
         heading: "Cao nguyên Trung Bộ và Nam Bộ: ưu tiên kế hoạch chiều, tối",
         paragraphs: [
-          "Ở các khu vực khác trong hai ngày đầu, bản tin nêu mưa rào, dông vài nơi, ban ngày trời nắng và có nơi nắng nóng; riêng chiều tối 22/7, Cao nguyên Trung Bộ và Nam Bộ có mưa rào, dông rải rác. Trong thời kỳ từ đêm 22 đến 30/7, hai vùng tiếp tục có mưa rào, dông rải rác vào chiều và tối, cục bộ có nơi mưa to; khoảng 26–27/7 có một giai đoạn mưa dông rải rác, cục bộ mưa to được nhấn mạnh.",
+          "Ở các khu vực khác trong hai ngày đầu, bản tin nêu mưa rào, dông vài nơi vào chiều tối và đêm, ban ngày trời nắng và có nơi nắng nóng. Trong thời kỳ từ đêm 23 đến 31/7, Cao nguyên Trung Bộ và Nam Bộ có mưa rào, dông rải rác vào chiều và tối, cục bộ có nơi mưa to; khoảng 25–26/7 là giai đoạn mưa dông rải rác và cục bộ mưa to được nhấn mạnh.",
           "Người đi xe máy nên chuẩn bị áo mưa dễ mặc, túi chống nước cho giấy tờ và phương án dừng ở nơi an toàn, nhưng không mặc áo che khuất đèn hoặc tầm nhìn. Khi đường ngập, không suy đoán độ sâu theo xe phía trước và không đi vào đoạn nước chảy mạnh. Mưa cục bộ có nghĩa nơi này có thể mưa lớn trong khi khu vực cách đó không xa ít mưa, nên ảnh từ một điểm không đại diện cho cả thành phố.",
         ],
       },

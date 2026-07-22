@@ -284,19 +284,19 @@ export const vietnamNews: CommunityPost[] = [
     slug: "song-dong-chay-bien-19-28-7-2026",
     kind: "news",
     category: "Tin mới Việt Nam · Biển",
-    title: "Biển 19–28/7: sóng 2–4m và dòng chảy trên 1m/s cần được đọc cùng nhau thế nào?",
-    summary: "Bản tin hải văn mới nhất tách rõ hai giai đoạn, khu vực có sóng 1,5–4m và nơi dòng chảy có thể vượt 1m/s; bài viết giải thích vì sao độ cao sóng, dòng chảy, thủy triều và gió không thể dùng thay nhau.",
+    title: "Biển 21–30/7: Bắc Biển Đông có thể có sóng 3–5m, cần kiểm tra gì trước khi đi?",
+    summary: "Bản tin hải văn ngày 21/7 mở rộng khoảng sóng ở Bắc Biển Đông lên 3–5m trong giai đoạn sau và tiếp tục cảnh báo dòng chảy mạnh ven bờ; bài viết giải thích cách đọc cùng sóng, dòng chảy, dông và thủy triều.",
     readTime: "12 phút đọc",
     hero: "WAVE &\nCURRENT",
     publishedAt: "2026-07-20T14:30:00+07:00",
-    updatedAt: "2026-07-20T10:45:00+07:00",
+    updatedAt: "2026-07-22T10:42:00+07:00",
     images: [{
       src: "/images/editorial/song-dong-chay-bien-19-28-7-2026.jpg",
       alt: "Minh họa AI bờ biển giả định với các lớp sóng, dòng chảy ven bờ và hai người quan sát từ vị trí an toàn",
     }],
     keyFacts: [
-      { label: "KỲ DỰ BÁO", value: "19–28/7", note: "Hai bản tin sóng và dòng chảy cùng phát lúc 15:30 ngày 19/7/2026." },
-      { label: "SÓNG CAO NHẤT NÊU TRONG KỲ", value: "2,0–4,0m", note: "Dự báo cho Gia Lai–Khánh Hòa và Biển Đông, gồm khu vực Trường Sa, giai đoạn 22–28/7." },
+      { label: "KỲ DỰ BÁO", value: "21–30/7", note: "Bản tin sóng và dòng chảy được Trung tâm cập nhật sáng 21/7/2026." },
+      { label: "BẮC BIỂN ĐÔNG", value: "3,0–5,0m", note: "Khoảng dự báo cho giai đoạn 24–30/7; đây là dự báo theo vùng, không phải số đo tại mọi điểm." },
       { label: "DÒNG CHẢY GIA LAI–KHÁNH HÒA", value: "0,5–1,3m/s", note: "Khoảng dự báo được nêu cho cả hai giai đoạn của bản tin." },
       { label: "CẢNH BÁO DÒNG MẠNH", value: ">1,0m/s", note: "Áp dụng cho dải ven biển Nam Quảng Trị–Cà Mau cùng Bắc và Giữa Biển Đông." },
       { label: "ĐIỂM CẦN CHÚ Ý Ở BÃI TẮM", value: "Dòng rip", note: "Nguy cơ tăng khi thủy triều xuống đi cùng sóng lớn; phải theo cờ và hướng dẫn tại chỗ." },
@@ -304,48 +304,52 @@ export const vietnamNews: CommunityPost[] = [
     ],
     sourceLinks: [
       {
-        label: "Trung tâm Dự báo KTTV Quốc gia — Dự báo sóng 19–28/7/2026",
-        url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/ban-tin-du-bao-song-10-ngay-toi-tu-ngay-17-07-den-ngay-26-07-2026-post52816.html",
+        label: "Trung tâm Dự báo KTTV Quốc gia — Dự báo sóng 21–30/7/2026",
+        url: "https://www.nchmf.gov.vn/kttv/vi-VN/1/ban-tin-du-bao-song-10-ngay-toi-tu-ngay-08-07-den-ngay-17-07-2026-post52367.html",
       },
       {
-        label: "Trung tâm Dự báo KTTV Quốc gia — Dự báo dòng chảy 19–28/7/2026",
-        url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/ban-tin-du-bao-dong-chay-10-ngay-toi-tu-ngay-17-07-den-ngay-26-07-2026-post52817.html",
+        label: "Trung tâm Dự báo KTTV Quốc gia — Dự báo dòng chảy 21–30/7/2026",
+        url: "https://www.nchmf.gov.vn/kttv/vi-VN/1/ban-tin-du-bao-dong-chay-10-ngay-toi-tu-ngay-18-07-den-ngay-27-07-2026-post52368.html",
+      },
+      {
+        label: "Trung tâm Dự báo KTTV Quốc gia — Cảnh báo dông, lốc và gió giật mạnh trên biển ngày 22/7",
+        url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/tin-du-bao-mua-dong-loc-xoay-va-gio-giat-manh-tren-bien-post53633.html",
       },
     ],
     sections: [
       {
         heading: "Hai bản tin cùng giờ nhưng đo hai thứ khác nhau",
         paragraphs: [
-          "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia phát bản tin sóng và bản tin dòng chảy lúc 15:30 ngày 19/7/2026, cùng bao quát giai đoạn 19–28/7. Bản tin sóng mô tả khoảng độ cao sóng theo từng vùng biển và cảnh báo nơi có thể xuất hiện sóng lớn. Bản tin dòng chảy mô tả vận tốc dòng nước theo mét mỗi giây, đồng thời lưu ý dòng mạnh ven biển và dòng chảy xa bờ tại bãi tắm. Cùng một địa danh có thể xuất hiện trong cả hai bản tin, nhưng hai con số không thể đổi cho nhau.",
+          "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia cập nhật bản tin sóng và bản tin dòng chảy ngày 21/7/2026, cùng bao quát giai đoạn 21–30/7. Bản tin sóng mô tả khoảng độ cao sóng theo từng vùng biển và cảnh báo nơi có thể xuất hiện sóng lớn. Bản tin dòng chảy mô tả vận tốc dòng nước theo mét mỗi giây, đồng thời lưu ý dòng mạnh ven biển và dòng chảy xa bờ tại bãi tắm. Cùng một địa danh có thể xuất hiện trong cả hai bản tin, nhưng hai con số không thể đổi cho nhau.",
           "Độ cao sóng cho biết quy mô dao động bề mặt trong khoảng dự báo; vận tốc dòng chảy cho biết nước di chuyển nhanh đến mức nào. Một bãi có sóng nhìn không quá cao vẫn có thể có dòng kéo mạnh, còn vùng ngoài khơi có sóng lớn không cho phép suy ra tình trạng tại mọi bãi trong tỉnh. Thủy triều, gió, dông và địa hình đáy biển còn làm điều kiện thay đổi theo giờ. Vì vậy, số liệu 10 ngày dùng để chuẩn bị và sàng lọc rủi ro; quyết định ra khơi hoặc xuống nước phải dựa trên bản tin ngắn hạn và hướng dẫn tại đúng địa điểm.",
         ],
       },
       {
-        heading: "Từ 19 đến 21/7: dải Gia Lai–Khánh Hòa nổi bật ở cả sóng và dòng",
+        heading: "Từ 21 đến 23/7: dải Gia Lai–Cà Mau có sóng 1,5–2,5m",
         paragraphs: [
-          "Trong giai đoạn 19–21/7, bản tin sóng nêu khu vực Lâm Đồng–Cà Mau và Biển Đông, bao gồm khu vực Hoàng Sa, có sóng dao động 1,5–2,5m. Dải Gia Lai–Khánh Hòa được dự báo 2,0–3,0m. Ở bản tin dòng chảy, Nam Quảng Trị–Quảng Ngãi, Lâm Đồng–Cà Mau và Biển Đông, gồm khu vực Hoàng Sa, có vận tốc 0,5–1,2m/s; riêng Gia Lai–Khánh Hòa là 0,5–1,3m/s. Các khu vực khác được nêu ở mức 0,3–0,7m/s.",
-          "Những khoảng này bao trùm vùng rất rộng, không phải số đo tại một phao duy nhất hay cam kết điều kiện sẽ giữ nguyên suốt ngày. Mức 3,0m là đầu trên của khoảng sóng được dự báo cho một khu vực, không có nghĩa mọi con sóng ở mọi điểm đều đúng 3,0m. Tương tự, 1,3m/s không cho biết hướng dòng tại một bãi cụ thể. Người quản lý tàu, đánh bắt hoặc hoạt động chuyên nghiệp cần dùng sản phẩm dự báo chuyên ngành, tọa độ tuyến đi và quy trình của đơn vị thay vì lấy khoảng vùng trong bài làm thông số vận hành.",
+          "Trong giai đoạn 21–23/7, bản tin sóng nêu dải Gia Lai–Cà Mau có độ cao sóng dao động 1,5–2,5m. Ở bản tin dòng chảy, Nam Quảng Trị–Quảng Ngãi, Lâm Đồng–Cà Mau và Biển Đông, gồm khu vực Hoàng Sa, có vận tốc 0,5–1,2m/s; riêng Gia Lai–Khánh Hòa là 0,5–1,3m/s. Các khu vực khác được nêu ở mức 0,3–0,7m/s. Đây là khoảng theo vùng và theo giai đoạn, không phải dự báo một giá trị cố định cho từng bãi hoặc từng giờ.",
+          "Những khoảng này bao trùm vùng rất rộng, không phải số đo tại một phao duy nhất hay cam kết điều kiện sẽ giữ nguyên suốt ngày. Mức 2,5m là đầu trên của khoảng sóng được dự báo cho dải Gia Lai–Cà Mau trong giai đoạn đầu, không có nghĩa mọi con sóng ở mọi điểm đều đúng 2,5m. Tương tự, 1,3m/s không cho biết hướng dòng tại một bãi cụ thể. Người quản lý tàu, đánh bắt hoặc hoạt động chuyên nghiệp cần dùng sản phẩm dự báo chuyên ngành, tọa độ tuyến đi và quy trình của đơn vị thay vì lấy khoảng vùng trong bài làm thông số vận hành.",
         ],
         quote: "Sóng cao bao nhiêu và nước chảy nhanh thế nào là hai câu hỏi riêng; cả hai đều cần đúng vị trí và đúng thời điểm.",
       },
       {
-        heading: "Từ 22 đến 28/7: có nơi khoảng sóng mở rộng tới 4m",
+        heading: "Từ 24 đến 30/7: Bắc Biển Đông có khoảng sóng 3–5m",
         paragraphs: [
-          "Bản tin sóng nhận định giai đoạn 22–28/7, vịnh Bắc Bộ và vịnh Thái Lan có sóng 1,5–2,5m. Dải Nam Quảng Trị–Quảng Ngãi, Lâm Đồng–Cà Mau và khu vực Hoàng Sa được nêu ở mức 2,0–3,0m. Gia Lai–Khánh Hòa cùng Biển Đông, bao gồm khu vực Trường Sa, có khoảng 2,0–4,0m. Việc khoảng dự báo mở rộng đến 4,0m là tín hiệu cần kiểm tra kỹ hơn, không phải lời khẳng định toàn bộ Biển Đông sẽ đồng loạt có sóng 4m.",
-          "Cảnh báo của Trung tâm cũng chia theo ngày: dải Gia Lai–Cà Mau được lưu ý có sóng lớn trong các khoảng 19–23 và 27–28/7; Biển Đông, gồm khu vực Hoàng Sa và Trường Sa, được nêu cho 19–20 và 26–28/7. Ngoài ra, Bắc vịnh Bắc Bộ, Cà Mau–An Giang, vịnh Thái Lan, Bắc và Giữa Biển Đông có thể xuất hiện sóng lớn bất thường trong lốc xoáy và gió giật mạnh. Một cửa sổ ngày không thay thế bản tin dông hay gió mới phát hành trong vài giờ trước chuyến đi.",
+          "Bản tin sóng nhận định giai đoạn 24–30/7, vịnh Thái Lan có sóng 1,5–2,5m; Nam Quảng Trị–Quảng Ngãi ở khoảng 2,0–3,0m. Dải Gia Lai–Khánh Hòa, Lâm Đồng–Cà Mau, Giữa và Nam Biển Đông, gồm khu vực Hoàng Sa và Trường Sa, được nêu ở mức 2,0–4,0m. Bắc Biển Đông có khoảng 3,0–5,0m. Mức đầu trên 5,0m là tín hiệu phải kiểm tra kỹ hơn, không có nghĩa mọi vị trí trong vùng sẽ đồng loạt có sóng 5m.",
+          "Cảnh báo chia theo cửa sổ thời gian: Nam Quảng Trị–Quảng Ngãi được lưu ý trong 26–30/7; Gia Lai–Cà Mau trong 21–30/7; vịnh Thái Lan trong 27–29/7; các khu vực Biển Đông trong 25–30/7. Bản tin dông trên biển phát lúc 04:00 ngày 22/7 còn nêu Bắc vịnh Bắc Bộ, phía đông Giữa Biển Đông và Nam Biển Đông, gồm khu vực Trường Sa, có thể có lốc xoáy, gió giật cấp 6–7 và sóng trên 2m trong dông. Vì vậy bản tin 10 ngày không thay thế cảnh báo mới phát vài giờ trước chuyến đi.",
         ],
       },
       {
         heading: "Dòng trên 1m/s và dòng rip: vì sao người đứng gần bờ vẫn phải chú ý?",
         paragraphs: [
-          "Bản tin dòng chảy giữ khoảng 0,5–1,2m/s cho Nam Quảng Trị–Quảng Ngãi, Lâm Đồng–Cà Mau và một phần Biển Đông trong giai đoạn 22–28/7; Gia Lai–Khánh Hòa tiếp tục ở khoảng 0,5–1,3m/s. Phần cảnh báo nêu dải ven biển Nam Quảng Trị–Cà Mau, Bắc và Giữa Biển Đông cần lưu ý dòng chảy có cường độ mạnh trên 1,0m/s. Đây là cảnh báo vùng, nên không thể dùng để tự đánh dấu một bãi cụ thể là an toàn hoặc nguy hiểm chỉ bằng tên tỉnh.",
+          "Bản tin dòng chảy giữ khoảng 0,5–1,2m/s cho Nam Quảng Trị–Quảng Ngãi, Lâm Đồng–Cà Mau và Biển Đông trong cả hai giai đoạn 21–23 và 24–30/7; Gia Lai–Khánh Hòa tiếp tục ở khoảng 0,5–1,3m/s. Phần cảnh báo nêu dải ven biển Nam Quảng Trị–Cà Mau, Bắc và Giữa Biển Đông cần lưu ý dòng chảy có cường độ mạnh trên 1,0m/s. Đây là cảnh báo vùng, nên không thể dùng để tự đánh dấu một bãi cụ thể là an toàn hoặc nguy hiểm chỉ bằng tên tỉnh.",
           "Trung tâm đặc biệt nhắc các vùng ven bờ, nhất là bãi tắm, đề phòng dòng chảy mạnh hướng xa bờ, thường gọi là dòng rip, khi thủy triều xuống đi cùng sóng lớn. Dòng rip không nhất thiết tạo thành một bức tường nước dễ nhìn từ xa. Người đi biển nên xem cờ cảnh báo, khu vực cấm và hướng dẫn của lực lượng tại chỗ; không xuống nước ở bãi không có thông tin an toàn chỉ vì gần bờ. Nếu bị cuốn, ưu tiên gọi trợ giúp và làm theo hướng dẫn cứu hộ đã được đào tạo, thay vì dựa vào một mẹo mạng xã hội thiếu bối cảnh.",
         ],
       },
       {
         heading: "Đừng ghép bảng sóng với bảng thủy triều như một phép cộng đơn giản",
         paragraphs: [
-          "Dabangzz đã có bài riêng về thủy triều 19–28/7 vì mực nước lớn, nước ròng và khung giờ tại Hòn Dấu, Quy Nhơn, Vũng Tàu trả lời câu hỏi khác. Không thể lấy mực triều tính bằng centimet cộng với độ cao sóng tính bằng mét để tạo một ‘mức nước nguy hiểm’. Các đại lượng có mốc đo, không gian và mục đích khác nhau. Điều cần làm là đặt chúng cạnh nhau theo đúng giờ: triều đang lên hay xuống, sóng và gió thế nào, có dông không, địa phương có cảnh báo hay hạn chế hoạt động không.",
+          "Dabangzz đã có bài riêng về thủy triều vì mực nước lớn, nước ròng và khung giờ tại Hòn Dấu, Quy Nhơn, Vũng Tàu trả lời câu hỏi khác. Không thể lấy mực triều tính bằng centimet cộng với độ cao sóng tính bằng mét để tạo một ‘mức nước nguy hiểm’. Các đại lượng có mốc đo, không gian và mục đích khác nhau. Điều cần làm là đặt chúng cạnh nhau theo đúng giờ: triều đang lên hay xuống, sóng và gió thế nào, có dông không, địa phương có cảnh báo hay hạn chế hoạt động không.",
           "Ở cửa sông, lượng nước từ đất liền và địa hình luồng tàu có thể tạo khác biệt; ở bãi cát, hướng bờ và đáy biển ảnh hưởng cách sóng vỡ và dòng quay ra ngoài; tại vùng đảo, gió và dông cục bộ có thể làm điều kiện thay đổi nhanh. Hai địa điểm trong cùng tỉnh vì vậy không nhất thiết giống nhau. Bản đồ tổng quát có ích để biết vùng cần thận trọng hơn, còn giờ khởi hành, điểm neo, khu vực tắm và việc đóng mở dịch vụ phải kiểm tra bằng thông báo tại địa phương hoặc đơn vị quản lý.",
         ],
       },
@@ -353,7 +357,7 @@ export const vietnamNews: CommunityPost[] = [
         heading: "Checklist trước khi ra biển và đường dẫn tới bản cập nhật mới nhất",
         paragraphs: [
           "Trước một hoạt động ven biển, hãy ghi rõ địa điểm và thời gian; mở bản tin sóng, dòng chảy, gió, dông và thủy triều mới nhất; kiểm tra cảnh báo của tỉnh, cảng, bến hoặc bãi tắm; hỏi đơn vị tổ chức về điều kiện hủy hay đổi lịch; chuẩn bị phương án quay về nếu thời tiết xấu hơn dự kiến. Với tàu thuyền, người vận hành phải tuân thủ hướng dẫn hàng hải và quy trình chuyên môn. Với khách tắm biển, chỉ xuống nước trong khu vực được phép và không vượt cờ, phao hoặc chỉ dẫn của lực lượng tại chỗ.",
-          "Hai liên kết nguồn cuối bài dẫn tới mục Hải văn của Trung tâm Dự báo Khí tượng Thủy văn Quốc gia. Trang có thể giữ địa chỉ kỹ thuật cũ trong URL nhưng phần tiêu đề và thời điểm phát tin phải được kiểm tra trực tiếp; bài này dùng bản cập nhật 19–28/7 phát lúc 15:30 ngày 19/7. Google Trends sáng 20/7 chủ yếu tăng ở thể thao, giá vàng, thực thể có tên và chủ đề y tế nên Dabangzz không biến chúng thành tin chỉ để chạy theo lượng tìm kiếm. Bài biển được chọn vì có nguồn chuyên môn mới, số liệu rõ và giá trị chuẩn bị trực tiếp cho độc giả.",
+          "Các liên kết nguồn cuối bài dẫn tới bản tin Hải văn và cảnh báo thời tiết nguy hiểm của Trung tâm Dự báo Khí tượng Thủy văn Quốc gia. Trang có thể giữ địa chỉ kỹ thuật cũ trong URL, vì vậy phải kiểm tra tiêu đề và thời điểm phát tin đang hiển thị; bài này dùng các bản cập nhật 21–30/7 cùng cảnh báo dông biển sáng 22/7. Google Trends có tín hiệu tăng về áp thấp nhiệt đới, nhưng đến thời điểm cập nhật bài, Dabangzz chưa thấy một bản tin áp thấp nhiệt đới mới tương ứng trên kênh chính thức nên không gắn nhãn hiện tượng đó cho các điều kiện đang được mô tả.",
         ],
       },
     ],
