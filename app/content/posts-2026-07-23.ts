@@ -445,4 +445,168 @@ export const posts20260723: CommunityPost[] = [
       },
     ],
   },
+  {
+    slug: "vssid-tang-tim-kiem-cach-tranh-app-gia-mao-va-cai-dung-nguon",
+    kind: "news",
+    category: "Tin mới Việt Nam · Dịch vụ số",
+    title: "VssID được tìm nhiều: cách nhận ra ứng dụng giả và cài đúng nguồn chính thức",
+    summary: "Từ khóa VssID tăng trong nhóm tìm kiếm tại Việt Nam, nhưng Google Trends không cho biết người dùng đang cần thủ tục nào. Điều cần làm trước tiên là phân biệt ứng dụng chính thức với tệp APK gửi qua tin nhắn, kiểm tra nguồn tải và bảo vệ tài khoản bảo hiểm xã hội.",
+    readTime: "10 phút đọc",
+    hero: "VSSID\nCÀI ĐÚNG NGUỒN",
+    images: [{
+      src: "/images/editorial/vssid-app-gia-mao-20260723.webp",
+      alt: "Minh họa một người kiểm tra điện thoại trước hai đường tải ứng dụng an toàn và đáng ngờ",
+      caption: "Minh họa biên tập bằng AI; không mô phỏng giao diện thật của VssID hay một kho ứng dụng cụ thể.",
+      credit: "ai",
+    }],
+    publishedAt: "2026-07-23T18:00:00+07:00",
+    updatedAt: "2026-07-23T17:47:00+07:00",
+    keyFacts: [
+      { label: "TÍN HIỆU NHU CẦU", value: "VssID", note: "Xuất hiện trong nhóm tìm kiếm tăng tại Việt Nam chiều 23/7; Trends không phải bằng chứng về một sự cố mới." },
+      { label: "CẢNH BÁO CHÍNH THỨC", value: "13/5/2026", note: "BHXH Việt Nam cảnh báo tệp giả mang tên VSSID.apk có khả năng chiếm quyền điều khiển điện thoại." },
+      { label: "NGUỒN CÀI ĐẶT", value: "Trang BHXH Việt Nam", note: "Trang tải VssID chính thức dẫn người dùng tới kho ứng dụng và tài liệu đăng ký phù hợp." },
+      { label: "NGUYÊN TẮC", value: "Không cài APK lạ", note: "Không mở tệp cài đặt được gửi qua tin nhắn, cuộc gọi hoặc liên kết rút gọn." },
+    ],
+    sourceLinks: [
+      {
+        label: "BHXH Việt Nam — Cảnh báo ứng dụng giả mạo VSSID.apk chứa mã độc",
+        url: "https://baohiemxahoi.gov.vn/chidaodieuhanh/Pages/thong-tin-bao-chi.aspx?CateID=0&ItemID=26544&OtItem=date",
+      },
+      {
+        label: "BHXH Việt Nam — Trang tải ứng dụng VssID và tài liệu hướng dẫn chính thức",
+        url: "https://baohiemxahoi.gov.vn/gioithieu/Pages/tai-ung-dung-vssid.aspx",
+      },
+    ],
+    sections: [
+      {
+        heading: "Vì sao VssID được tìm nhiều và điều gì chưa thể kết luận?",
+        paragraphs: [
+          "VssID xuất hiện trong nhóm tìm kiếm tăng tại Việt Nam trong chiều 23/7. Tín hiệu này cho thấy nhiều người đang đồng thời tìm tên ứng dụng, nhưng không nói rõ họ muốn xem quá trình đóng bảo hiểm, đăng ký tài khoản, xử lý lỗi đăng nhập hay kiểm tra một thông báo nhận được. Google Trends cũng không xác nhận hệ thống đang gặp sự cố hoặc vừa có chính sách trợ cấp mới.",
+          "Vì vậy, Dabangzz không suy đoán một khoản chi trả hay thay đổi quyền lợi từ từ khóa. Bài viết tập trung vào việc có thể kiểm chứng và hữu ích ngay: BHXH Việt Nam đã có trang tải VssID chính thức, đồng thời từng cảnh báo một tệp giả mang tên gần giống ứng dụng thật. Người dùng nên xác định đúng nguồn cài đặt trước khi nhập số căn cước, mã bảo hiểm xã hội hoặc mật khẩu.",
+        ],
+        quote: "Một từ khóa đang tăng không chứng minh có trợ cấp mới; hãy kiểm tra thông báo trong kênh chính thức trước khi làm theo lời mời bên ngoài.",
+      },
+      {
+        heading: "Cảnh báo ngày 13/5/2026 nói gì về tệp VSSID.apk?",
+        paragraphs: [
+          "Ngày 13/5/2026, BHXH Việt Nam cho biết đã phát hiện một ứng dụng giả mạo có tên “VSSID.apk” chứa mã độc có khả năng chiếm quyền điều khiển điện thoại. Chi tiết quan trọng không nằm ở việc tên tệp dùng chữ hoa hay chữ thường, mà ở phương thức phân phối: một tệp APK được gửi trực tiếp để người nhận tự cài không phải quy trình tải ứng dụng chính thức thông thường từ trang của cơ quan hoặc kho ứng dụng được dẫn tới.",
+          "Kẻ giả mạo có thể lợi dụng lúc người dùng đang chờ giải quyết chế độ, cần xác nhận tài khoản hoặc nghe tin về trợ cấp để tạo cảm giác phải thao tác ngay. Một cuộc gọi biết đúng họ tên hay một tin nhắn có biểu tượng giống cơ quan nhà nước vẫn không đủ chứng minh nguồn gửi. Không cung cấp mã xác thực, không bật quyền điều khiển từ xa và không cho phép cài ứng dụng không rõ nguồn chỉ vì người gọi nói đang hỗ trợ hồ sơ.",
+        ],
+      },
+      {
+        heading: "Đường đi an toàn: bắt đầu từ cổng BHXH Việt Nam",
+        paragraphs: [
+          "Cách đơn giản nhất là tự gõ địa chỉ cổng BHXH Việt Nam trên trình duyệt, mở mục giới thiệu và trang “Tải ứng dụng VssID”. Trang này mô tả VssID là ứng dụng của BHXH Việt Nam trên thiết bị di động, cung cấp liên kết tải và các tài liệu hướng dẫn đăng ký. Đi từ điểm bắt đầu chính thức giúp giảm nguy cơ bấm nhầm quảng cáo hoặc trang có tên miền gần giống.",
+          "Trên kho ứng dụng, hãy kiểm tra tên nhà phát hành, lịch sử cập nhật, quyền mà ứng dụng yêu cầu và đường dẫn quay lại trang hỗ trợ chính thức. Không chỉ dựa vào biểu tượng, số lượt tải hoặc vài đánh giá đầu tiên vì các yếu tố đó có thể bị bắt chước. Nếu kết quả tìm kiếm khiến bạn phân vân, quay lại trang BHXH Việt Nam và dùng liên kết được cơ quan này công bố thay vì thử nhiều tệp khác nhau.",
+        ],
+      },
+      {
+        heading: "Bốn dấu hiệu nên dừng thao tác ngay",
+        paragraphs: [
+          "Hãy dừng nếu người lạ yêu cầu tải một tệp có đuôi APK qua ứng dụng nhắn tin; bật quyền trợ năng hoặc chia sẻ màn hình; đọc mã OTP; chuyển tiền để “mở khóa” quyền lợi. Cũng cần thận trọng với liên kết rút gọn, tên miền sai một ký tự, trang yêu cầu nhập đồng thời quá nhiều dữ liệu và thông báo đếm ngược khiến người dùng không có thời gian kiểm tra.",
+          "Một ứng dụng thật vẫn có thể xin những quyền cần thiết cho chức năng của nó, vì vậy không nên kết luận chỉ từ một quyền đơn lẻ. Điều cần xem là toàn bộ ngữ cảnh: bạn có chủ động bắt đầu từ nguồn chính thức không, yêu cầu có phù hợp với chức năng đang dùng không và có ai đang thúc ép từ xa không. Khi chưa chắc, đóng màn hình, không tiếp tục cấp quyền và xác minh lại bằng thông tin liên hệ trên cổng chính thức.",
+        ],
+      },
+      {
+        heading: "Nếu đã cài tệp lạ hoặc đã nhập thông tin thì làm gì?",
+        paragraphs: [
+          "Trước hết, ngắt phiên hỗ trợ từ xa nếu có và dùng một thiết bị đáng tin cậy khác để đổi mật khẩu tài khoản liên quan. Kiểm tra danh sách ứng dụng vừa cài, quyền trợ năng, quyền quản trị thiết bị và các phiên đăng nhập bất thường. Không tiếp tục mở ứng dụng nghi ngờ chỉ để chụp thêm bằng chứng nếu việc đó có thể kích hoạt quyền điều khiển hoặc làm lộ dữ liệu mới.",
+          "Liên hệ BHXH qua kênh được công bố trên cổng chính thức để xác minh tài khoản, đồng thời liên hệ ngân hàng ngay nếu đã cung cấp thông tin thanh toán hoặc thấy giao dịch lạ. Giữ lại thời gian cuộc gọi, số gửi, liên kết và ảnh chụp ở mức an toàn để báo cáo. Bài viết này là hướng dẫn an toàn số phổ thông, không thay thế hỗ trợ kỹ thuật chuyên sâu khi thiết bị đã bị chiếm quyền.",
+        ],
+      },
+      {
+        heading: "Checklist một phút trước khi đăng nhập VssID",
+        paragraphs: [
+          "Hãy tự hỏi năm câu: tôi có đi từ trang BHXH Việt Nam không; ứng dụng có được tải qua liên kết chính thức không; có ai yêu cầu tôi cài tệp riêng hoặc chia sẻ màn hình không; địa chỉ trang có đúng không; tôi có đang bị thúc phải hành động ngay không. Chỉ cần một câu trả lời khiến bạn nghi ngờ, hãy dừng và kiểm tra lại từ đầu.",
+          "Sau khi vào đúng ứng dụng, đọc kỹ nội dung thông báo và ngày ban hành, không suy diễn từ một bài đăng mạng xã hội thành quyền lợi chắc chắn. Các chế độ bảo hiểm phụ thuộc hồ sơ và quy định cụ thể; Trends chỉ giúp nhận ra câu hỏi của độc giả. Con đường đáng tin cậy vẫn là thông báo trong tài khoản và hướng dẫn mới nhất được BHXH Việt Nam công bố.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "giay-phep-lai-xe-tren-vneid-kiem-tra-va-doi-dung-cong-dich-vu",
+    kind: "news",
+    category: "Tin mới Việt Nam · Giao thông & dịch vụ công",
+    title: "Giấy phép lái xe được tìm nhiều: kiểm tra trên VNeID và đổi đúng cổng dịch vụ",
+    summary: "Người dân có thể xuất trình giấy phép lái xe đã tích hợp trên tài khoản định danh điện tử, nhưng việc tra cứu, cập nhật dữ liệu và nộp hồ sơ cấp đổi là ba việc khác nhau. Đây là cách chọn đúng kênh, tránh liên kết giả và xử lý khi thông tin chưa đồng bộ.",
+    readTime: "11 phút đọc",
+    hero: "GIẤY PHÉP LÁI XE\nĐÚNG KÊNH, ĐÚNG VIỆC",
+    images: [{
+      src: "/images/editorial/giay-phep-lai-xe-vneid-20260723.webp",
+      alt: "Minh họa một người đối chiếu giấy phép lái xe vật lý với thông tin điện tử và cổng dịch vụ",
+      caption: "Minh họa biên tập bằng AI; thẻ và màn hình trong ảnh không phải giấy phép hay giao diện ứng dụng thật.",
+      credit: "ai",
+    }],
+    publishedAt: "2026-07-23T19:30:00+07:00",
+    updatedAt: "2026-07-23T17:47:00+07:00",
+    keyFacts: [
+      { label: "TÍN HIỆU NHU CẦU", value: "Giấy phép lái xe", note: "Từ khóa tăng trong Google Trends Việt Nam chiều 23/7; không chứng minh có quy định mới trong ngày." },
+      { label: "XUẤT TRÌNH ĐIỆN TỬ", value: "VNeID / VNeTraffic", note: "CSGT nêu giấy tờ đã tích hợp có thể được kiểm tra qua tài khoản định danh điện tử." },
+      { label: "CẤP ĐỔI TRỰC TUYẾN", value: "Cổng chính thức", note: "Bắt đầu từ Cổng Dịch vụ công Quốc gia hoặc cổng GPLX do Cục CSGT công bố; không dùng liên kết người lạ gửi." },
+      { label: "KHI CHƯA ĐỒNG BỘ", value: "Kiểm tra dữ liệu", note: "Đối chiếu số GPLX, hạng, thông tin cá nhân và thông báo của cơ quan nhà nước trước khi gửi lại nhiều hồ sơ." },
+    ],
+    sourceLinks: [
+      {
+        label: "Cục CSGT — Kiểm tra giấy tờ giao thông đã tích hợp trên môi trường điện tử",
+        url: "https://www.csgt.vn/m/tintuc/21617/CSGT-co-kiem-tra-giay-kham-suc-khoe-cua-nguoi-dieu-khien-phuong-tien.html",
+      },
+      {
+        label: "Cục CSGT — Các bước cập nhật VNeID đối với người vừa thi đạt giấy phép lái xe",
+        url: "https://www.csgt.vn/tintuc/cac-buoc-cap-nhat-vneid-de-tich-hop-gplx-doi-voi-nguoi-vua-thi-dau-sat-hach.html",
+      },
+      {
+        label: "Cục CSGT — Thông báo địa chỉ dịch vụ công cấp đổi giấy phép lái xe",
+        url: "https://ww.csgt.vn/m/tintuc/20080/Tu-26/3%2C-thay-doi-dia-chi-truy-cap-trang-dich-vu-cong-doi-giay-phep-lai-xe.html",
+      },
+      {
+        label: "Cổng Dịch vụ công Quốc gia — Tra cứu thủ tục hành chính",
+        url: "https://dichvucong.gov.vn/",
+      },
+    ],
+    sections: [
+      {
+        heading: "Từ khóa tăng không đồng nghĩa vừa có luật mới về bằng lái",
+        paragraphs: [
+          "“Giấy phép lái xe” xuất hiện trong nhóm tìm kiếm tăng tại Việt Nam chiều 23/7. Người dùng có thể đang muốn xem bằng trên VNeID, kiểm tra điểm, chờ kết quả sau sát hạch, đổi thẻ sắp hết hạn hoặc tìm cổng nộp hồ sơ. Google Trends không phân biệt các nhu cầu đó và không phải nguồn xác nhận một quy định mới có hiệu lực trong ngày.",
+          "Vì thế, trước khi làm theo bài đăng đang lan truyền, hãy xác định chính xác việc mình cần: chỉ xuất trình giấy phép đã có; cập nhật dữ liệu lên tài khoản định danh; tra cứu kết quả; hay nộp hồ sơ cấp đổi. Mỗi việc có một luồng khác nhau. Nhầm luồng dễ dẫn đến khai lại nhiều lần, đưa dữ liệu cho trang trung gian hoặc trả một khoản phí không được hiển thị trong thủ tục chính thức.",
+        ],
+        quote: "Xuất trình, tích hợp và cấp đổi giấy phép lái xe là ba việc khác nhau; hãy xác định đúng việc trước khi mở một cổng dịch vụ.",
+      },
+      {
+        heading: "Khi nào có thể xuất trình giấy phép lái xe điện tử?",
+        paragraphs: [
+          "Trong giải đáp công bố tháng 1/2026, Cục CSGT nêu người lái xe phải có giấy phép phù hợp với loại xe đang điều khiển cùng các giấy tờ bắt buộc liên quan. Khi các giấy tờ đã được tích hợp vào tài khoản định danh điện tử như VNeID hoặc VNeTraffic, việc xuất trình và kiểm tra có thể thực hiện qua tài khoản điện tử. Điều này nói về giấy tờ đã được tích hợp và dữ liệu có thể tra cứu, không phải ảnh chụp tùy ý của tấm thẻ.",
+          "Trước khi ra đường, mở ứng dụng chính thức và kiểm tra thông tin có hiển thị đầy đủ hay không: họ tên, số giấy phép, hạng và trạng thái. Không đợi tới lúc được kiểm tra mới bắt đầu tìm mật khẩu hoặc cập nhật ứng dụng. Điện thoại hết pin hay mất kết nối có thể làm việc xuất trình bất tiện, nên người dùng vẫn cần chủ động chuẩn bị theo tình trạng giấy tờ và hướng dẫn hiện hành.",
+        ],
+      },
+      {
+        heading: "Người vừa thi đạt nên đọc thông báo của cơ quan nhà nước trong VNeID",
+        paragraphs: [
+          "Hướng dẫn của Cục CSGT về người vừa thi đạt cho biết dữ liệu phải đi qua nhiều bước đồng bộ. Ứng dụng VNeID có thể gửi thông báo từ cơ quan nhà nước yêu cầu người dùng xác nhận lại số giấy phép và hạng. Nếu bỏ qua thông báo, nhập sai một trường dữ liệu hoặc hệ thống đang quá tải, giấy phép có thể chưa hiển thị ngay dù kết quả sát hạch đã được ghi nhận.",
+          "Hãy mở đúng mục thông báo, đối chiếu số GPLX và hạng với thông tin do trung tâm sát hạch hoặc cơ quan cấp cung cấp, rồi làm theo hướng dẫn trong ứng dụng. Nếu chưa có số, dùng trang tra cứu chính thức của CSGT hoặc liên hệ đơn vị sát hạch; không mua dịch vụ “đẩy nhanh tích hợp” từ tài khoản mạng xã hội. Việc gửi lại yêu cầu liên tục khi dữ liệu gốc chưa đúng thường không giải quyết được nguyên nhân.",
+        ],
+      },
+      {
+        heading: "Cấp đổi trực tuyến: đi từ Cổng Dịch vụ công, không từ quảng cáo",
+        paragraphs: [
+          "Cục CSGT đã công bố cổng dịch vụ dành cho cấp đổi giấy phép lái xe và Cổng Dịch vụ công Quốc gia cũng cho phép tra cứu thủ tục. Tên miền, cơ quan thực hiện, thành phần hồ sơ, phương thức nộp, thời hạn và lệ phí phải được đọc ngay trên trang thủ tục tại thời điểm nộp. Không dùng số tiền cũ trong ảnh chụp hoặc bài hướng dẫn nhiều năm trước vì biểu phí và luồng tiếp nhận có thể được cập nhật.",
+          "Cách an toàn là tự gõ địa chỉ Cổng Dịch vụ công Quốc gia, đăng nhập tài khoản của mình, tìm đúng tên thủ tục và chọn cơ quan tiếp nhận phù hợp. Nếu đi từ trang CSGT, kiểm tra thông báo về địa chỉ cổng trước khi nhập dữ liệu. Tránh kết quả quảng cáo có giao diện gần giống, liên kết rút gọn và người tự xưng cán bộ yêu cầu cài phần mềm hỗ trợ hoặc chuyển khoản ngoài hệ thống.",
+        ],
+      },
+      {
+        heading: "Nếu dữ liệu không khớp, kiểm tra từng trường trước khi báo lỗi",
+        paragraphs: [
+          "Các giấy phép cũ có thể gắn với số chứng minh nhân dân trước đây, thiếu ngày sinh hoặc khác cách ghi họ tên so với dữ liệu căn cước hiện tại. Người dùng nên chụp lại màn hình lỗi không chứa mã OTP, ghi thời điểm thao tác và đối chiếu số GPLX, hạng, ngày sinh, số căn cước. Đừng tự sửa ngày hay hạng chỉ để biểu mẫu cho qua, vì dữ liệu không đúng có thể làm hồ sơ bị yêu cầu bổ sung.",
+          "Nếu giấy phép đã có trong cơ sở dữ liệu nhưng chưa hiện trên ứng dụng, dùng kênh hỗ trợ của cơ quan tiếp nhận hoặc đơn vị cấp để hỏi tình trạng đồng bộ. Nếu giấy phép không tra cứu được, cần xác minh dữ liệu gốc thay vì kết luận thẻ mất giá trị. Trường hợp đang chờ cấp đổi có hướng dẫn riêng tùy hồ sơ; giữ giấy hẹn và thông tin nộp hồ sơ để cơ quan có thẩm quyền đối chiếu khi cần.",
+        ],
+      },
+      {
+        heading: "Checklist trước khi bấm nộp hồ sơ",
+        paragraphs: [
+          "Kiểm tra sáu điểm: đúng tên thủ tục; đúng cơ quan tiếp nhận; đúng tên miền; dữ liệu cá nhân trùng giấy tờ; tệp đính kèm đúng yêu cầu; khoản phí hiển thị trong quy trình chính thức. Chỉ thanh toán tại bước do cổng cung cấp và giữ mã hồ sơ, biên nhận điện tử. Không gửi ảnh căn cước, ảnh GPLX hay mã xác thực qua ứng dụng nhắn tin cho người lạ.",
+          "Cuối cùng, lưu đường dẫn chính thức thay vì mỗi lần tìm lại bằng từ khóa. Khi thấy tin mới về giấy phép lái xe, đối chiếu ngày ban hành và cơ quan công bố trước khi chia sẻ. Bài này cung cấp lộ trình kiểm tra dịch vụ công phổ thông, không thay thế giải đáp pháp lý cho hồ sơ cá nhân; nếu tình trạng giấy phép có yếu tố xử phạt, hết hạn hoặc sai dữ liệu, cần hỏi cơ quan có thẩm quyền bằng hồ sơ cụ thể.",
+        ],
+      },
+    ],
+  },
 ];
