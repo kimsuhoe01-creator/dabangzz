@@ -9,6 +9,176 @@ const photo = (name: string, alt: string, caption: string) => ({
 
 export const kimReviews: CommunityPost[] = [
   {
+    slug: "kinza-bac-ninh-sushi-dassai-45",
+    kind: "review",
+    category: "Kim ở Việt Nam · Bắc Ninh",
+    author: "Kim",
+    title: "KINZA Bắc Ninh: sushi chất lượng, Dassai 45 và một người bảo vệ khó quên",
+    summary: "Bữa tối ba người tự chọn món tại KINZA, từ sashimi cắt dày, sushi foie gras, uni và cá ngừ cao cấp đến tempura, okonomiyaki và chai Dassai 45 cỡ 1,8 lít.",
+    readTime: "13 phút đọc",
+    hero: "KINZA\nBẮC NINH",
+    images: [photo(
+      "kinza-interior-20260721",
+      "Không gian KINZA Bắc Ninh với gỗ sẫm màu, hoa anh đào trang trí và bàn ăn kiểu Nhật",
+      "Không gian KINZA trong bữa tối ngày 21/7/2026",
+    )],
+    publishedAt: "2026-07-24T09:00:00+07:00",
+    keyFacts: [
+      { label: "THỜI ĐIỂM TRẢI NGHIỆM", value: "21/7/2026", note: "Bữa tối tại khu vực Hồ Văn Miếu, Bắc Ninh; giá và món ăn phản ánh đúng lần ghé này." },
+      { label: "NHÓM ĐI ĂN", value: "3 người", note: "Tôi đi cùng vợ và một người em thân thiết; vợ tôi không uống rượu." },
+      { label: "SASHIMI TỔNG HỢP", value: "Khoảng 990.000đ", note: "Mức giá theo trí nhớ tại thời điểm ghé; nên xem menu hiện hành trước khi gọi." },
+      { label: "DASSAI 45", value: "2.400.000đ / 1,8 lít", note: "Giá in trên menu và chưa gồm VAT; phần rượu còn lại được gửi giữ tại nhà hàng." },
+      { label: "SUSHI ĐẶC BIỆT", value: "2 miếng mỗi loại", note: "Foie gras, uni và cá ngừ cao cấp được gọi thêm ngoài các set chính." },
+      { label: "MINH BẠCH", value: "Không tài trợ", note: "Người em đi cùng mời bữa ăn; nhà hàng không tặng món, không mời review và bài không có liên kết nhận hoa hồng." },
+    ],
+    sourceLinks: [
+      {
+        label: "KINZA — Trang web nhà hàng",
+        url: "https://nhahangkinza.com/",
+      },
+      {
+        label: "Google Maps — Nhà hàng Nhật Bản KINZA, 31 Trần Nhật Duật, Võ Cường, Bắc Ninh",
+        url: "https://www.google.com/maps/search/?api=1&query=Nh%C3%A0+h%C3%A0ng+Nh%E1%BA%ADt+B%E1%BA%A3n+KINZA+B%E1%BA%AFc+Ninh",
+      },
+    ],
+    editorialNote: "Bài do Kim viết từ trải nghiệm trực tiếp ngày 21/7/2026 cùng vợ và một người em thân thiết. Người em đi cùng thanh toán bữa ăn; nhà hàng không mời, không tài trợ, không tặng sản phẩm và bài không có liên kết nhận hoa hồng. Ảnh do Kim chụp; dữ liệu định vị và thông tin thiết bị đã được loại bỏ khi tối ưu ảnh.",
+    sections: [
+      {
+        heading: "Một bữa tối ba người gần Hồ Văn Miếu",
+        paragraphs: [
+          "Tôi đã sống ở Việt Nam chín năm và từng ăn ở khá nhiều nhà hàng Nhật, trong đó có một số địa chỉ tại Bắc Ninh. Nơi dùng tên gọi Nhật Bản không khó tìm, nhưng để món sống, sushi, cách bày bàn và dịch vụ cùng đạt một mặt bằng tốt thì vẫn hiếm. Ngày 21/7/2026, tôi đến Nhà hàng Nhật Bản KINZA cùng vợ và một người em thân thiết để trải nghiệm một địa chỉ trong khu vực Hồ Văn Miếu.",
+          "Tên trên Google Maps là Nhà hàng Nhật Bản KINZA, địa chỉ 31 phố Trần Nhật Duật, Võ Cường, Bắc Ninh. Người em đi cùng chủ động mời bữa tối hôm đó. Nhà hàng không biết trước tôi sẽ viết bài, không tài trợ, không tặng món và không có liên kết đặt bàn nhận hoa hồng. Vì chúng tôi gọi chai sake lớn cùng nhiều món cao cấp ngoài set nên tổng thanh toán cao hơn một bữa ăn thông thường; tôi không dùng hóa đơn cuối để đại diện cho mức chi bắt buộc của mọi khách.",
+          "Nhận xét dưới đây chỉ nằm trong phạm vi một lần ghé của ba người. Giá một số món được ghi theo menu chụp tại bàn, còn giá sashimi và sushi gọi thêm là con số tôi nhớ gần đúng. Menu và giá có thể thay đổi, vì vậy người đọc nên kiểm tra trực tiếp trước khi gọi những món cao cấp.",
+        ],
+      },
+      {
+        heading: "Không gian gọn, sang và có nhiều chi tiết hiếm thấy ở Bắc Ninh",
+        paragraphs: [
+          "Ấn tượng đầu tiên của tôi là không gian sạch sẽ và có mức hoàn thiện cao. Gỗ màu sẫm, những mảng ngăn kiểu Nhật và hoa anh đào trên trần tạo điểm nhấn rõ nhưng không làm phòng ăn trở nên rối. Ánh sáng tập trung vào bàn giúp sashimi và sushi nổi bật khi được mang ra.",
+          "Tôi thích cả những chi tiết nhỏ như hình dáng đĩa, màu chén, ly, gác đũa và cách đặt từng món. Đó là những phần dễ bị xem nhẹ, nhưng lại khiến khách cảm thấy nhà hàng đã nghĩ về toàn bộ trải nghiệm chứ không chỉ món ăn. Trong phạm vi những nơi tôi từng ghé tại Bắc Ninh, cách phối không gian và đồ bàn ăn như vậy vẫn tương đối hiếm.",
+          "Nhân viên dùng một số câu chào và phản hồi bằng tiếng Nhật khi đón khách hoặc nhận món. Chi tiết ấy không quyết định chất lượng món ăn, nhưng giúp bữa tối có thêm cảm giác đang bước vào một nhà hàng Nhật thay vì một quán chỉ bán thực đơn Nhật.",
+        ],
+      },
+      {
+        heading: "Sashimi cắt dày, độ tươi tốt nhưng tôi mong set đa dạng hơn",
+        paragraphs: [
+          "Món mở đầu là set sashimi tổng hợp, theo trí nhớ của tôi có giá khoảng 990.000 đồng. Khác với cách cắt mỏng thường gặp ở một số quán theo phong cách Hàn Quốc, phần lớn miếng cá tại KINZA được cắt khá dày. Nhờ vậy, cá ngừ, cá hồi và cá thịt trắng giữ được độ đàn hồi, người ăn cảm nhận rõ thớ và kết cấu thay vì chỉ nhận vị của nước chấm.",
+          "Độ tươi trong lần ăn này ổn, không có mùi khiến tôi khó chịu. Cá hồi có độ béo vừa phải, cá ngừ mềm nhưng vẫn giữ thân miếng, còn cá trắng tạo nhịp nhẹ hơn giữa các miếng đậm vị. Với ba người, đĩa lớn cũng tạo được cảm giác khởi đầu đúng cho một bữa tối có nhiều món.",
+          "Điểm hơi tiếc là ở mức giá gần một triệu đồng, tôi mong thành phần có thêm một chút bất ngờ. Bạch tuộc, sò và trứng cá là những nguyên liệu khá quen trong các khay tổng hợp ở siêu thị lớn, nên tổng thể chưa đa dạng như kỳ vọng của tôi. Tuy nhiên, đây là một góp ý nhẹ về cấu trúc set; các phần chính gồm cá ngừ, cá hồi và cá trắng vẫn đủ ngon để đĩa sashimi giữ được ấn tượng tích cực.",
+        ],
+        images: [photo(
+          "kinza-sashimi-set-20260721",
+          "Đĩa sashimi tổng hợp cắt dày gồm cá ngừ, cá hồi, cá thịt trắng, bạch tuộc, sò và trứng cá",
+          "Set sashimi tổng hợp — miếng cá dày và có kết cấu tốt",
+        )],
+      },
+      {
+        heading: "Set sushi: shari hơi mềm, phần topping lại có nhiều điểm sáng",
+        paragraphs: [
+          "Set sushi tiếp theo có thành phần khá cân bằng, từ cá hồi, cá trắng, cá ngừ, tôm, lươn đến những miếng có trứng cá và uni. Phần cơm sushi, hay shari, hơi mềm và ẩm hơn khẩu vị của tôi. Tôi thường thích hạt cơm tơi và có độ đứng rõ hơn, nên đây là một khác biệt nhỏ về sở thích.",
+          "Bù lại, chất lượng phần nguyên liệu phía trên khiến cả set vẫn ngon. Miếng tôm cho cảm giác được xử lý tại bếp thay vì loại thành phẩm công nghiệp đồng đều thường gặp. Ba miếng sushi có trứng cá, cá hồi roe và uni ở hàng dưới cũng mang ba cá tính riêng, không phải chỉ thay màu để làm đĩa trông phong phú.",
+          "Tôi đặc biệt thích việc mỗi miếng đều có lý do để thử. Miếng béo, miếng mặn dịu và miếng có cảm giác biển rõ được đặt cạnh nhau, giúp cả ba người có thể chia sẻ rồi so sánh. Nếu shari săn hơn một chút theo đúng khẩu vị của tôi, set này sẽ còn trọn vẹn hơn; còn xét riêng topping và cách sắp xếp, tôi thấy cấu hình hoàn toàn hợp lý.",
+        ],
+        images: [photo(
+          "kinza-sushi-set-20260721",
+          "Set sushi nhiều loại với cá hồi, cá trắng, cá ngừ, tôm, lươn, trứng cá và uni",
+          "Set sushi — shari hơi mềm với tôi, nhưng topping đa dạng và đáng nhớ",
+        )],
+      },
+      {
+        heading: "Foie gras, uni và cá ngừ cao cấp: đắt hơn nhưng nguyên liệu có sức thuyết phục",
+        paragraphs: [
+          "Ngoài set chính, chúng tôi gọi thêm hai miếng sushi foie gras. Foie gras được nấu với vị xì dầu vừa đủ, tạo độ đậm đà mà không che mất chất béo mềm. Khi ăn cùng cơm và dải rong biển, phần gan gần như tan ra, để lại vị umami kéo dài. Giá không thấp, nhưng nếu muốn thử một miếng sushi khác hẳn cá sống thông thường thì đây là lựa chọn đáng cân nhắc.",
+          "Chúng tôi cũng gọi hai miếng uni và hai miếng cá ngừ thuộc phần cao cấp hơn. Hai đĩa này có giá lần lượt ở khoảng hai trăm nghìn và ba trăm nghìn đồng, nhưng tôi không còn nhớ chắc mức nào ứng với từng loại nên không gắn con số cụ thể vào tên món. Điều tôi nhớ rõ hơn là chất lượng: uni đầy đặn, có độ kem và vị biển sạch; cá ngừ mềm, phần mỡ phân bố đẹp và không cần nhiều gia vị để tạo ấn tượng.",
+          "Đây là nhóm món mà giá trị nằm trực tiếp ở nguyên liệu. Chỉ nhìn số miếng có thể thấy đắt, nhưng sau khi ăn tôi vẫn công nhận mức chất lượng tương xứng. Người muốn giữ ngân sách có thể bỏ qua mà bữa ăn vẫn đầy đủ; người tìm một trải nghiệm đặc biệt hơn sẽ thấy những món gọi thêm này tạo khác biệt rõ.",
+        ],
+        images: [
+          photo(
+            "kinza-foie-gras-sushi-20260721",
+            "Hai miếng sushi foie gras phủ sốt xì dầu và cố định bằng dải rong biển",
+            "Sushi foie gras gồm 2 miếng — mềm, đậm vị và có umami rõ",
+          ),
+          photo(
+            "kinza-uni-tuna-sushi-20260721",
+            "Hai miếng sushi uni và hai miếng sushi cá ngừ cao cấp trên đĩa dài",
+            "Uni và cá ngừ cao cấp — giá cao nhưng chất lượng nguyên liệu thuyết phục",
+          ),
+        ],
+      },
+      {
+        heading: "Dassai 45 cỡ 1,8 lít và một cảm giác khác trên đầu lưỡi",
+        paragraphs: [
+          "Người em đi cùng rất thích sake và đề xuất Dassai 45 Junmai Daiginjo. Chúng tôi chọn chai 1.800 ml, giá in trên menu là 2.400.000 đồng và chưa gồm VAT. Đây là một trong những lý do chính khiến tổng hóa đơn tối đó tăng mạnh.",
+          "Những loại sake tôi từng uống trước đây thường để lại ấn tượng chủ yếu ở sự êm và dễ trôi. Dassai 45 vẫn mượt, nhưng lúc vừa chạm lưỡi lại có một cảm giác kích thích nhẹ, tạo độ sống động thay vì chỉ mềm từ đầu đến cuối. Tôi không ghi chép theo kiểu nếm rượu chuyên nghiệp nên không gán cho nó những tầng hương mình không chắc; điều tôi có thể nói là cảm giác ấy rất riêng và khiến chai rượu trở thành một phần đáng nhớ của bữa tối.",
+          "Vợ tôi không uống rượu, vì vậy chỉ có hai người chia chai 1,8 lít. Chúng tôi uống khoảng một nửa rồi gửi phần còn lại tại nhà hàng. Việc giữ rượu vừa hợp lý hơn cố uống hết, vừa cho chúng tôi một lý do rõ ràng để quay lại KINZA trong một dịp khác.",
+        ],
+        images: [
+          photo(
+            "kinza-dassai45-bottle-20260721",
+            "Chai Dassai 45 Junmai Daiginjo cỡ 1,8 lít được giữ lạnh trong xô tại bàn",
+            "Dassai 45 cỡ 1,8 lít do người em đi cùng đề xuất",
+          ),
+          photo(
+            "kinza-dassai45-menu-20260721",
+            "Trang menu sake ghi Dassai 45 Junmai Daiginjo 1.800 ml giá 2.400.000 đồng chưa gồm VAT",
+            "Giá Dassai 45 trên menu tại thời điểm 21/7/2026",
+          ),
+        ],
+      },
+      {
+        heading: "Tempura giữ được độ giòn ngay cả khi chấm tentsuyu",
+        paragraphs: [
+          "Sau các món sống, chúng tôi gọi thêm cơm nắm cá hồi nướng và tempura tổng hợp. Cơm nắm có mặt ngoài được nướng vàng, phần cơm ấm giúp chuyển nhịp tốt sau nhiều miếng sashimi và sushi lạnh. Đây không phải món phô diễn nguyên liệu đắt tiền, nhưng tạo cảm giác dễ chịu và chắc bụng.",
+          "Tempura làm đúng điều tôi chờ ở món chiên kiểu Nhật: lớp áo nhẹ, giòn và không cho cảm giác nặng dầu. Nước chấm đi kèm là tentsuyu, loại sốt thường kết hợp xì dầu với nước dùng dashi và mirin. Phiên bản tại KINZA có độ mặn vừa phải, nên tôi có thể nhúng miếng tempura khá sâu mà không bị mặn gắt.",
+          "Điểm tôi thích là lớp vỏ vẫn giữ được độ giòn sau khi chấm. Tôm và rau củ có kết cấu riêng, không bị biến thành một khối bột chiên giống nhau. Trong nhóm món nóng của buổi tối, tempura là lựa chọn an toàn nhưng được thực hiện chắc tay.",
+        ],
+        images: [photo(
+          "kinza-tempura-onigiri-20260721",
+          "Đĩa tempura tổng hợp và cơm nắm cá hồi nướng đặt trên hai loại đĩa Nhật",
+          "Tempura và cơm nắm nướng — món nóng giúp cân bằng bữa ăn nhiều đồ sống",
+        )],
+      },
+      {
+        heading: "Okonomiyaki ngon theo kiểu nhẹ, chỉ là chưa đúng gu của tôi",
+        paragraphs: [
+          "Món cuối cùng là okonomiyaki. Sau chín năm sống ở Việt Nam, tôi vẫn chưa tìm được một nơi có okonomiyaki hoàn toàn đúng sở thích cá nhân. Tôi thích loại bánh dày, nhiều lớp và có cảm giác nặng, chắc khi cắt.",
+          "Phiên bản của KINZA đi theo hướng nhẹ và thanh hơn. Bánh vẫn ngon, mặt bánh có màu đẹp, cá bào và sốt tạo đủ đặc trưng, nhưng độ dày và cảm giác nặng không mạnh như kiểu tôi tìm kiếm. Vì vậy đây là một chút tiếc nuối về phong cách, không phải kết luận rằng món được làm kém.",
+          "Người thích okonomiyaki mềm, dễ ăn và không quá nặng có thể hợp với phiên bản này hơn tôi. Việc nói rõ gu cá nhân quan trọng, bởi cùng một đặc điểm ‘nhẹ’ có thể là điểm trừ với người này nhưng lại là ưu điểm với người khác.",
+        ],
+        images: [photo(
+          "kinza-okonomiyaki-20260721",
+          "Okonomiyaki phủ cá bào, sốt, mayonnaise và gừng đỏ trên đĩa tròn",
+          "Okonomiyaki của KINZA — ngon và nhẹ, nhưng tôi thích kiểu dày, nặng hơn",
+        )],
+      },
+      {
+        heading: "Đừng dùng hóa đơn tối đó để đo mức giá của một bữa ăn bình thường",
+        paragraphs: [
+          "Tổng thanh toán của chúng tôi khá cao, nhưng cách gọi món hôm đó không đại diện cho một bữa ăn phổ thông. Chai sake 1,8 lít đã có giá 2,4 triệu đồng trước VAT; ngoài các set, chúng tôi còn thêm foie gras, uni và cá ngừ cao cấp. Những lựa chọn ấy đẩy hóa đơn lên nhanh là điều dễ hiểu.",
+          "Nếu đi KINZA và gọi set cùng vài món phổ thông vừa đủ, tôi không nghĩ đây là nơi chỉ dành cho ngày kỷ niệm. Khách hoàn toàn có thể kiểm soát ngân sách bằng cách xem giá trước, chọn chai nhỏ hơn hoặc không gọi rượu, rồi chỉ thêm một món đặc biệt để chia sẻ.",
+          "Các món premium đương nhiên có giá cao hơn, nhưng trong lần ăn này, hương vị và chất lượng nguyên liệu đủ để tôi thừa nhận sự chênh lệch. Điều quan trọng là phân biệt ‘nhà hàng luôn đắt’ với ‘hóa đơn cao vì chúng tôi chủ động chọn nhiều món đắt’. KINZA thuộc trường hợp thứ hai trong trải nghiệm của tôi.",
+        ],
+      },
+      {
+        heading: "Một vài chi tiết có thể tăng cảm giác Nhật — và người bảo vệ khiến tôi nhớ nhất",
+        paragraphs: [
+          "Nếu đứng ở góc nhìn của một người cũng đang kinh doanh, tôi sẽ thử thêm nhạc nền có màu sắc Nhật rõ hơn và cân nhắc đồng phục gắn với không gian hiện tại. Nhà hàng đã có chào hỏi bằng tiếng Nhật và cách phản hồi đơn hàng khá đúng tinh thần, nên chỉ cần bổ sung một chút ở âm thanh và trang phục là cảm giác trải nghiệm văn hóa có thể liền mạch hơn. Đây là đề xuất nhỏ dành cho một nơi vốn đã làm tốt nhiều phần, không phải phê bình nặng.",
+          "Người để lại ấn tượng mạnh nhất ngoài bàn ăn lại là chú bảo vệ. Chú chủ động, lịch sự và thân thiện đến mức tôi hỏi xem chú thuộc công ty dịch vụ nào vì muốn tham khảo cho cửa hàng của mình. Câu trả lời là chú được nhà hàng tuyển trực tiếp chứ không phải nhân sự do một đơn vị bên ngoài cử đến.",
+          "Tôi không biết toàn bộ quy trình đào tạo nội bộ, nên không thể khẳng định mọi chi tiết đến từ một chương trình cụ thể. Tuy nhiên, khi sự chỉn chu kéo dài từ bếp, bàn ăn, nhân viên phục vụ đến người đón khách ngoài cửa, tôi có cơ sở để cảm nhận người quản lý thật sự quan tâm đến cách nhà hàng vận hành. Đó là lời khen lớn nhất tôi có thể dành cho KINZA sau bữa tối này.",
+        ],
+        quote: "Món ngon khiến tôi muốn quay lại; cách người bảo vệ đón khách khiến tôi tin sự tử tế ở đây không phải chuyện ngẫu nhiên.",
+      },
+      {
+        heading: "Kết luận: địa chỉ sushi tốt nhất tôi từng thử tại Bắc Ninh tính đến lúc này",
+        paragraphs: [
+          "Trong phạm vi những nhà hàng tôi đã trực tiếp thử tại Bắc Ninh, KINZA hiện cho tôi chất lượng sushi cao nhất. Điểm mạnh nằm ở nguyên liệu, cách cắt và bày món, những lựa chọn đặc biệt đủ sức thuyết phục, không gian đẹp và thái độ phục vụ nhất quán.",
+          "Một vài điểm chưa hoàn toàn đúng gu của tôi gồm cơm sushi hơi mềm, set sashimi có thể đa dạng hơn và okonomiyaki đi theo phong cách nhẹ. Chúng đều là những tiếc nuối nhỏ, không làm thay đổi đánh giá chung. Tôi vẫn sẵn sàng giới thiệu KINZA cho người muốn ăn sushi chất lượng tại Bắc Ninh hoặc cần một nơi đủ đẹp để tiếp khách và dùng bữa cùng gia đình.",
+          "Nếu muốn ăn với ngân sách vừa phải, hãy chọn set và giới hạn món cao cấp. Nếu muốn biến bữa tối thành trải nghiệm đặc biệt, foie gras, uni, cá ngừ cao cấp và sake tạo thêm nhiều câu chuyện để nhớ. Riêng chúng tôi chắc chắn còn quay lại, bởi nửa chai Dassai 45 vẫn đang được giữ tại nhà hàng.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "sinh-nhat-vo-tai-labri-ha-noi",
     kind: "review",
     category: "Kim ở Việt Nam · Hà Nội",
@@ -24,6 +194,7 @@ export const kimReviews: CommunityPost[] = [
     )],
     publishedAt: "2026-07-21T09:40:00+07:00",
     updatedAt: "2026-07-21T09:52:00+07:00",
+    editorialNote: "Bài do Kim viết từ trải nghiệm trực tiếp ngày 20/7/2026. Toàn bộ chi phí do tác giả thanh toán, không tài trợ và không có liên kết nhận hoa hồng. Ảnh do tác giả chụp; dữ liệu định vị và thông tin thiết bị đã được loại bỏ khi tối ưu ảnh.",
     keyFacts: [
       { label: "THỜI ĐIỂM TRẢI NGHIỆM", value: "20/7/2026", note: "Bữa tối sinh nhật tại Hà Nội; giá và món ăn phản ánh đúng lần ghé này." },
       { label: "TASTING MENU", value: "1.980.000đ/người", note: "Mức in trên thực đơn tại bàn, chưa gồm 5% phí phục vụ và thuế." },

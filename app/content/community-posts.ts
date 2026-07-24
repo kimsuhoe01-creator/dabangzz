@@ -22,6 +22,8 @@ export type CommunityPost = {
   updatedAt?: string;
   sourceLinks?: { label: string; url: string }[];
   keyFacts?: { label: string; value: string; note: string }[];
+  /** Per-review disclosure shown in the editorial note. */
+  editorialNote?: string;
   sections: {
     heading: string;
     paragraphs: string[];
