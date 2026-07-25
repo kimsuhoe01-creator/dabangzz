@@ -1,6 +1,8 @@
 import type { CommunityPost } from "../content/community-posts";
+import { getLoiDapEmbedUrl } from "../content/loi-dap-music";
 import { getPostImages, type EditorialImage } from "../content/post-images";
 import Link from "next/link";
+import YouTubeOutboundLink from "./YouTubeOutboundLink";
 
 function publishedDate(post: CommunityPost) {
   const date = post.publishedAt ?? post.updatedAt;
@@ -27,8 +29,10 @@ function updatedDate(post: CommunityPost) {
 }
 
 export default function CommunityArticle({ post, posts }: { post: CommunityPost; posts: CommunityPost[] }) {
-  const related = posts.filter(item => item.slug !== post.slug).sort((a, b) => Number(b.category === post.category) - Number(a.category === post.category)).slice(0, 3);
-  const [heroImage, secondaryImage] = getPostImages(post);
+  const relatedPool = post.kind === "music" ? posts.filter(item => item.kind === "music") : posts.filter(item => item.kind !== "music");
+  const related = relatedPool.filter(item => item.slug !== post.slug).sort((a, b) => Number(b.category === post.category) - Number(a.category === post.category)).slice(0, 3);
+  const [heroImage, secondaryImage] = post.youtube ? [] : getPostImages(post);
+  const embedUrl = post.youtube ? getLoiDapEmbedUrl(post.youtube) : null;
 
   const figure = (image: EditorialImage, className: string, loading: "eager" | "lazy") => <figure className={className}>
     <img src={image.src} alt={image.alt} width="1536" height="1024" loading={loading} decoding="async" />
@@ -36,13 +40,29 @@ export default function CommunityArticle({ post, posts }: { post: CommunityPost;
   </figure>;
 
   return <main className="story-page">
-    <header className="story-header"><Link className="brand" href="/">dabang<span>zz</span></Link><nav aria-label="Điều hướng bài viết"><Link href="/">Bài mới</Link><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/chinh-sach-bien-tap">Biên tập</Link></nav></header>
+    <header className="story-header"><Link className="brand" href="/">dabang<span>zz</span></Link><nav aria-label="Điều hướng bài viết"><Link href="/">Bài mới</Link><Link href="/am-nhac-loi-dap">Âm nhạc</Link><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/chinh-sach-bien-tap">Biên tập</Link></nav></header>
     <article className="story">
       <div className="story-category">{post.category.toUpperCase()}</div>
       <h1>{post.title}</h1>
       <p className="story-deck">{post.summary}</p>
       <div className="story-meta"><Link className="story-author" href="/gioi-thieu">{(post.author ?? "DABANGZZ").toUpperCase()}</Link> · ĐĂNG {publishedDate(post)}{updatedDate(post) ? ` · CẬP NHẬT ${updatedDate(post)}` : ""} · {post.readTime.toUpperCase()}</div>
-      {figure(heroImage, "story-hero", "eager")}
+      {post.youtube && embedUrl ? <figure className="story-youtube">
+        <div className="youtube-frame">
+          <iframe
+            src={embedUrl}
+            title={`Nghe ${post.title} trên kênh Lời Đáp`}
+            loading="lazy"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        </div>
+        <figcaption><span>TRÌNH PHÁT YOUTUBE · KHÔNG TỰ ĐỘNG PHÁT</span><span>LỜI ĐÁP</span></figcaption>
+        <div className="youtube-actions">
+          <YouTubeOutboundLink className="youtube-primary-link" videoId={post.youtube.videoId} href={post.youtube.watchUrl}>Mở trên YouTube ↗</YouTubeOutboundLink>
+          <a href={post.youtube.channelUrl} target="_blank" rel="noopener noreferrer">Kênh chính thức Lời Đáp ↗</a>
+        </div>
+      </figure> : heroImage ? figure(heroImage, "story-hero", "eager") : null}
       {post.keyFacts?.length ? <aside className="key-facts" aria-labelledby="key-facts-title">
         <div className="key-facts-heading"><span>DỮ KIỆN CHÍNH</span><h2 id="key-facts-title">Những con số cần biết trước khi đọc</h2></div>
         <div className="key-facts-grid">{post.keyFacts.map(fact => <div className="key-fact" key={`${fact.label}-${fact.value}`}>
@@ -55,21 +75,21 @@ export default function CommunityArticle({ post, posts }: { post: CommunityPost;
           {section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
           {section.quote && <blockquote>{section.quote}</blockquote>}
           {section.images?.length ? <div className={`review-photo-grid${section.images.length === 1 ? " single" : ""}`}>{section.images.map(image => figure(image, "story-review-photo", "lazy"))}</div> : null}
-          {index === 1 && post.kind !== "review" && <div className="inline-visual"><b>{String(index + 1).padStart(2, "0")}</b><span>{post.kind === "news" ? "Kiểm tra thời gian, địa điểm và nguồn gốc trước khi chia sẻ thông tin." : "Dừng lại một chút để nhìn câu chuyện từ phía của người khác."}</span></div>}
+          {index === 1 && post.kind !== "review" && <div className="inline-visual"><b>{String(index + 1).padStart(2, "0")}</b><span>{post.kind === "news" ? "Kiểm tra thời gian, địa điểm và nguồn gốc trước khi chia sẻ thông tin." : post.kind === "music" ? "Ca khúc này là nội dung độc lập, không có bài hát gốc được xác nhận là đối tượng hồi đáp." : "Dừng lại một chút để nhìn câu chuyện từ phía của người khác."}</span></div>}
           {index === 1 && secondaryImage && figure(secondaryImage, "story-inline-image", "lazy")}
         </section>)}
       </div>
       {post.sourceLinks?.length ? <aside className="source-panel" aria-labelledby="source-title">
-        <div><span>{post.kind === "review" ? "THÔNG TIN ĐỐI CHIẾU" : "NGUỒN CÔNG KHAI"}</span><h2 id="source-title">Nguồn chính thức & tài liệu tham khảo</h2></div>
+        <div><span>{post.kind === "review" ? "THÔNG TIN ĐỐI CHIẾU" : post.kind === "music" ? "VIDEO & KÊNH CHÍNH THỨC" : "NGUỒN CÔNG KHAI"}</span><h2 id="source-title">{post.kind === "music" ? "Nghe và kiểm tra thông tin tại nguồn" : "Nguồn chính thức & tài liệu tham khảo"}</h2></div>
         <ul>{post.sourceLinks.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label}<span>↗</span></a></li>)}</ul>
-        <p>{post.kind === "review" ? "Nguồn ngoài chỉ dùng để đối chiếu tên, vị trí và thông tin công khai của địa điểm. Nhận xét món ăn, chi phí và ảnh đều đến từ trải nghiệm trực tiếp được công khai trong bài." : "Dabangzz viết bài giải thích độc lập, không sao chép nguyên văn. Hãy mở nguồn gốc để xem bản tin và thời điểm cập nhật đầy đủ."}</p>
+        <p>{post.kind === "review" ? "Nguồn ngoài chỉ dùng để đối chiếu tên, vị trí và thông tin công khai của địa điểm. Nhận xét món ăn, chi phí và ảnh đều đến từ trải nghiệm trực tiếp được công khai trong bài." : post.kind === "music" ? "Dabangzz chỉ nhận video từ đúng kênh Lời Đáp và dùng một video ID cho một trang. Mọi thao tác bình luận, đăng ký hoặc thích video diễn ra trên YouTube." : "Dabangzz viết bài giải thích độc lập, không sao chép nguyên văn. Hãy mở nguồn gốc để xem bản tin và thời điểm cập nhật đầy đủ."}</p>
       </aside> : null}
-      <div className="source-note"><strong>Ghi chú biên tập</strong><span>{post.kind === "news" ? "Dữ kiện được tách khỏi phần giải thích và dẫn tới nguồn công khai. Ảnh là minh họa AI, không phải ảnh hiện trường. Sai sót quan trọng sẽ được sửa và ghi thời điểm cập nhật." : post.kind === "review" ? post.editorialNote ?? "Bài do Kim viết từ trải nghiệm trực tiếp. Chi phí, tài trợ và phạm vi quan sát được công khai trong bài. Ảnh do tác giả chụp; dữ liệu định vị và thông tin thiết bị đã được loại bỏ khi tối ưu ảnh." : "Nội dung được Dabangzz xây dựng từ các chủ đề thảo luận công khai, loại bỏ thông tin nhận dạng và viết lại hoàn toàn cho độc giả Việt Nam. Các tình huống tổng hợp không đại diện cho mọi người Hàn Quốc."}</span></div>
+      <div className="source-note"><strong>Ghi chú biên tập</strong><span>{post.kind === "news" ? "Dữ kiện được tách khỏi phần giải thích và dẫn tới nguồn công khai. Ảnh là minh họa AI, không phải ảnh hiện trường. Sai sót quan trọng sẽ được sửa và ghi thời điểm cập nhật." : post.kind === "review" ? post.editorialNote ?? "Bài do Kim viết từ trải nghiệm trực tiếp. Chi phí, tài trợ và phạm vi quan sát được công khai trong bài. Ảnh do tác giả chụp; dữ liệu định vị và thông tin thiết bị đã được loại bỏ khi tối ưu ảnh." : post.kind === "music" ? post.editorialNote ?? post.youtube?.aiDisclosure : "Nội dung được Dabangzz xây dựng từ các chủ đề thảo luận công khai, loại bỏ thông tin nhận dạng và viết lại hoàn toàn cho độc giả Việt Nam. Các tình huống tổng hợp không đại diện cho mọi người Hàn Quốc."}</span></div>
     </article>
-    <section className="related">
+    {related.length ? <section className="related">
       <div className="related-title"><span>ĐỌC TIẾP</span><h2>Câu chuyện cùng chủ đề</h2></div>
       <div className="related-grid">{related.map(item => <a href={`/bai-viet/${item.slug}`} className="related-card" key={item.slug}><div className="related-thumb">{item.category}</div><h3>{item.title}</h3><span>{item.readTime} →</span></a>)}</div>
-    </section>
-    <footer><div className="article-footer-links"><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/chinh-sach-bien-tap">Chính sách biên tập</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div><div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA</span></div></footer>
+    </section> : null}
+    <footer><div className="article-footer-links"><Link href="/am-nhac-loi-dap">Âm nhạc Lời Đáp</Link><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/chinh-sach-bien-tap">Chính sách biên tập</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div><div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA · MUSIC</span></div></footer>
   </main>;
 }

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import CommunityArticle from "../../components/CommunityArticle";
 import StructuredData from "../../components/StructuredData";
 import { communityPosts, getPublishedPosts, isPostPublished } from "../../content/community-posts";
+import { getLoiDapEmbedUrl } from "../../content/loi-dap-music";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -63,6 +64,16 @@ export default async function ArticleRoute({ params }: PageProps) {
       : { "@type": "Organization", name: "Dabangzz", url: "https://dabangzz.com/gioi-thieu" },
     publisher: { "@id": "https://dabangzz.com/#publisher" },
   };
+  const videoSchema = post.youtube ? {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: post.youtube.sourceTitle,
+    description: post.summary,
+    thumbnailUrl: post.youtube.thumbnailUrl,
+    uploadDate: post.youtube.uploadDate,
+    embedUrl: getLoiDapEmbedUrl(post.youtube),
+    contentUrl: post.youtube.watchUrl,
+  } : null;
 
-  return <><StructuredData data={articleSchema} /><CommunityArticle post={post} posts={getPublishedPosts()} /></>;
+  return <><StructuredData data={articleSchema} />{videoSchema ? <StructuredData data={videoSchema} /> : null}<CommunityArticle post={post} posts={getPublishedPosts()} /></>;
 }

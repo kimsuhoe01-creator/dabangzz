@@ -1,4 +1,5 @@
 import { kimReviews } from "./kim-reviews";
+import { loiDapMusicPosts } from "./loi-dap-music";
 import { posts20260725 } from "./posts-2026-07-25";
 import { posts20260724 } from "./posts-2026-07-24";
 import { posts20260723 } from "./posts-2026-07-23";
@@ -10,7 +11,7 @@ import { enrichKoreaStory } from "./story-depth";
 
 export type CommunityPost = {
   slug: string;
-  kind?: "story" | "news" | "review";
+  kind?: "story" | "news" | "review" | "music";
   author?: string;
   category: string;
   title: string;
@@ -26,6 +27,17 @@ export type CommunityPost = {
   keyFacts?: { label: string; value: string; note: string }[];
   /** Per-review disclosure shown in the editorial note. */
   editorialNote?: string;
+  youtube?: {
+    videoId: string;
+    sourceTitle: string;
+    channelId: string;
+    uploadDate: string;
+    thumbnailUrl: string;
+    watchUrl: string;
+    channelUrl: string;
+    replyTarget: string | null;
+    aiDisclosure: string;
+  };
   sections: {
     heading: string;
     paragraphs: string[];
@@ -46,6 +58,7 @@ export function getPublishedPosts(now = new Date()) {
 
 const rawCommunityPosts: CommunityPost[] = [
   ...kimReviews,
+  ...loiDapMusicPosts,
   ...posts20260725,
   ...posts20260724,
   ...posts20260723,
@@ -446,5 +459,5 @@ const rawCommunityPosts: CommunityPost[] = [
 ];
 
 export const communityPosts: CommunityPost[] = rawCommunityPosts.map(post =>
-  post.kind === "news" || post.kind === "review" ? post : enrichKoreaStory(post),
+  post.kind === "news" || post.kind === "review" || post.kind === "music" ? post : enrichKoreaStory(post),
 );
