@@ -7,11 +7,11 @@ export const posts20260725: CommunityPost[] = [
     author: "Ban biên tập Dabangzz",
     category: "Tin mới Việt Nam · Thời tiết",
     title: "Thời tiết Việt Nam ngày 25/7: miền Bắc tiếp tục mưa, Nam Bộ dễ có mưa dông về chiều",
-    summary: "Bản đọc nhanh dựa trên dự báo chính thức, bổ sung bản tin 10h về bão số 2 trên biển: khu vực nào có nguy cơ mưa lớn, gió mạnh và người dân nên kiểm tra gì trước khi di chuyển.",
+    summary: "Bản đọc nhanh dựa trên dự báo chính thức, cập nhật bản tin 16h về bão số 2 và gió mạnh trên biển: vùng nào chịu rủi ro, số liệu mới có ý nghĩa gì và người dân nên kiểm tra gì.",
     readTime: "8 phút đọc",
     hero: "MƯA DÔNG\nNGÀY 25/7",
     publishedAt: "2026-07-25T06:45:00+07:00",
-    updatedAt: "2026-07-25T10:40:00+07:00",
+    updatedAt: "2026-07-25T17:40:00+07:00",
     images: [
       {
         src: "/images/editorial/thoi-tiet-viet-nam-25-7-2026.webp",
@@ -24,13 +24,14 @@ export const posts20260725: CommunityPost[] = [
       { label: "Hà Nội", value: "24–26°C / 31–33°C", note: "Có lúc mưa rào và dông, cục bộ mưa to." },
       { label: "TP.HCM", value: "24–27°C / 32–34°C", note: "Mưa rào và dông tập trung hơn vào chiều tối và đêm." },
       { label: "Rủi ro đi kèm", value: "Sét, lốc, gió giật", note: "Cảnh báo có thể thay đổi theo từng giờ và từng địa bàn." },
-      { label: "Bão số 2 trên biển", value: "Cấp 11–12, giật cấp 14", note: "Vùng gần tâm bão ở phía Đông Bắc Bắc Biển Đông, theo bản tin 10h ngày 25/7." },
-      { label: "Sóng gần tâm bão", value: "5,0–7,0m", note: "Không phải dự báo sóng cho toàn bộ bờ biển Việt Nam." },
+      { label: "Bão số 2 trên biển", value: "Cấp 12, giật cấp 15", note: "Số liệu lúc 13h ở vùng biển phía Đông Bắc Bắc Biển Đông, theo bản tin phát lúc 16h ngày 25/7." },
+      { label: "Sóng gần tâm bão", value: "6,0–8,0m", note: "Chỉ áp dụng cho vùng gần tâm bão, không phải toàn bộ bờ biển Việt Nam." },
     ],
     sourceLinks: [
       { label: "Trung tâm Dự báo KTTV quốc gia – dự báo đất liền ngày 25/7", url: "https://nchmf.gov.vn/Kttvsite/vi-VN/1/hai-van-22-15.html" },
       { label: "Trung tâm Dự báo KTTV quốc gia – bản đồ và bản tin mới", url: "https://www.nchmf.gov.vn/kttv/" },
-      { label: "Trung tâm Dự báo KTTV quốc gia – bản tin bão số 2 lúc 10h ngày 25/7", url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/tin-du-bao-gio-manh-song-lon-va-mua-dong-tren-bien-post53699.html" },
+      { label: "Trung tâm Dự báo KTTV quốc gia – bản tin bão số 2 lúc 14h ngày 25/7", url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/tin-bao-tren-bien-dong-con-bao-so-02-post53704.html" },
+      { label: "Trung tâm Dự báo KTTV quốc gia – bản tin gió mạnh, sóng lớn lúc 16h ngày 25/7", url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/tin-du-bao-gio-manh-song-lon-va-mua-dong-tren-bien-post53709.html" },
       { label: "Bản tin khí hậu tháng 7/2026", url: "https://nchmf.gov.vn/kttvsiteE/vi-VN/1/ban-tin-du-bao-khi-hau-thoi-han-thang-tren-pham-vi-toan-quoc-thang-7-2026-post53268.html" },
     ],
     sections: [
@@ -42,10 +43,10 @@ export const posts20260725: CommunityPost[] = [
         ],
       },
       {
-        heading: "Cập nhật 10h: bão số 2 làm tăng rủi ro trên biển",
+        heading: "Cập nhật 16h: bão số 2 mạnh hơn, rủi ro chính vẫn ở trên biển",
         paragraphs: [
-          "Theo bản tin phát lúc 10h ngày 25/7 của Trung tâm Dự báo Khí tượng Thủy văn quốc gia, lúc 7h tâm bão số 2 ở khoảng 20,8 độ Vĩ Bắc và 118,2 độ Kinh Đông, trên vùng biển phía Đông Bắc Bắc Biển Đông, cách Hồng Kông khoảng 510km về phía Đông Nam. Vùng gần tâm bão có gió mạnh cấp 11–12, giật cấp 14; sóng biển cao khoảng 5–7m. Đây là thông tin cho khu vực trên biển, không nên lấy con số sóng gần tâm bão để mô tả toàn bộ bờ biển Việt Nam.",
-          "Cơ quan dự báo cảnh báo tàu thuyền trong vùng nguy hiểm có khả năng chịu tác động của dông, lốc, gió mạnh và sóng lớn. Vùng biển từ Lâm Đồng đến TP.HCM và phía tây khu vực Nam Biển Đông cũng có nơi gió cấp 6, giật cấp 7–8, sóng cao 2–3m. Người đi biển cần theo dõi tọa độ và bản tin chuyên ngành mới nhất; người trên đất liền vẫn nên dùng dự báo mưa theo địa phương, không suy luận rằng mọi nơi đều chịu tác động như vùng tâm bão. Bản tin kế tiếp được cơ quan dự báo hẹn vào 16h ngày 25/7.",
+          "Theo bản tin phát lúc 16h ngày 25/7 của Trung tâm Dự báo Khí tượng Thủy văn quốc gia, lúc 13h tâm bão số 2 ở khoảng 21,5 độ Vĩ Bắc và 116,8 độ Kinh Đông, trên vùng biển phía Đông Bắc Bắc Biển Đông, cách Hồng Kông khoảng 330km về phía Đông Đông Nam. Sức gió mạnh nhất gần tâm bão đạt cấp 12, giật cấp 15. Vùng gần tâm có sóng cao khoảng 6–8m, tăng so với bản tin buổi sáng. Đây là số liệu cho vùng biển gần tâm bão, không phải dự báo sóng cho toàn bộ bờ biển Việt Nam.",
+          "Bản tin 14h nhận định bão chủ yếu di chuyển về phía Quảng Đông, Trung Quốc và ít có khả năng ảnh hưởng trực tiếp đến đất liền Việt Nam. Dù vậy, rủi ro trên biển vẫn đáng chú ý: từ Khánh Hòa đến TP.HCM, khu vực Giữa Biển Đông và phía bắc Nam Biển Đông có gió tây nam cấp 6, giật cấp 7–8, sóng 2–3m; trong mưa dông có thể xuất hiện lốc và gió giật. Tàu thuyền cần dùng tọa độ vùng nguy hiểm và bản tin hàng hải mới nhất, còn người trên đất liền vẫn phải theo dõi cảnh báo mưa tại địa phương. Bản tin gió mạnh, sóng lớn tiếp theo được hẹn lúc 4h ngày 26/7.",
         ],
       },
       {
