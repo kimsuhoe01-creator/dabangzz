@@ -7,11 +7,11 @@ export const posts20260725: CommunityPost[] = [
     author: "Ban biên tập Dabangzz",
     category: "Tin mới Việt Nam · Thời tiết",
     title: "Thời tiết Việt Nam ngày 25/7: miền Bắc tiếp tục mưa, Nam Bộ dễ có mưa dông về chiều",
-    summary: "Bản đọc nhanh dựa trên dự báo chính thức: khu vực nào có nguy cơ mưa lớn, nhiệt độ dự kiến ra sao và người đi làm, đi học nên kiểm tra gì trước khi ra đường.",
-    readTime: "7 phút đọc",
+    summary: "Bản đọc nhanh dựa trên dự báo chính thức, bổ sung bản tin 10h về bão số 2 trên biển: khu vực nào có nguy cơ mưa lớn, gió mạnh và người dân nên kiểm tra gì trước khi di chuyển.",
+    readTime: "8 phút đọc",
     hero: "MƯA DÔNG\nNGÀY 25/7",
     publishedAt: "2026-07-25T06:45:00+07:00",
-    updatedAt: "2026-07-25T02:20:00+07:00",
+    updatedAt: "2026-07-25T10:40:00+07:00",
     images: [
       {
         src: "/images/editorial/thoi-tiet-viet-nam-25-7-2026.webp",
@@ -24,10 +24,13 @@ export const posts20260725: CommunityPost[] = [
       { label: "Hà Nội", value: "24–26°C / 31–33°C", note: "Có lúc mưa rào và dông, cục bộ mưa to." },
       { label: "TP.HCM", value: "24–27°C / 32–34°C", note: "Mưa rào và dông tập trung hơn vào chiều tối và đêm." },
       { label: "Rủi ro đi kèm", value: "Sét, lốc, gió giật", note: "Cảnh báo có thể thay đổi theo từng giờ và từng địa bàn." },
+      { label: "Bão số 2 trên biển", value: "Cấp 11–12, giật cấp 14", note: "Vùng gần tâm bão ở phía Đông Bắc Bắc Biển Đông, theo bản tin 10h ngày 25/7." },
+      { label: "Sóng gần tâm bão", value: "5,0–7,0m", note: "Không phải dự báo sóng cho toàn bộ bờ biển Việt Nam." },
     ],
     sourceLinks: [
       { label: "Trung tâm Dự báo KTTV quốc gia – dự báo đất liền ngày 25/7", url: "https://nchmf.gov.vn/Kttvsite/vi-VN/1/hai-van-22-15.html" },
       { label: "Trung tâm Dự báo KTTV quốc gia – bản đồ và bản tin mới", url: "https://www.nchmf.gov.vn/kttv/" },
+      { label: "Trung tâm Dự báo KTTV quốc gia – bản tin bão số 2 lúc 10h ngày 25/7", url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/tin-du-bao-gio-manh-song-lon-va-mua-dong-tren-bien-post53699.html" },
       { label: "Bản tin khí hậu tháng 7/2026", url: "https://nchmf.gov.vn/kttvsiteE/vi-VN/1/ban-tin-du-bao-khi-hau-thoi-han-thang-tren-pham-vi-toan-quoc-thang-7-2026-post53268.html" },
     ],
     sections: [
@@ -36,6 +39,13 @@ export const posts20260725: CommunityPost[] = [
         paragraphs: [
           "Dự báo chính thức cho ngày 25/7 cho thấy thời tiết khác nhau khá rõ giữa các vùng, nhưng điểm chung đáng chú ý là mưa dông vẫn xuất hiện ở nhiều nơi. Miền Bắc có khả năng mưa từ vừa đến to, có nơi mưa rất to; trong khi Nam Trung Bộ, Tây Nguyên và Nam Bộ dễ có mưa rào, dông vào chiều tối hoặc đêm. Vì vậy, một biểu tượng mưa duy nhất trên ứng dụng điện thoại không đủ để mô tả cả ngày.",
           "Người đi làm sớm nên xem đồng thời khung giờ, quận huyện và cảnh báo mới nhất. Một tuyến đường khô lúc xuất phát có thể ngập cục bộ sau trận mưa ngắn nhưng mạnh. Với người đi xe máy, áo mưa gọn, túi chống nước cho điện thoại và thêm thời gian dự phòng thường hữu ích hơn việc chỉ nhìn xác suất mưa của cả thành phố. Nếu thấy mây dông phát triển nhanh, nên ưu tiên nơi trú chắc chắn thay vì cố đi tiếp.",
+        ],
+      },
+      {
+        heading: "Cập nhật 10h: bão số 2 làm tăng rủi ro trên biển",
+        paragraphs: [
+          "Theo bản tin phát lúc 10h ngày 25/7 của Trung tâm Dự báo Khí tượng Thủy văn quốc gia, lúc 7h tâm bão số 2 ở khoảng 20,8 độ Vĩ Bắc và 118,2 độ Kinh Đông, trên vùng biển phía Đông Bắc Bắc Biển Đông, cách Hồng Kông khoảng 510km về phía Đông Nam. Vùng gần tâm bão có gió mạnh cấp 11–12, giật cấp 14; sóng biển cao khoảng 5–7m. Đây là thông tin cho khu vực trên biển, không nên lấy con số sóng gần tâm bão để mô tả toàn bộ bờ biển Việt Nam.",
+          "Cơ quan dự báo cảnh báo tàu thuyền trong vùng nguy hiểm có khả năng chịu tác động của dông, lốc, gió mạnh và sóng lớn. Vùng biển từ Lâm Đồng đến TP.HCM và phía tây khu vực Nam Biển Đông cũng có nơi gió cấp 6, giật cấp 7–8, sóng cao 2–3m. Người đi biển cần theo dõi tọa độ và bản tin chuyên ngành mới nhất; người trên đất liền vẫn nên dùng dự báo mưa theo địa phương, không suy luận rằng mọi nơi đều chịu tác động như vùng tâm bão. Bản tin kế tiếp được cơ quan dự báo hẹn vào 16h ngày 25/7.",
         ],
       },
       {
@@ -145,6 +155,91 @@ export const posts20260725: CommunityPost[] = [
         paragraphs: [
           "Bài viết này giải thích nguyên tắc từ nguồn chính thức, không phải tư vấn pháp lý cho một hợp đồng cụ thể. Cùng một tên phụ cấp nhưng điều kiện trả và cách ghi trong hợp đồng có thể khác nhau. Mức trần, tỷ lệ đóng và trách nhiệm của từng bên cũng cần kiểm tra theo quy định áp dụng tại kỳ lương tương ứng. Không nên dùng dữ liệu của tháng trước để tự khẳng định cho một kỳ sau nếu văn bản đã thay đổi.",
           "Khi cần kết luận cho hồ sơ thật, doanh nghiệp nên liên hệ cơ quan BHXH nơi đang quản lý đơn vị, cung cấp hợp đồng và bảng phân loại khoản trả nhưng che dữ liệu không cần thiết. Người lao động có thể đề nghị văn bản giải thích từ bộ phận nhân sự hoặc tra cứu trên cổng chính thức. Dabangzz sẽ cập nhật updatedAt nếu có hướng dẫn mới làm thay đổi cách hiểu nêu trong bài, thay vì tạo một bài trùng lặp.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "nghi-dinh-168-12-diem-gplx-tra-cuu-phuc-hoi",
+    kind: "news",
+    author: "Ban biên tập Dabangzz",
+    category: "Tin mới Việt Nam · Giao thông",
+    title: "Nghị định 168 và 12 điểm giấy phép lái xe: bị trừ khi nào, phục hồi ra sao?",
+    summary: "Từ nhu cầu tìm kiếm tăng về Nghị định 168, Dabangzz đối chiếu nguồn chính thức để giải thích 12 điểm giấy phép lái xe, thời điểm trừ, hai cách phục hồi và nơi kiểm tra an toàn.",
+    readTime: "8 phút đọc",
+    hero: "12 ĐIỂM\nGIẤY PHÉP LÁI XE",
+    publishedAt: "2026-07-25T11:45:00+07:00",
+    updatedAt: "2026-07-25T10:45:00+07:00",
+    images: [
+      {
+        src: "/images/editorial/nghi-dinh-168-diem-gplx-20260725.webp",
+        alt: "Minh họa một người lái xe kiểm tra trạng thái giấy phép trên điện thoại trước khi di chuyển",
+        caption: "Minh họa biên tập bằng AI; giao diện trên điện thoại chỉ mang tính tượng trưng, không phải ứng dụng thật.",
+        credit: "ai",
+      },
+    ],
+    keyFacts: [
+      { label: "Điểm ban đầu", value: "12 điểm", note: "Mỗi giấy phép lái xe có 12 điểm để quản lý việc chấp hành pháp luật giao thông." },
+      { label: "Chưa bị trừ hết", value: "12 tháng", note: "Không bị trừ thêm kể từ lần gần nhất thì được phục hồi đủ 12 điểm." },
+      { label: "Đã bị trừ hết", value: "Ít nhất 6 tháng", note: "Sau thời gian này phải đạt yêu cầu kiểm tra kiến thức pháp luật để được phục hồi." },
+      { label: "Kênh kiểm tra", value: "VNeID / cổng CSGT", note: "Chỉ dùng ứng dụng và địa chỉ chính thức, không mở liên kết lạ trong tin nhắn." },
+    ],
+    sourceLinks: [
+      { label: "Cổng TTĐT Chính phủ – toàn văn Nghị định 168/2024/NĐ-CP", url: "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm" },
+      { label: "Cổng TTĐT Chính phủ – giải thích các lỗi bị trừ điểm từ 1/1/2025", url: "https://xaydungchinhsach.chinhphu.vn/nhung-hanh-vi-vi-pham-giao-thong-pho-bien-co-muc-phat-tien-cao-bi-tru-diem-tuoc-bang-lai-xe-tu-1-1-2025-119250101182301987.htm" },
+      { label: "Bộ Công an – theo dõi điểm giấy phép lái xe qua VNeID", url: "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/nguoi-dan-co-the-tu-theo-doi-so-diem-cua-bang-lai-xe-qua-ung-dung-vneid-d1-t1642" },
+      { label: "Cổng Dịch vụ công quốc gia – hướng dẫn tra cứu và cập nhật giấy phép", url: "https://dichvucong.gov.vn/p/phananhkiennghi/jsp/pakn_answer_byid.jsp?pakn_id=35EA6B7FE345B218E0634A0AA8C076EF" },
+      { label: "Bộ Công an – cảnh báo dùng đúng kênh xử lý vi phạm giao thông", url: "https://mps.gov.vn/bai-viet/huong-dan-nop-phat-nguoi-va-tham-gia-giao-thong-khi-dang-trong-thoi-gian-cho-cap-doi-giay-phep-lai-xe-d139-t43826" },
+    ],
+    editorialNote: "Google Trends chỉ được dùng để nhận biết câu hỏi đang được quan tâm, không phải căn cứ xác định pháp luật. Nội dung được đối chiếu với Nghị định 168/2024/NĐ-CP, Bộ Công an và Cổng Dịch vụ công quốc gia; bài không thay thế tư vấn cho một hồ sơ vi phạm cụ thể.",
+    sections: [
+      {
+        heading: "Vì sao nhiều người tìm Nghị định 168 lúc này",
+        paragraphs: [
+          "Trong dữ liệu tìm kiếm tại Việt Nam ngày 25/7, cụm từ liên quan Nghị định 168 và việc lái xe tăng rõ rệt. Tín hiệu này cho biết nhiều người đang có cùng một câu hỏi, nhưng không tự chứng minh rằng mức phạt vừa thay đổi hoặc có một quy định mới bắt đầu trong ngày. Để tránh biến xu hướng tìm kiếm thành tin đồn, Dabangzz chỉ dùng nó để chọn chủ đề rồi kiểm tra lại toàn văn nghị định và hướng dẫn của cơ quan chức năng.",
+          "Nghị định 168/2024/NĐ-CP quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông đường bộ và việc trừ, phục hồi điểm giấy phép lái xe. Cơ chế điểm được áp dụng từ ngày 1/1/2025. Khi đọc một bài chia sẻ trên mạng, người lái xe nên tách ba câu hỏi: hành vi có bị phạt tiền hay không, hành vi có bị trừ điểm hay không và quyết định xử phạt đã có hiệu lực chưa. Ba việc này có liên quan nhưng không phải lúc nào cũng xảy ra cùng một cách.",
+        ],
+      },
+      {
+        heading: "12 điểm không phải 12 lần được phép vi phạm",
+        paragraphs: [
+          "Mỗi giấy phép lái xe có 12 điểm để quản lý việc chấp hành pháp luật của người lái. Con số này không phải hạn mức cho phép một người vi phạm 12 lần. Mức điểm bị trừ phụ thuộc vào tính chất và mức độ của hành vi đã được quy định cụ thể; có lỗi bị xử phạt nhưng không đồng nghĩa tự động mất một điểm. Vì vậy, không thể nhìn số lần nhận biên bản rồi tự tính số điểm còn lại theo phép trừ đơn giản.",
+          "Việc trừ điểm được thực hiện sau khi quyết định xử phạt có hiệu lực. Thông tin về điểm bị trừ và số điểm còn lại phải được thông báo, đồng thời cập nhật trên hệ thống quản lý. Nếu một bài đăng chỉ đưa ảnh mức phạt mà không nêu điều khoản, ngày quyết định và số điểm áp dụng, người đọc chưa có đủ căn cứ để kết luận cho trường hợp của mình. Cũng cần phân biệt giấy phép đang chờ đổi thẻ vật lý với quyền lái xe và dữ liệu điện tử đang có hiệu lực.",
+        ],
+      },
+      {
+        heading: "Khi nhiều lỗi được xử lý trong cùng một lần",
+        paragraphs: [
+          "Theo hướng dẫn của Bộ Công an, nếu một người có từ hai hành vi vi phạm trở lên trong cùng một lần xử lý và các hành vi đó đều thuộc diện bị trừ điểm, hệ thống chỉ trừ điểm của hành vi có mức trừ cao nhất. Quy tắc này giúp tránh cộng dồn điểm theo cách không đúng trong một lần xử lý. Tuy nhiên, cần đọc chính xác cụm từ “trong cùng một lần xử lý”, không tự mở rộng sang các quyết định hoặc thời điểm vi phạm khác nhau.",
+          "Việc chỉ áp dụng mức trừ điểm cao nhất cũng không làm các khoản phạt tiền hoặc biện pháp khắc phục của những hành vi còn lại tự biến mất. Điểm giấy phép và tiền phạt là hai phần cần kiểm tra riêng trong quyết định. Cách an toàn nhất là đọc từng dòng: hành vi nào được xác định, căn cứ điều khoản nào, tiền phạt bao nhiêu, có trừ điểm hay không và ngày nào quyết định bắt đầu có hiệu lực. Nếu nội dung điện tử khác bản quyết định, nên đề nghị cơ quan xử lý kiểm tra dữ liệu.",
+        ],
+      },
+      {
+        heading: "Hai con đường phục hồi hoàn toàn khác nhau",
+        paragraphs: [
+          "Trường hợp giấy phép vẫn còn điểm, người lái được phục hồi đủ 12 điểm nếu trong 12 tháng kể từ ngày bị trừ điểm gần nhất không bị trừ thêm. Đây là cơ chế tự phục hồi sau một khoảng thời gian chấp hành tốt; không phải cứ qua năm dương lịch là điểm trở về 12. Mốc cần theo dõi là lần trừ điểm gần nhất được ghi nhận, vì một lần trừ mới sẽ làm thay đổi thời điểm tính 12 tháng.",
+          "Trường hợp đã bị trừ hết điểm thì khác hẳn: người đó không được điều khiển phương tiện theo giấy phép tương ứng. Sau ít nhất sáu tháng kể từ ngày bị trừ hết, người có giấy phép phải tham gia kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ và đạt yêu cầu mới được phục hồi đủ 12 điểm. Việc đổi hoặc cấp lại giấy phép không phải cách xóa lịch sử điểm; số điểm còn lại tiếp tục được bảo lưu theo quy định.",
+        ],
+      },
+      {
+        heading: "Tra cứu ở đâu và xử lý khi dữ liệu chưa khớp",
+        paragraphs: [
+          "Bộ Công an cho biết người dân có thể theo dõi số điểm giấy phép qua VNeID. Ngoài ra, Cổng Dịch vụ công quốc gia hướng dẫn dùng trang tra cứu giấy phép chính thức tại gplx.csgt.bocongan.gov.vn và chức năng cập nhật thông tin giấy phép trong VNeID. Giấy phép điện tử đã được tích hợp có giá trị sử dụng theo quy định; người dân không nên cài một ứng dụng có tên gần giống chỉ vì quảng cáo nói rằng đó là kênh tra cứu nhanh hơn.",
+          "Nếu giấy phép chưa hiện hoặc dữ liệu không đúng, trước tiên hãy đối chiếu họ tên, số giấy phép và thông tin định danh trên các kênh chính thức. Có thể gửi yêu cầu cập nhật trong mục giấy phép lái xe của VNeID hoặc liên hệ cơ quan cảnh sát giao thông để được hướng dẫn. Khi lưu ảnh màn hình làm bằng chứng, nên ghi lại thời gian nhưng che số định danh, mã QR và địa chỉ trước khi gửi cho người hỗ trợ; tuyệt đối không đăng toàn bộ giấy tờ vào nhóm công khai.",
+        ],
+      },
+      {
+        heading: "Tránh bẫy liên kết phạt nguội và thông báo giả",
+        paragraphs: [
+          "Cơ quan công an đã nhiều lần cảnh báo người dân không truy cập website, phần mềm hoặc liên kết không rõ nguồn gốc để xử lý vi phạm giao thông. Một tin nhắn tự xưng là thông báo phạt nhưng yêu cầu cài ứng dụng ngoài kho chính thức, chia sẻ mã OTP, cấp quyền điều khiển điện thoại hoặc chuyển tiền vào tài khoản cá nhân là dấu hiệu nguy hiểm. Không nên quyết định thanh toán chỉ vì người gọi đọc đúng biển số hoặc một phần thông tin cá nhân.",
+          "Khi nhận thông báo, hãy tự mở VNeID hoặc gõ địa chỉ cổng chính thức trong trình duyệt thay vì bấm liên kết được gửi. Kiểm tra cơ quan ban hành, số quyết định, ngày hiệu lực và kênh nộp phạt được hướng dẫn. Nếu vẫn nghi ngờ, liên hệ đơn vị cảnh sát giao thông tại nơi phát hiện vi phạm hoặc điểm tiếp nhận được công bố. Thao tác chậm hơn vài phút nhưng giúp tránh mất tài khoản, tiền và dữ liệu cá nhân.",
+        ],
+      },
+      {
+        heading: "Bảng kiểm 5 phút cho người lái xe",
+        paragraphs: [
+          "Trước khi đi, có thể làm một bảng kiểm ngắn: mở VNeID để xem giấy phép đã tích hợp chưa; kiểm tra số điểm và thông báo mới; đọc lại ngày hiệu lực nếu từng có quyết định xử phạt; lưu địa chỉ cổng CSGT chính thức; và hỏi cơ quan có thẩm quyền nếu dữ liệu không khớp. Người dùng nhiều hạng giấy phép cũng nên xem đúng hạng liên quan, không suy luận trạng thái của một hạng cho toàn bộ phương tiện mình có thể điều khiển.",
+          "Bài viết này giải thích khung chung từ nguồn chính thức, không kết luận một biên bản cụ thể đúng hay sai. Mức phạt, điểm bị trừ và thủ tục xử lý còn phụ thuộc hành vi, hồ sơ và thời điểm áp dụng. Nếu có tranh chấp hoặc cần khiếu nại, hãy giữ quyết định, biên lai và dữ liệu tra cứu rồi làm việc với cơ quan đã ban hành. Khi văn bản hoặc hướng dẫn chính thức thay đổi, Dabangzz sẽ cập nhật ngày sửa trong bài thay vì tạo một bài trùng lặp.",
         ],
       },
     ],
