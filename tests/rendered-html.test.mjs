@@ -33,3 +33,13 @@ test("unknown article routes return 404", async () => {
   const response = await render("/bai-viet/khong-ton-tai");
   assert.equal(response.status, 404);
 });
+
+test("renders the approved-model disclosure below the July 26 editorial image", async () => {
+  const response = await render("/bai-viet/tp-hcm-tram-sac-doi-pin-xe-may-dien-cuoi-2026");
+  assert.equal(response.status, 200);
+
+  const html = await response.text();
+  assert.match(html, /tp-hcm-tram-sac-xe-may-dien-20260726\.webp/);
+  assert.match(html, /Ảnh minh họa được tạo bằng AI\./);
+  assert.match(html, /Bộ Xây dựng/);
+});
