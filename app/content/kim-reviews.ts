@@ -1,4 +1,5 @@
 import type { CommunityPost } from "./community-posts";
+import { smileBacNinhReview } from "./smile-review";
 
 const photo = (name: string, alt: string, caption: string) => ({
   src: `/images/experience/${name}.jpg`,
@@ -8,6 +9,7 @@ const photo = (name: string, alt: string, caption: string) => ({
 });
 
 export const kimReviews: CommunityPost[] = [
+  smileBacNinhReview,
   {
     slug: "kinza-bac-ninh-sushi-dassai-45",
     kind: "review",
