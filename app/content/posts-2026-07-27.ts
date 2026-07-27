@@ -2,6 +2,83 @@ import type { CommunityPost } from "./community-posts";
 
 export const posts20260727: CommunityPost[] = [
   {
+    slug: "lich-nghi-quoc-khanh-2-9-2026-ai-duoc-nghi-5-ngay",
+    kind: "news",
+    author: "Ban biên tập Dabangzz",
+    category: "Tin mới Việt Nam · Lao động & đời sống",
+    title: "Quốc khánh 2/9/2026 nghỉ 5 ngày: lịch này có áp dụng cho mọi người?",
+    summary: "Lịch nghỉ liên tục 5 ngày từ 29/8 đến 2/9/2026 đã được công bố cho cán bộ, công chức và viên chức. Với người lao động tại doanh nghiệp, cách bố trí có thể khác: Dabangzz tách rõ ngày nghỉ bắt buộc, ngày doanh nghiệp được lựa chọn và những việc nên xác nhận trước khi đặt vé.",
+    readTime: "10 phút đọc",
+    hero: "QUỐC KHÁNH 2/9/2026\nĐỌC ĐÚNG LỊCH NGHỈ",
+    publishedAt: "2026-07-27T14:30:00+07:00",
+    updatedAt: "2026-07-27T11:32:00+07:00",
+    images: [
+      {
+        src: "/images/editorial/lich-nghi-quoc-khanh-2-9-2026.webp",
+        alt: "Người phụ nữ ngồi tại bàn lên kế hoạch cho chuyến đi trong kỳ nghỉ Quốc khánh 2026",
+        caption: "Ảnh minh họa được tạo bằng AI.",
+        credit: "ai",
+      },
+    ],
+    keyFacts: [
+      { label: "Ngày nghỉ hưởng nguyên lương", value: "2 ngày", note: "Ngày 2/9 và một ngày liền kề trước hoặc sau theo lịch được áp dụng cho người lao động." },
+      { label: "Khối hành chính, sự nghiệp", value: "5 ngày liên tục", note: "Từ thứ Bảy 29/8 đến hết thứ Tư 2/9/2026, nhờ đổi ngày làm việc 31/8 sang thứ Bảy 22/8." },
+      { label: "Doanh nghiệp", value: "Không mặc định 5 ngày", note: "Người sử dụng lao động lựa chọn nghỉ ngày 1/9 hoặc 3/9 cùng với ngày 2/9, rồi thông báo phương án cụ thể." },
+      { label: "Thời hạn thông báo", value: "Ít nhất 30 ngày", note: "Doanh nghiệp phải thông báo phương án nghỉ Quốc khánh cho người lao động trước khi áp dụng." },
+      { label: "Mốc cần kiểm tra", value: "22/8 và 31/8", note: "Khối công áp dụng làm bù thứ Bảy 22/8 cho ngày thứ Hai 31/8; doanh nghiệp chỉ áp dụng nếu có thông báo riêng." },
+    ],
+    sourceLinks: [
+      { label: "Cổng Thông tin điện tử Chính phủ – lịch nghỉ lễ năm 2026", url: "https://xaydungchinhsach.chinhphu.vn/lich-nghi-le-gio-to-hung-vuong-30-4-1-5-quoc-khanh-2-9-nam-2026-119260222115822151.htm" },
+      { label: "Cổng Thông tin điện tử Chính phủ – lịch nghỉ Quốc khánh 2/9/2026", url: "https://xaydungchinhsach.chinhphu.vn/lich-nghi-le-quoc-khanh-2-9-va-ngay-van-hoa-viet-nam-24-11-2026-119260504103718299.htm" },
+      { label: "Bộ luật Lao động 2019 – cơ sở pháp lý về ngày nghỉ lễ", url: "https://vanban.chinhphu.vn/?pageid=27160&docid=198540" },
+    ],
+    editorialNote: "Google Trends Việt Nam chỉ được dùng để nhận biết người đọc đang quan tâm đến ngày Quốc khánh. Các mốc nghỉ, ngày làm bù và quyền lựa chọn lịch của doanh nghiệp trong bài được đối chiếu với thông báo đăng trên Cổng Thông tin điện tử Chính phủ và Bộ luật Lao động. Bài viết giải thích quy định chung, không thay thế thông báo nhân sự của từng cơ quan hoặc doanh nghiệp.",
+    sections: [
+      {
+        heading: "Vì sao có thông tin nghỉ 5 ngày liên tục?",
+        paragraphs: [
+          "Theo phương án được công bố, cán bộ, công chức và viên chức được nghỉ Quốc khánh năm 2026 từ thứ Bảy ngày 29/8 đến hết thứ Tư ngày 2/9. Chuỗi 5 ngày này gồm hai ngày nghỉ cuối tuần, một ngày làm việc được hoán đổi và hai ngày nghỉ lễ hưởng nguyên lương. Ngày thứ Hai 31/8 được nghỉ, còn ngày làm việc tương ứng chuyển sang thứ Bảy 22/8.",
+          "Điểm quan trọng là con số 5 ngày phản ánh cách xếp lịch của khối hành chính, sự nghiệp. Nó không có nghĩa mọi cơ sở kinh doanh và mọi ca làm việc trên toàn quốc đều tự động đóng cửa trong cùng khoảng thời gian. Khi đọc một tiêu đề ngắn trên mạng xã hội, người lao động cần xác định bài đang nói về khối công hay đang dẫn phương án riêng của một doanh nghiệp.",
+        ],
+      },
+      {
+        heading: "Hai ngày nghỉ Quốc khánh được tính ra sao?",
+        paragraphs: [
+          "Bộ luật Lao động quy định người lao động được nghỉ làm và hưởng nguyên lương trong hai ngày dịp Quốc khánh: ngày 2/9 dương lịch và một ngày liền kề trước hoặc sau. Với năm 2026, phương án dành cho khối hành chính chọn ngày 1/9 cùng ngày 2/9. Vì vậy, hai ngày nghỉ lễ trong lịch 5 ngày là thứ Ba 1/9 và thứ Tư 2/9; các ngày còn lại hình thành từ cuối tuần và việc đổi ngày làm việc.",
+          "Sự phân biệt này giúp tránh nhầm lẫn khi tính lịch cá nhân. Ngày 31/8 không tự trở thành một ngày lễ mới; trong phương án khối công, đó là ngày được nghỉ nhờ chuyển buổi làm việc sang 22/8. Nếu cơ quan hoặc doanh nghiệp không áp dụng đổi lịch tương tự, người lao động không nên tự coi 31/8 là ngày nghỉ chỉ dựa vào lịch của đơn vị khác.",
+        ],
+      },
+      {
+        heading: "Người làm tại doanh nghiệp có chắc được nghỉ 5 ngày không?",
+        paragraphs: [
+          "Không chắc. Đối với người lao động ngoài khối hành chính, người sử dụng lao động lựa chọn ngày nghỉ liền kề là 1/9 hoặc 3/9, bên cạnh ngày 2/9. Phương án cụ thể phải được thông báo cho người lao động ít nhất 30 ngày trước khi thực hiện. Doanh nghiệp được khuyến khích bố trí lịch thuận lợi như khối công, nhưng đây là khuyến khích chứ không phải một lịch 5 ngày bắt buộc giống nhau cho mọi nơi.",
+          "Một nhà máy làm theo ca, cửa hàng hoạt động cuối tuần, văn phòng nghỉ thứ Bảy và Chủ nhật hoặc đơn vị dịch vụ vận hành xuyên lễ có thể có lịch khác nhau. Thậm chí trong cùng một công ty, bộ phận văn phòng và bộ phận trực vận hành có thể nhận thông báo khác nhau. Nguồn có giá trị trực tiếp với từng người vẫn là văn bản, email hoặc thông báo chính thức từ phòng nhân sự và người sử dụng lao động.",
+        ],
+      },
+      {
+        heading: "Ba câu hỏi cần hỏi trước khi đặt vé và phòng",
+        paragraphs: [
+          "Thứ nhất, đơn vị của bạn chọn nghỉ ngày 1/9 hay ngày 3/9? Thứ hai, ngày 31/8 có được nghỉ theo phương án đổi ngày làm việc hay vẫn là ngày làm bình thường? Thứ ba, nếu được nghỉ 31/8 thì ngày làm bù có đúng là 22/8 hay được sắp xếp theo lịch khác? Chỉ cần một câu trả lời khác là thời gian khởi hành hoặc trở về đã có thể thay đổi một ngày.",
+          "Người có con đi học, làm việc ở khu công nghiệp hoặc phụ thuộc lịch xe đưa đón nên kiểm tra thêm lịch của trường, nhà máy và nhà cung cấp vận tải. Đừng dùng ảnh chụp lịch không ghi nguồn làm căn cứ mua vé không hoàn hủy. Khi doanh nghiệp chưa ban hành lịch, lựa chọn an toàn hơn là giữ phương án có thể đổi ngày hoặc chờ thông báo chính thức thay vì suy đoán từ lịch nghỉ của cơ quan nhà nước.",
+        ],
+      },
+      {
+        heading: "Nếu ngày nghỉ hằng tuần trùng ngày lễ thì sao?",
+        paragraphs: [
+          "Quy định lao động có cơ chế nghỉ bù khi ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, Tết. Tuy nhiên việc ngày nào được nghỉ bù còn phụ thuộc lịch nghỉ hằng tuần và phương án tổ chức của đơn vị. Người làm thứ Bảy, người nghỉ cố định vào ngày khác hoặc làm theo ca không nên áp nguyên lịch văn phòng vào trường hợp của mình.",
+          "Nếu phải làm việc trong thời gian đơn vị xác định là ngày lễ, chế độ tiền lương làm thêm có nguyên tắc riêng và mức tối thiểu cao hơn ngày thường. Bài viết không tính thay bảng lương cá nhân vì kết quả còn phụ thuộc ca ngày hay ca đêm, loại hợp đồng, khoản lương làm căn cứ và lịch được đơn vị công bố. Cách tốt nhất là yêu cầu bảng phân ca và cách tính bằng văn bản trước kỳ nghỉ, sau đó đối chiếu phiếu lương thực tế.",
+        ],
+      },
+      {
+        heading: "Checklist ngắn để chuẩn bị kỳ nghỉ mà không bị động",
+        paragraphs: [
+          "Trước tiên, lưu thông báo nghỉ chính thức và đánh dấu riêng ngày nghỉ lễ, ngày cuối tuần, ngày nghỉ do hoán đổi và ngày làm bù. Tiếp theo, kiểm tra thời hạn đổi vé, giờ nhận phòng, lịch xe hoặc chuyến bay và điều kiện hoàn tiền. Nếu đi theo nhóm, đừng mặc định tất cả thành viên có cùng lịch chỉ vì cùng sống tại một thành phố; mỗi cơ quan có thể áp dụng phương án khác nhau.",
+          "Cuối cùng, kiểm tra lại lịch sát ngày đi. Một bài giải thích chính sách giúp hiểu khung chung, nhưng thông báo của cơ quan, doanh nghiệp, trường học và hãng vận chuyển mới quyết định kế hoạch thực tế. Với lịch đã được xác nhận, kỳ nghỉ dài có thể là cơ hội tốt để về quê hoặc du lịch; với lịch chưa rõ, chuẩn bị linh hoạt sẽ ít tốn kém hơn việc đặt sớm theo một con số 5 ngày bị hiểu sai.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "luong-huu-thang-7-2026-tang-8-phan-tram",
     kind: "news",
     author: "Ban biên tập Dabangzz",
