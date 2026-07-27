@@ -24,10 +24,17 @@ test("validates the fixed Lời Đáp channel and derives a safe embed URL", asy
     loiDapMusicPosts,
   } = await import(moduleUrl.href);
 
-  assert.equal(loiDapMusicPosts.length, 3);
+  assert.equal(loiDapMusicPosts.length, 6);
   assert.deepEqual(
     new Set(loiDapMusicPosts.map(post => post.youtube?.videoId)),
-    new Set(["dW06ZveTgtc", "ZgEZVAPe3Ek", "ltjue-nusFw"]),
+    new Set([
+      "XAC8VWcOBLM",
+      "Uco9LpBuiqA",
+      "YlD-fcB2ZGw",
+      "dW06ZveTgtc",
+      "ZgEZVAPe3Ek",
+      "ltjue-nusFw",
+    ]),
   );
   const video = loiDapMusicPosts.find(post => post.youtube?.videoId === "ltjue-nusFw")?.youtube;
   assert.ok(video);

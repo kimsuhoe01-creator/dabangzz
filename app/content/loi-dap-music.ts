@@ -35,6 +35,216 @@ export function getLoiDapEmbedUrl(video: LoiDapVideo) {
 
 export const loiDapMusicPosts: CommunityPost[] = [
   {
+    slug: "em-da-khong-tro-ve-loi-dap",
+    kind: "music",
+    author: "Lời Đáp · Dabangzz biên tập",
+    category: "Âm nhạc · Lời Đáp",
+    title: "EM ĐÃ KHÔNG TRỞ VỀ: lời kể của cô gái đã chọn rời đi",
+    summary: "Lời hồi đáp cho “Chắc Ai Đó Sẽ Về” chuyển điểm nhìn sang người con gái đã rời khỏi mối quan hệ: cô không còn là người được chờ đợi, mà là người phải tự nói vì sao mình không quay lại.",
+    readTime: "5 phút đọc · nghe",
+    hero: "EM ĐÃ KHÔNG\nTRỞ VỀ",
+    publishedAt: "2026-07-27T20:32:00+07:00",
+    updatedAt: "2026-07-27T20:32:00+07:00",
+    youtube: {
+      videoId: "XAC8VWcOBLM",
+      sourceTitle: "EM ĐÃ KHÔNG TRỞ VỀ | Lời hồi đáp “Chắc Ai Đó Sẽ Về”",
+      channelId: LOI_DAP_CHANNEL_ID,
+      uploadDate: "2026-07-27T13:00:20Z",
+      thumbnailUrl: "https://i.ytimg.com/vi/XAC8VWcOBLM/hqdefault.jpg",
+      watchUrl: "https://www.youtube.com/watch?v=XAC8VWcOBLM",
+      channelUrl: LOI_DAP_CHANNEL_URL,
+      replyTarget: "Chắc Ai Đó Sẽ Về",
+      aiDisclosure: "Lời Đáp công bố đây là sáng tác AI độc lập với giai điệu, ca từ và giọng hát mới; không phải bản cover và không sử dụng bản ghi âm gốc.",
+    },
+    keyFacts: [
+      { label: "Công bố", value: "27/7/2026", note: "20:00 theo giờ Việt Nam, dựa trên nguồn cấp dữ liệu công khai của đúng kênh Lời Đáp." },
+      { label: "Điểm nhìn", value: "Người con gái đã rời đi", note: "Thông tin được nêu trực tiếp trong phần mô tả chính thức của video." },
+      { label: "Bài được hồi đáp", value: "Chắc Ai Đó Sẽ Về", note: "Lời hồi đáp độc lập, không phải cover và không dùng bản ghi âm gốc." },
+    ],
+    sourceLinks: [
+      { label: "EM ĐÃ KHÔNG TRỞ VỀ – video chính thức trên YouTube", url: "https://www.youtube.com/watch?v=XAC8VWcOBLM" },
+      { label: "Kênh YouTube chính thức Lời Đáp", url: LOI_DAP_CHANNEL_URL },
+    ],
+    editorialNote: "Dabangzz biên tập trang nghe từ tiêu đề, ngày công bố và mô tả công khai của video. Phần mô tả không cung cấp toàn bộ ca từ hoặc quy trình tạo hình ảnh, vì vậy bài viết không bổ sung chi tiết chưa được xác nhận.",
+    sections: [
+      {
+        heading: "Khi người được chờ đợi tự lên tiếng",
+        paragraphs: [
+          "Phần giới thiệu chính thức xác định rất rõ điểm nhìn: đây là câu chuyện do người con gái đã rời đi kể lại. Sự thay đổi ấy là trục chính của bài. Thay vì tiếp tục đứng ở phía người chờ một cuộc trở về, người nghe được mời bước sang phía người đã quyết định không quay lại và lắng nghe điều cô muốn nói.",
+          "Tiêu đề không hứa hẹn một cuộc đoàn tụ. “Em đã không trở về” là một câu ở thì đã xảy ra, nên cảm xúc nằm ở việc nhìn lại lựa chọn hơn là trì hoãn kết quả. Cách đặt tên này tạo một câu trả lời trực tiếp cho sự mong đợi, đồng thời mở ra câu hỏi khó hơn: rời đi có phải lúc nào cũng đồng nghĩa với không còn tình cảm hay không.",
+        ],
+      },
+      {
+        heading: "Quan hệ với “Chắc Ai Đó Sẽ Về” được giới hạn ra sao?",
+        paragraphs: [
+          "Kênh gọi tác phẩm là lời hồi đáp cho “Chắc Ai Đó Sẽ Về”. Mối liên hệ được dùng ở tầng điểm nhìn và câu chuyện: một bên chờ, bên kia giải thích sự vắng mặt. Dabangzz không diễn giải đây là phần tiếp theo chính thức của tác phẩm kia và cũng không gán thêm quan hệ bản quyền mà nguồn không công bố.",
+          "Mô tả video nhấn mạnh đây là sáng tác độc lập, có giai điệu, ca từ và giọng hát mới. Nó không phải bản cover và không sử dụng bản ghi âm gốc. Vì vậy, cách nghe phù hợp là xem bài như một câu chuyện mới đối thoại với một tình huống quen thuộc, chứ không phải phiên bản thay lời trên nền nhạc cũ.",
+        ],
+      },
+      {
+        heading: "Điểm nghe nằm ở quyết định, không phải cú ngoặt được bịa thêm",
+        paragraphs: [
+          "Mô tả công khai không tiết lộ đầy đủ lý do cô gái rời đi, và Dabangzz không tự điền vào khoảng trống đó. Khi nghe, có thể tập trung vào cách nhân vật chịu trách nhiệm cho câu trả lời của mình: cô không còn để người kia tiếp tục đoán rằng một ngày nào đó mình sẽ xuất hiện trước cửa.",
+          "Bài cũng gợi ra hai cảm xúc có thể tồn tại cùng lúc: người ở lại có quyền nhớ, còn người rời đi có thể có lý do để không trở về. Chính khoảng cách giữa hai điều này tạo sức nặng cho lời hồi đáp. Muốn theo dõi chi tiết hơn, người nghe nên bật phụ đề của video thay vì dựa vào một bản tóm tắt thay cho ca từ.",
+        ],
+      },
+      {
+        heading: "Thông tin AI được công bố đến đâu?",
+        paragraphs: [
+          "Lời Đáp công bố đây là một sáng tác AI độc lập và xác nhận giai điệu, ca từ, giọng hát đều mới. Kênh cũng nói rõ tác phẩm không dùng bản ghi âm gốc. Dabangzz giữ nguyên phạm vi thông tin đó để người nghe không nhầm video với bản cover hoặc một bản thu của ca sĩ thật.",
+          "Phần mô tả hiện không giải thích công cụ, mô hình hoặc quy trình tạo hình ảnh. Vì thế, bài viết không đoán thêm những chi tiết này. Nếu kênh cập nhật thông tin sản xuất, Dabangzz sẽ bổ sung ngay trên cùng trang dựa theo video ID, thay vì tạo thêm một bài trùng lặp.",
+        ],
+      },
+      {
+        heading: "Nghe trực tiếp hoặc kiểm tra video gốc",
+        paragraphs: [
+          "Khung phát trên Dabangzz dùng miền youtube-nocookie.com và không tự động phát. Âm thanh chỉ bắt đầu khi người đọc chủ động bấm nút. Điều này giữ quyền lựa chọn cho người dùng và tránh biến trang bài viết thành một trình phát tự chạy.",
+          "Liên kết video gốc và kênh Lời Đáp được đặt ngay trên trang để người nghe có thể xem mô tả mới nhất, phụ đề, bình luận và thông tin do chủ kênh cập nhật. Video ID XAC8VWcOBLM là khóa duy nhất của bài này; mọi chỉnh sửa sau đó sẽ giữ nguyên URL Dabangzz.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "em-biet-anh-o-phia-sau-loi-dap",
+    kind: "music",
+    author: "Lời Đáp · Dabangzz biên tập",
+    category: "Âm nhạc · Lời Đáp",
+    title: "EM BIẾT ANH Ở PHÍA SAU: cô gái có thật sự không nhận ra?",
+    summary: "Lời hồi đáp cho “Phía Sau Một Cô Gái” được kể từ phía cô gái vốn luôn biết có một người lặng lẽ đứng sau mình, biến sự im lặng quen thuộc thành câu hỏi về điều cả hai chưa nói.",
+    readTime: "5 phút đọc · nghe",
+    hero: "EM BIẾT ANH\nỞ PHÍA SAU",
+    publishedAt: "2026-07-27T20:31:00+07:00",
+    updatedAt: "2026-07-27T20:31:00+07:00",
+    youtube: {
+      videoId: "Uco9LpBuiqA",
+      sourceTitle: "EM BIẾT ANH Ở PHÍA SAU | Lời hồi đáp “Phía Sau Một Cô Gái”",
+      channelId: LOI_DAP_CHANNEL_ID,
+      uploadDate: "2026-07-27T13:00:17Z",
+      thumbnailUrl: "https://i.ytimg.com/vi/Uco9LpBuiqA/hqdefault.jpg",
+      watchUrl: "https://www.youtube.com/watch?v=Uco9LpBuiqA",
+      channelUrl: LOI_DAP_CHANNEL_URL,
+      replyTarget: "Phía Sau Một Cô Gái",
+      aiDisclosure: "Lời Đáp công bố đây là sáng tác AI độc lập với giai điệu, ca từ và giọng hát mới; không phải bản cover và không sử dụng bản ghi âm gốc.",
+    },
+    keyFacts: [
+      { label: "Công bố", value: "27/7/2026", note: "20:00 theo giờ Việt Nam, theo nguồn cấp dữ liệu công khai của kênh." },
+      { label: "Điểm nhìn", value: "Cô gái đã biết", note: "Cô luôn biết có một người lặng lẽ đứng phía sau mình, theo mô tả chính thức." },
+      { label: "Bài được hồi đáp", value: "Phía Sau Một Cô Gái", note: "Tác phẩm mới độc lập, không dùng giai điệu hoặc bản ghi âm gốc." },
+    ],
+    sourceLinks: [
+      { label: "EM BIẾT ANH Ở PHÍA SAU – video chính thức trên YouTube", url: "https://www.youtube.com/watch?v=Uco9LpBuiqA" },
+      { label: "Kênh YouTube chính thức Lời Đáp", url: LOI_DAP_CHANNEL_URL },
+    ],
+    editorialNote: "Dabangzz chỉ dùng dữ liệu có thể đối chiếu trong nguồn cấp và mô tả công khai của đúng video. Toàn bộ ca từ và quy trình hình ảnh chưa được nguồn công bố nên không được suy đoán trong bài.",
+    sections: [
+      {
+        heading: "Câu trả lời bắt đầu bằng một điều cô đã biết",
+        paragraphs: [
+          "Mô tả chính thức của video đưa ra tiền đề ngắn nhưng quan trọng: cô gái luôn biết có một người lặng lẽ đứng phía sau mình. Như vậy, lời hồi đáp không dựa trên một phát hiện bất ngờ. Nó bắt đầu từ việc thừa nhận rằng những quan tâm âm thầm đã được nhìn thấy, dù trước đó không được gọi tên.",
+          "Tiêu đề “Em biết anh ở phía sau” làm thay đổi vị trí của sự im lặng. Người đứng sau không còn hoàn toàn vô hình, còn cô gái cũng không còn là nhân vật không hay biết gì. Điều chưa rõ không phải cô có nhận ra hay không, mà là vì sao cả hai vẫn giữ khoảng cách dù sự hiện diện ấy đã được nhận biết.",
+        ],
+      },
+      {
+        heading: "Một lời hồi đáp về điểm nhìn, không phải bản cover",
+        paragraphs: [
+          "Kênh xác định “Phía Sau Một Cô Gái” là tác phẩm được hồi đáp. Dabangzz chỉ dùng mối quan hệ được công bố này để giải thích cấu trúc đối thoại: bài mới đặt người nghe vào phía cô gái và cho cô quyền lên tiếng về sự quan tâm âm thầm mà mình đã nhận ra.",
+          "Đồng thời, mô tả nói rõ ca khúc có giai điệu, ca từ và giọng hát mới, không phải cover và không dùng bản ghi âm gốc. Vì vậy, người nghe không nên chờ một bản phối lại gần nguyên tác. Điểm nối nằm ở tình huống và góc nhìn, còn âm nhạc được giới thiệu như một sáng tác độc lập.",
+        ],
+      },
+      {
+        heading: "Ba câu hỏi đáng mang theo khi nghe",
+        paragraphs: [
+          "Nguồn công khai không cung cấp toàn bộ lời hát, nên Dabangzz không gán cho cô gái một câu trả lời cụ thể mà cô chưa nói. Thay vào đó, có thể nghe với ba câu hỏi: cô biết từ khi nào, sự im lặng của cô có nghĩa gì, và việc nhận ra một người luôn ở phía sau có đủ để hai người tiến lại gần nhau hay không.",
+          "Những câu hỏi này giúp giữ bài hát ở đúng phạm vi câu chuyện đã được xác nhận. Chúng không biến cô gái thành người có lỗi, cũng không mặc định sự kiên trì phải được đáp lại bằng tình yêu. Lời hồi đáp có giá trị nhất khi nó mở thêm điểm nhìn, không phải khi nó đơn giản hóa lựa chọn của một nhân vật.",
+        ],
+      },
+      {
+        heading: "Ca khúc AI với phần sáng tác mới",
+        paragraphs: [
+          "Lời Đáp công khai đây là sáng tác AI độc lập. Giai điệu, ca từ và giọng hát đều được mô tả là mới; bản ghi âm gốc không được sử dụng. Thông tin này được hiển thị để người nghe phân biệt tác phẩm với cover, bản remix hoặc bản thu của một nghệ sĩ có thật.",
+          "Mô tả chưa nêu công cụ cụ thể và cũng không giải thích cách tạo hình ảnh của video. Dabangzz không bổ sung giả định về các khâu chưa được xác nhận. Khi nguồn chính thức thay đổi, bài sẽ được cập nhật cùng video ID Uco9LpBuiqA để tránh sinh nhiều trang cho một nội dung.",
+        ],
+      },
+      {
+        heading: "Nghe trên Dabangzz, đối chiếu trên YouTube",
+        paragraphs: [
+          "Video được nhúng bằng trình phát tăng cường quyền riêng tư, giữ tỷ lệ 16:9 và không bật tự động. Người đọc có thể chủ động phát để theo dõi cách cô gái kể câu chuyện, hoặc mở video gốc nếu muốn đọc phần mô tả và phản hồi mới nhất trên YouTube.",
+          "Trang luôn hiển thị liên kết đến đúng video và kênh Lời Đáp. Dabangzz không nhận iframe tùy ý; địa chỉ nhúng được tạo từ video ID đã kiểm tra định dạng và channel ID cố định. Cách này vừa giảm nguy cơ nhúng sai nguồn, vừa là cơ chế chống đăng trùng.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "gap-nhau-khi-khong-con-thuoc-ve-nhau-loi-dap",
+    kind: "music",
+    author: "Lời Đáp · Dabangzz biên tập",
+    category: "Âm nhạc · Lời Đáp",
+    title: "GẶP NHAU KHI KHÔNG CÒN THUỘC VỀ NHAU: cuộc hội ngộ muộn mười năm",
+    summary: "Hai người từng yêu gặp lại trong một cuộc họp sau mười năm. Ký ức trở về chỉ bằng một ánh nhìn, nhưng thời điểm ấy đến khi cả hai đã không còn có thể thuộc về nhau.",
+    readTime: "5 phút đọc · nghe",
+    hero: "GẶP LẠI\nSAU 10 NĂM",
+    publishedAt: "2026-07-27T20:30:00+07:00",
+    updatedAt: "2026-07-27T20:30:00+07:00",
+    youtube: {
+      videoId: "YlD-fcB2ZGw",
+      sourceTitle: "GẶP NHAU KHI KHÔNG CÒN THUỘC VỀ NHAU | Chuyện Tình Gặp Lại Sau 10 Năm",
+      channelId: LOI_DAP_CHANNEL_ID,
+      uploadDate: "2026-07-26T12:31:16Z",
+      thumbnailUrl: "https://i.ytimg.com/vi/YlD-fcB2ZGw/hqdefault.jpg",
+      watchUrl: "https://www.youtube.com/watch?v=YlD-fcB2ZGw",
+      channelUrl: LOI_DAP_CHANNEL_URL,
+      replyTarget: null,
+      aiDisclosure: "Lời Đáp công bố đây là ca khúc Việt Nam nguyên bản được sáng tác và sản xuất bằng công nghệ AI.",
+    },
+    keyFacts: [
+      { label: "Công bố", value: "26/7/2026", note: "19:31 theo giờ Việt Nam, dựa trên nguồn cấp dữ liệu công khai của kênh." },
+      { label: "Bối cảnh", value: "Gặp lại sau 10 năm", note: "Hai người từng yêu chạm mặt trong một cuộc họp." },
+      { label: "Chủ đề", value: "Tình đầu và sự bỏ lỡ", note: "Cuộc gặp xảy ra khi cả hai không còn có thể thuộc về nhau." },
+    ],
+    sourceLinks: [
+      { label: "GẶP NHAU KHI KHÔNG CÒN THUỘC VỀ NHAU – video chính thức", url: "https://www.youtube.com/watch?v=YlD-fcB2ZGw" },
+      { label: "Kênh YouTube chính thức Lời Đáp", url: LOI_DAP_CHANNEL_URL },
+    ],
+    editorialNote: "Bài được biên tập từ câu chuyện và thông tin AI trong mô tả công khai của video. Dabangzz không bổ sung quan hệ với một ca khúc khác vì nguồn chính thức giới thiệu đây là tác phẩm nguyên bản độc lập.",
+    sections: [
+      {
+        heading: "Một ánh nhìn đánh thức mười năm ký ức",
+        paragraphs: [
+          "Theo mô tả chính thức, hai người từng yêu nhau gặp lại sau mười năm trong một cuộc họp. Bối cảnh rất bình thường, nhưng chỉ một ánh nhìn đã làm những ký ức tưởng như ngủ yên trở về. Sự đối lập giữa không gian công việc hiện tại và câu chuyện tình cảm cũ tạo nên sức căng đầu tiên của ca khúc.",
+          "Mười năm đủ dài để cả hai có một đời sống khác, nhưng ký ức không biến mất chỉ vì thời gian đã trôi. Bài không được giới thiệu như một cuộc quay về để sửa mọi điều đã lỡ. Ngay từ tiêu đề, người nghe đã biết cuộc gặp diễn ra khi hai người không còn có thể thuộc về nhau.",
+        ],
+      },
+      {
+        heading: "Điều đau nhất là gặp lại quá muộn",
+        paragraphs: [
+          "Câu chuyện kết hợp ba lớp cảm xúc được kênh nêu rõ: tình đầu, sự bỏ lỡ và cuộc gặp lại quá muộn. Nếu chỉ có ký ức, nhân vật có thể tiếp tục cất nó trong quá khứ. Nếu chỉ có cuộc gặp, họ có thể chào nhau như những người quen. Khi cả hai xảy ra cùng lúc, ranh giới giữa điều từng có và điều không thể có lại hiện rõ.",
+          "Video đặt ra một câu hỏi đáng chú ý trong phần mô tả: nếu ở vào hoàn cảnh ấy, người nghe có hỏi vì sao con gái của người kia lại mang tên mình hay không. Đây là chi tiết do chính kênh đưa ra như một điểm gợi mở. Dabangzz không kết luận câu trả lời hoặc mối quan hệ phía sau khi video chưa công bố thêm.",
+        ],
+      },
+      {
+        heading: "Cách nghe mà không biến hoài niệm thành lời khuyên",
+        paragraphs: [
+          "Bài hát kể một tình huống giàu cảm xúc, nhưng không vì vậy mà mọi cuộc gặp lại đều nên dẫn đến hành động. Cụm “không còn thuộc về nhau” nhắc rằng hiện tại của mỗi người cũng có trọng lượng. Khi nghe, có thể chú ý sự va chạm giữa ký ức trở về rất nhanh và giới hạn hiện tại không thể biến mất chỉ vì một ánh nhìn.",
+          "Dabangzz xem đây là câu chuyện về khoảnh khắc nhận ra quá khứ vẫn còn ảnh hưởng, không phải hướng dẫn phá vỡ những cam kết đang có. Phụ đề tiếng Việt của video là nơi phù hợp để theo dõi toàn bộ lời bài hát; bài viết chỉ tóm tắt cấu trúc đã được nguồn chính thức xác nhận.",
+        ],
+      },
+      {
+        heading: "Tác phẩm nguyên bản được sản xuất bằng AI",
+        paragraphs: [
+          "Lời Đáp công bố đây là ca khúc Việt Nam nguyên bản được sáng tác và sản xuất bằng công nghệ AI. Thông tin này được giữ nguyên trên Dabangzz để người nghe biết bản chất sản xuất của tác phẩm và không gán giọng hát trong video cho một ca sĩ thật.",
+          "Nguồn hiện không nêu một bài hát khác làm đối tượng hồi đáp, cũng không mô tả chi tiết công cụ hoặc quy trình hình ảnh. Vì vậy, trang xếp ca khúc vào nhóm độc lập và không suy đoán thêm. Nếu kênh cung cấp dữ liệu sản xuất mới, nội dung sẽ được cập nhật tại cùng URL.",
+        ],
+      },
+      {
+        heading: "Xem lời bằng phụ đề và mở video gốc",
+        paragraphs: [
+          "Kênh khuyến nghị bật phụ đề tiếng Việt để theo dõi lời bài hát. Trình phát trên Dabangzz không tự chạy, dùng miền youtube-nocookie.com và giữ tỷ lệ 16:9 trên màn hình nhỏ. Người nghe quyết định khi nào âm thanh bắt đầu.",
+          "Nút mở YouTube dẫn thẳng tới video chính thức để người đọc kiểm tra ngày đăng, mô tả và các cập nhật mới. Video ID YlD-fcB2ZGw được dùng làm khóa chống trùng; một video công khai chỉ có một trang âm nhạc trên Dabangzz.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "mai-lai-gap-anh-nhe-loi-dap",
     kind: "music",
     author: "Lời Đáp · Dabangzz biên tập",
