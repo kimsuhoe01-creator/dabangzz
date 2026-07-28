@@ -1,5 +1,6 @@
 import { kimReviews } from "./kim-reviews";
 import { loiDapMusicPosts } from "./loi-dap-music";
+import { posts20260728 } from "./posts-2026-07-28";
 import { posts20260727 } from "./posts-2026-07-27";
 import { posts20260726 } from "./posts-2026-07-26";
 import { posts20260725 } from "./posts-2026-07-25";
@@ -61,6 +62,7 @@ export function getPublishedPosts(now = new Date()) {
 const rawCommunityPosts: CommunityPost[] = [
   ...kimReviews,
   ...loiDapMusicPosts,
+  ...posts20260728,
   ...posts20260727,
   ...posts20260726,
   ...posts20260725,

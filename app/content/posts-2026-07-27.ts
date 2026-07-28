@@ -6,12 +6,12 @@ export const posts20260727: CommunityPost[] = [
     kind: "news",
     author: "Ban biên tập Dabangzz",
     category: "Tin mới Việt Nam · Thời tiết & đi lại",
-    title: "Mưa lớn 27–29/7: đọc đúng mốc 250mm và kiểm tra nguy cơ theo nơi ở",
-    summary: "Bản tin 15h30 của Trung tâm Dự báo khí tượng thủy văn quốc gia cảnh báo mưa lớn ở Bắc Bộ, cao nguyên Trung Bộ và Nam Bộ. Dabangzz giải thích các khoảng 50–120mm, trên 250mm và cường độ trên 100mm trong 3 giờ để người đọc không nhầm một con số cực trị với dự báo cho toàn vùng.",
+    title: "Mưa lớn 28–29/7: đọc đúng mốc 200mm và kiểm tra nguy cơ theo nơi ở",
+    summary: "Bản tin 09h00 ngày 28/7 tiếp tục cảnh báo mưa lớn ở Bắc Bộ, Thanh Hóa, cao nguyên Trung Bộ và Nam Bộ. Dabangzz cập nhật các khoảng 40–90mm, 50–110mm và cường độ trên 100mm trong 3 giờ để người đọc dùng đúng mốc thời gian cho nơi mình ở.",
     readTime: "10 phút đọc",
-    hero: "MƯA LỚN 27–29/7\nĐỌC ĐÚNG CÁC MỐC",
+    hero: "MƯA LỚN 28–29/7\nĐỌC ĐÚNG CÁC MỐC",
     publishedAt: "2026-07-27T18:00:00+07:00",
-    updatedAt: "2026-07-27T17:38:00+07:00",
+    updatedAt: "2026-07-28T10:46:00+07:00",
     images: [
       {
         src: "/images/editorial/mua-lon-27-29-7-2026.webp",
@@ -21,32 +21,32 @@ export const posts20260727: CommunityPost[] = [
       },
     ],
     keyFacts: [
-      { label: "Bắc Bộ", value: "50–120mm", note: "Lượng mưa phổ biến từ chiều 27/7 đến đêm 28/7; cục bộ có nơi trên 250mm, không phải toàn vùng đều nhận mức cực trị này." },
-      { label: "Cao nguyên Trung Bộ & Nam Bộ", value: "40–100mm", note: "Dự báo từ chiều tối 27/7 đến ngày 29/7; cục bộ có nơi trên 200mm." },
+      { label: "Bắc Bộ & Thanh Hóa", value: "40–90mm", note: "Lượng mưa phổ biến trong ngày và đêm 28/7; cục bộ có nơi trên 200mm, không phải toàn vùng đều nhận mức cực trị này." },
+      { label: "Cao nguyên Trung Bộ & Nam Bộ", value: "50–110mm", note: "Dự báo từ ngày 28/7 đến đêm 29/7; cục bộ có nơi trên 170mm." },
       { label: "Cường độ cần lưu ý", value: ">100mm/3 giờ", note: "Đây là cảnh báo về khả năng mưa dồn dập trong thời gian ngắn, khác với tổng lượng mưa của cả đợt." },
-      { label: "Quan trắc tại Trúc Tay, Bắc Ninh", value: "93,6mm", note: "Số đo từ 07h đến 15h ngày 27/7 tại một trạm; không đại diện cho mọi phường, xã của Bắc Ninh." },
-      { label: "Cấp độ rủi ro", value: "Cấp 1", note: "Áp dụng cho nguy cơ do mưa lớn, lốc, sét và mưa đá trong bản tin phát lúc 15h30." },
-      { label: "Bản tin kế tiếp", value: "21h00 ngày 27/7", note: "Người có kế hoạch di chuyển buổi tối nên kiểm tra bản tin mới thay vì chỉ lưu ảnh chụp bản tin cũ." },
+      { label: "Quan trắc gần nhất", value: ">80mm", note: "Một số điểm vượt mức này từ 19h ngày 27/7 đến 08h ngày 28/7; đây là số đo tại trạm, không đại diện cho cả tỉnh." },
+      { label: "Cấp độ rủi ro", value: "Cấp 1", note: "Áp dụng cho nguy cơ do mưa lớn, lốc, sét và mưa đá trong bản tin phát lúc 09h00." },
+      { label: "Bản tin kế tiếp", value: "15h30 ngày 28/7", note: "Người có kế hoạch di chuyển buổi chiều nên kiểm tra bản tin mới thay vì chỉ lưu ảnh chụp bản tin cũ." },
     ],
     sourceLinks: [
-      { label: "Trung tâm Dự báo KTTV quốc gia – bản tin mưa lớn lúc 15h30 ngày 27/7", url: "https://www.nchmf.gov.vn/kttv/vi-VN/1/tin-du-bao-mua-lon-o-khu-vuc-vung-nui-trung-du-bac-bo-cao-nguyen-trung-bo-va-nam-bo-tin-canh-bao-mua-dong-mua-lon-cuc-bo-loc-set-mua-da-gio-giat-manh-o-cac-noi-khac-cua-bac-bo-va-trung-bo-post52780.html" },
+      { label: "Trung tâm Dự báo KTTV quốc gia – bản tin mưa lớn lúc 09h00 ngày 28/7", url: "https://www.nchmf.gov.vn/kttv/vi-VN/1/tin-du-bao-mua-lon-o-khu-vuc-bac-bo-thanh-hoa-cao-nguyen-trung-bo-va-nam-bo-post52780.html" },
       { label: "Bản đồ nguy cơ lũ quét, sạt lở đất theo thời gian thực", url: "https://luquetsatlo.nchmf.gov.vn/" },
       { label: "Trung tâm Dự báo KTTV quốc gia – dự báo thời tiết đất liền 24 giờ", url: "https://nchmf.gov.vn/kttvsiteE/vi-VN/1/thoi-tiet-dat-lien-24h-12h2-15.html" },
     ],
-    editorialNote: "Google Trends Việt Nam được dùng để nhận biết nhu cầu tìm kiếm tăng mạnh quanh cụm từ lũ quét và thời tiết. Mọi mốc lượng mưa, thời gian, trạm quan trắc và cấp độ rủi ro trong bài đều lấy từ bản tin 15h30 ngày 27/7 của Trung tâm Dự báo khí tượng thủy văn quốc gia. Bài không khẳng định thiên tai sẽ xảy ra tại một địa chỉ cụ thể và không thay thế cảnh báo khẩn của địa phương.",
+    editorialNote: "Google Trends Việt Nam được dùng để nhận biết nhu cầu tìm kiếm tăng quanh mưa lớn và thời tiết. Bài được cập nhật theo bản tin 09h00 ngày 28/7 của Trung tâm Dự báo khí tượng thủy văn quốc gia; các con số cũ đã được thay bằng thời đoạn dự báo mới. Bài không khẳng định thiên tai sẽ xảy ra tại một địa chỉ cụ thể và không thay thế cảnh báo khẩn của địa phương.",
     sections: [
       {
-        heading: "Bản tin 15h30 đã thay đổi điều gì so với buổi sáng?",
+        heading: "Bản tin 09h00 ngày 28/7 thay đổi điều gì?",
         paragraphs: [
-          "Bản tin chiều bổ sung số liệu quan trắc đến 15h ngày 27/7 và mở rộng cách nhìn về đợt mưa. Từ 07h đến 15h, nhiều trạm ghi nhận lượng mưa trên 80mm, gồm Hồ Sống Rắn ở Quảng Ninh 109,8mm, Cẩm Giàng ở Thái Nguyên 91,2mm, Trúc Tay ở Bắc Ninh 93,6mm và Phủ Dực ở Hưng Yên 89mm. Đây là số đo đã xảy ra tại từng trạm trong tám giờ, không phải lượng mưa trung bình của cả tỉnh.",
-          "Trung tâm dự báo từ chiều 27/7 đến đêm 28/7, Bắc Bộ có mưa vừa, mưa to và dông với lượng phổ biến 50–120mm, cục bộ trên 250mm. Với cao nguyên Trung Bộ và Nam Bộ, khoảng thời gian dự báo dài hơn, từ chiều tối 27/7 đến ngày 29/7, lượng phổ biến 40–100mm và cục bộ trên 200mm. Bản tin tiếp theo được hẹn lúc 21h, vì thế kế hoạch buổi tối nên được kiểm tra lại sau mốc này.",
+          "Bản tin sáng xác nhận đêm 27 và sáng 28/7 đã có mưa vừa, mưa to và dông ở Đông Bắc Bộ, Thanh Hóa, Nghệ An và phía nam cao nguyên Trung Bộ; miền Đông Nam Bộ có mưa rào, dông rải rác và có nơi mưa to. Từ 19h ngày 27/7 đến 08h ngày 28/7, một số điểm ghi nhận trên 80mm. Đây là số đo đã xảy ra tại từng điểm, không phải lượng mưa trung bình của cả tỉnh.",
+          "Trong ngày và đêm 28/7, Bắc Bộ và Thanh Hóa được dự báo mưa phổ biến 40–90mm, cục bộ trên 200mm. Từ ngày 28/7 đến đêm 29/7, cao nguyên Trung Bộ và Nam Bộ có lượng phổ biến 50–110mm, cục bộ trên 170mm. Bản tin tiếp theo được hẹn lúc 15h30 ngày 28/7, vì thế kế hoạch đi lại buổi chiều cần dùng bản tin mới thay vì các khoảng lượng mưa của ngày 27/7.",
         ],
       },
       {
-        heading: "50–120mm và trên 250mm không phải hai dự báo mâu thuẫn",
+        heading: "40–90mm và trên 200mm không phải hai dự báo mâu thuẫn",
         paragraphs: [
-          "Khoảng 50–120mm mô tả lượng mưa phổ biến trên vùng dự báo trong cả thời đoạn. Cụm từ ‘cục bộ có nơi trên 250mm’ nói đến khả năng một số điểm nhỏ nhận lượng lớn hơn nhiều do mây dông phát triển và phân bố không đều. Vì vậy không nên lấy 250mm làm con số mặc định cho toàn Bắc Bộ, nhưng cũng không nên bỏ qua chỉ vì nơi mình đang ở tạm thời chưa mưa.",
-          "Cùng một thành phố có thể xuất hiện chênh lệch đáng kể giữa các trạm. Số 93,6mm tại Trúc Tay giúp người dân Bắc Ninh nhận biết rằng đã có điểm mưa lớn trong ngày, nhưng không đủ để kết luận đường nào đã ngập hay phường nào chắc chắn nguy hiểm. Muốn ra quyết định tại chỗ, cần kết hợp radar mưa, cảnh báo của chính quyền địa phương, tình trạng tuyến đường và quan sát thực tế ngay trước khi di chuyển.",
+          "Khoảng 40–90mm mô tả lượng mưa phổ biến trên Bắc Bộ và Thanh Hóa trong ngày, đêm 28/7. Cụm từ ‘cục bộ có nơi trên 200mm’ nói đến khả năng một số điểm nhỏ nhận lượng lớn hơn nhiều do mây dông phát triển và phân bố không đều. Vì vậy không nên lấy 200mm làm con số mặc định cho toàn vùng, nhưng cũng không nên bỏ qua cảnh báo chỉ vì nơi mình đang ở tạm thời chưa mưa.",
+          "Cùng một thành phố có thể xuất hiện chênh lệch đáng kể giữa các trạm. Thông tin một số điểm vượt 80mm trong 13 giờ cho thấy mưa lớn đã xuất hiện, nhưng không đủ để kết luận đường nào đang ngập hay phường nào chắc chắn nguy hiểm. Muốn ra quyết định tại chỗ, cần kết hợp radar mưa, cảnh báo của chính quyền địa phương, tình trạng tuyến đường và quan sát thực tế ngay trước khi di chuyển.",
         ],
       },
       {
@@ -57,10 +57,10 @@ export const posts20260727: CommunityPost[] = [
         ],
       },
       {
-        heading: "Khác biệt vùng miền trong tối 27/7 và ngày 28–29/7",
+        heading: "Khác biệt vùng miền trong ngày 28–29/7",
         paragraphs: [
-          "Bắc Bộ là vùng cần chú ý từ chiều 27/7 đến hết đêm 28/7, sau đó mưa lớn được dự báo giảm dần từ ngày 29/7. Thanh Hóa, Nghệ An, thành phố Huế và duyên hải Nam Trung Bộ có mưa rào và dông rải rác trong chiều tối, đêm 27/7 với lượng phổ biến 10–30mm, cục bộ trên 60mm. Con số thấp hơn không loại bỏ nguy cơ gió giật, sét hoặc mưa đá trong cơn dông.",
-          "Ở cao nguyên Trung Bộ và Nam Bộ, mưa lớn có thể kéo dài đến ngày 29/7, thường đáng lưu ý vào chiều và tối. Đêm 29/7, lượng phổ biến được dự báo còn 20–40mm, cục bộ trên 70mm, rồi giảm dần từ ngày 30/7. Người đi liên tỉnh không nên chỉ xem thời tiết nơi xuất phát; tuyến đường có thể đi qua vùng có thời đoạn mưa và mức cảnh báo khác hẳn điểm đến.",
+          "Bắc Bộ và Thanh Hóa là vùng cần chú ý trong ngày và đêm 28/7; mưa lớn diện rộng ở Bắc Bộ có khả năng kết thúc vào ngày 29/7. Từ Nghệ An đến thành phố Huế và duyên hải Nam Trung Bộ, lượng phổ biến ngày và đêm 28/7 là 10–30mm, cục bộ trên 70mm. Con số thấp hơn không loại bỏ nguy cơ gió giật, sét hoặc mưa đá trong cơn dông.",
+          "Ở cao nguyên Trung Bộ và Nam Bộ, mưa lớn được dự báo từ ngày 28/7 đến đêm 29/7 với lượng phổ biến 50–110mm, cục bộ trên 170mm, rồi giảm dần từ ngày 30/7. Người đi liên tỉnh không nên chỉ xem thời tiết nơi xuất phát; tuyến đường có thể đi qua vùng có thời đoạn mưa và mức cảnh báo khác hẳn điểm đến.",
         ],
       },
       {
@@ -74,7 +74,7 @@ export const posts20260727: CommunityPost[] = [
         heading: "Checklist trước khi tan ca, đón trẻ hoặc đi đường dài",
         paragraphs: [
           "Trước khi rời nơi có mái che, hãy kiểm tra bản tin mới nhất, radar mưa và thông báo của địa phương; chụp lại tuyến thay thế nhưng không phụ thuộc vào một ảnh chụp đã cũ. Sạc điện thoại, mang áo mưa hoặc ô phù hợp, bảo vệ giấy tờ và thiết bị điện tử, đồng thời báo cho người thân nếu phải đổi lộ trình. Khi đang mưa dông mạnh, tránh đứng dưới cây lớn, biển quảng cáo hoặc vị trí thoáng cao.",
-          "Nếu đi xe máy, chậm hơn một chút và chờ mưa giảm thường an toàn hơn cố bám lịch cũ. Nếu đi ô tô hoặc xe khách, kiểm tra thông báo từ đơn vị vận tải và tình trạng cung đường, đặc biệt ở đoạn trũng hoặc đèo dốc. Sau 21h ngày 27/7, hãy mở lại bản tin kế tiếp của Trung tâm Dự báo khí tượng thủy văn quốc gia: một dự báo tốt luôn có thời điểm phát hành, thời hạn sử dụng và đường dẫn để người đọc cập nhật khi tình hình thay đổi.",
+          "Nếu đi xe máy, chậm hơn một chút và chờ mưa giảm thường an toàn hơn cố bám lịch cũ. Nếu đi ô tô hoặc xe khách, kiểm tra thông báo từ đơn vị vận tải và tình trạng cung đường, đặc biệt ở đoạn trũng hoặc đèo dốc. Sau 15h30 ngày 28/7, hãy mở lại bản tin kế tiếp của Trung tâm Dự báo khí tượng thủy văn quốc gia: một dự báo tốt luôn có thời điểm phát hành, thời hạn sử dụng và đường dẫn để người đọc cập nhật khi tình hình thay đổi.",
         ],
       },
     ],
