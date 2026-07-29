@@ -24,10 +24,12 @@ test("validates the fixed Lời Đáp channel and derives a safe embed URL", asy
     loiDapMusicPosts,
   } = await import(moduleUrl.href);
 
-  assert.equal(loiDapMusicPosts.length, 6);
+  assert.equal(loiDapMusicPosts.length, 8);
   assert.deepEqual(
     new Set(loiDapMusicPosts.map(post => post.youtube?.videoId)),
     new Set([
+      "s4IEw-HATdg",
+      "RFjwuCDpj7k",
       "XAC8VWcOBLM",
       "Uco9LpBuiqA",
       "YlD-fcB2ZGw",
@@ -73,6 +75,8 @@ test("publishes only the verified music hub and article in navigation and sitema
   const hubHtml = await hub.text();
   const hubDocument = hubHtml.split("<script>self.__VINEXT_RSC_CHUNKS__")[0];
   assert.match(hubHtml, /Âm nhạc · Lời Đáp/);
+  assert.ok((hubDocument.match(/href="\/bai-viet\/em-chang-hieu-anh-loi-dap"/g) ?? []).length >= 1);
+  assert.ok((hubDocument.match(/href="\/bai-viet\/tai-troi-mua-nen-em-nho-loi-dap"/g) ?? []).length >= 1);
   assert.ok((hubDocument.match(/href="\/bai-viet\/noi-di-em-nghe-loi-dap"/g) ?? []).length >= 1);
   assert.ok((hubDocument.match(/href="\/bai-viet\/mai-lai-gap-anh-nhe-loi-dap"/g) ?? []).length >= 1);
   assert.ok((hubDocument.match(/href="\/bai-viet\/them-mot-chut-gan-loi-dap"/g) ?? []).length >= 1);
@@ -81,12 +85,14 @@ test("publishes only the verified music hub and article in navigation and sitema
   assert.equal(home.status, 200);
   const homeHtml = await home.text();
   assert.match(homeHtml, /href="\/am-nhac-loi-dap"/);
-  assert.match(homeHtml, /href="\/bai-viet\/mai-lai-gap-anh-nhe-loi-dap"/);
+  assert.match(homeHtml, /href="\/bai-viet\/em-chang-hieu-anh-loi-dap"/);
 
   const sitemap = await fetchPage("/sitemap.xml");
   assert.equal(sitemap.status, 200);
   const sitemapXml = await sitemap.text();
   assert.equal((sitemapXml.match(/https:\/\/dabangzz\.com\/am-nhac-loi-dap/g) ?? []).length, 1);
+  assert.equal((sitemapXml.match(/https:\/\/dabangzz\.com\/bai-viet\/em-chang-hieu-anh-loi-dap/g) ?? []).length, 1);
+  assert.equal((sitemapXml.match(/https:\/\/dabangzz\.com\/bai-viet\/tai-troi-mua-nen-em-nho-loi-dap/g) ?? []).length, 1);
   assert.equal((sitemapXml.match(/https:\/\/dabangzz\.com\/bai-viet\/noi-di-em-nghe-loi-dap/g) ?? []).length, 1);
   assert.equal((sitemapXml.match(/https:\/\/dabangzz\.com\/bai-viet\/mai-lai-gap-anh-nhe-loi-dap/g) ?? []).length, 1);
   assert.equal((sitemapXml.match(/https:\/\/dabangzz\.com\/bai-viet\/them-mot-chut-gan-loi-dap/g) ?? []).length, 1);

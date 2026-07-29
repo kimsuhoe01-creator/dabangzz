@@ -35,6 +35,148 @@ export function getLoiDapEmbedUrl(video: LoiDapVideo) {
 
 export const loiDapMusicPosts: CommunityPost[] = [
   {
+    slug: "em-chang-hieu-anh-loi-dap",
+    kind: "music",
+    author: "Lời Đáp · Dabangzz biên tập",
+    category: "Âm nhạc · Lời Đáp",
+    title: "EM CHẲNG HIỂU ANH: đến khi mất nhau mới nhận ra điều anh cần",
+    summary: "Ca khúc emotional hip-hop/R&B kể từ phía cô gái nhớ rất rõ những món quà và chiếc áo của người yêu, nhưng chỉ sau khi chia tay mới hiểu rằng điều quan trọng nhất cô đã bỏ lỡ là trạng thái của trái tim anh.",
+    readTime: "5 phút đọc · nghe",
+    hero: "EM CHẲNG\nHIỂU ANH",
+    publishedAt: "2026-07-29T20:35:00+07:00",
+    updatedAt: "2026-07-29T20:35:00+07:00",
+    youtube: {
+      videoId: "s4IEw-HATdg",
+      sourceTitle: "EM CHẲNG HIỂU ANH – Mất Nhau Rồi Mới Hiểu | Nhạc Tâm Trạng Nữ",
+      channelId: LOI_DAP_CHANNEL_ID,
+      uploadDate: "2026-07-29T13:00:25Z",
+      thumbnailUrl: "https://i.ytimg.com/vi/s4IEw-HATdg/hqdefault.jpg",
+      watchUrl: "https://www.youtube.com/watch?v=s4IEw-HATdg",
+      channelUrl: LOI_DAP_CHANNEL_URL,
+      replyTarget: null,
+      aiDisclosure: "Kênh công bố đây là ca khúc Việt Nam nguyên bản được sáng tác và sản xuất bằng công nghệ AI; mô tả không gắn giọng hát hoặc hình ảnh với một nghệ sĩ có thật.",
+    },
+    keyFacts: [
+      { label: "Công bố", value: "29/7/2026", note: "20:00 theo giờ Việt Nam, dựa trên nguồn cấp dữ liệu công khai của đúng kênh Lời Đáp." },
+      { label: "Điểm nhìn", value: "Cô gái hiểu ra sau chia tay", note: "Cô nhớ đồ vật và kỷ niệm nhưng đã không nhận ra trái tim người yêu đang rời xa." },
+      { label: "Âm nhạc", value: "Emotional hip-hop/R&B", note: "Giọng nữ và phụ đề tiếng Việt được nêu trong mô tả chính thức." },
+      { label: "Quan hệ tác phẩm", value: "Ca khúc độc lập", note: "Kênh không nêu một bài hát cụ thể làm đối tượng hồi đáp." },
+    ],
+    sourceLinks: [
+      { label: "EM CHẲNG HIỂU ANH – video chính thức trên YouTube", url: "https://www.youtube.com/watch?v=s4IEw-HATdg" },
+      { label: "Kênh YouTube chính thức Lời Đáp", url: LOI_DAP_CHANNEL_URL },
+    ],
+    editorialNote: "Dabangzz biên tập trang nghe từ tiêu đề, ngày công bố và mô tả công khai của video. Nguồn không cung cấp toàn bộ ca từ, công cụ AI hoặc quy trình sản xuất chi tiết nên bài viết không bổ sung những thông tin chưa được xác nhận.",
+    sections: [
+      {
+        heading: "Nhớ mọi món quà nhưng lại bỏ lỡ điều quan trọng nhất",
+        paragraphs: [
+          "Mô tả chính thức đặt cô gái vào một nghịch lý rất đời thường: cô nhớ rõ từng món quà, từng chiếc áo, nhưng lại không nhận ra trái tim người mình yêu đang dần rời xa. Vì thế, vấn đề không nằm ở việc quên kỷ niệm. Điều cô bỏ lỡ là tín hiệu cảm xúc nằm phía sau những thứ có thể nhìn thấy và cầm nắm.",
+          "Nhan đề “Em chẳng hiểu anh” giống một lời thừa nhận đến muộn hơn là lời trách móc. Câu chuyện không buộc người nghe phải chọn bên đúng hay sai, mà gợi một câu hỏi gần gũi: trong một mối quan hệ, ta đang ghi nhớ những món đồ hay thật sự chú ý đến điều người kia cần?",
+        ],
+      },
+      {
+        heading: "Đây là ca khúc độc lập, không phải lời hồi đáp được gán thêm",
+        paragraphs: [
+          "Kênh không nêu tên một ca khúc cụ thể làm đối tượng hồi đáp cho video này. Dù câu chuyện chia tay và cách xưng hô tạo cảm giác như một cuộc đối thoại, Dabangzz không tự gắn tác phẩm với bài hát khác hoặc suy đoán quan hệ bản quyền chỉ từ mô-típ quen thuộc.",
+          "Mô tả cũng không kể toàn bộ nguyên nhân dẫn đến chia tay. Khoảng trống đó nên được giữ nguyên: người nghe có thể theo dõi phụ đề tiếng Việt trong video để cảm nhận diễn biến, nhưng không nên xem những chi tiết do người viết tưởng tượng thêm là một phần của câu chuyện chính thức.",
+        ],
+      },
+      {
+        heading: "Điểm nghe: emotional hip-hop/R&B và cảm giác nhận ra quá muộn",
+        paragraphs: [
+          "Kênh giới thiệu ca khúc theo hướng emotional hip-hop/R&B với giọng nữ. Lối thể hiện này phù hợp với một lời độc thoại riêng tư: nhịp điệu giữ câu chuyện tiến về phía trước, còn phần cảm xúc tập trung vào khoảnh khắc cô gái nhìn lại điều mình đã không hiểu.",
+          "Điểm đáng chú ý nhất là sự đối lập giữa những vật cụ thể cô nhớ rất rõ và một trái tim đang xa dần mà cô không nhận ra. Video không hứa hẹn một nút thắt hay cuộc đoàn tụ, nên trải nghiệm nghe nằm ở sự thức tỉnh muộn màng ấy.",
+        ],
+      },
+      {
+        heading: "Thông tin AI được công bố đến đâu?",
+        paragraphs: [
+          "Phần mô tả chính thức cho biết đây là ca khúc Việt Nam nguyên bản được sáng tác và sản xuất bằng công nghệ AI. Kênh đồng thời công bố giọng nữ, thể loại emotional hip-hop/R&B và phụ đề tiếng Việt đã được căn theo lời hát.",
+          "Nguồn không nêu công cụ, mô hình, dữ liệu huấn luyện hoặc quy trình tạo hình ảnh. Vì vậy Dabangzz chỉ ghi nhận đúng phạm vi đã công bố và không gắn giọng hát với người thật. Nếu kênh bổ sung thông tin sau này, trang này sẽ được cập nhật thay vì tạo một bài trùng lặp.",
+        ],
+      },
+      {
+        heading: "Nghe trực tiếp và kiểm tra video gốc",
+        paragraphs: [
+          "Trình phát bên dưới dùng chế độ tăng cường quyền riêng tư của YouTube, giữ tỷ lệ 16:9 và không tự phát. Người nghe chủ động bấm nút phát, đồng thời có thể bật phụ đề tiếng Việt để theo dõi câu chuyện sát với phần lời đã được kênh cung cấp.",
+          "Liên kết video gốc và kênh Lời Đáp được đặt ngay trên trang để người đọc kiểm tra nguồn. Dabangzz dùng mã video s4IEw-HATdg làm khóa chống trùng và không lưu hoặc hiển thị iframe tùy ý từ nguồn khác.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "tai-troi-mua-nen-em-nho-loi-dap",
+    kind: "music",
+    author: "Lời Đáp · Dabangzz biên tập",
+    category: "Âm nhạc · Lời Đáp",
+    title: "TẠI TRỜI MƯA NÊN EM NHỚ: ký ức cũ trở lại trong một đêm Hà Nội",
+    summary: "Ca khúc R&B/melodic hip-hop kể về cô gái không muốn quay lại và cũng không còn chờ tin nhắn, nhưng một đêm mưa kéo dài ở Hà Nội vẫn khiến cô bất chợt nhớ người từng thương.",
+    readTime: "5 phút đọc · nghe",
+    hero: "TẠI TRỜI MƯA\nNÊN EM NHỚ",
+    publishedAt: "2026-07-29T20:36:00+07:00",
+    updatedAt: "2026-07-29T20:36:00+07:00",
+    youtube: {
+      videoId: "RFjwuCDpj7k",
+      sourceTitle: "TẠI TRỜI MƯA NÊN EM NHỚ – Mưa Ngừng Rồi Em Sẽ Quên Thôi | Nhạc Mưa Hà Nội",
+      channelId: LOI_DAP_CHANNEL_ID,
+      uploadDate: "2026-07-29T13:00:16Z",
+      thumbnailUrl: "https://i.ytimg.com/vi/RFjwuCDpj7k/hqdefault.jpg",
+      watchUrl: "https://www.youtube.com/watch?v=RFjwuCDpj7k",
+      channelUrl: LOI_DAP_CHANNEL_URL,
+      replyTarget: null,
+      aiDisclosure: "Kênh công bố đây là ca khúc Việt Nam nguyên bản được sáng tác và sản xuất bằng công nghệ AI; mô tả không nêu nghệ sĩ thật hoặc quy trình tạo hình ảnh.",
+    },
+    keyFacts: [
+      { label: "Công bố", value: "29/7/2026", note: "20:00 theo giờ Việt Nam, dựa trên nguồn cấp dữ liệu công khai của đúng kênh Lời Đáp." },
+      { label: "Bối cảnh", value: "Một đêm mưa Hà Nội", note: "Địa danh và thời điểm cảm xúc được nêu trực tiếp trong mô tả chính thức." },
+      { label: "Âm nhạc", value: "R&B / melodic hip-hop", note: "Giọng nữ, một đoạn giọng nam ngắn và phụ đề tiếng Việt được kênh công bố." },
+      { label: "Quan hệ tác phẩm", value: "Ca khúc độc lập", note: "Kênh không nêu một bài hát cụ thể làm đối tượng hồi đáp." },
+    ],
+    sourceLinks: [
+      { label: "TẠI TRỜI MƯA NÊN EM NHỚ – video chính thức trên YouTube", url: "https://www.youtube.com/watch?v=RFjwuCDpj7k" },
+      { label: "Kênh YouTube chính thức Lời Đáp", url: LOI_DAP_CHANNEL_URL },
+    ],
+    editorialNote: "Dabangzz biên tập trang nghe từ tiêu đề, ngày công bố và mô tả công khai của video. Bài viết không suy đoán danh tính nhân vật, địa điểm cụ thể tại Hà Nội, toàn bộ ca từ hoặc quy trình AI mà nguồn chưa công bố.",
+    sections: [
+      {
+        heading: "Không muốn quay lại vẫn có thể bất chợt nhớ",
+        paragraphs: [
+          "Mô tả chính thức xác định ranh giới khá rõ: cô gái không muốn quay lại và cũng không còn chờ tin nhắn của người cũ. Điều làm ký ức trở về không phải một lời mời tái hợp, mà là cơn mưa kéo dài ngoài kia. Cách kể ấy tách hai trạng thái thường bị đánh đồng: nhớ một người không nhất thiết có nghĩa là muốn bắt đầu lại.",
+          "Nhan đề “Tại trời mưa nên em nhớ” giống một lời tự giải thích để giữ khoảng cách với cảm xúc vừa trỗi dậy. Quyết định có thể không thay đổi, trong khi ký ức vẫn xuất hiện trong một khoảnh khắc. Chính sự lệch nhịp đó tạo nên phần căng thẳng của câu chuyện.",
+        ],
+      },
+      {
+        heading: "Hà Nội là bối cảnh cảm xúc, không phải một địa điểm được bịa thêm",
+        paragraphs: [
+          "Kênh chỉ nêu một đêm mưa Hà Nội, không chỉ rõ con phố, quán cà phê hay căn phòng nào. Dabangzz vì thế giữ bối cảnh ở đúng mức đã được xác nhận, thay vì thêm một khung cảnh cụ thể có thể khiến người đọc hiểu nhầm là chi tiết trong lời hát.",
+          "Mưa ở đây làm nhịp thời gian chậm lại và đưa ký ức cũ trở về. Đó là cách đọc từ phần giới thiệu công khai, không phải một công thức tâm lý áp dụng cho mọi người. Người nghe có thể tự tìm thấy câu chuyện riêng mà không cần một địa chỉ tưởng tượng.",
+        ],
+      },
+      {
+        heading: "Điểm nghe: giọng nữ, một đoạn giọng nam và nhịp melodic hip-hop",
+        paragraphs: [
+          "Thông tin chính thức cho biết ca khúc có giọng nữ cùng một đoạn giọng nam ngắn, đặt trên nền R&B/melodic hip-hop. Nguồn không nói đoạn giọng nam đại diện cho ai, nên bài viết không tự chia vai hoặc gán lời thoại cho người cũ.",
+          "Sự mềm mại của R&B và độ trôi của melodic hip-hop hợp với mâu thuẫn giữa lý trí và cảm xúc: cô không chờ nữa nhưng vẫn nhớ. Phần mô tả không xác nhận một cuộc gặp lại, vì vậy điểm nghe nằm ở khoảnh khắc ký ức ghé qua hơn là một kết thúc đoàn tụ.",
+        ],
+      },
+      {
+        heading: "Ca khúc nguyên bản có hỗ trợ AI",
+        paragraphs: [
+          "Lời Đáp công bố đây là ca khúc Việt Nam nguyên bản được sáng tác và sản xuất bằng công nghệ AI. Kênh cũng nêu thể loại, cấu trúc giọng hát và việc video có phụ đề tiếng Việt đã căn theo lời.",
+          "Không có thông tin chính thức về công cụ, mô hình, dữ liệu huấn luyện hay cách tạo hình ảnh. Dabangzz không suy đoán các chi tiết đó và không gắn giọng hát với một nghệ sĩ thật. Mọi cập nhật đã xác nhận sẽ được đưa vào cùng trang mang mã video này.",
+        ],
+      },
+      {
+        heading: "Nghe trên Dabangzz hoặc mở video gốc",
+        paragraphs: [
+          "Trình phát dùng miền youtube-nocookie.com, giữ tỷ lệ 16:9 và không tự phát. Người nghe chủ động bấm nút phát, có thể bật phụ đề tiếng Việt và nghe phần giọng nam ngắn trong đúng ngữ cảnh của bản gốc.",
+          "Trang cung cấp liên kết trực tiếp đến video và kênh Lời Đáp để kiểm tra nguồn. Mã RFjwuCDpj7k là khóa chống trùng, nhờ đó cùng một video sẽ được cập nhật tại đây thay vì xuất bản thành nhiều bài khác nhau.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "em-da-khong-tro-ve-loi-dap",
     kind: "music",
     author: "Lời Đáp · Dabangzz biên tập",
