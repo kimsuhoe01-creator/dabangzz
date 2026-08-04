@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample Food Feed</title>
+    <item>
+      <title>Restaurant group launches compact rice bowl concept in Vietnam</title>
+      <link>https://example.com/rice-bowl-launch</link>
+      <description><![CDATA[A new compact-format rice bowl concept is being tested in two urban locations.]]></description>
+      <pubDate>Tue, 04 Aug 2026 02:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Winery releases a limited wine collection</title>
+      <link>https://example.com/wine-launch</link>
+      <description>Alcohol product story that must be filtered.</description>
+      <pubDate>Tue, 04 Aug 2026 03:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

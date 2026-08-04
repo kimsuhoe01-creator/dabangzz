@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foodworld-media"
+version = "0.1.0"
+description = "Global food and non-alcoholic beverage discovery, editorial, rendering, and publishing pipeline for Vietnamese short-form media."
+requires-python = ">=3.11"
+dependencies = [
+  "httpx>=0.27,<1",
+  "Pillow>=10.4,<13",
+  "pydantic>=2.8,<3",
+  "PyYAML>=6,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+foodworld = "foodworld.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["foodworld*"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
