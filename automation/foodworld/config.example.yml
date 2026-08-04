@@ -1,0 +1,83 @@
+brand:
+  name: "Food Radar VN"
+  tagline: "Mỗi ngày một chuyện ăn uống đáng biết"
+  language: "vi"
+  review_language: "ko"
+
+editorial:
+  max_candidate_age_hours: 168
+  max_items_per_feed: 20
+  shortlist_size: 8
+  slides: 6
+  min_source_count: 1
+  allow_ai_cover: false
+  topics:
+    - new_product
+    - unusual_food
+    - price_comparison
+    - food_business
+    - food_technology
+    - vietnam_relevance
+  excluded_terms:
+    # Age-restricted, unsafe, or unsuitable categories are excluded by default.
+    - alcohol
+    - alcoholic
+    - beer
+    - wine
+    - whisky
+    - whiskey
+    - vodka
+    - tobacco
+    - nicotine
+    - vape
+    - cannabis
+    - cbd
+    - supplement
+    - weight-loss pill
+    - diet pill
+    - thuốc lá
+    - rượu
+    - bia
+
+render:
+  output_dir: "runtime/output"
+  state_file: "runtime/state.json"
+  vertical_width: 1080
+  vertical_height: 1920
+  carousel_width: 1080
+  carousel_height: 1350
+  fps: 30
+  seconds_per_slide: 2.2
+  font_regular: ""
+  font_bold: ""
+
+publishing:
+  approval_mode: "review"
+  enabled: false
+  platforms:
+    facebook: false
+    tiktok: false
+    youtube: false
+  privacy_status: "private"
+
+sources:
+  - name: "Food Business News - Latest"
+    url: "https://www.foodbusinessnews.net/rss/topic/413-latest-news"
+    country: "US"
+    weight: 1.0
+    enabled: true
+  - name: "Food Business News - Non-alcoholic beverages"
+    url: "https://www.foodbusinessnews.net/rss/topic/515-non-alcoholic-beverages"
+    country: "US"
+    weight: 1.0
+    enabled: true
+  - name: "Singapore Food Agency - Newsroom"
+    url: "https://www.sfa.gov.sg/rss/newsroom"
+    country: "SG"
+    weight: 1.1
+    enabled: true
+  - name: "Singapore Food Agency - Food alerts"
+    url: "https://www.sfa.gov.sg/rss/annual-listing-food-alerts"
+    country: "SG"
+    weight: 0.8
+    enabled: false
