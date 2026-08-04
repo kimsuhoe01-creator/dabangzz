@@ -19,13 +19,14 @@ The output is motion-card video rather than generative talking-head video. This 
 4. The source page is extracted when available.
 5. The OpenAI Responses API creates a strict JSON editorial package in Vietnamese plus a Korean review summary.
 6. Pillow renders cards and FFmpeg creates a 9:16 H.264 MP4.
-7. Publishing remains blocked unless all of these are true:
+7. Automatic publishing during generation remains blocked unless all of these are true:
    - `publishing.enabled: true`;
    - `approval_mode: auto`;
    - the platform is enabled;
    - confidence is at least 0.75;
    - `risk_flags` is empty;
    - the required platform credentials are present.
+8. In the default `review` mode, publishing requires a separate owner approval; SHA-256 hashes ensure the approved story and video have not changed.
 
 Default mode is **review**. The first operating phase should produce one post per day, review the first 20 packages, and only then consider guarded automation.
 
