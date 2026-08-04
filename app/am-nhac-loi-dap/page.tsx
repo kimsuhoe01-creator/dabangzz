@@ -17,7 +17,7 @@ export default function LoiDapMusicPage() {
   return <main id="top">
     <header className="site-header"><div className="header-inner">
       <Link className="brand" href="/">dabang<span>zz</span></Link>
-      <nav aria-label="Điều hướng chính"><Link href="/">Trang chủ</Link><Link href="/tin-viet-nam">Tin Việt Nam</Link><Link href="/chuyen-han-quoc">Chuyện Hàn Quốc</Link><Link href="/kim-o-viet-nam">Kim ở Việt Nam</Link><Link href="/gioi-thieu">Giới thiệu</Link></nav>
+      <nav aria-label="Điều hướng chính"><Link href="/">Trang chủ</Link><Link href="/tin-viet-nam">Tin Việt Nam</Link><Link href="/kim-o-viet-nam">Kim ở Việt Nam</Link><Link href="/gioi-thieu">Giới thiệu</Link></nav>
       <a className="header-cta" href="#songs">Nghe nhạc <span>↘</span></a>
     </div></header>
 
@@ -40,7 +40,7 @@ export default function LoiDapMusicPage() {
 
     <footer>
       <div className="footer-inner"><Link className="brand inverse" href="/">dabang<span>zz</span></Link><p>Âm nhạc được gắn nhãn rõ, không trộn vào tin tức.</p></div>
-      <div className="footer-links"><Link href="/tin-viet-nam">Tin Việt Nam</Link><Link href="/chuyen-han-quoc">Chuyện Hàn Quốc</Link><Link href="/kim-o-viet-nam">Kim ở Việt Nam</Link><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div>
+      <div className="footer-links"><Link href="/tin-viet-nam">Tin Việt Nam</Link><Link href="/kim-o-viet-nam">Kim ở Việt Nam</Link><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div>
       <div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA · MUSIC</span></div>
     </footer>
   </main>;

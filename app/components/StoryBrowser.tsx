@@ -31,13 +31,14 @@ function publishedDate(post: CommunityPost) {
 
 export default function StoryBrowser({ posts, defaultFilter = "all" }: { posts: CommunityPost[]; defaultFilter?: string }) {
   const [active, setActive] = useState(defaultFilter);
+  const availableFilters = filters.filter(filter => filter.key === "all" || posts.some(post => belongsTo(post, filter.key)));
   const visible = posts.filter(post => belongsTo(post, active));
   const [featured, ...latest] = visible;
   const activeLabel = filters.find(filter => filter.key === active)?.label ?? "Tất cả";
 
   return <>
     <div className="category-bar" id="topics">
-      <div>{filters.map(filter => <button type="button" className={filter.key === active ? "active" : ""} aria-pressed={filter.key === active} onClick={() => setActive(filter.key)} key={filter.key}>{filter.label}</button>)}</div>
+      <div>{availableFilters.map(filter => <button type="button" className={filter.key === active ? "active" : ""} aria-pressed={filter.key === active} onClick={() => setActive(filter.key)} key={filter.key}>{filter.label}</button>)}</div>
     </div>
 
     <section className="content" id="latest" aria-live="polite">

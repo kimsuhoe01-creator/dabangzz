@@ -33,8 +33,8 @@ test("discloses current advertising state and article provenance", async () => {
   const privacy = await fetchPage("/quyen-rieng-tu");
   assert.equal(privacy.status, 200);
   const privacyHtml = await privacy.text();
-  assert.match(privacyHtml, /đã cài mã Google AdSense để xác minh/);
-  assert.match(privacyHtml, /quảng cáo có thể chưa xuất hiện/);
+  assert.match(privacyHtml, /đã cài mã Google AdSense và tệp ads\.txt/);
+  assert.match(privacyHtml, /chưa được chấp thuận phân phối quảng cáo/);
 
   const home = await fetchPage("/");
   assert.equal(home.status, 200);

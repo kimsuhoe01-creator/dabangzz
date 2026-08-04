@@ -8,6 +8,8 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Chuyện Hàn Quốc | Dabangzz",
   description: "Chuyện đời sống, công sở và K-beauty từ các thảo luận công khai tại Hàn Quốc, được viết mới và giải thích cho độc giả Việt Nam.",
+  alternates: { canonical: "/chuyen-han-quoc" },
+  robots: { index: false, follow: true },
 };
 
 export default function KoreaStoriesPage() {
@@ -19,8 +21,8 @@ export default function KoreaStoriesPage() {
     </div></header>
     <section className="news-intro">
       <span className="eyebrow">CHUYỆN HÀN QUỐC</span>
-      <h1>Một chuyên mục,<br/><em>nhiều góc nhìn.</em></h1>
-      <p>Các mô-típ từ thảo luận công khai được tổng hợp, loại bỏ thông tin nhận dạng và viết lại hoàn toàn. Mỗi bài bổ sung bối cảnh và cách áp dụng dành cho độc giả Việt Nam.</p>
+      <h1>Kho lưu trữ đang được<br/><em>rà soát biên tập.</em></h1>
+      <p>Dabangzz đã dừng xuất bản tự động cho chuyên mục này. Các bài cũ vẫn còn để người đọc mở lại đường dẫn, nhưng đang được kiểm tra về nguồn, độ nguyên bản và mức hữu ích; chuyên mục tạm thời không được đề nghị lập chỉ mục.</p>
     </section>
     <StoryBrowser posts={getPublishedPosts()} defaultFilter="korea" />
     <footer>

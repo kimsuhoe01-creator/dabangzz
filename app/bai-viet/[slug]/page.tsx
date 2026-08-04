@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import CommunityArticle from "../../components/CommunityArticle";
 import StructuredData from "../../components/StructuredData";
-import { communityPosts, getPublishedPosts, isPostPublished } from "../../content/community-posts";
+import { communityPosts, getIndexablePosts, isPostIndexable, isPostPublished } from "../../content/community-posts";
 import { getLoiDapEmbedUrl } from "../../content/loi-dap-music";
 
 type PageProps = { params: Promise<{ slug: string }> };
@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${post.title} | Dabangzz`,
     description: post.summary,
     alternates: { canonical: url },
+    robots: isPostIndexable(post) ? { index: true, follow: true } : { index: false, follow: true },
     openGraph: {
       title: post.title,
       description: post.summary,
@@ -75,5 +76,5 @@ export default async function ArticleRoute({ params }: PageProps) {
     contentUrl: post.youtube.watchUrl,
   } : null;
 
-  return <><StructuredData data={articleSchema} />{videoSchema ? <StructuredData data={videoSchema} /> : null}<CommunityArticle post={post} posts={getPublishedPosts()} /></>;
+  return <><StructuredData data={articleSchema} />{videoSchema ? <StructuredData data={videoSchema} /> : null}<CommunityArticle post={post} posts={getIndexablePosts()} /></>;
 }

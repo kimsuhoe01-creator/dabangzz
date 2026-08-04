@@ -60,6 +60,33 @@ export function getPublishedPosts(now = new Date()) {
   return communityPosts.filter(post => isPostPublished(post, now));
 }
 
+/**
+ * Pages temporarily excluded from search while their facts, freshness or
+ * overlap with a stronger article are reviewed. Keeping this list here makes
+ * the decision auditable and lets the existing URLs remain available.
+ */
+export const temporarilyNoindexedSlugs = new Set([
+  "the-can-cuoc-duoc-tim-nhieu-lich-hen-sinh-trac-va-7-ngay",
+  "giay-phep-lai-xe-tren-vneid-kiem-tra-va-doi-dung-cong-dich-vu",
+  "nghi-dinh-168-cach-hieu-diem-giay-phep-lai-xe-va-phuc-hoi",
+  "du-bao-thoi-tiet-viet-nam-thang-7-2026",
+  "du-bao-thoi-tiet-viet-nam-21-30-7-2026",
+  "thoi-tiet-viet-nam-25-7-mua-dong-bac-chieu-nam-bo",
+  "mua-lon-27-29-7-2026-bac-bo-tay-nguyen-nam-bo",
+  "thuy-trieu-viet-nam-19-28-7-2026",
+  "song-dong-chay-bien-19-28-7-2026",
+  "galaxy-z-fold8-ra-mat-viet-nam-checklist-truoc-khi-dat-truoc",
+  "ios-26-6-phat-hanh-cach-cap-nhat-an-toan",
+]);
+
+export function isPostIndexable(post: CommunityPost) {
+  return post.kind !== "story" && !temporarilyNoindexedSlugs.has(post.slug);
+}
+
+export function getIndexablePosts(now = new Date()) {
+  return getPublishedPosts(now).filter(isPostIndexable);
+}
+
 const rawCommunityPosts: CommunityPost[] = [
   ...kimReviews,
   ...loiDapMusicPosts,
