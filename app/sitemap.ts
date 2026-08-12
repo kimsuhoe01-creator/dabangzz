@@ -2,8 +2,7 @@ import type { MetadataRoute } from "next";
 import { getIndexablePosts } from "./content/community-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://dabangzz.com";
-  const pages: MetadataRoute.Sitemap = [
+  const base = "https://bacninh-note.com";  const pages: MetadataRoute.Sitemap = [
     { url: base, lastModified: new Date("2026-08-04T11:00:00+07:00"), changeFrequency: "daily", priority: 1 },
     { url: `${base}/tin-viet-nam`, lastModified: new Date("2026-08-04T11:00:00+07:00"), changeFrequency: "daily", priority: 0.9 },
     { url: `${base}/am-nhac-loi-dap`, lastModified: new Date("2026-07-25T07:50:00+07:00"), changeFrequency: "daily", priority: 0.8 },
