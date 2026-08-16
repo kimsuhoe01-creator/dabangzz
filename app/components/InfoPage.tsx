@@ -19,7 +19,7 @@ export default function InfoPage({ eyebrow, title, intro, updatedAt = "21.07.202
     </article>
     <footer>
       <div className="article-footer-links"><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/chinh-sach-bien-tap">Chính sách biên tập</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div>
-      <div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA</span></div>
+      <div className="copyright">© 2026 BẮC NINH NOTE <span>VIETNAM · KOREA</span></div>
     </footer>
   </main>;
 }

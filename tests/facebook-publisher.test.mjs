@@ -38,6 +38,6 @@ test("publishes a unique link without putting the token in the URL", async () =>
   assert.equal(requests.length, 2);
   assert.match(requests[1].url, /\/feed$/);
   const body = requests[1].init.body;
-  assert.equal(body.get("link"), "https://dabangzz.com/bai-viet/news-latest");
+  assert.equal(body.get("link"), "https://bacninh-note.com/bai-viet/news-latest");
   assert.doesNotMatch(requests[1].url, /test-token/);
 });

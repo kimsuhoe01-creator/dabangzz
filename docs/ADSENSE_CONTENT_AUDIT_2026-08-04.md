@@ -1,4 +1,4 @@
-# Dabangzz content audit — 2026-08-04
+# Bắc Ninh Note content audit — 2026-08-04
 
 This audit records the first remediation pass after the AdSense “low-value content” decision. It does not authorize or submit a reconsideration request.
 

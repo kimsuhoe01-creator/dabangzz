@@ -4,10 +4,10 @@ export const posts20260726: CommunityPost[] = [
   {
     slug: "tp-hcm-tram-sac-doi-pin-xe-may-dien-cuoi-2026",
     kind: "news",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Tin mới Việt Nam · Giao thông xanh",
     title: "TP.HCM đặt mục tiêu mở rộng trạm sạc, tủ đổi pin xe điện cuối 2026: người đi xe máy cần hiểu gì?",
-    summary: "Từ nhu cầu tìm kiếm tăng về xe máy điện, Dabangzz đối chiếu nguồn Bộ Xây dựng để giải thích mục tiêu hạ tầng tại TP.HCM, số liệu nền, giới hạn của các con số và những điều nên kiểm tra trước khi đổi xe.",
+    summary: "Từ nhu cầu tìm kiếm tăng về xe máy điện, Bắc Ninh Note đối chiếu nguồn Bộ Xây dựng để giải thích mục tiêu hạ tầng tại TP.HCM, số liệu nền, giới hạn của các con số và những điều nên kiểm tra trước khi đổi xe.",
     readTime: "9 phút đọc",
     hero: "SẠC & ĐỔI PIN\nXE MÁY ĐIỆN",
     publishedAt: "2026-07-26T06:45:00+07:00",
@@ -38,7 +38,7 @@ export const posts20260726: CommunityPost[] = [
       {
         heading: "Vì sao từ khóa xe máy điện tăng nhưng chưa thể coi là một chính sách mới",
         paragraphs: [
-          "Trong dữ liệu tìm kiếm tại Việt Nam, cụm từ liên quan xe máy điện đang được quan tâm mạnh. Tín hiệu đó cho thấy nhiều người cùng muốn biết về chi phí, chỗ sạc và khả năng sử dụng hằng ngày, nhưng không tự chứng minh rằng TP.HCM vừa ban hành lệnh đổi xe hoặc một mốc bắt buộc mới. Dabangzz dùng xu hướng tìm kiếm để tìm câu hỏi của độc giả, sau đó kiểm tra lại thông tin trên nguồn của Bộ Xây dựng trước khi giải thích.",
+          "Trong dữ liệu tìm kiếm tại Việt Nam, cụm từ liên quan xe máy điện đang được quan tâm mạnh. Tín hiệu đó cho thấy nhiều người cùng muốn biết về chi phí, chỗ sạc và khả năng sử dụng hằng ngày, nhưng không tự chứng minh rằng TP.HCM vừa ban hành lệnh đổi xe hoặc một mốc bắt buộc mới. Bắc Ninh Note dùng xu hướng tìm kiếm để tìm câu hỏi của độc giả, sau đó kiểm tra lại thông tin trên nguồn của Bộ Xây dựng trước khi giải thích.",
           "Thông tin chính thức đáng chú ý là TP.HCM đang thúc đẩy hạ tầng cho phương tiện điện. Bài công bố ngày 22/7/2026 nêu mục tiêu đến cuối năm 2026 có 100 trạm sạc ô tô và khoảng 20.000 tủ đổi pin cho xe máy điện. Hai con số phục vụ hai loại phương tiện khác nhau. Chúng là mục tiêu triển khai hạ tầng, không phải số điểm đã hoàn thành và cũng không phải lời bảo đảm rằng một người mua bất kỳ sẽ tìm được bộ pin phù hợp ngay gần nhà.",
         ],
       },

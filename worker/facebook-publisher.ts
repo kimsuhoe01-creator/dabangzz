@@ -33,7 +33,7 @@ export const FACEBOOK_CRON_KIND: Record<string, FacebookShareKind> = {
 };
 
 const DEFAULT_GRAPH_API_VERSION = "v26.0";
-const DEFAULT_SITE_URL = "https://dabangzz.com";
+const DEFAULT_SITE_URL = "https://bacninh-note.com";
 
 function normalizeOrigin(value: string) {
   return value.replace(/\/+$/, "");
@@ -67,7 +67,7 @@ export function selectFacebookCandidate(
 
 export function buildFacebookMessage(post: FacebookPost, siteUrl = DEFAULT_SITE_URL) {
   const label = post.kind === "news" ? "TIN VIỆT NAM · ĐỌC CÓ NGUỒN" : "CHUYỆN HÀN QUỐC · GÓC NHÌN CHO NGƯỜI VIỆT";
-  const hashtags = post.kind === "news" ? "#Dabangzz #TinVietNam" : "#Dabangzz #ChuyenHanQuoc";
+  const hashtags = post.kind === "news" ? "#BacNinhNote #TinVietNam" : "#BacNinhNote #ChuyenHanQuoc";
 
   return [
     label,

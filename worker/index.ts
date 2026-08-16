@@ -1,4 +1,4 @@
-/** Cloudflare Worker entry point for the vinext-starter template. */
+/** Cloudflare Worker entry point for Bắc Ninh Note. */
 import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
 import { communityPosts } from "../app/content/community-posts";
@@ -9,7 +9,6 @@ import {
 
 interface Env {
   ASSETS: Fetcher;
-  DB?: D1Database;
   META_PAGE_ACCESS_TOKEN?: string;
   META_PAGE_ID?: string;
   META_FACEBOOK_AUTOMATION_ENABLED?: string;

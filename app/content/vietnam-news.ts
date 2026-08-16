@@ -30,7 +30,7 @@ export const vietnamNews: CommunityPost[] = [
       {
         heading: "Bản tin mới thay đổi khung thời gian, không phải lời dự báo cho từng ngày",
         paragraphs: [
-          "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia phát hành lúc 11 giờ 33 ngày 21/7 bản tin khí hậu cho thời kỳ từ 21/7 đến 20/8/2026. Dabangzz cập nhật bài cũ trên cùng URL vì đây là bản kế tiếp của cùng chủ đề, thay vì tạo thêm một bài có nội dung gần giống. Theo bản tin mới, nhiệt độ trung bình trên cả nước phổ biến cao hơn trung bình nhiều năm 0,5–1,0°C; một số nơi ở phía Nam có thể cao hơn 1,5°C. Tổng lượng mưa trên phạm vi cả nước nhìn chung xấp xỉ trung bình nhiều năm, riêng Bắc Bộ và Thanh Hóa–Hà Tĩnh cao hơn khoảng 5–15%.",
+          "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia phát hành lúc 11 giờ 33 ngày 21/7 bản tin khí hậu cho thời kỳ từ 21/7 đến 20/8/2026. Bắc Ninh Note cập nhật bài cũ trên cùng URL vì đây là bản kế tiếp của cùng chủ đề, thay vì tạo thêm một bài có nội dung gần giống. Theo bản tin mới, nhiệt độ trung bình trên cả nước phổ biến cao hơn trung bình nhiều năm 0,5–1,0°C; một số nơi ở phía Nam có thể cao hơn 1,5°C. Tổng lượng mưa trên phạm vi cả nước nhìn chung xấp xỉ trung bình nhiều năm, riêng Bắc Bộ và Thanh Hóa–Hà Tĩnh cao hơn khoảng 5–15%.",
           "Các con số trên mô tả trung bình của gần một tháng và một vùng rộng. Chúng không có nghĩa mọi ngày đều nóng hơn đúng 1°C hoặc mọi quận, huyện ở Bắc Bộ đều nhận thêm cùng một lượng mưa. Một thời kỳ có thể gồm nhiều ngày nóng xen kẽ vài đợt mưa mạnh; chỉ một số đợt mưa tập trung cũng có thể làm tổng lượng mưa của cả thời kỳ tăng lên. Vì vậy, dự báo tháng phù hợp để chuẩn bị lịch làm việc, thiết bị và phương án dự phòng, còn quyết định ra đường trong vài giờ tới phải dựa vào bản tin ngắn hạn mới nhất tại đúng địa điểm.",
         ],
       },
@@ -67,7 +67,7 @@ export const vietnamNews: CommunityPost[] = [
         heading: "Quy trình kiểm tra hai phút để biến xu thế tháng thành kế hoạch thực tế",
         paragraphs: [
           "Bước một, ghi đúng địa điểm và khung giờ của hoạt động. Bước hai, dùng bản tin tháng để biết rủi ro cần chuẩn bị — nóng, mưa lớn, dông hoặc biển động. Bước ba, trước khi đi từ vài giờ đến một ngày, mở dự báo theo tỉnh hoặc thành phố và các cảnh báo thiên tai liên quan. Bước bốn, kiểm tra tình trạng tuyến đường, nơi đến cùng thông báo của địa phương. Với lịch quan trọng, nên có giờ lùi, tuyến thay thế và người liên hệ thay vì chỉ lưu một ảnh chụp dự báo.",
-          "Google Trends có thể cho thấy người Việt đang quan tâm đến mưa lớn hoặc thời tiết, nhưng lượng tìm kiếm không xác nhận mức độ nguy hiểm. Dabangzz chỉ dùng tín hiệu tìm kiếm để nhận biết câu hỏi của độc giả; toàn bộ mốc thời gian và xu thế trong bản cập nhật này được đối chiếu với Trung tâm Dự báo Khí tượng Thủy văn Quốc gia. Bài được sửa ngày 22/7 theo bản tin phát hành ngày 21/7; khi có dự báo mới làm thay đổi đáng kể đánh giá theo vùng, cùng URL này sẽ tiếp tục được cập nhật.",
+          "Google Trends có thể cho thấy người Việt đang quan tâm đến mưa lớn hoặc thời tiết, nhưng lượng tìm kiếm không xác nhận mức độ nguy hiểm. Bắc Ninh Note chỉ dùng tín hiệu tìm kiếm để nhận biết câu hỏi của độc giả; toàn bộ mốc thời gian và xu thế trong bản cập nhật này được đối chiếu với Trung tâm Dự báo Khí tượng Thủy văn Quốc gia. Bài được sửa ngày 22/7 theo bản tin phát hành ngày 21/7; khi có dự báo mới làm thay đổi đáng kể đánh giá theo vùng, cùng URL này sẽ tiếp tục được cập nhật.",
         ],
       },
     ],
@@ -132,7 +132,7 @@ export const vietnamNews: CommunityPost[] = [
         heading: "Cách chia sẻ số liệu mà không làm người khác hiểu sai",
         paragraphs: [
           "Khi gửi thông tin, hãy ghi đủ ‘trạm – ngày – khung giờ – loại mực nước – nguồn’. Ví dụ, ‘nước lớn Hòn Dấu, dự báo trong kỳ 19–28/7, khoảng 302–327cm, khung 15:00–17:00’ rõ hơn nhiều so với ảnh chụp riêng con số 327cm. Không gắn dữ liệu của Hòn Dấu cho toàn bộ miền Bắc hoặc dữ liệu Vũng Tàu cho mọi tuyến sông tại Nam Bộ.",
-          "Google Trends có thể cho thấy nhu cầu tìm kiếm về triều, mưa hoặc ngập tăng lên, nhưng không thay thế đo đạc và cảnh báo chính thức. Dabangzz dùng tín hiệu đó để biết độc giả cần bảng so sánh dễ hiểu, sau đó đối chiếu với bản tin của cơ quan khí tượng. Trước chuyến đi, hãy mở liên kết nguồn ở cuối bài để xem bản cập nhật mới nhất thay vì lưu bài này như lịch cố định.",
+          "Google Trends có thể cho thấy nhu cầu tìm kiếm về triều, mưa hoặc ngập tăng lên, nhưng không thay thế đo đạc và cảnh báo chính thức. Bắc Ninh Note dùng tín hiệu đó để biết độc giả cần bảng so sánh dễ hiểu, sau đó đối chiếu với bản tin của cơ quan khí tượng. Trước chuyến đi, hãy mở liên kết nguồn ở cuối bài để xem bản cập nhật mới nhất thay vì lưu bài này như lịch cố định.",
         ],
       },
     ],
@@ -182,7 +182,7 @@ export const vietnamNews: CommunityPost[] = [
         heading: "Cửa van, nguồn điện và hệ thống quan trắc phải được thử",
         paragraphs: [
           "Với hồ có cửa van điều tiết, yêu cầu bao gồm rà soát và điều chỉnh quy trình vận hành, kiểm tra hệ thống cấp điện, thiết bị đóng mở cửa van, hệ thống giám sát và thiết bị liên quan. Đơn vị quản lý cần tổ chức vận hành thử cửa van thay vì chờ đến khi mưa lớn mới phát hiện trục trặc. Hệ thống quan trắc khí tượng thủy văn chuyên dùng cũng phải được duy trì ổn định.",
-          "Kịch bản vận hành cần linh hoạt theo từng tình huống mưa lớn và được điều chỉnh bằng dự báo mới. Một kịch bản tốt phải trả lời ai nhận dữ liệu, ai quyết định, cách thông báo cho hạ du và phương án khi điện hoặc thiết bị chính gặp vấn đề. Dabangzz chỉ giải thích các đầu việc được công bố, không đánh giá chất lượng kỹ thuật của bất kỳ đập hay hồ cụ thể nào.",
+          "Kịch bản vận hành cần linh hoạt theo từng tình huống mưa lớn và được điều chỉnh bằng dự báo mới. Một kịch bản tốt phải trả lời ai nhận dữ liệu, ai quyết định, cách thông báo cho hạ du và phương án khi điện hoặc thiết bị chính gặp vấn đề. Bắc Ninh Note chỉ giải thích các đầu việc được công bố, không đánh giá chất lượng kỹ thuật của bất kỳ đập hay hồ cụ thể nào.",
         ],
         quote: "Kiểm tra trước mưa lớn nhằm giảm bất ngờ trong vận hành; nó không phải bằng chứng rằng một công trình cụ thể đang gặp sự cố.",
       },
@@ -197,7 +197,7 @@ export const vietnamNews: CommunityPost[] = [
         heading: "Người sống ở vùng hạ du cần chuẩn bị thông tin nào?",
         paragraphs: [
           "Hãy xác định kênh thông báo của xã, phường, cơ quan phòng chống thiên tai hoặc đơn vị quản lý tại địa phương; lưu số liên hệ cần thiết và biết tuyến di chuyển đến nơi an toàn. Nếu có thông báo điều tiết, xả nước hoặc sơ tán, làm theo thời gian, phạm vi và hướng dẫn được công bố. Không đến gần công trình hoặc dòng chảy để quan sát, quay phim.",
-          "Khi nhận ảnh hay tin nhắn, kiểm tra tên hồ, địa điểm, ngày giờ, đơn vị phát hành và liệu thông tin đã được cập nhật hay chưa. Google Trends có thể phản ánh việc người dân đang quan tâm đến mưa lũ hoặc an toàn hồ đập, nhưng không xác nhận một cảnh báo cụ thể. Dabangzz chỉ dùng xu hướng để chọn câu hỏi cần giải thích, còn hành động an toàn phải dựa vào thông báo chính thức mới nhất.",
+          "Khi nhận ảnh hay tin nhắn, kiểm tra tên hồ, địa điểm, ngày giờ, đơn vị phát hành và liệu thông tin đã được cập nhật hay chưa. Google Trends có thể phản ánh việc người dân đang quan tâm đến mưa lũ hoặc an toàn hồ đập, nhưng không xác nhận một cảnh báo cụ thể. Bắc Ninh Note chỉ dùng xu hướng để chọn câu hỏi cần giải thích, còn hành động an toàn phải dựa vào thông báo chính thức mới nhất.",
         ],
       },
     ],
@@ -349,7 +349,7 @@ export const vietnamNews: CommunityPost[] = [
       {
         heading: "Đừng ghép bảng sóng với bảng thủy triều như một phép cộng đơn giản",
         paragraphs: [
-          "Dabangzz đã có bài riêng về thủy triều vì mực nước lớn, nước ròng và khung giờ tại Hòn Dấu, Quy Nhơn, Vũng Tàu trả lời câu hỏi khác. Không thể lấy mực triều tính bằng centimet cộng với độ cao sóng tính bằng mét để tạo một ‘mức nước nguy hiểm’. Các đại lượng có mốc đo, không gian và mục đích khác nhau. Điều cần làm là đặt chúng cạnh nhau theo đúng giờ: triều đang lên hay xuống, sóng và gió thế nào, có dông không, địa phương có cảnh báo hay hạn chế hoạt động không.",
+          "Bắc Ninh Note đã có bài riêng về thủy triều vì mực nước lớn, nước ròng và khung giờ tại Hòn Dấu, Quy Nhơn, Vũng Tàu trả lời câu hỏi khác. Không thể lấy mực triều tính bằng centimet cộng với độ cao sóng tính bằng mét để tạo một ‘mức nước nguy hiểm’. Các đại lượng có mốc đo, không gian và mục đích khác nhau. Điều cần làm là đặt chúng cạnh nhau theo đúng giờ: triều đang lên hay xuống, sóng và gió thế nào, có dông không, địa phương có cảnh báo hay hạn chế hoạt động không.",
           "Ở cửa sông, lượng nước từ đất liền và địa hình luồng tàu có thể tạo khác biệt; ở bãi cát, hướng bờ và đáy biển ảnh hưởng cách sóng vỡ và dòng quay ra ngoài; tại vùng đảo, gió và dông cục bộ có thể làm điều kiện thay đổi nhanh. Hai địa điểm trong cùng tỉnh vì vậy không nhất thiết giống nhau. Bản đồ tổng quát có ích để biết vùng cần thận trọng hơn, còn giờ khởi hành, điểm neo, khu vực tắm và việc đóng mở dịch vụ phải kiểm tra bằng thông báo tại địa phương hoặc đơn vị quản lý.",
         ],
       },
@@ -357,7 +357,7 @@ export const vietnamNews: CommunityPost[] = [
         heading: "Checklist trước khi ra biển và đường dẫn tới bản cập nhật mới nhất",
         paragraphs: [
           "Trước một hoạt động ven biển, hãy ghi rõ địa điểm và thời gian; mở bản tin sóng, dòng chảy, gió, dông và thủy triều mới nhất; kiểm tra cảnh báo của tỉnh, cảng, bến hoặc bãi tắm; hỏi đơn vị tổ chức về điều kiện hủy hay đổi lịch; chuẩn bị phương án quay về nếu thời tiết xấu hơn dự kiến. Với tàu thuyền, người vận hành phải tuân thủ hướng dẫn hàng hải và quy trình chuyên môn. Với khách tắm biển, chỉ xuống nước trong khu vực được phép và không vượt cờ, phao hoặc chỉ dẫn của lực lượng tại chỗ.",
-          "Các liên kết nguồn cuối bài dẫn tới bản tin Hải văn và cảnh báo thời tiết nguy hiểm của Trung tâm Dự báo Khí tượng Thủy văn Quốc gia. Trang có thể giữ địa chỉ kỹ thuật cũ trong URL, vì vậy phải kiểm tra tiêu đề và thời điểm phát tin đang hiển thị; bài này dùng các bản cập nhật 21–30/7 cùng cảnh báo dông biển sáng 22/7. Google Trends có tín hiệu tăng về áp thấp nhiệt đới, nhưng đến thời điểm cập nhật bài, Dabangzz chưa thấy một bản tin áp thấp nhiệt đới mới tương ứng trên kênh chính thức nên không gắn nhãn hiện tượng đó cho các điều kiện đang được mô tả.",
+          "Các liên kết nguồn cuối bài dẫn tới bản tin Hải văn và cảnh báo thời tiết nguy hiểm của Trung tâm Dự báo Khí tượng Thủy văn Quốc gia. Trang có thể giữ địa chỉ kỹ thuật cũ trong URL, vì vậy phải kiểm tra tiêu đề và thời điểm phát tin đang hiển thị; bài này dùng các bản cập nhật 21–30/7 cùng cảnh báo dông biển sáng 22/7. Google Trends có tín hiệu tăng về áp thấp nhiệt đới, nhưng đến thời điểm cập nhật bài, Bắc Ninh Note chưa thấy một bản tin áp thấp nhiệt đới mới tương ứng trên kênh chính thức nên không gắn nhãn hiện tượng đó cho các điều kiện đang được mô tả.",
         ],
       },
     ],
@@ -413,7 +413,7 @@ export const vietnamNews: CommunityPost[] = [
       {
         heading: "Năm mức tiền mới được chia theo số năm công tác",
         paragraphs: [
-          "Thông tư công bố năm bậc trợ cấp. Người có từ đủ 15 năm đến dưới 16 năm công tác được hưởng 2.838.000 đồng mỗi tháng; từ đủ 16 năm đến dưới 17 năm là 2.966.000 đồng; từ đủ 17 năm đến dưới 18 năm là 3.097.000 đồng; từ đủ 18 năm đến dưới 19 năm là 3.227.000 đồng; từ đủ 19 năm đến dưới 20 năm là 3.353.000 đồng mỗi tháng. Đây là số tiền theo từng bậc được văn bản nêu trực tiếp, không phải phép ước lượng của Dabangzz.",
+          "Thông tư công bố năm bậc trợ cấp. Người có từ đủ 15 năm đến dưới 16 năm công tác được hưởng 2.838.000 đồng mỗi tháng; từ đủ 16 năm đến dưới 17 năm là 2.966.000 đồng; từ đủ 17 năm đến dưới 18 năm là 3.097.000 đồng; từ đủ 18 năm đến dưới 19 năm là 3.227.000 đồng; từ đủ 19 năm đến dưới 20 năm là 3.353.000 đồng mỗi tháng. Đây là số tiền theo từng bậc được văn bản nêu trực tiếp, không phải phép ước lượng của Bắc Ninh Note.",
           "Ranh giới “từ đủ” và “dưới” cần được đọc chính xác. Chẳng hạn, mức dành cho từ đủ 17 năm đến dưới 18 năm không đồng nghĩa mọi người nhớ mình từng công tác khoảng 17 năm đều tự động ở bậc đó; thời gian được cơ quan có thẩm quyền xác nhận để tính chế độ mới là căn cứ. Nếu mức đang nhận hoặc bậc năm công tác trong hồ sơ khác với ký ức cá nhân, nên đề nghị cơ quan quản lý giải thích dữ liệu đang dùng trước khi yêu cầu điều chỉnh.",
         ],
       },

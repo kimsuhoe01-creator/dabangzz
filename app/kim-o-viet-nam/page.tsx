@@ -6,7 +6,7 @@ import { getIndexablePosts } from "../content/community-posts";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Kim ở Việt Nam | Dabangzz",
+  title: "Kim ở Việt Nam | Bắc Ninh Note",
   description: "Những trải nghiệm tự trả tiền của Kim tại Việt Nam, có ảnh thực tế, chi phí, điểm tốt, điểm chưa tốt và thông tin đối chiếu rõ ràng.",
   alternates: { canonical: "/kim-o-viet-nam" },
 };
@@ -27,7 +27,7 @@ export default function KimInVietnamPage() {
     <footer>
       <div className="footer-inner"><Link className="brand inverse" href="/">dabang<span>zz</span></Link><p>Trải nghiệm thật. Nhận xét có phạm vi.</p></div>
       <div className="footer-links"><Link href="/tin-viet-nam">Tin Việt Nam</Link><Link href="/gioi-thieu">Giới thiệu</Link><Link href="/chinh-sach-bien-tap">Chính sách biên tập</Link><Link href="/quyen-rieng-tu">Quyền riêng tư</Link><Link href="/lien-he">Liên hệ</Link></div>
-      <div className="copyright">© 2026 DABANGZZ <span>VIETNAM · KOREA</span></div>
+      <div className="copyright">© 2026 BẮC NINH NOTE <span>VIETNAM · KOREA</span></div>
     </footer>
   </main>;
 }

@@ -7,20 +7,20 @@ async function render(pathname = "/") {
   const { default: worker } = await import(workerUrl.href);
 
   return worker.fetch(
-    new Request(`https://dabangzz.com${pathname}`, { headers: { accept: "text/html" } }),
+    new Request(`https://bacninh-note.com${pathname}`, { headers: { accept: "text/html" } }),
     { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
     { waitUntil() {}, passThroughOnException() {} },
   );
 }
 
-test("server-renders the Dabangzz homepage", async () => {
+test("server-renders the Bắc Ninh Note homepage", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
   assert.match(html, /<html lang="vi"/i);
-  assert.match(html, /Dabangzz — Tin Việt Nam, hiểu rõ hơn/);
+  assert.match(html, /Bắc Ninh Note — Tin Việt Nam, hiểu rõ hơn/);
   assert.match(html, /Tin Việt Nam/);
   assert.match(html, /Kim ở Việt Nam/);
   assert.match(html, /Chính sách biên tập/);

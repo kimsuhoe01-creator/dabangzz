@@ -7,14 +7,14 @@ async function fetchPage(pathname) {
   const { default: worker } = await import(workerUrl.href);
 
   return worker.fetch(
-    new Request(`https://dabangzz.com${pathname}`, { headers: { accept: "text/html" } }),
+    new Request(`https://bacninh-note.com${pathname}`, { headers: { accept: "text/html" } }),
     { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
     { waitUntil() {}, passThroughOnException() {} },
   );
 }
 
 function assertCanonical(html, pathname) {
-  const href = pathname === "/" ? "https://dabangzz.com/" : `https://dabangzz.com${pathname}`;
+  const href = pathname === "/" ? "https://bacninh-note.com/" : `https://bacninh-note.com${pathname}`;
   assert.match(html, new RegExp(`<link[^>]+rel="canonical"[^>]+href="${href.replaceAll("/", "\\/")}"|<link[^>]+href="${href.replaceAll("/", "\\/")}"[^>]+rel="canonical"`));
 }
 

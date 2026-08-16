@@ -77,7 +77,7 @@ export const posts20260721: CommunityPost[] = [
         heading: "Sau 30/8 vẫn còn các mốc đánh giá và điều chỉnh",
         paragraphs: [
           "Hướng dẫn của Bộ Giáo dục và Đào tạo nêu lộ trình theo giai đoạn: sau bước triển khai trước 30/8, địa phương đánh giá kết quả giai đoạn đầu trước 30/12/2026; từ cuối tháng 3/2027 có thể tiếp tục sắp xếp dựa trên kết quả đánh giá và hướng tới hoàn thành việc củng cố mô hình quản lý trước 30/4/2027. Các mốc này cho thấy đây là một quá trình có kiểm tra và điều chỉnh, không phải một lần đổi tên rồi mọi vấn đề được xem là xong.",
-          "Dabangzz không dùng xu hướng tìm kiếm hay bài đăng mạng xã hội để kết luận một trường cụ thể sẽ sáp nhập. Muốn biết nơi học có thay đổi hay không, hãy ưu tiên quyết định của UBND địa phương, cơ quan giáo dục và thông báo trực tiếp của nhà trường. Nếu văn bản mới thay đổi mốc hoặc phạm vi, bài sẽ được sửa tại URL này và ghi rõ thời điểm cập nhật.",
+          "Bắc Ninh Note không dùng xu hướng tìm kiếm hay bài đăng mạng xã hội để kết luận một trường cụ thể sẽ sáp nhập. Muốn biết nơi học có thay đổi hay không, hãy ưu tiên quyết định của UBND địa phương, cơ quan giáo dục và thông báo trực tiếp của nhà trường. Nếu văn bản mới thay đổi mốc hoặc phạm vi, bài sẽ được sửa tại URL này và ghi rõ thời điểm cập nhật.",
         ],
       },
     ],
@@ -179,7 +179,7 @@ export const posts20260721: CommunityPost[] = [
         heading: "Lịch sự nhưng không chủ quan",
         paragraphs: [
           "Đến đúng giờ, báo sớm khi hủy và mang túi hoặc phương tiện vận chuyển phù hợp là phép lịch sự cơ bản. Người mua không nên ép giảm giá sau khi đã chốt nếu món đồ đúng mô tả; người bán không nên tạo cạnh tranh giả rằng ‘có người khác đang chuyển tiền’ để buộc quyết định. Cả hai có thể kết thúc cuộc hẹn bằng xác nhận ngắn, không cần tiếp tục liên lạc ngoài mục đích giao dịch.",
-          "Bài viết tổng hợp các mô-típ phổ biến trong thảo luận công khai về giao dịch đồ cũ tại Hàn Quốc và tái biên tập thành hướng dẫn độc lập cho độc giả Việt Nam. Dabangzz không sao chép lời kể, hình ảnh, biệt danh hay chi tiết nhận dạng, đồng thời không bảo đảm một nền tảng hoặc người bán cụ thể. Quy tắc của ứng dụng và địa điểm có thể thay đổi, vì vậy hãy kiểm tra hướng dẫn đang hiệu lực trước khi hẹn.",
+          "Bài viết tổng hợp các mô-típ phổ biến trong thảo luận công khai về giao dịch đồ cũ tại Hàn Quốc và tái biên tập thành hướng dẫn độc lập cho độc giả Việt Nam. Bắc Ninh Note không sao chép lời kể, hình ảnh, biệt danh hay chi tiết nhận dạng, đồng thời không bảo đảm một nền tảng hoặc người bán cụ thể. Quy tắc của ứng dụng và địa điểm có thể thay đổi, vì vậy hãy kiểm tra hướng dẫn đang hiệu lực trước khi hẹn.",
         ],
       },
     ],
@@ -233,7 +233,7 @@ export const posts20260721: CommunityPost[] = [
       {
         heading: "Tìm kiếm tăng không đồng nghĩa vừa có lệnh đổi thẻ",
         paragraphs: [
-          "Trong bảng xu hướng 24 giờ của Google Trends Việt Nam được Dabangzz kiểm tra lúc 10:30 ngày 21/7/2026, cụm ‘thẻ căn cước’ đứng ở nhóm đầu với hơn 50 nghìn lượt tìm kiếm ước tính và trạng thái còn hoạt động. Trends cho biết mức quan tâm tăng so với thông thường, nhưng không cho biết chính xác vì sao từng người tìm và không phải nguồn xác nhận một quy định hành chính. Một đoạn video, lịch hẹn địa phương hoặc câu hỏi về VNeID đều có thể góp vào cùng cụm từ.",
+          "Trong bảng xu hướng 24 giờ của Google Trends Việt Nam được Bắc Ninh Note kiểm tra lúc 10:30 ngày 21/7/2026, cụm ‘thẻ căn cước’ đứng ở nhóm đầu với hơn 50 nghìn lượt tìm kiếm ước tính và trạng thái còn hoạt động. Trends cho biết mức quan tâm tăng so với thông thường, nhưng không cho biết chính xác vì sao từng người tìm và không phải nguồn xác nhận một quy định hành chính. Một đoạn video, lịch hẹn địa phương hoặc câu hỏi về VNeID đều có thể góp vào cùng cụm từ.",
           "Vì vậy, không nên nhìn con số tìm kiếm rồi kết luận rằng tất cả công dân phải đổi thẻ ngay trong ngày 21/7. Trước khi đi làm thủ tục, hãy xác định câu hỏi thật của mình: thẻ vật lý hết hạn hay bị mất, tài khoản VNeID chưa kích hoạt, thông tin trên ứng dụng chưa khớp, hay một dịch vụ công đang yêu cầu xác thực. Mỗi tình huống có quy trình và cơ quan hỗ trợ khác nhau; bài đăng lan truyền không thể thay cho thông báo ghi rõ đối tượng, địa bàn và ngày hiệu lực.",
         ],
       },
@@ -284,7 +284,7 @@ export const posts20260721: CommunityPost[] = [
         heading: "Theo dõi cập nhật ở đâu để không chạy theo tin đồn?",
         paragraphs: [
           "Bắt đầu từ thông báo trong VNeID, Cổng Dịch vụ công Quốc gia và cổng thông tin của cơ quan đang xử lý thủ tục. Khi đọc một bài nói về đổi thẻ hoặc ưu đãi phí, hãy tìm số hiệu văn bản, ngày hiệu lực, nhóm đối tượng và phụ lục được viện dẫn. Nếu chỉ có ảnh chụp không rõ nguồn hoặc câu ‘ai cũng phải làm’, chưa đủ căn cứ để đặt lịch, nộp tiền hay gửi dữ liệu cá nhân.",
-          "Dabangzz ghi nhận xu hướng tìm kiếm lúc 10:30 ngày 21/7 và dùng nó để xác định câu hỏi cần giải thích, không dùng Trends để chứng minh thay đổi pháp luật. Các liên kết nguồn ở cuối bài dẫn tới văn bản và cổng chính thức. Nếu cơ quan có thẩm quyền phát hành hướng dẫn mới làm thay đổi quy trình, bài này sẽ được cập nhật thời điểm sửa thay vì tạo một URL khác với nội dung gần giống.",
+          "Bắc Ninh Note ghi nhận xu hướng tìm kiếm lúc 10:30 ngày 21/7 và dùng nó để xác định câu hỏi cần giải thích, không dùng Trends để chứng minh thay đổi pháp luật. Các liên kết nguồn ở cuối bài dẫn tới văn bản và cổng chính thức. Nếu cơ quan có thẩm quyền phát hành hướng dẫn mới làm thay đổi quy trình, bài này sẽ được cập nhật thời điểm sửa thay vì tạo một URL khác với nội dung gần giống.",
         ],
       },
     ],
@@ -467,7 +467,7 @@ export const posts20260721: CommunityPost[] = [
         heading: "Rời đi cũng cần một câu chuyện trung thực",
         paragraphs: [
           "Trước khi tìm việc, so sánh tổng thể chứ không chỉ lương tháng: loại hợp đồng, giờ làm, thời gian đi lại, bảo hiểm, cơ hội học và rủi ro thử việc. Chuẩn bị quỹ dự phòng phù hợp hoàn cảnh nhưng không làm theo một con số chung trên mạng. Hãy nói chuyện với người đang làm vai trò tương tự và kiểm tra thông tin tuyển dụng bằng kênh chính thức.",
-          "Bài viết được phát triển từ các câu hỏi nghề nghiệp lặp lại trên cộng đồng công khai Hàn Quốc, rồi viết lại độc lập cho độc giả Việt Nam. Dabangzz không sao chép lời kể, tên công ty, ảnh, biệt danh hoặc chi tiết nhận dạng. Không có kết luận rằng doanh nghiệp Hàn đều coi trọng thâm niên như nhau; ngành, quy mô, thế hệ quản lý và loại công việc tạo khác biệt lớn.",
+          "Bài viết được phát triển từ các câu hỏi nghề nghiệp lặp lại trên cộng đồng công khai Hàn Quốc, rồi viết lại độc lập cho độc giả Việt Nam. Bắc Ninh Note không sao chép lời kể, tên công ty, ảnh, biệt danh hoặc chi tiết nhận dạng. Không có kết luận rằng doanh nghiệp Hàn đều coi trọng thâm niên như nhau; ngành, quy mô, thế hệ quản lý và loại công việc tạo khác biệt lớn.",
         ],
       },
     ],
@@ -559,7 +559,7 @@ export const posts20260721: CommunityPost[] = [
         heading: "Quy định mới nói về khoản nào?",
         paragraphs: [
           "Nghị định 192/2026/NĐ-CP được ban hành ngày 30/5/2026 và có hiệu lực từ 15/7/2026. Văn bản quy định chế độ phụ cấp đặc thù trong lĩnh vực y tế và hỗ trợ hằng tháng đối với nhân viên y tế thôn, tổ dân phố cùng cô đỡ thôn, bản. Bài viết này chỉ tập trung vào phần hỗ trợ hằng tháng cho lực lượng y tế cộng đồng, không gộp với các chế độ trực, phẫu thuật, thủ thuật hay chống dịch cũng có trong nghị định.",
-          "Khoản hỗ trợ được tính trong thời gian người thuộc diện áp dụng thực tế làm nhiệm vụ. Cách diễn đạt theo hệ số lương cơ sở có nghĩa đây không phải một số tiền cố định vĩnh viễn và cũng không phải hệ số nhân với mức lương riêng của từng người. Khi lương cơ sở hoặc quyết định triển khai của địa phương thay đổi, con số quy đổi có thể khác. Vì vậy Dabangzz không tự chuyển hai hệ số thành một mức đồng chung cho tất cả tỉnh, thành.",
+          "Khoản hỗ trợ được tính trong thời gian người thuộc diện áp dụng thực tế làm nhiệm vụ. Cách diễn đạt theo hệ số lương cơ sở có nghĩa đây không phải một số tiền cố định vĩnh viễn và cũng không phải hệ số nhân với mức lương riêng của từng người. Khi lương cơ sở hoặc quyết định triển khai của địa phương thay đổi, con số quy đổi có thể khác. Vì vậy Bắc Ninh Note không tự chuyển hai hệ số thành một mức đồng chung cho tất cả tỉnh, thành.",
         ],
       },
       {
@@ -595,7 +595,7 @@ export const posts20260721: CommunityPost[] = [
         heading: "Cách theo dõi cập nhật mà không nhầm với tin cũ",
         paragraphs: [
           "Nguồn gốc nên bắt đầu từ trang văn bản của Chính phủ và cổng thông tin của Hội đồng nhân dân, Ủy ban nhân dân hoặc Sở Y tế tại tỉnh liên quan. Khi đọc bài tóm tắt, kiểm tra số hiệu 192/2026/NĐ-CP, ngày hiệu lực 15/7/2026 và phạm vi đang nói đến. Nghị định có nhiều nhóm phụ cấp y tế; lấy hệ số của một nhóm áp cho nhóm khác sẽ tạo ra con số sai dù cùng xuất hiện trong một văn bản.",
-          "Google Trends có thể cho thấy người dân đang hỏi nhiều về một chính sách, nhưng mức tìm kiếm không xác nhận cách áp dụng. Dabangzz dùng tín hiệu tìm kiếm để nhận ra câu hỏi cần giải thích, sau đó đối chiếu nguồn chính thức được liên kết ở cuối bài. Nếu tỉnh ban hành mức cụ thể hoặc cơ quan trung ương có hướng dẫn mới làm thay đổi nội dung, bài này cần được cập nhật ngày sửa thay vì tạo một bản sao gần giống.",
+          "Google Trends có thể cho thấy người dân đang hỏi nhiều về một chính sách, nhưng mức tìm kiếm không xác nhận cách áp dụng. Bắc Ninh Note dùng tín hiệu tìm kiếm để nhận ra câu hỏi cần giải thích, sau đó đối chiếu nguồn chính thức được liên kết ở cuối bài. Nếu tỉnh ban hành mức cụ thể hoặc cơ quan trung ương có hướng dẫn mới làm thay đổi nội dung, bài này cần được cập nhật ngày sửa thay vì tạo một bản sao gần giống.",
         ],
       },
     ],
@@ -648,7 +648,7 @@ export const posts20260721: CommunityPost[] = [
         heading: "Bản tin 10 ngày dùng để làm gì?",
         paragraphs: [
           "Trung tâm Dự báo Khí tượng Thủy văn Quốc gia công bố xu thế thời tiết đất liền từ đêm 21 đến ngày 31/7/2026, đồng thời phát cảnh báo mưa lớn ở Bắc Bộ lúc 09:15 và bản tin nắng nóng Trung Bộ lúc 08:00 ngày 22/7. Bản 10 ngày giúp nhìn theo vùng và giai đoạn; bản cảnh báo ngắn hạn mới hơn phải được ưu tiên khi bạn quyết định đi lại trong ngày.",
-          "Google Trends sáng 22/7 cho thấy nhu cầu tìm kiếm về thời tiết biển tăng nhanh, nhưng Trends không phải dữ liệu khí tượng. Vì vậy bài này chỉ dùng xu hướng đó để nhận ra câu hỏi độc giả đang quan tâm, còn mốc thời gian, nhiệt độ và vùng ảnh hưởng đều lấy từ bản tin chuyên môn. Dabangzz không gọi một hệ thống là áp thấp nhiệt đới khi cơ quan dự báo chưa phát bản tin chính thức tương ứng.",
+          "Google Trends sáng 22/7 cho thấy nhu cầu tìm kiếm về thời tiết biển tăng nhanh, nhưng Trends không phải dữ liệu khí tượng. Vì vậy bài này chỉ dùng xu hướng đó để nhận ra câu hỏi độc giả đang quan tâm, còn mốc thời gian, nhiệt độ và vùng ảnh hưởng đều lấy từ bản tin chuyên môn. Bắc Ninh Note không gọi một hệ thống là áp thấp nhiệt đới khi cơ quan dự báo chưa phát bản tin chính thức tương ứng.",
         ],
       },
       {

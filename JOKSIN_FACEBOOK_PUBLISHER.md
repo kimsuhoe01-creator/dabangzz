@@ -1,6 +1,6 @@
 # 족발신선생 박닌점 Facebook 사진 게시 Worker
 
-이 Worker는 기존 Dabangzz → Kim Bắc Ninh 자동 공유와 완전히 분리되어 있다. 기존
+이 Worker는 기존 Bắc Ninh Note → Kim Bắc Ninh 자동 공유와 완전히 분리되어 있다. 기존
 META_* 변수와 예약 게시 코드는 사용하거나 변경하지 않는다. 실제 게시 기능은 기본값이
 꺼져 있으며, 족발 페이지 전용 자격증명과 최종 승인 서명이 모두 있어야만 동작한다.
 

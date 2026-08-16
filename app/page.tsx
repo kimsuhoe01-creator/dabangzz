@@ -14,7 +14,7 @@ export default function Home() {
   return <main id="top">
     <header className="site-header">
       <div className="header-inner">
-        <a className="brand" href="#top" aria-label="Dabangzz trang chủ">dabang<span>zz</span></a>
+        <a className="brand" href="#top" aria-label="Bắc Ninh Note trang chủ">bắc ninh <span>note</span></a>
         <nav aria-label="Điều hướng chính">
           <a href="#latest">Bài mới</a>
           <a href="/kim-o-viet-nam">Kim ở Việt Nam</a>
@@ -32,8 +32,8 @@ export default function Home() {
         <h1>Tin Việt Nam,<br/><em>hiểu rõ hơn.</em></h1>
       </div>
       <div className="hero-intro">
-        <span>01 / VỀ DABANGZZ</span>
-        <p>Dabangzz đối chiếu nguồn chính thức để giải thích thông tin tại Việt Nam. Kim cũng ghi lại những trải nghiệm tự thanh toán, có ảnh gốc, chi phí, điểm tốt và điểm chưa tốt.</p>
+        <span>01 / VỀ BẮC NINH NOTE</span>
+        <p>Bắc Ninh Note đối chiếu nguồn chính thức để giải thích thông tin tại Việt Nam. Kim cũng ghi lại những trải nghiệm tự thanh toán, có ảnh gốc, chi phí, điểm tốt và điểm chưa tốt.</p>
         <a href="/gioi-thieu">Tìm hiểu cách chúng tôi làm nội dung <span>→</span></a>
       </div>
     </section>
@@ -48,9 +48,9 @@ export default function Home() {
     </section>
 
     <footer>
-      <div className="footer-inner"><a className="brand inverse" href="#top">dabang<span>zz</span></a><p>Tin Việt Nam có nguồn. Trải nghiệm có bằng chứng.</p></div>
+      <div className="footer-inner"><a className="brand inverse" href="#top">bắc ninh <span>note</span></a><p>Tin Việt Nam có nguồn. Trải nghiệm có bằng chứng.</p></div>
       <div className="footer-links"><a href="/kim-o-viet-nam">Kim ở Việt Nam</a><a href="/tin-viet-nam">Tin Việt Nam</a><a href="/gioi-thieu">Giới thiệu</a><a href="/chinh-sach-bien-tap">Chính sách biên tập</a><a href="/quyen-rieng-tu">Quyền riêng tư</a><a href="/lien-he">Liên hệ</a></div>
-      <div className="copyright">© 2026 DABANGZZ <span>BẮC NINH · VIỆT NAM</span></div>
+      <div className="copyright">© 2026 BẮC NINH NOTE <span>BẮC NINH · VIỆT NAM</span></div>
     </footer>
   </main>;
 }

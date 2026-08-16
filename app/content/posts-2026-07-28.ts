@@ -4,10 +4,10 @@ export const posts20260728: CommunityPost[] = [
   {
     slug: "ios-26-6-phat-hanh-cach-cap-nhat-an-toan",
     kind: "news",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Tin mới Việt Nam · Đời sống số",
     title: "iOS 26.6 đã phát hành: nên sao lưu gì trước khi cập nhật?",
-    summary: "Apple phát hành iOS 26.6 ngày 27/7/2026 cho iPhone 11 trở lên, kèm sửa lỗi, cập nhật bảo mật và tối ưu chỉ mục Spotlight. Dabangzz tách rõ thiết bị được hỗ trợ, ý nghĩa của bản vá và quy trình cập nhật an toàn để người dùng không phải làm theo các đường link hoặc hồ sơ cài đặt không rõ nguồn.",
+    summary: "Apple phát hành iOS 26.6 ngày 27/7/2026 cho iPhone 11 trở lên, kèm sửa lỗi, cập nhật bảo mật và tối ưu chỉ mục Spotlight. Bắc Ninh Note tách rõ thiết bị được hỗ trợ, ý nghĩa của bản vá và quy trình cập nhật an toàn để người dùng không phải làm theo các đường link hoặc hồ sơ cài đặt không rõ nguồn.",
     readTime: "10 phút đọc",
     hero: "iOS 26.6\nCẬP NHẬT AN TOÀN",
     publishedAt: "2026-07-28T11:45:00+07:00",

@@ -50,7 +50,7 @@ export default function StoryBrowser({ posts, defaultFilter = "all" }: { posts: 
       {featured && <a className="lead-card" href={`/bai-viet/${featured.slug}`}>
         <div className="lead-visual">
           <img src={getPostImages(featured)[0].src} alt={getPostImages(featured)[0].alt} width="720" height="480" loading="eager" />
-          <small>{featured.kind === "news" ? "TIN VIỆT NAM · GIẢI THÍCH" : featured.kind === "review" ? "TRẢI NGHIỆM THỰC TẾ · KIM" : "DABANGZZ · EDITORIAL"}</small>
+          <small>{featured.kind === "news" ? "TIN VIỆT NAM · GIẢI THÍCH" : featured.kind === "review" ? "TRẢI NGHIỆM THỰC TẾ · KIM" : "BẮC NINH NOTE · EDITORIAL"}</small>
         </div>
         <div className="lead-body">
           <span className="label">{featured.category}</span>

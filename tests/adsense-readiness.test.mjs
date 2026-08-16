@@ -8,7 +8,7 @@ async function fetchPage(pathname) {
   const { default: worker } = await import(workerUrl.href);
 
   return worker.fetch(
-    new Request(`https://dabangzz.com${pathname}`, { headers: { accept: "text/html" } }),
+    new Request(`https://bacninh-note.com${pathname}`, { headers: { accept: "text/html" } }),
     { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
     { waitUntil() {}, passThroughOnException() {} },
   );
@@ -48,7 +48,7 @@ test("discloses current advertising state and article provenance", async () => {
   const articleHtml = await article.text();
   assert.match(articleHtml, /application\/ld\+json/);
   assert.match(articleHtml, /"@type":"Article"/);
-  assert.match(articleHtml, /https:\/\/dabangzz\.com\/gioi-thieu/);
+  assert.match(articleHtml, /https:\/\/bacninh-note\.com\/gioi-thieu/);
 });
 
 test("loads Google Analytics once without a duplicate manual page view", async () => {

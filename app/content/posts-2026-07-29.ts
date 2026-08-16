@@ -4,7 +4,7 @@ export const posts20260729: CommunityPost[] = [
   {
     slug: "san-bay-long-thanh-thu-nghiem-thang-9-khai-thac-1-12-2026",
     kind: "news",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Tin mới Việt Nam · Hàng không & đi lại",
     title: "Sân bay Long Thành thử nghiệm từ tháng 9: hành khách cần hiểu gì trước mốc 1/12?",
     summary: "Cục Hàng không Việt Nam cho biết ACV dự kiến vận hành thử đồng bộ sân bay Long Thành trong tháng 9–11/2026, trước mục tiêu khai thác thương mại từ ngày 1/12. Đây là giai đoạn kiểm tra hệ thống, quy trình và khả năng phối hợp, không phải thông báo mở bán vé hoặc đón khách từ tháng 9.",

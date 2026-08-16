@@ -4,7 +4,7 @@ export const posts20260727: CommunityPost[] = [
   {
     slug: "mua-lon-27-29-7-2026-bac-bo-tay-nguyen-nam-bo",
     kind: "news",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Tin mới Việt Nam · Thời tiết & đi lại",
     title: "Mưa dông tối 30/7: Quảng Ninh có thể trên 100mm, cảnh báo lũ quét tiếp tục đổi theo giờ",
     summary: "Bản tin 15h30 nâng mức mưa cục bộ tại Quảng Ninh lên trên 100mm; các cảnh báo 6 giờ sau đó chuyển sang Thái Nguyên, Đà Nẵng, Đắk Lắk rồi Cao Bằng và Huế. Tà Lài lúc 13h ở mức 112,13m, cao hơn báo động 1 đúng 0,13m.",
@@ -36,7 +36,7 @@ export const posts20260727: CommunityPost[] = [
       { label: "Trung tâm Dự báo KTTV quốc gia – gió mạnh, sóng lớn lúc 16h00 ngày 30/7", url: "https://nchmf.gov.vn/kttvsite/vi-VN/1/tin-du-bao-gio-manh-song-lon-va-mua-dong-tren-bien-post53709.html" },
       { label: "Bản đồ nguy cơ lũ quét, sạt lở đất theo thời gian thực", url: "https://luquetsatlo.nchmf.gov.vn/" },
     ],
-    editorialNote: "Google Trends Việt Nam ghi nhận nhu cầu tìm kiếm về vùng áp thấp và thủy điện; các tín hiệu đó chỉ dẫn Dabangzz đi kiểm tra nguồn, không được dùng làm bằng chứng. Bài được cập nhật theo các bản tin 15h30, 16h00, 16h29 và 17h35 ngày 30/7 của Trung tâm Dự báo khí tượng thủy văn quốc gia. Nguồn chính thức không gọi tình huống trong bài là bão và bài cũng không suy diễn về việc xả hồ. Cảnh báo 6 giờ thay đổi theo dữ liệu mới, vì vậy ảnh chụp hoặc danh sách tỉnh cũ không thay thế bản đồ thời gian thực và hướng dẫn tại địa phương.",
+    editorialNote: "Google Trends Việt Nam ghi nhận nhu cầu tìm kiếm về vùng áp thấp và thủy điện; các tín hiệu đó chỉ dẫn Bắc Ninh Note đi kiểm tra nguồn, không được dùng làm bằng chứng. Bài được cập nhật theo các bản tin 15h30, 16h00, 16h29 và 17h35 ngày 30/7 của Trung tâm Dự báo khí tượng thủy văn quốc gia. Nguồn chính thức không gọi tình huống trong bài là bão và bài cũng không suy diễn về việc xả hồ. Cảnh báo 6 giờ thay đổi theo dữ liệu mới, vì vậy ảnh chụp hoặc danh sách tỉnh cũ không thay thế bản đồ thời gian thực và hướng dẫn tại địa phương.",
     sections: [
       {
         heading: "Điều gì thay đổi trong bản tin chiều 30/7?",
@@ -85,10 +85,10 @@ export const posts20260727: CommunityPost[] = [
   {
     slug: "lich-nghi-quoc-khanh-2-9-2026-ai-duoc-nghi-5-ngay",
     kind: "news",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Tin mới Việt Nam · Lao động & đời sống",
     title: "Quốc khánh 2/9/2026 nghỉ 5 ngày: lịch này có áp dụng cho mọi người?",
-    summary: "Lịch nghỉ liên tục 5 ngày từ 29/8 đến 2/9/2026 đã được công bố cho cán bộ, công chức và viên chức. Với người lao động tại doanh nghiệp, cách bố trí có thể khác: Dabangzz tách rõ ngày nghỉ bắt buộc, ngày doanh nghiệp được lựa chọn và những việc nên xác nhận trước khi đặt vé.",
+    summary: "Lịch nghỉ liên tục 5 ngày từ 29/8 đến 2/9/2026 đã được công bố cho cán bộ, công chức và viên chức. Với người lao động tại doanh nghiệp, cách bố trí có thể khác: Bắc Ninh Note tách rõ ngày nghỉ bắt buộc, ngày doanh nghiệp được lựa chọn và những việc nên xác nhận trước khi đặt vé.",
     readTime: "10 phút đọc",
     hero: "QUỐC KHÁNH 2/9/2026\nĐỌC ĐÚNG LỊCH NGHỈ",
     publishedAt: "2026-07-27T14:30:00+07:00",
@@ -162,10 +162,10 @@ export const posts20260727: CommunityPost[] = [
   {
     slug: "luong-huu-thang-7-2026-tang-8-phan-tram",
     kind: "news",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Tin mới Việt Nam · An sinh xã hội",
     title: "Lương hưu tháng 7/2026 tăng 8%: ai được điều chỉnh và cách kiểm tra số tiền nhận?",
-    summary: "Từ tín hiệu tìm kiếm về lương hưu, Dabangzz đối chiếu Nghị định 162, Thông tư 14 và số liệu chi trả của BHXH Việt Nam để giải thích mức tăng 8%, khoản hỗ trợ thêm cho một nhóm nghỉ trước năm 1995 và cách đọc đúng số tiền thực nhận.",
+    summary: "Từ tín hiệu tìm kiếm về lương hưu, Bắc Ninh Note đối chiếu Nghị định 162, Thông tư 14 và số liệu chi trả của BHXH Việt Nam để giải thích mức tăng 8%, khoản hỗ trợ thêm cho một nhóm nghỉ trước năm 1995 và cách đọc đúng số tiền thực nhận.",
     readTime: "10 phút đọc",
     hero: "LƯƠNG HƯU 7/2026\nCÁCH ĐỌC MỨC MỚI",
     publishedAt: "2026-07-27T06:45:00+07:00",

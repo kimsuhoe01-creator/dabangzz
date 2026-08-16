@@ -133,7 +133,7 @@ export const posts20260723: CommunityPost[] = [
       {
         heading: "Từ khóa tăng sau ngày ra mắt, nhưng thông số chính thức vẫn là tuyên bố của nhà sản xuất",
         paragraphs: [
-          "Galaxy Z Fold8 tăng nhanh trên Google Trends Việt Nam sau khi Samsung công bố dòng máy gập mới ngày 22/7/2026. Trends phản ánh nhu cầu tìm hiểu, không phải bằng chứng máy tốt, bán chạy hay phù hợp với mọi người. Các con số trong bài được lấy từ Samsung Newsroom và trang sản phẩm chính thức; Dabangzz chưa thử thiết bị nên không gọi đây là đánh giá độc lập.",
+          "Galaxy Z Fold8 tăng nhanh trên Google Trends Việt Nam sau khi Samsung công bố dòng máy gập mới ngày 22/7/2026. Trends phản ánh nhu cầu tìm hiểu, không phải bằng chứng máy tốt, bán chạy hay phù hợp với mọi người. Các con số trong bài được lấy từ Samsung Newsroom và trang sản phẩm chính thức; Bắc Ninh Note chưa thử thiết bị nên không gọi đây là đánh giá độc lập.",
           "Samsung giới thiệu ba hướng trải nghiệm gồm Z Fold8 Ultra, Z Fold8 và Z Flip8. Tên gọi dễ gây nhầm vì hãng nêu Fold8 Ultra là hướng kế nhiệm cho dòng Fold cũ, trong khi Fold8 có hình dáng và tỷ lệ khác. Trước khi so giá, người mua cần xác nhận đúng model, dung lượng, màu và chính sách của kênh bán; một ảnh quảng cáo chung cho cả dòng không cho biết cấu hình đang nằm trong giỏ hàng.",
         ],
         quote: "Trang ra mắt cho biết máy được thiết kế thế nào; chỉ trải nghiệm độc lập mới cho biết nó hợp thói quen của bạn đến đâu.",
@@ -170,7 +170,7 @@ export const posts20260723: CommunityPost[] = [
         heading: "Checklist đặt trước: giá cuối cùng, đổi cũ, giao hàng và quyền đổi trả",
         paragraphs: [
           "Trang mua của Samsung có thể hiển thị ưu đãi đặt trước, thu cũ đổi mới, màu độc quyền hoặc quà theo thời điểm và cấu hình. Các mục này thay đổi nhanh, nên bài không chụp một mức giá động rồi gọi là giá cố định. Trước khi thanh toán, lưu bản điều khoản có ngày, kiểm tra giá sau mọi lựa chọn, phí phát sinh, thời gian giao dự kiến, điều kiện hủy, quyền đổi trả và cách định giá máy cũ.",
-          "Nếu mua qua nhà bán lẻ hoặc nhà mạng, so cùng dung lượng và cùng điều kiện trả góp thay vì chỉ so khoản trả trước. Không chuyển tiền cho tài khoản cá nhân từ quảng cáo giả mạo và không đưa mã xác thực cho người gọi tự nhận là nhân viên. Dabangzz không có liên kết tiếp thị trong bài này; mục tiêu là giúp người đọc tách thông số, tuyên bố quảng cáo và chi phí thực trước khi quyết định.",
+          "Nếu mua qua nhà bán lẻ hoặc nhà mạng, so cùng dung lượng và cùng điều kiện trả góp thay vì chỉ so khoản trả trước. Không chuyển tiền cho tài khoản cá nhân từ quảng cáo giả mạo và không đưa mã xác thực cho người gọi tự nhận là nhân viên. Bắc Ninh Note không có liên kết tiếp thị trong bài này; mục tiêu là giúp người đọc tách thông số, tuyên bố quảng cáo và chi phí thực trước khi quyết định.",
         ],
       },
     ],
@@ -224,7 +224,7 @@ export const posts20260723: CommunityPost[] = [
         heading: "Một quy tắc mềm dễ dùng hơn cuộc thi đoán ý",
         paragraphs: [
           "Gia đình trong câu chuyện chọn cách xác nhận lại số ghế, để hai con tự quyết định có đi hay không và tăng phong bì trong giới hạn ngân sách khi đủ bốn người tham dự. Họ không cố tính chính xác giá mỗi suất, cũng không giữ nguyên khoản dành cho hai người. Quan trọng nhất là quyết định được đưa ra trước khi đến sảnh cưới, không tranh luận ngay trước bàn tiếp đón.",
-          "Dabangzz xây dựng lại tình huống từ các mô-típ công khai về phong bì cưới và số người tham dự. Bài không dịch nguyên văn, không dùng tên, tài khoản, ảnh hoặc mức tiền gắn với một gia đình cụ thể. Tiêu chí cuối cùng là sự rõ ràng, khả năng chi trả và tôn trọng người tổ chức — không phải làm đúng một con số trên mạng.",
+          "Bắc Ninh Note xây dựng lại tình huống từ các mô-típ công khai về phong bì cưới và số người tham dự. Bài không dịch nguyên văn, không dùng tên, tài khoản, ảnh hoặc mức tiền gắn với một gia đình cụ thể. Tiêu chí cuối cùng là sự rõ ràng, khả năng chi trả và tôn trọng người tổ chức — không phải làm đúng một con số trên mạng.",
         ],
       },
     ],
@@ -278,7 +278,7 @@ export const posts20260723: CommunityPost[] = [
         heading: "Bối cảnh Việt Nam khác nhưng nguyên tắc bàn giao vẫn hữu ích",
         paragraphs: [
           "Quy định pháp luật, hợp đồng và nội quy tại Việt Nam không giống mọi doanh nghiệp Hàn Quốc, nên câu chuyện không phải tư vấn pháp lý. Tuy vậy, nhân viên ở đâu cũng có thể dùng mẫu giao tiếp rõ: ngày cần nghỉ, thời điểm gửi yêu cầu, danh sách bàn giao, người thay và lúc trở lại. Nếu công ty yêu cầu lý do theo một loại nghỉ cụ thể, đối chiếu đúng chính sách thay vì dựa vào lời truyền miệng.",
-          "Dabangzz tổng hợp mô-típ tranh luận công khai về ngày phép và viết lại thành một tình huống mới. Không có công ty, nhân viên, nghệ sĩ hay buổi diễn thật trong bài. Điều đáng giữ lại là một nơi làm việc trưởng thành nên đánh giá cách nhân viên sắp công việc, không xếp hạng giá trị đời sống riêng của họ.",
+          "Bắc Ninh Note tổng hợp mô-típ tranh luận công khai về ngày phép và viết lại thành một tình huống mới. Không có công ty, nhân viên, nghệ sĩ hay buổi diễn thật trong bài. Điều đáng giữ lại là một nơi làm việc trưởng thành nên đánh giá cách nhân viên sắp công việc, không xếp hạng giá trị đời sống riêng của họ.",
         ],
       },
     ],
@@ -386,7 +386,7 @@ export const posts20260723: CommunityPost[] = [
         heading: "Khác quốc gia, cùng nguyên tắc: xác minh trước, trao đổi theo hành vi",
         paragraphs: [
           "Quy định giờ yên tĩnh và cách xử lý khác giữa Hàn Quốc, Việt Nam, từng hợp đồng và từng tòa nhà. Bài không đưa ra ngưỡng pháp lý chung. Người đọc nên xem nội quy nơi ở và kênh trực của quản lý. Nếu có nguy cơ an toàn, bạo lực hoặc thiết bị hư hỏng, ưu tiên hỗ trợ khẩn cấp phù hợp thay vì tự xử lý.",
-          "Dabangzz tổng hợp các mô-típ thảo luận công khai về cách âm yếu, tiếng máy giặt và tranh chấp tầng nhà, rồi viết lại thành hướng dẫn mới. Không có địa chỉ, số căn hộ hay cư dân thật. Quy trình tốt bảo vệ cả người cần yên tĩnh lẫn người có thể đang bị trách nhầm.",
+          "Bắc Ninh Note tổng hợp các mô-típ thảo luận công khai về cách âm yếu, tiếng máy giặt và tranh chấp tầng nhà, rồi viết lại thành hướng dẫn mới. Không có địa chỉ, số căn hộ hay cư dân thật. Quy trình tốt bảo vệ cả người cần yên tĩnh lẫn người có thể đang bị trách nhầm.",
         ],
       },
     ],
@@ -440,7 +440,7 @@ export const posts20260723: CommunityPost[] = [
         heading: "Khi da khó chịu, ưu tiên an toàn hơn độ bền lớp nền",
         paragraphs: [
           "Nếu xuất hiện rát, ngứa, sưng hoặc khó chịu kéo dài, dừng sản phẩm mới và không cố phủ thêm để che. Bài này không chẩn đoán tình trạng da hay đề xuất điều trị. Người có phản ứng đáng lo cần tìm hỗ trợ chuyên môn phù hợp và mang theo danh sách sản phẩm đã dùng, thay vì thử tiếp nhiều hoạt chất cùng lúc.",
-          "Dabangzz tổng hợp các câu hỏi lặp lại từ cộng đồng mỹ phẩm Hàn và viết lại thành quy trình thử cho khí hậu nóng ẩm. Không sao chép đánh giá, tên người dùng, ảnh hay khuyến nghị sản phẩm. Mục tiêu là giúp độc giả mua ít hơn nhưng hiểu rõ hơn: thay một biến, chờ đủ, quan sát theo vùng và giữ an toàn da trước tiên.",
+          "Bắc Ninh Note tổng hợp các câu hỏi lặp lại từ cộng đồng mỹ phẩm Hàn và viết lại thành quy trình thử cho khí hậu nóng ẩm. Không sao chép đánh giá, tên người dùng, ảnh hay khuyến nghị sản phẩm. Mục tiêu là giúp độc giả mua ít hơn nhưng hiểu rõ hơn: thay một biến, chờ đủ, quan sát theo vùng và giữ an toàn da trước tiên.",
         ],
       },
     ],
@@ -482,7 +482,7 @@ export const posts20260723: CommunityPost[] = [
         heading: "Vì sao VssID được tìm nhiều và điều gì chưa thể kết luận?",
         paragraphs: [
           "VssID xuất hiện trong nhóm tìm kiếm tăng tại Việt Nam trong chiều 23/7. Tín hiệu này cho thấy nhiều người đang đồng thời tìm tên ứng dụng, nhưng không nói rõ họ muốn xem quá trình đóng bảo hiểm, đăng ký tài khoản, xử lý lỗi đăng nhập hay kiểm tra một thông báo nhận được. Google Trends cũng không xác nhận hệ thống đang gặp sự cố hoặc vừa có chính sách trợ cấp mới.",
-          "Vì vậy, Dabangzz không suy đoán một khoản chi trả hay thay đổi quyền lợi từ từ khóa. Bài viết tập trung vào việc có thể kiểm chứng và hữu ích ngay: BHXH Việt Nam đã có trang tải VssID chính thức, đồng thời từng cảnh báo một tệp giả mang tên gần giống ứng dụng thật. Người dùng nên xác định đúng nguồn cài đặt trước khi nhập số căn cước, mã bảo hiểm xã hội hoặc mật khẩu.",
+          "Vì vậy, Bắc Ninh Note không suy đoán một khoản chi trả hay thay đổi quyền lợi từ từ khóa. Bài viết tập trung vào việc có thể kiểm chứng và hữu ích ngay: BHXH Việt Nam đã có trang tải VssID chính thức, đồng thời từng cảnh báo một tệp giả mang tên gần giống ứng dụng thật. Người dùng nên xác định đúng nguồn cài đặt trước khi nhập số căn cước, mã bảo hiểm xã hội hoặc mật khẩu.",
         ],
         quote: "Một từ khóa đang tăng không chứng minh có trợ cấp mới; hãy kiểm tra thông báo trong kênh chính thức trước khi làm theo lời mời bên ngoài.",
       },

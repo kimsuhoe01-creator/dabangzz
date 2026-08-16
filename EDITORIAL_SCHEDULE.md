@@ -1,4 +1,4 @@
-# Dabangzz publishing schedule
+# Bắc Ninh Note publishing schedule
 
 Timezone: `Asia/Ho_Chi_Minh` (GMT+7). Every new post must include an ISO 8601
 `publishedAt` value with the `+07:00` offset. Existing posts without the field
@@ -57,7 +57,7 @@ a near-duplicate URL.
 ## Facebook distribution
 
 The `Kim Bắc Ninh` Facebook Page distributes a small selection of already
-published Dabangzz articles. Facebook is a discovery channel, not a second
+published Bắc Ninh Note articles. Facebook is a discovery channel, not a second
 content quota. Never publish an article to Facebook before its public website
 URL is available.
 
@@ -157,7 +157,7 @@ Every news explainer must:
 
 - use `kind: "news"` and the `Tin mới Việt Nam` category;
 - display `publishedAt`, `updatedAt`, and visible `sourceLinks`;
-- distinguish sourced facts from Dabangzz explanation;
+- distinguish sourced facts from Bắc Ninh Note explanation;
 - add independent value such as context, limitations, regional differences, a
   practical checklist, or a clear path to the newest official update;
 - avoid copying the source's structure, wording, photographs, or headline;

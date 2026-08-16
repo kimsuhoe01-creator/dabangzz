@@ -4,7 +4,7 @@ export const posts20260725: CommunityPost[] = [
   {
     slug: "thoi-tiet-viet-nam-25-7-mua-dong-bac-chieu-nam-bo",
     kind: "news",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Tin mới Việt Nam · Thời tiết",
     title: "Thời tiết Việt Nam ngày 25/7: miền Bắc tiếp tục mưa, Nam Bộ dễ có mưa dông về chiều",
     summary: "Bản đọc nhanh dựa trên dự báo chính thức, cập nhật đến sáng 26/7: bão số 2 đã vào đất liền Trung Quốc nhưng biển phía bắc còn động mạnh, trong khi Nam Bộ có nơi mưa trên 100mm.",
@@ -86,7 +86,7 @@ export const posts20260725: CommunityPost[] = [
         heading: "Cách đọc bản tin mà không hiểu quá mức",
         paragraphs: [
           "Nhiệt độ trong bản tin là một khoảng dự kiến, còn cụm từ “cục bộ” cho biết hiện tượng mạnh có thể chỉ xảy ra ở phạm vi hẹp. Thời tiết thực tế chịu ảnh hưởng của địa hình và sự phát triển của mây theo từng giờ. Vì thế, bài viết này phù hợp để lên kế hoạch ban đầu, không thay thế cảnh báo khẩn cấp tại địa phương. Người đi biển, đi núi hoặc làm việc trên cao cần dùng bản tin chuyên ngành tương ứng.",
-          "Trước giờ xuất phát, hãy mở trang của Trung tâm Dự báo Khí tượng Thủy văn quốc gia, chọn bản tin mới nhất và đối chiếu với thông báo của chính quyền địa phương nếu có. Danh sách ngắn nên kiểm tra gồm: mưa trong hai giờ tới, tuyến đường dễ ngập, pin điện thoại, áo mưa và một người biết lịch trình của bạn. Dabangzz sẽ cập nhật bài nếu cơ quan chính thức phát hành thay đổi quan trọng trong ngày.",
+          "Trước giờ xuất phát, hãy mở trang của Trung tâm Dự báo Khí tượng Thủy văn quốc gia, chọn bản tin mới nhất và đối chiếu với thông báo của chính quyền địa phương nếu có. Danh sách ngắn nên kiểm tra gồm: mưa trong hai giờ tới, tuyến đường dễ ngập, pin điện thoại, áo mưa và một người biết lịch trình của bạn. Bắc Ninh Note sẽ cập nhật bài nếu cơ quan chính thức phát hành thay đổi quan trọng trong ngày.",
         ],
       },
     ],
@@ -94,7 +94,7 @@ export const posts20260725: CommunityPost[] = [
   {
     slug: "bhxh-lao-dong-nuoc-ngoai-luong-gross-net-va-khoan-bo-sung",
     kind: "news",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Tin mới Việt Nam · Việc làm",
     title: "Lao động nước ngoài đóng BHXH theo mức nào? Cách đọc lương và khoản bổ sung trong hợp đồng",
     summary: "Cơ quan BHXH trả lời cách xác định tiền lương làm căn cứ đóng bảo hiểm bắt buộc cho lao động nước ngoài, đồng thời lưu ý không thể quy đổi gross–net bằng một công thức chung.",
@@ -160,7 +160,7 @@ export const posts20260725: CommunityPost[] = [
         heading: "Giới hạn của bài viết và nơi cần xác nhận",
         paragraphs: [
           "Bài viết này giải thích nguyên tắc từ nguồn chính thức, không phải tư vấn pháp lý cho một hợp đồng cụ thể. Cùng một tên phụ cấp nhưng điều kiện trả và cách ghi trong hợp đồng có thể khác nhau. Mức trần, tỷ lệ đóng và trách nhiệm của từng bên cũng cần kiểm tra theo quy định áp dụng tại kỳ lương tương ứng. Không nên dùng dữ liệu của tháng trước để tự khẳng định cho một kỳ sau nếu văn bản đã thay đổi.",
-          "Khi cần kết luận cho hồ sơ thật, doanh nghiệp nên liên hệ cơ quan BHXH nơi đang quản lý đơn vị, cung cấp hợp đồng và bảng phân loại khoản trả nhưng che dữ liệu không cần thiết. Người lao động có thể đề nghị văn bản giải thích từ bộ phận nhân sự hoặc tra cứu trên cổng chính thức. Dabangzz sẽ cập nhật updatedAt nếu có hướng dẫn mới làm thay đổi cách hiểu nêu trong bài, thay vì tạo một bài trùng lặp.",
+          "Khi cần kết luận cho hồ sơ thật, doanh nghiệp nên liên hệ cơ quan BHXH nơi đang quản lý đơn vị, cung cấp hợp đồng và bảng phân loại khoản trả nhưng che dữ liệu không cần thiết. Người lao động có thể đề nghị văn bản giải thích từ bộ phận nhân sự hoặc tra cứu trên cổng chính thức. Bắc Ninh Note sẽ cập nhật updatedAt nếu có hướng dẫn mới làm thay đổi cách hiểu nêu trong bài, thay vì tạo một bài trùng lặp.",
         ],
       },
     ],
@@ -168,10 +168,10 @@ export const posts20260725: CommunityPost[] = [
   {
     slug: "nghi-dinh-168-12-diem-gplx-tra-cuu-phuc-hoi",
     kind: "news",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Tin mới Việt Nam · Giao thông",
     title: "Nghị định 168 và 12 điểm giấy phép lái xe: bị trừ khi nào, phục hồi ra sao?",
-    summary: "Từ nhu cầu tìm kiếm tăng về Nghị định 168, Dabangzz đối chiếu nguồn chính thức để giải thích 12 điểm giấy phép lái xe, thời điểm trừ, hai cách phục hồi và nơi kiểm tra an toàn.",
+    summary: "Từ nhu cầu tìm kiếm tăng về Nghị định 168, Bắc Ninh Note đối chiếu nguồn chính thức để giải thích 12 điểm giấy phép lái xe, thời điểm trừ, hai cách phục hồi và nơi kiểm tra an toàn.",
     readTime: "8 phút đọc",
     hero: "12 ĐIỂM\nGIẤY PHÉP LÁI XE",
     publishedAt: "2026-07-25T11:45:00+07:00",
@@ -202,7 +202,7 @@ export const posts20260725: CommunityPost[] = [
       {
         heading: "Vì sao nhiều người tìm Nghị định 168 lúc này",
         paragraphs: [
-          "Trong dữ liệu tìm kiếm tại Việt Nam ngày 25/7, cụm từ liên quan Nghị định 168 và việc lái xe tăng rõ rệt. Tín hiệu này cho biết nhiều người đang có cùng một câu hỏi, nhưng không tự chứng minh rằng mức phạt vừa thay đổi hoặc có một quy định mới bắt đầu trong ngày. Để tránh biến xu hướng tìm kiếm thành tin đồn, Dabangzz chỉ dùng nó để chọn chủ đề rồi kiểm tra lại toàn văn nghị định và hướng dẫn của cơ quan chức năng.",
+          "Trong dữ liệu tìm kiếm tại Việt Nam ngày 25/7, cụm từ liên quan Nghị định 168 và việc lái xe tăng rõ rệt. Tín hiệu này cho biết nhiều người đang có cùng một câu hỏi, nhưng không tự chứng minh rằng mức phạt vừa thay đổi hoặc có một quy định mới bắt đầu trong ngày. Để tránh biến xu hướng tìm kiếm thành tin đồn, Bắc Ninh Note chỉ dùng nó để chọn chủ đề rồi kiểm tra lại toàn văn nghị định và hướng dẫn của cơ quan chức năng.",
           "Nghị định 168/2024/NĐ-CP quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông đường bộ và việc trừ, phục hồi điểm giấy phép lái xe. Cơ chế điểm được áp dụng từ ngày 1/1/2025. Khi đọc một bài chia sẻ trên mạng, người lái xe nên tách ba câu hỏi: hành vi có bị phạt tiền hay không, hành vi có bị trừ điểm hay không và quyết định xử phạt đã có hiệu lực chưa. Ba việc này có liên quan nhưng không phải lúc nào cũng xảy ra cùng một cách.",
         ],
       },
@@ -245,7 +245,7 @@ export const posts20260725: CommunityPost[] = [
         heading: "Bảng kiểm 5 phút cho người lái xe",
         paragraphs: [
           "Trước khi đi, có thể làm một bảng kiểm ngắn: mở VNeID để xem giấy phép đã tích hợp chưa; kiểm tra số điểm và thông báo mới; đọc lại ngày hiệu lực nếu từng có quyết định xử phạt; lưu địa chỉ cổng CSGT chính thức; và hỏi cơ quan có thẩm quyền nếu dữ liệu không khớp. Người dùng nhiều hạng giấy phép cũng nên xem đúng hạng liên quan, không suy luận trạng thái của một hạng cho toàn bộ phương tiện mình có thể điều khiển.",
-          "Bài viết này giải thích khung chung từ nguồn chính thức, không kết luận một biên bản cụ thể đúng hay sai. Mức phạt, điểm bị trừ và thủ tục xử lý còn phụ thuộc hành vi, hồ sơ và thời điểm áp dụng. Nếu có tranh chấp hoặc cần khiếu nại, hãy giữ quyết định, biên lai và dữ liệu tra cứu rồi làm việc với cơ quan đã ban hành. Khi văn bản hoặc hướng dẫn chính thức thay đổi, Dabangzz sẽ cập nhật ngày sửa trong bài thay vì tạo một bài trùng lặp.",
+          "Bài viết này giải thích khung chung từ nguồn chính thức, không kết luận một biên bản cụ thể đúng hay sai. Mức phạt, điểm bị trừ và thủ tục xử lý còn phụ thuộc hành vi, hồ sơ và thời điểm áp dụng. Nếu có tranh chấp hoặc cần khiếu nại, hãy giữ quyết định, biên lai và dữ liệu tra cứu rồi làm việc với cơ quan đã ban hành. Khi văn bản hoặc hướng dẫn chính thức thay đổi, Bắc Ninh Note sẽ cập nhật ngày sửa trong bài thay vì tạo một bài trùng lặp.",
         ],
       },
     ],
@@ -253,7 +253,7 @@ export const posts20260725: CommunityPost[] = [
   {
     slug: "het-gio-lam-khi-quan-ly-dang-met-co-nen-o-lai",
     kind: "story",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Chuyện Hàn Quốc · Công sở",
     title: "Hết giờ làm nhưng quản lý đang rất mệt: nên về đúng giờ hay ở lại?",
     summary: "Một tình huống nhỏ thường gây áp lực ở công sở Hàn Quốc: công việc đã xong, đồng hồ đã hết giờ nhưng người quản lý vẫn ngồi lại với vẻ mệt mỏi.",
@@ -310,7 +310,7 @@ export const posts20260725: CommunityPost[] = [
   {
     slug: "dong-nghiep-khong-than-co-nen-gui-tien-vieng",
     kind: "story",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Chuyện Hàn Quốc · Công sở",
     title: "Đồng nghiệp không thân có tang: có nên gửi tiền viếng không?",
     summary: "Không đi đám tang, ít nói chuyện riêng và không biết mức chung của phòng—một quyết định tưởng nhỏ lại dễ khiến người mới trong công ty Hàn bối rối.",
@@ -367,7 +367,7 @@ export const posts20260725: CommunityPost[] = [
   {
     slug: "mot-loi-bi-nhac-lai-trong-cong-viec-noi-the-nao-de-dung",
     kind: "story",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Chuyện Hàn Quốc · Công sở",
     title: "Một lỗi cũ bị nhắc lại nhiều lần ở công ty: nói thế nào để câu chuyện dừng đúng chỗ?",
     summary: "Nhận lỗi là cần thiết, nhưng việc một sai sót đã sửa vẫn bị dùng trong mọi cuộc họp có thể làm người trong cuộc mất phương hướng và cả nhóm khó tiến lên.",
@@ -424,7 +424,7 @@ export const posts20260725: CommunityPost[] = [
   {
     slug: "chia-banh-ngot-trong-van-phong-nen-cat-truoc-hay-tu-chia",
     kind: "story",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Chuyện Hàn Quốc · Công sở",
     title: "Có một chiếc bánh cho cả phòng: nên cắt sẵn hay để mọi người tự chia?",
     summary: "Chiếc bánh miễn phí cũng có thể gây khó xử khi người đến trước lấy phần lớn, người đến sau chỉ còn vụn và không ai biết ai chịu trách nhiệm chia.",
@@ -481,7 +481,7 @@ export const posts20260725: CommunityPost[] = [
   {
     slug: "o-mua-co-thay-o-che-nang-o-han-quoc-khong",
     kind: "story",
-    author: "Ban biên tập Dabangzz",
+    author: "Ban biên tập Bắc Ninh Note",
     category: "Chuyện Hàn Quốc · Đời sống",
     title: "Ô mưa có thay được ô che nắng ở Hàn Quốc không?",
     summary: "Trông gần giống nhau nhưng lớp phủ, khả năng cản tia UV, độ bền và cách dùng trong mùa hè khiến hai loại ô không phải lúc nào cũng thay thế được.",

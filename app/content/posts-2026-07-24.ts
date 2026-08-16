@@ -82,7 +82,7 @@ export const posts20260724: CommunityPost[] = [
         heading: "Cách đọc tin thuế mà không nhầm mốc cũ với quy định hiện hành",
         paragraphs: [
           "Chính sách năm 2026 đã có nhiều văn bản nối tiếp: Nghị định 68, Nghị định 141, Thông tư 18, Thông tư 50 và quyết định công bố thủ tục hành chính. Khi gặp một bảng tóm tắt, hãy kiểm tra ngày ban hành, ngày hiệu lực, văn bản bị sửa và đối tượng áp dụng. Chẳng hạn, một bài cũ dùng ngưỡng 500 triệu đồng có thể đã được xuất bản trước khi Nghị định 141 nâng ngưỡng lên 1 tỷ đồng.",
-          "Dabangzz dùng xu hướng tìm kiếm để chọn câu hỏi, còn con số và quy trình trong bài được đối chiếu với Cổng Thông tin điện tử Chính phủ và văn bản được dẫn kèm. Đây là hướng dẫn chuẩn bị hồ sơ phổ thông, không phải tư vấn thuế cho trường hợp cá nhân. Nếu doanh thu, phương pháp tính thuế, nhiều địa điểm kinh doanh hoặc tài khoản dùng chung làm thay đổi cách khai, người nộp thuế cần xác nhận trực tiếp với cơ quan thuế trước khi nộp.",
+          "Bắc Ninh Note dùng xu hướng tìm kiếm để chọn câu hỏi, còn con số và quy trình trong bài được đối chiếu với Cổng Thông tin điện tử Chính phủ và văn bản được dẫn kèm. Đây là hướng dẫn chuẩn bị hồ sơ phổ thông, không phải tư vấn thuế cho trường hợp cá nhân. Nếu doanh thu, phương pháp tính thuế, nhiều địa điểm kinh doanh hoặc tài khoản dùng chung làm thay đổi cách khai, người nộp thuế cần xác nhận trực tiếp với cơ quan thuế trước khi nộp.",
         ],
       },
     ],
@@ -164,7 +164,7 @@ export const posts20260724: CommunityPost[] = [
         heading: "Checklist 5 phút khi gặp một bài đăng về mức phạt",
         paragraphs: [
           "Thứ nhất, xem bài có ghi rõ Nghị định 168, điều, khoản, điểm và ngày cập nhật hay không. Thứ hai, đối chiếu loại xe và mô tả hành vi với văn bản chính thức. Thứ ba, tách tiền phạt, trừ điểm, tước quyền sử dụng và biện pháp khắc phục thành các mục riêng. Thứ tư, kiểm tra quyết định xử phạt đã có hiệu lực chưa. Thứ năm, dùng kênh chính thức để xem dữ liệu, không dùng liên kết rút gọn trong bình luận.",
-          "Dabangzz không lập bảng phạt rút gọn vì bảng đó rất dễ làm mất điều kiện áp dụng và nhanh lỗi thời khi văn bản được sửa. Bài viết này tập trung vào cách kiểm tra nguồn và hiểu cơ chế điểm. Nếu bạn cần biết một hành vi cụ thể sẽ bị xử lý thế nào, hãy mang đúng biên bản, quyết định, giấy phép và thông tin phương tiện đến cơ quan có thẩm quyền hoặc người tư vấn pháp lý đủ điều kiện; không dựa vào mô tả ngắn trên mạng để tự kết luận.",
+          "Bắc Ninh Note không lập bảng phạt rút gọn vì bảng đó rất dễ làm mất điều kiện áp dụng và nhanh lỗi thời khi văn bản được sửa. Bài viết này tập trung vào cách kiểm tra nguồn và hiểu cơ chế điểm. Nếu bạn cần biết một hành vi cụ thể sẽ bị xử lý thế nào, hãy mang đúng biên bản, quyết định, giấy phép và thông tin phương tiện đến cơ quan có thẩm quyền hoặc người tư vấn pháp lý đủ điều kiện; không dựa vào mô tả ngắn trên mạng để tự kết luận.",
         ],
       },
     ],
@@ -209,7 +209,7 @@ export const posts20260724: CommunityPost[] = [
       {
         heading: "Vì sao “thẻ căn cước” tăng tìm kiếm hôm nay?",
         paragraphs: [
-          "Google Trends Việt Nam ghi nhận cụm từ “thẻ căn cước” vượt 20.000 lượt tìm kiếm trong nhóm xu hướng ngày 24/7. Con số này chỉ phản ánh mức quan tâm tăng so với thông thường; nó không cho biết từng người đang muốn cấp lần đầu, cấp đổi, cấp lại hay chỉ kiểm tra một thông tin đang lan truyền. Vì mỗi thủ tục có hồ sơ và mức phí khác nhau, Dabangzz không gộp tất cả thành một hướng dẫn duy nhất.",
+          "Google Trends Việt Nam ghi nhận cụm từ “thẻ căn cước” vượt 20.000 lượt tìm kiếm trong nhóm xu hướng ngày 24/7. Con số này chỉ phản ánh mức quan tâm tăng so với thông thường; nó không cho biết từng người đang muốn cấp lần đầu, cấp đổi, cấp lại hay chỉ kiểm tra một thông tin đang lan truyền. Vì mỗi thủ tục có hồ sơ và mức phí khác nhau, Bắc Ninh Note không gộp tất cả thành một hướng dẫn duy nhất.",
           "Bài này tập trung vào thủ tục cấp thẻ cho công dân từ đủ 14 tuổi được Cổng Dịch vụ công Bộ Công an công bố. Luật Căn cước quy định công dân Việt Nam từ đủ 14 tuổi phải thực hiện thủ tục cấp thẻ, còn người dưới 14 tuổi được cấp theo nhu cầu. Nếu thẻ bị mất, hư hỏng, hết hạn hoặc thông tin thay đổi, người dân cần chọn đúng thủ tục cấp lại hoặc cấp đổi thay vì dùng nhầm luồng cấp lần đầu.",
         ],
         quote: "Đăng ký trực tuyến giúp chuẩn bị và đặt lịch; thẻ chỉ được cấp sau khi hồ sơ và sinh trắc học được thu nhận đúng quy trình.",

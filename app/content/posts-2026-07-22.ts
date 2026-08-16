@@ -246,7 +246,7 @@ export const posts20260722: CommunityPost[] = [
         heading: "Thông tin về năm 2027 hiện phải được đọc như đề xuất, không phải mức đang áp dụng",
         paragraphs: [
           "Sau các cuộc họp về phương án lương tối thiểu năm 2027, nhiều tiêu đề có thể xuất hiện cùng lúc với bảng năm 2026. Người đọc cần nhìn trạng thái của thông tin: đề xuất, khuyến nghị, thống nhất phương án trình Chính phủ và nghị định đã ban hành là những bước khác nhau. Cho đến khi có văn bản mới quy định mức và ngày hiệu lực, bảng tại Nghị định 293/2025/NĐ-CP vẫn là căn cứ chính thức cho năm 2026. Không nên dùng một tỷ lệ đang được thảo luận để tự tính lương bắt buộc của tháng hiện tại.",
-          "Dabangzz sẽ cập nhật bài tại chính URL này nếu Chính phủ ban hành văn bản thay đổi mức hoặc danh mục địa bàn. Khi đọc bản cập nhật, hãy nhìn ngày sửa và liên kết nguồn ở cuối bài. Google Trends chỉ giúp nhận ra người đọc đang bối rối về từ khóa nào; các mức tiền, đối tượng và hiệu lực trong bài đều được đối chiếu với Cổng Thông tin điện tử Chính phủ và văn bản được dẫn, không lấy lượng tìm kiếm làm bằng chứng chính sách.",
+          "Bắc Ninh Note sẽ cập nhật bài tại chính URL này nếu Chính phủ ban hành văn bản thay đổi mức hoặc danh mục địa bàn. Khi đọc bản cập nhật, hãy nhìn ngày sửa và liên kết nguồn ở cuối bài. Google Trends chỉ giúp nhận ra người đọc đang bối rối về từ khóa nào; các mức tiền, đối tượng và hiệu lực trong bài đều được đối chiếu với Cổng Thông tin điện tử Chính phủ và văn bản được dẫn, không lấy lượng tìm kiếm làm bằng chứng chính sách.",
         ],
       },
     ],
@@ -291,7 +291,7 @@ export const posts20260722: CommunityPost[] = [
       {
         heading: "Một câu chuyện về thủ khoa không thể thay thế bảng dữ liệu tuyển sinh",
         paragraphs: [
-          "Các từ khóa liên quan giám thị và thủ khoa khối D01 đang được quan tâm, nhưng một câu chuyện nổi bật về một thí sinh không cho biết cơ hội trúng tuyển của hàng trăm nghìn hồ sơ khác. Điểm rất cao có thể giúp hình dung đỉnh của phân bố, song điểm chuẩn còn phụ thuộc chỉ tiêu, số nguyện vọng, thứ tự ưu tiên, phương thức xét tuyển, quy tắc quy đổi và mức cạnh tranh tại từng chương trình. Vì vậy Dabangzz không sử dụng tên, ảnh hay hoàn cảnh của một học sinh để dự báo điểm chuẩn.",
+          "Các từ khóa liên quan giám thị và thủ khoa khối D01 đang được quan tâm, nhưng một câu chuyện nổi bật về một thí sinh không cho biết cơ hội trúng tuyển của hàng trăm nghìn hồ sơ khác. Điểm rất cao có thể giúp hình dung đỉnh của phân bố, song điểm chuẩn còn phụ thuộc chỉ tiêu, số nguyện vọng, thứ tự ưu tiên, phương thức xét tuyển, quy tắc quy đổi và mức cạnh tranh tại từng chương trình. Vì vậy Bắc Ninh Note không sử dụng tên, ảnh hay hoàn cảnh của một học sinh để dự báo điểm chuẩn.",
           "Nguồn hữu ích hơn là phổ điểm và bảng bách phân vị do Bộ Giáo dục và Đào tạo công bố. Hai loại dữ liệu trả lời câu hỏi khác nhau. Phổ điểm cho thấy số lượng hoặc mật độ thí sinh ở các khoảng điểm; bách phân vị cho biết một mức điểm đứng ở vị trí tương đối nào trong tập dữ liệu tham chiếu. Chúng giúp so sánh bối cảnh, nhưng vẫn không phải danh sách trúng tuyển của một trường. Muốn ra quyết định, thí sinh phải ghép dữ liệu chung với đề án và thông báo chính thức của cơ sở đào tạo đã đăng ký.",
         ],
         quote: "Bách phân vị mô tả vị trí trong dữ liệu; nó không cấp một tấm vé trúng tuyển cho bất kỳ ngành nào.",
@@ -328,7 +328,7 @@ export const posts20260722: CommunityPost[] = [
         heading: "Ba kết luận không nên rút ra từ một bảng điểm hoặc một tiêu đề",
         paragraphs: [
           "Thứ nhất, không kết luận điểm chuẩn chắc chắn tăng chỉ vì xuất hiện một thủ khoa điểm cao; cần nhìn toàn bộ phân bố và nhu cầu vào từng ngành. Thứ hai, không lấy bách phân vị của một tổ hợp để thay cho bách phân vị của tổ hợp khác. Thứ ba, không coi điểm đủ điều kiện đăng ký là điểm trúng tuyển cuối cùng. Ngưỡng nhận hồ sơ, điểm quy đổi và điểm trúng tuyển là ba khái niệm có thể khác nhau về mục đích và thời điểm công bố.",
-          "Dabangzz dùng tín hiệu tìm kiếm để nhận biết nhu cầu giải thích, không dùng Google Trends làm nguồn chứng minh điểm số hoặc lịch tuyển sinh. Các mốc trong bài được đối chiếu với Bộ Giáo dục và Đào tạo và Cổng Thông tin điện tử Chính phủ. Nếu kế hoạch hoặc hướng dẫn được cập nhật, bài sẽ được sửa tại URL này và ghi ngày cập nhật. Trong thời gian chờ kết quả, cách tốt nhất là giữ hồ sơ an toàn, theo dõi đúng kênh và tránh để một câu chuyện lan truyền thay thế dữ liệu của chính mình.",
+          "Bắc Ninh Note dùng tín hiệu tìm kiếm để nhận biết nhu cầu giải thích, không dùng Google Trends làm nguồn chứng minh điểm số hoặc lịch tuyển sinh. Các mốc trong bài được đối chiếu với Bộ Giáo dục và Đào tạo và Cổng Thông tin điện tử Chính phủ. Nếu kế hoạch hoặc hướng dẫn được cập nhật, bài sẽ được sửa tại URL này và ghi ngày cập nhật. Trong thời gian chờ kết quả, cách tốt nhất là giữ hồ sơ an toàn, theo dõi đúng kênh và tránh để một câu chuyện lan truyền thay thế dữ liệu của chính mình.",
         ],
       },
     ],
@@ -396,7 +396,7 @@ export const posts20260722: CommunityPost[] = [
         heading: "Sau cú ngơ ngác là một câu chuyện để cả hai cùng cười",
         paragraphs: [
           "Khi ghép xong hai tuyến đường, cảm giác nghi ngờ biến thành sự buồn cười. Hai vợ chồng đã dành nửa tháng kể chuyện rất nghiêm túc về hai người khác nhau, trong khi cả hai đều tưởng mình đang nói về cùng một hàng xóm. Không có bí mật, cũng không có mối quan hệ đáng ngờ; chỉ có một cách gọi quá tiện và hai lịch sinh hoạt không giao nhau.",
-          "Dabangzz xây dựng lại câu chuyện bằng tiếng Việt từ một tình huống cộng đồng do độc giả cung cấp. Bài viết không dịch nguyên văn, không sử dụng ảnh chụp gốc, tên, tài khoản hoặc chi tiết có thể nhận dạng cá nhân. Điểm đáng giữ lại không phải danh tính của người kể, mà là khoảnh khắc một giả định rất nhỏ có thể tạo nên cả một câu chuyện trong đầu — và được tháo gỡ bằng một câu hỏi bình tĩnh.",
+          "Bắc Ninh Note xây dựng lại câu chuyện bằng tiếng Việt từ một tình huống cộng đồng do độc giả cung cấp. Bài viết không dịch nguyên văn, không sử dụng ảnh chụp gốc, tên, tài khoản hoặc chi tiết có thể nhận dạng cá nhân. Điểm đáng giữ lại không phải danh tính của người kể, mà là khoảnh khắc một giả định rất nhỏ có thể tạo nên cả một câu chuyện trong đầu — và được tháo gỡ bằng một câu hỏi bình tĩnh.",
         ],
       },
     ],
