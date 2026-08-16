@@ -14,15 +14,14 @@ This audit records the first remediation pass after the AdSense “low-value con
 
 | URL group | Count | Decision | Risk before action | Reason |
 | --- | ---: | --- | --- | --- |
-| `/` and seven public trust/section pages | 8 | Keep and index | Medium | Useful navigation, but canonical and current AdSense-state wording needed correction. |
+| `/` and six public trust/section pages | 7 | Keep and index | Medium | Useful navigation, but canonical and current AdSense-state wording needed correction. |
 | `/chuyen-han-quoc` | 1 | Keep accessible; `noindex,follow`; remove from sitemap and primary navigation | High | Archive was dominated by reconstructed community motifs and presented a thin, repeated search surface. |
 | `/bai-viet/*` where `kind === "story"` | 51 | Keep accessible; `noindex,follow`; remove from sitemap and recommendations | Critical | No first-hand evidence or visible primary source links; repeated templates and limited independent value. Each URL requires manual rewrite, consolidation or continued noindex. |
 | Fresh, distinct Vietnam news with official sources | 23 | Keep and index | Medium | Strong source panels and explanatory sections; retain only distinct and current search intents. |
 | First-hand `Kim ở Việt Nam` reviews | 3 | Keep and index | Low | Original owner-supplied photos, visit context, payment/sponsorship disclosure, positives and limitations. |
-| Company-owned `Âm nhạc · Lời Đáp` pages | 8 | Keep and index | Medium | Unique commentary, verified channel/video IDs, privacy-enhanced player, AI disclosure and source links. |
 | Duplicate or expired Vietnam-news URLs listed below | 11 | Keep accessible; `noindex,follow`; remove from sitemap and recommendations | High | Overlap with a stronger page, expired forecast window, or time-bound product-update intent needing re-verification. |
 
-Expected sitemap after this pass: **42 URLs** (8 section/static URLs + 34 articles).
+Expected sitemap after this pass: **33 URLs** (7 section/static URLs + 26 articles).
 
 ### Eleven news URLs temporarily excluded
 

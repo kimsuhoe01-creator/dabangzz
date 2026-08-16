@@ -77,5 +77,5 @@ test("lists the about page in navigation and sitemap", async () => {
 
   const sitemap = await fetchPage("/sitemap.xml");
   assert.equal(sitemap.status, 200);
-  assert.match(await sitemap.text(), /https:\/\/dabangzz\.com\/gioi-thieu/);
+  assert.match(await sitemap.text(), /https:\/\/bacninh-note\.com\/gioi-thieu/);
 });

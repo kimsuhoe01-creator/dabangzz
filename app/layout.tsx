@@ -8,11 +8,11 @@ const googleAnalyticsId = "G-TVV7D07WJQ";
 export const metadata: Metadata = {
   metadataBase: new URL("https://dabangzz.com"),
   title: "Dabangzz — Tin Việt Nam, hiểu rõ hơn",
-  description: "Tin mới Việt Nam có nguồn rõ ràng, trải nghiệm tự thanh toán của Kim tại Việt Nam và âm nhạc Lời Đáp trong khu vực riêng.",
+  description: "Tin mới Việt Nam có nguồn rõ ràng và những trải nghiệm tự thanh toán của Kim tại Việt Nam.",
   robots: { index: true, follow: true },
   openGraph: {
     title: "Dabangzz — Tin Việt Nam, hiểu rõ hơn",
-    description: "Tin Việt Nam có nguồn, trải nghiệm thực tế của Kim và âm nhạc được tách rõ khỏi tin tức.",
+    description: "Tin Việt Nam có nguồn và trải nghiệm thực tế của Kim.",
     url: "https://dabangzz.com",
     siteName: "Dabangzz",
     locale: "vi_VN",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Dabangzz — Tin Việt Nam, hiểu rõ hơn",
-    description: "Tin Việt Nam có nguồn, trải nghiệm thực tế của Kim và âm nhạc được tách rõ khỏi tin tức.",
+    description: "Tin Việt Nam có nguồn và trải nghiệm thực tế của Kim.",
     images: ["/og.png"],
   },
 };
@@ -44,7 +44,7 @@ export default function RootLayout({children}:{children:React.ReactNode}) {
         "@id": "https://dabangzz.com/#publisher",
         name: "Dabangzz",
         url: "https://dabangzz.com/",
-        description: "Ấn phẩm trực tuyến độc lập giải thích tin Việt Nam, đăng trải nghiệm trực tiếp tại Việt Nam và tách âm nhạc khỏi tin tức.",
+        description: "Ấn phẩm trực tuyến độc lập giải thích tin Việt Nam và đăng trải nghiệm trực tiếp tại Việt Nam.",
         founder: { "@type": "Person", name: "Kim", url: "https://dabangzz.com/gioi-thieu" },
         address: { "@type": "PostalAddress", addressRegion: "Bắc Ninh", addressCountry: "VN" },
         contactPoint: {

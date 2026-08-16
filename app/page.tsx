@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import MusicSpotlight from "./components/MusicSpotlight";
 import StoryBrowser from "./components/StoryBrowser";
 import { getIndexablePosts } from "./content/community-posts";
-import { getPublishedLoiDapMusicPosts } from "./content/loi-dap-music";
 
 export const dynamic = "force-dynamic";
 
@@ -12,7 +10,6 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const publishedPosts = getIndexablePosts();
-  const musicPosts = getPublishedLoiDapMusicPosts(publishedPosts).slice(0, 1);
 
   return <main id="top">
     <header className="site-header">
@@ -22,7 +19,6 @@ export default function Home() {
           <a href="#latest">Bài mới</a>
           <a href="/kim-o-viet-nam">Kim ở Việt Nam</a>
           <a href="/tin-viet-nam">Tin Việt Nam</a>
-          <a href="/am-nhac-loi-dap">Âm nhạc</a>
           <a href="/gioi-thieu">Giới thiệu</a>
           <a href="/chinh-sach-bien-tap">Biên tập</a>
         </nav>
@@ -43,7 +39,6 @@ export default function Home() {
     </section>
 
     <StoryBrowser posts={publishedPosts} />
-    <MusicSpotlight posts={musicPosts} />
 
     <section className="editorial" id="about">
       <span>NGUYÊN TẮC BIÊN TẬP</span>
@@ -54,7 +49,7 @@ export default function Home() {
 
     <footer>
       <div className="footer-inner"><a className="brand inverse" href="#top">dabang<span>zz</span></a><p>Tin Việt Nam có nguồn. Trải nghiệm có bằng chứng.</p></div>
-      <div className="footer-links"><a href="/kim-o-viet-nam">Kim ở Việt Nam</a><a href="/tin-viet-nam">Tin Việt Nam</a><a href="/am-nhac-loi-dap">Âm nhạc Lời Đáp</a><a href="/gioi-thieu">Giới thiệu</a><a href="/chinh-sach-bien-tap">Chính sách biên tập</a><a href="/quyen-rieng-tu">Quyền riêng tư</a><a href="/lien-he">Liên hệ</a></div>
+      <div className="footer-links"><a href="/kim-o-viet-nam">Kim ở Việt Nam</a><a href="/tin-viet-nam">Tin Việt Nam</a><a href="/gioi-thieu">Giới thiệu</a><a href="/chinh-sach-bien-tap">Chính sách biên tập</a><a href="/quyen-rieng-tu">Quyền riêng tư</a><a href="/lien-he">Liên hệ</a></div>
       <div className="copyright">© 2026 DABANGZZ <span>BẮC NINH · VIỆT NAM</span></div>
     </footer>
   </main>;

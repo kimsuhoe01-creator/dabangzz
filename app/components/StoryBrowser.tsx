@@ -12,7 +12,7 @@ const filters = [
 ];
 
 function belongsTo(post: CommunityPost, filter: string) {
-  if (filter === "all") return post.kind !== "music";
+  if (filter === "all") return true;
   if (filter === "kim") return post.kind === "review";
   if (filter === "news") return post.kind === "news";
   return filter === "korea" && post.kind === "story";
